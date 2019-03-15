@@ -1,0 +1,1682 @@
+﻿Log file open, 03/15/19 22:48:31
+LogInit:Display: Running engine for game: Chess
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-530947112) SRandInit(-530947112).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105645
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.15-17.18.32:221][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-17.18.32:221][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-17.18.32:232][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.03.15-17.18.32:232][  0]LogInit: User: RohitPanjwani
+[2019.03.15-17.18.32:232][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.03.15-17.18.32:232][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2019.03.15-17.18.32:232][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-17.18.32:232][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-17.18.32:232][  0]LogMemory: Process Physical Memory: 263.07 MB used, 263.07 MB peak
+[2019.03.15-17.18.32:232][  0]LogMemory: Process Virtual Memory: 262.68 MB used, 262.68 MB peak
+[2019.03.15-17.18.32:232][  0]LogMemory: Physical Memory: 10617.02 MB used,  5665.51 MB free, 16282.52 MB total
+[2019.03.15-17.18.32:232][  0]LogMemory: Virtual Memory: 4812.35 MB used,  5665.51 MB free, 134217728.00 MB total
+[2019.03.15-17.18.33:156][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.03.15-17.18.34:134][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-17.18.34:190][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.15-17.18.34:190][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.15-17.18.34:200][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.15-17.18.34:200][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.15-17.18.34:203][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-17.18.34:203][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-17.18.34:203][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-17.18.34:238][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-17.18.34:238][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-17.18.34:238][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-17.18.34:238][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.15-17.18.34:239][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-17.18.34:239][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-17.18.34:239][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.15-17.18.34:239][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.15-17.18.34:239][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.15-17.18.34:239][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.15-17.18.34:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.03.15-17.18.34:285][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-17.18.34:303][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.15-17.18.34:304][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/18828/).
+[2019.03.15-17.18.34:304][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/CC5BED234A4D9CE4B8ACA2B6B19C0BED/'.
+[2019.03.15-17.18.34:304][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.03.15-17.18.35:738][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-17.18.35:854][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-17.18.35:962][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-17.18.36:073][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-17.18.36:182][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.03.15-17.18.36:295][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-17.18.36:399][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-17.18.36:507][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-17.18.36:605][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-17.18.36:710][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-17.18.36:816][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.15-17.18.36:944][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.15-17.18.37:062][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.15-17.18.37:167][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.15-17.18.37:282][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.15-17.18.37:496][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.15-17.18.37:496][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.15-17.18.37:584][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-17.18.37:760][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.03.15-17.18.37:822][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-17.18.37:927][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-17.18.38:038][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-17.18.38:142][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-17.18.38:247][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-17.18.38:247][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.03.15-17.18.39:146][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache: Loaded boot cache 0.13s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-17.18.39:274][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-17.18.39:291][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-17.18.39:305][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-17.18.39:552][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-17.18.39:556][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.03.15-17.18.39:911][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-17.18.40:014][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-17.18.40:131][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-17.18.40:131][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.03.15-17.18.40:131][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.03.15-17.18.40:820][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.03.15-17.18.40:907][  0]LogAssetRegistry: FAssetRegistry took 0.0227 seconds to start up
+[2019.03.15-17.18.41:015][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.046686 seconds
+[2019.03.15-17.18.41:021][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.03.15-17.18.41:021][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.03.15-17.18.41:021][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-17.18.41:169][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.03.15-17.18.42:823][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.15-17.18.42:824][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-17.18.42:824][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-17.18.44:052][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-17.18.44:135][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-17.18.44:733][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.03.15-17.18.45:532][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.18.45:618][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.18.45:740][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.18.45:864][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.18.48:732][  0]LogEngine: Initializing Engine...
+[2019.03.15-17.18.48:734][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-17.18.49:145][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-17.18.49:161][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.18.49:218][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-17.18.49:246][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-17.18.49:252][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-17.18.49:659][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-17.18.50:450][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-17.18.52:463][  0]LocalizationService: Info Localization service is disabled
+[2019.03.15-17.18.53:929][  0]LogConsoleResponse:Display: 
+[2019.03.15-17.18.54:152][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-17.18.54:152][  0]LogCook:Display: Mobile HDR setting 1
+[2019.03.15-17.18.54:804][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.01s
+[2019.03.15-17.18.56:351][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.18.56:351][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-17.18.56:352][  0]LightingResults: New page: Lighting Build
+[2019.03.15-17.18.56:443][  0]MapCheck: New page: Map Check
+[2019.03.15-17.18.56:443][  0]LightingResults: New page: Lighting Build
+[2019.03.15-17.18.56:658][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.15-17.18.56:659][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.03.15-17.18.56:667][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-17.18.56:670][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-17.18.56:755][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.089ms to complete.
+[2019.03.15-17.18.56:755][  0]LogFileHelpers: Loading map 'Template_Default' took 0.403
+[2019.03.15-17.18.56:964][  0]LogCollectionManager: Loaded 0 collections in 0.002577 seconds
+[2019.03.15-17.18.57:109][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.03.15-17.18.57:109][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.03.15-17.18.57:109][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.03.15-17.18.57:109][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.03.15-17.18.57:119][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2190 classes and 428 folders.
+[2019.03.15-17.18.57:210][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-17.18.57:210][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-17.18.57:211][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2019.03.15-17.18.57:346][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.15-17.18.57:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.15-17.18.57:516][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.03.15-17.18.57:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.03.15-17.18.57:668][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.03.15-17.18.57:802][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.03.15-17.18.57:802][  0]LogLoad: (Engine Initialization) Total time: 28.41 seconds
+[2019.03.15-17.18.57:802][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2019.03.15-17.18.57:802][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.03.15-17.18.57:822][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.15-17.18.57:822][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-17.18.57:842][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.03.15-17.18.58:005][  0]LogRenderer: Reallocating scene render targets to support 904x448 NumSamples 1 (Frame:2).
+[2019.03.15-17.18.58:099][  1]LogAssetRegistry: Asset discovery search completed in 17.2153 seconds
+[2019.03.15-17.18.58:099][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.15-17.18.58:099][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2019.03.15-17.19.02:909][268]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.19.02:939][268]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-17.19.02:939][268]LightingResults: New page: Lighting Build
+[2019.03.15-17.19.02:939][268]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.03.15-17.19.02:940][268]MapCheck: New page: Map Check
+[2019.03.15-17.19.02:940][268]LightingResults: New page: Lighting Build
+[2019.03.15-17.19.03:033][268]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-17.19.03:083][268]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-17.19.03:193][268]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.371ms to complete.
+[2019.03.15-17.19.03:194][268]LogFileHelpers: Loading map 'FirstLevel' took 0.256
+[2019.03.15-17.19.04:952][370]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
+[2019.03.15-17.19.05:994][430]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.19.27:855][730]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.19.27:868][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.19.27:868][730]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:19:27 am)
+[2019.03.15-17.19.27:869][730]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.19.27:876][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007499s)
+[2019.03.15-17.19.27:878][730]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.19.27:878][730]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2019.03.15-17.19.27:878][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008559s)
+[2019.03.15-17.19.27:895][730]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.19.27:950][730]LogInit: FAudioDevice initialized.
+[2019.03.15-17.19.28:016][730]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.19.28:021][730]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-22.49.28
+[2019.03.15-17.19.28:021][730]LogWorld: Bringing up level for play took: 0.003392
+[2019.03.15-17.19.28:131][730]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2019.03.15-17.19.28:133][730]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.389
+[2019.03.15-17.19.36:682][239]LogBlueprintUserMessages: [board_Piece46_12810] X=-63.000 Y=725.000 Z=241.739
+[2019.03.15-17.19.40:573][472]LogBlueprintUserMessages: [board_Piece100] X=436.000 Y=525.000 Z=590.000
+[2019.03.15-17.19.51:608][125]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece69)
+[2019.03.15-17.19.52:425][173]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece65)
+[2019.03.15-17.19.55:131][330]Cmd: TRANSACTION UNDO
+[2019.03.15-17.19.55:131][330]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.19.55:140][330]LogActorComponent: ~FComponentReregisterContext: (/Game/FirstLevel.FirstLevel:PersistentLevel.GroupActor_5.GroupComponent) Component already registered.
+[2019.03.15-17.19.56:533][408]Cmd: TRANSACTION UNDO
+[2019.03.15-17.19.56:533][408]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.19.57:726][478]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece52)
+[2019.03.15-17.19.58:765][537]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece61)
+[2019.03.15-17.20.00:128][615]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece55)
+[2019.03.15-17.20.04:474][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.20.08:349][ 85]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece51)
+[2019.03.15-17.20.11:254][237]Cmd: TRANSACTION UNDO
+[2019.03.15-17.20.11:254][237]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.20.12:263][288]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.20.14:077][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-17.20.14:180][392]LogSavePackage: Save=77.56ms
+[2019.03.15-17.20.14:180][392]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel1D4214534B0082A607A5C5896661EF87.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.15-17.20.14:185][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.15-17.21.28:752][471]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.21.28:768][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.21.28:768][471]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:21:28 am)
+[2019.03.15-17.21.28:768][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.21.28:775][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006811s)
+[2019.03.15-17.21.28:776][471]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.21.28:776][471]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2019.03.15-17.21.28:776][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007954s)
+[2019.03.15-17.21.28:798][471]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.21.28:863][471]LogInit: FAudioDevice initialized.
+[2019.03.15-17.21.28:894][471]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.21.28:898][471]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-22.51.28
+[2019.03.15-17.21.28:899][471]LogWorld: Bringing up level for play took: 0.003171
+[2019.03.15-17.21.28:901][471]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.844
+[2019.03.15-17.21.32:492][684]LogBlueprintUserMessages: [board_Piece35] X=-365.000 Y=725.000 Z=10.000
+[2019.03.15-17.21.34:637][812]LogBlueprintUserMessages: [board_Piece38] X=-366.000 Y=825.000 Z=9.739
+[2019.03.15-17.21.35:870][886]LogBlueprintUserMessages: [board_Piece35] X=-365.000 Y=725.000 Z=10.000
+[2019.03.15-17.21.36:755][939]LogBlueprintUserMessages: [board_Piece83] X=-462.000 Y=624.000 Z=116.000
+[2019.03.15-17.21.37:438][980]LogBlueprintUserMessages: [board_Piece35] X=-365.000 Y=725.000 Z=10.000
+[2019.03.15-17.21.38:038][ 16]LogBlueprintUserMessages: [board_Piece38] X=-366.000 Y=825.000 Z=9.739
+[2019.03.15-17.21.38:605][ 50]LogBlueprintUserMessages: [board_Piece37] X=-366.000 Y=925.000 Z=10.000
+[2019.03.15-17.22.42:695][231]LogMetaData: Removing '/Game/Blueprints/Pawn.Pawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:696][231]LogMetaData: Removing '/Game/Blueprints/Pawn.SKEL_Pawn_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:696][231]LogMetaData: Removing '/Game/Blueprints/Pawn.Pawn_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:696][231]LogMetaData: Removing '/Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:696][231]LogMetaData: Removing '/Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:696][231]LogMetaData: Removing '/Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-17.22.42:749][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.22.42:760][231]LogSavePackage: Save=8.38ms
+[2019.03.15-17.22.42:760][231]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn308863C24330C67B665C0E95D566465D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.22.42:765][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.22.46:200][340]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2019.03.15-17.22.49:752][487]LogRenderer: Reallocating scene render targets to support 912x540 NumSamples 1 (Frame:10354).
+[2019.03.15-17.23.40:346][480]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.23.40:746][499]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.23.41:207][523]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.23.41:710][553]LogEditorTransaction: Undo Add Component
+[2019.03.15-17.23.42:208][581]LogEditorTransaction: Undo Make New Scene Root
+[2019.03.15-17.23.46:864][857]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.24.40:076][640]LogEditorTransaction: Undo Make New Scene Root
+[2019.03.15-17.28.31:998][ 54]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.28.32:670][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.28.32:702][ 74]LogSavePackage: Save=20.55ms
+[2019.03.15-17.28.32:702][ 74]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnAF7FB7694BD3C69F7FDD36B7E80C643F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.28.32:709][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.28.48:606][984]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.28.48:628][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.28.48:628][984]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:28:48 am)
+[2019.03.15-17.28.48:628][984]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.28.48:635][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006249s)
+[2019.03.15-17.28.48:635][984]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.28.48:635][984]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2019.03.15-17.28.48:636][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007419s)
+[2019.03.15-17.28.48:664][984]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.28.48:728][984]LogInit: FAudioDevice initialized.
+[2019.03.15-17.28.48:757][984]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.28.48:761][984]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-22.58.48
+[2019.03.15-17.28.48:762][984]LogWorld: Bringing up level for play took: 0.002920
+[2019.03.15-17.28.48:763][984]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.019
+[2019.03.15-17.29.02:311][727]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.30.51:283][764]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.30.51:870][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.30.51:902][787]LogSavePackage: Save=21.21ms
+[2019.03.15-17.30.51:902][787]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn983773A047C575FCE1D3FCA4EDCB445E.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.30.51:908][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.30.59:585][242]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.30.59:596][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.30.59:596][242]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:30:59 am)
+[2019.03.15-17.30.59:596][242]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.30.59:601][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004998s)
+[2019.03.15-17.30.59:602][242]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.30.59:602][242]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2019.03.15-17.30.59:602][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006004s)
+[2019.03.15-17.30.59:620][242]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.30.59:674][242]LogInit: FAudioDevice initialized.
+[2019.03.15-17.30.59:706][242]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.30.59:712][242]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.00.59
+[2019.03.15-17.30.59:712][242]LogWorld: Bringing up level for play took: 0.003704
+[2019.03.15-17.30.59:714][242]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.03
+[2019.03.15-17.31.26:280][819]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.31.26:299][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.31.26:299][819]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:31:26 am)
+[2019.03.15-17.31.26:299][819]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.31.26:309][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009820s)
+[2019.03.15-17.31.26:309][819]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.31.26:309][819]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2019.03.15-17.31.26:310][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010842s)
+[2019.03.15-17.31.26:336][819]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.31.26:401][819]LogInit: FAudioDevice initialized.
+[2019.03.15-17.31.26:446][819]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.31.26:451][819]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.01.26
+[2019.03.15-17.31.26:452][819]LogWorld: Bringing up level for play took: 0.003776
+[2019.03.15-17.31.26:456][819]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.712
+[2019.03.15-17.31.26:502][819]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:50929).
+[2019.03.15-17.34.35:159][145]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.34.35:928][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.34.35:959][165]LogSavePackage: Save=19.30ms
+[2019.03.15-17.34.35:959][165]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn67C996D0459D2FBE0233C8820069C3B9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.34.35:965][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.35.22:246][901]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.35.22:763][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.35.22:807][904]LogSavePackage: Save=27.47ms
+[2019.03.15-17.35.22:807][904]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn8BFEAB0C46CAC07A64F62C8FE0DEF698.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.35.22:815][904]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.35.28:731][254]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.35.38:832][484]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.35.38:845][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.35.38:845][484]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:35:38 am)
+[2019.03.15-17.35.38:845][484]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.35.38:852][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006552s)
+[2019.03.15-17.35.38:852][484]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.35.38:852][484]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2019.03.15-17.35.38:853][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007595s)
+[2019.03.15-17.35.38:876][484]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.35.38:941][484]LogInit: FAudioDevice initialized.
+[2019.03.15-17.35.38:993][484]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.35.39:001][484]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.05.39
+[2019.03.15-17.35.39:002][484]LogWorld: Bringing up level for play took: 0.005953
+[2019.03.15-17.35.39:008][484]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.737
+[2019.03.15-17.37.28:488][140]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.37.29:151][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.37.29:196][164]LogSavePackage: Save=29.76ms
+[2019.03.15-17.37.29:196][164]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnFC519C904A7FC38F7687BFA42D272565.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.37.29:204][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.37.29:980][209]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.37.29:996][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.37.29:997][209]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:37:29 am)
+[2019.03.15-17.37.29:997][209]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.37.30:003][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006401s)
+[2019.03.15-17.37.30:004][209]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.37.30:004][209]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2019.03.15-17.37.30:005][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007739s)
+[2019.03.15-17.37.30:027][209]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.37.30:106][209]LogInit: FAudioDevice initialized.
+[2019.03.15-17.37.30:159][209]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.37.30:166][209]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.07.30
+[2019.03.15-17.37.30:167][209]LogWorld: Bringing up level for play took: 0.005347
+[2019.03.15-17.37.30:172][209]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.428
+[2019.03.15-17.38.33:980][207]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.38.34:503][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.38.34:533][226]LogSavePackage: Save=20.97ms
+[2019.03.15-17.38.34:533][226]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnFB2EE5DB4571D999FDCC97A3C8E6DF53.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.38.34:539][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.38.35:099][259]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.38.35:118][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.38.35:119][259]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:38:35 am)
+[2019.03.15-17.38.35:119][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.38.35:125][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006488s)
+[2019.03.15-17.38.35:126][259]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.38.35:126][259]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2019.03.15-17.38.35:126][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007495s)
+[2019.03.15-17.38.35:151][259]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.38.35:233][259]LogInit: FAudioDevice initialized.
+[2019.03.15-17.38.35:287][259]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.38.35:294][259]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.08.35
+[2019.03.15-17.38.35:295][259]LogWorld: Bringing up level for play took: 0.005860
+[2019.03.15-17.38.35:302][259]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.442
+[2019.03.15-17.39.03:836][911]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.39.04:390][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.39.04:434][930]LogSavePackage: Save=33.18ms
+[2019.03.15-17.39.04:434][930]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn19AE6A8D4B03EADBA0D4ECAF94108BEE.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.39.04:442][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.39.05:157][972]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.39.05:173][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.39.05:174][972]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:39:05 am)
+[2019.03.15-17.39.05:174][972]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.39.05:180][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006612s)
+[2019.03.15-17.39.05:181][972]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.39.05:181][972]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2019.03.15-17.39.05:181][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007724s)
+[2019.03.15-17.39.05:206][972]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.39.05:279][972]LogInit: FAudioDevice initialized.
+[2019.03.15-17.39.05:332][972]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.39.05:337][972]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.09.05
+[2019.03.15-17.39.05:338][972]LogWorld: Bringing up level for play took: 0.004424
+[2019.03.15-17.39.05:344][972]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.4
+[2019.03.15-17.39.52:616][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.39.52:651][872]LogSavePackage: Save=18.90ms
+[2019.03.15-17.39.52:651][872]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnB53DAC11417CC1E7942A779B37287819.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.39.52:655][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.40.11:784][977]LogEditorTransaction: Undo Make New Scene Root
+[2019.03.15-17.40.22:823][605]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-17.40.23:568][645]LogEditorTransaction: Undo Make New Scene Root
+[2019.03.15-17.40.52:859][398]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.40.53:962][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.40.53:989][455]LogSavePackage: Save=18.03ms
+[2019.03.15-17.40.53:989][455]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn70A47F8646059E7400AEE985152051A6.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.40.53:995][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.41.04:046][ 52]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.41.05:493][135]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.41.05:524][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.41.05:524][135]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:41:05 am)
+[2019.03.15-17.41.05:524][135]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.41.05:531][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006602s)
+[2019.03.15-17.41.05:532][135]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.41.05:532][135]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2019.03.15-17.41.05:532][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007885s)
+[2019.03.15-17.41.05:558][135]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.41.05:623][135]LogInit: FAudioDevice initialized.
+[2019.03.15-17.41.05:654][135]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.41.05:659][135]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.11.05
+[2019.03.15-17.41.05:659][135]LogWorld: Bringing up level for play took: 0.003364
+[2019.03.15-17.41.05:661][135]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.083
+[2019.03.15-17.41.16:660][773]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.41.18:893][902]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.15-17.41.21:575][ 59]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.41.24:896][245]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.15-17.41.27:287][382]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.41.32:544][679]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.15-17.41.34:496][789]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.41.36:022][876]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.15-17.41.41:318][187]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.41.41:332][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.41.41:332][187]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:41:41 am)
+[2019.03.15-17.41.41:332][187]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.41.41:339][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006219s)
+[2019.03.15-17.41.41:339][187]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.41.41:339][187]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.03.15-17.41.41:340][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007374s)
+[2019.03.15-17.41.41:371][187]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.41.41:431][187]LogInit: FAudioDevice initialized.
+[2019.03.15-17.41.41:462][187]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.41.41:467][187]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.11.41
+[2019.03.15-17.41.41:468][187]LogWorld: Bringing up level for play took: 0.003806
+[2019.03.15-17.41.41:470][187]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.274
+[2019.03.15-17.41.55:780][ 33]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.42.00:824][331]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-17.42.24:801][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-17.42.24:831][737]LogSavePackage: Save=20.23ms
+[2019.03.15-17.42.24:831][737]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn833953A1455641775531CF938612EE9F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-17.42.24:836][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-17.42.26:317][825]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.42.28:305][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.42.31:154][ 94]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-17.42.31:167][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-17.42.31:167][ 94]PIE: New page: PIE session: FirstLevel (16-Mar-2019 4:42:31 am)
+[2019.03.15-17.42.31:167][ 94]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-17.42.31:174][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006331s)
+[2019.03.15-17.42.31:174][ 94]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.42.31:174][ 94]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2019.03.15-17.42.31:175][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007289s)
+[2019.03.15-17.42.31:193][ 94]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.42.31:249][ 94]LogInit: FAudioDevice initialized.
+[2019.03.15-17.42.31:278][ 94]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-17.42.31:282][ 94]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.12.31
+[2019.03.15-17.42.31:283][ 94]LogWorld: Bringing up level for play took: 0.002747
+[2019.03.15-17.42.31:284][ 94]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.46
+[2019.03.15-17.43.06:895][152]BlueprintLog: New page: Compile Pawn
+[2019.03.15-17.47.23:875][498]LogSavePackage: Save=134.12ms
+[2019.03.15-17.47.23:875][498]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto132CF8A2F4AC93DA9E7EDA4967C5AB5BC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap'
+[2019.03.15-17.47.23:881][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap
+[2019.03.15-17.47.23:884][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.197
+[2019.03.15-17.47.23:884][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.197
+[2019.03.15-17.47.23:896][498]LogSavePackage: Save=2.62ms
+[2019.03.15-17.47.23:896][498]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/NewBlueprint_Auto14543ACEC4D5A34BA1E4F1F88C7B771C5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset'
+[2019.03.15-17.47.23:899][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset
+[2019.03.15-17.47.23:902][498]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.15-17.47.23:940][498]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.15-17.47.23:940][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.15-17.47.23:991][498]LogSavePackage: Save=33.61ms
+[2019.03.15-17.47.23:991][498]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto102E5C6734218D257421E6BBAF60DD6BF.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto1.uasset'
+[2019.03.15-17.47.23:995][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto1.uasset
+[2019.03.15-17.47.23:995][498]LogFileHelpers: Auto-saving content packages took 0.109
+[2019.03.15-18.13.11:700][900]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.13.11:717][900]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.15-18.13.11:717][900]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.15-18.13.11:863][900]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2019.03.15-18.13.11:863][900]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:13:11 am)
+[2019.03.15-18.13.11:863][900]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.13.11:873][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009196s)
+[2019.03.15-18.13.11:875][900]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.13.11:875][900]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2019.03.15-18.13.11:876][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012005s)
+[2019.03.15-18.13.11:902][900]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.13.11:973][900]LogInit: FAudioDevice initialized.
+[2019.03.15-18.13.12:005][900]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.13.12:009][900]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.43.12
+[2019.03.15-18.13.12:009][900]LogWorld: Bringing up level for play took: 0.003369
+[2019.03.15-18.13.12:011][900]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.267
+[2019.03.15-18.13.35:321][282]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.13.36:475][349]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.15-18.13.39:005][498]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn)
+[2019.03.15-18.13.42:620][711]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-18.14.08:078][213]LogSavePackage: Save=101.29ms
+[2019.03.15-18.14.08:078][213]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto25C28931D4AFB148D8913D385FC2D7BD1.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap'
+[2019.03.15-18.14.08:082][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap
+[2019.03.15-18.14.08:085][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.150
+[2019.03.15-18.14.08:085][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2019.03.15-18.14.08:090][213]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.15-18.14.08:153][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.15-18.14.08:154][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.15-18.14.08:190][213]LogSavePackage: Save=23.34ms
+[2019.03.15-18.14.08:190][213]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto2F4B9A8C047D2FC027FFC2DB875ECD727.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset'
+[2019.03.15-18.14.08:193][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset
+[2019.03.15-18.14.08:193][213]LogFileHelpers: Auto-saving content packages took 0.106
+[2019.03.15-18.19.25:022][836]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.15-18.20.03:034][ 10]LogEditorTransaction: Undo Move Nodes
+[2019.03.15-18.20.20:012][ 17]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_1 or K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_1
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_0 or K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_0
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_2 or K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_2
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_1 or K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_1
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_3 or K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_3
+[2019.03.15-18.20.24:081][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_2 or K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_2
+[2019.03.15-18.20.24:082][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_4 or K2Node_CallFunction /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_CallFunction_4
+[2019.03.15-18.20.24:082][254]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_3 or K2Node_VariableGet /Game/Blueprints/Pawn.Pawn:EventGraph.K2Node_VariableGet_3
+[2019.03.15-18.20.49:186][736]BlueprintLog: New page: Compile Pawn
+[2019.03.15-18.20.50:145][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-18.20.50:193][770]LogSavePackage: Save=33.77ms
+[2019.03.15-18.20.50:193][770]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn903483654F75C0D92166179FF08A4BD4.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-18.20.50:199][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-18.20.53:150][945]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.21.03:335][546]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.21.03:352][546]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.15-18.21.03:352][546]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.15-18.21.03:507][546]LogPlayLevel: PlayLevel: Blueprint regeneration took 154 ms (1 blueprints)
+[2019.03.15-18.21.03:507][546]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:21:03 am)
+[2019.03.15-18.21.03:507][546]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.21.03:517][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009434s)
+[2019.03.15-18.21.03:518][546]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.21.03:518][546]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2019.03.15-18.21.03:518][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011023s)
+[2019.03.15-18.21.03:547][546]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.21.03:622][546]LogInit: FAudioDevice initialized.
+[2019.03.15-18.21.03:657][546]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.21.03:661][546]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.51.03
+[2019.03.15-18.21.03:662][546]LogWorld: Bringing up level for play took: 0.003328
+[2019.03.15-18.21.03:664][546]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.08
+[2019.03.15-18.21.17:429][355]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.21.17:449][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.21.17:449][355]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:21:17 am)
+[2019.03.15-18.21.17:449][355]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.21.17:457][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007783s)
+[2019.03.15-18.21.17:458][355]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.21.17:458][355]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2019.03.15-18.21.17:458][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008749s)
+[2019.03.15-18.21.17:485][355]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.21.17:547][355]LogInit: FAudioDevice initialized.
+[2019.03.15-18.21.17:579][355]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.21.17:584][355]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.51.17
+[2019.03.15-18.21.17:585][355]LogWorld: Bringing up level for play took: 0.003655
+[2019.03.15-18.21.17:587][355]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.157
+[2019.03.15-18.23.31:435][324]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.23.31:450][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.23.31:450][324]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:23:31 am)
+[2019.03.15-18.23.31:450][324]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.23.31:457][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006186s)
+[2019.03.15-18.23.31:457][324]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.23.31:457][324]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.03.15-18.23.31:458][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007270s)
+[2019.03.15-18.23.31:486][324]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.23.31:549][324]LogInit: FAudioDevice initialized.
+[2019.03.15-18.23.31:583][324]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.23.31:588][324]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.53.31
+[2019.03.15-18.23.31:589][324]LogWorld: Bringing up level for play took: 0.003919
+[2019.03.15-18.23.31:592][324]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.153
+[2019.03.15-18.23.48:627][323]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.23.48:740][323]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.23.48:759][323]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.23.48:790][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.15-18.23.52:310][503]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-18.23.52:310][503]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-18.23.52:310][503]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-18.24.31:457][809]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.24.37:786][179]Cmd: TRANSACTION UNDO
+[2019.03.15-18.24.37:786][179]LogEditorTransaction: Undo Move Actors
+[2019.03.15-18.24.37:804][179]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.24.37:817][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.24.39:979][264]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.15-18.24.40:246][277]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-18.24.40:247][277]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-18.24.40:247][277]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-18.24.44:374][524]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.24.44:386][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.24.44:386][524]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:24:44 am)
+[2019.03.15-18.24.44:386][524]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.24.44:391][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005135s)
+[2019.03.15-18.24.44:392][524]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.24.44:392][524]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2019.03.15-18.24.44:392][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.005907s)
+[2019.03.15-18.24.44:413][524]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.24.44:465][524]LogInit: FAudioDevice initialized.
+[2019.03.15-18.24.44:496][524]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.24.44:501][524]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.15-23.54.44
+[2019.03.15-18.24.44:502][524]LogWorld: Bringing up level for play took: 0.004267
+[2019.03.15-18.24.44:503][524]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.759
+[2019.03.15-18.25.21:430][713]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.15-18.25.22:393][770]Cmd: DELETE
+[2019.03.15-18.25.22:393][770]Cmd: ACTOR DELETE
+[2019.03.15-18.25.22:394][770]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.15-18.25.22:418][770]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.03.15-18.25.23:795][853]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.25.25:062][927]Cmd: DELETE
+[2019.03.15-18.25.25:062][927]Cmd: ACTOR DELETE
+[2019.03.15-18.25.25:063][927]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.15-18.25.25:089][927]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.Rook:EventGraph.K2Node_Event_5' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.Rook:EventGraph.K2Node_Event_4' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.Rook:EventGraph.K2Node_Event_3' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.Rook_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.SKEL_Rook_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:005][844]LogMetaData: Removing '/Game/Blueprints/Rook.Rook:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2019.03.15-18.26.20:102][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.26.20:113][844]LogSavePackage: Save=8.30ms
+[2019.03.15-18.26.20:113][844]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/RookF56FB1FD44E8E919796CB8A25ECF9746.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.26.20:119][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.27.00:677][ 59]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.27.01:415][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.27.01:452][ 81]LogSavePackage: Save=21.52ms
+[2019.03.15-18.27.01:452][ 81]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook88DF1A2746EAEBE93BCEB1BCBAE19702.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.27.01:458][ 81]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.27.49:388][847]LogSavePackage: Save=75.89ms
+[2019.03.15-18.27.49:388][847]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto36AA8EED548EA3ADA1D6ED9AD0C979E83.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap'
+[2019.03.15-18.27.49:391][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap
+[2019.03.15-18.27.49:394][847]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.117
+[2019.03.15-18.27.49:394][847]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.117
+[2019.03.15-18.27.49:403][847]LogSavePackage: Save=2.13ms
+[2019.03.15-18.27.49:403][847]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/NewBlueprint_Auto38016AB584B22EB4BA38B0D861C48D735.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto3.uasset'
+[2019.03.15-18.27.49:405][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto3.uasset
+[2019.03.15-18.27.49:406][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.15-18.27.49:429][847]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.15-18.27.49:429][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.15-18.27.49:471][847]LogSavePackage: Save=29.91ms
+[2019.03.15-18.27.49:471][847]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto303B9DEEC46C53F176A8531974B2193F2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto3.uasset'
+[2019.03.15-18.27.49:474][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto3.uasset
+[2019.03.15-18.27.49:475][847]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Rook] ([1] browsable assets)...
+[2019.03.15-18.27.49:497][847]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Rook.Rook]
+[2019.03.15-18.27.49:497][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Rook]
+[2019.03.15-18.27.49:526][847]LogSavePackage: Save=18.40ms
+[2019.03.15-18.27.49:526][847]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook_Auto3FC6D356E469752B7C1E2FCB555F8C9CC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Rook_Auto3.uasset'
+[2019.03.15-18.27.49:528][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Rook_Auto3.uasset
+[2019.03.15-18.27.49:528][847]LogFileHelpers: Auto-saving content packages took 0.132
+[2019.03.15-18.29.13:468][588]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.29.14:398][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.29.14:448][616]LogSavePackage: Save=33.43ms
+[2019.03.15-18.29.14:448][616]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook499B67F64F1E302926EBF4AEAF311F59.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.29.14:455][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.29.42:723][191]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.29.43:319][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.29.43:353][210]LogSavePackage: Save=22.21ms
+[2019.03.15-18.29.43:353][210]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook50D87EFC42196EE777FE7288468EE649.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.29.43:360][210]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.29.45:157][315]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
+[2019.03.15-18.29.45:843][354]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.15-18.29.49:965][598]Cmd: DELETE
+[2019.03.15-18.29.49:965][598]Cmd: ACTOR DELETE
+[2019.03.15-18.29.49:966][598]LogEditorActor: Deleted Actor: Rook_C
+[2019.03.15-18.29.49:987][598]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.03.15-18.30.13:918][766]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.31.41:497][863]BlueprintLog: New page: Compile Pawn
+[2019.03.15-18.31.42:169][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-18.31.42:224][886]LogSavePackage: Save=41.27ms
+[2019.03.15-18.31.42:224][886]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn48D624CB46F7477497DC2986E1666E88.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-18.31.42:229][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-18.31.44:090][995]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.15-18.31.45:776][ 94]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.15-18.31.47:305][183]Cmd: DELETE
+[2019.03.15-18.31.47:305][183]Cmd: ACTOR DELETE
+[2019.03.15-18.31.47:307][183]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.15-18.31.47:331][183]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.03.15-18.32.22:508][246]BlueprintLog: New page: Compile Pawn
+[2019.03.15-18.32.23:115][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.15-18.32.23:165][269]LogSavePackage: Save=38.16ms
+[2019.03.15-18.32.23:165][269]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnEE14581C4047B3AD43F655815442D046.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.15-18.32.23:172][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.15-18.32.25:295][396]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.32.25:313][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.32.25:313][396]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:32:25 am)
+[2019.03.15-18.32.25:313][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.32.25:319][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005780s)
+[2019.03.15-18.32.25:320][396]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.32.25:320][396]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2019.03.15-18.32.25:320][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006783s)
+[2019.03.15-18.32.25:340][396]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.32.25:395][396]LogInit: FAudioDevice initialized.
+[2019.03.15-18.32.25:427][396]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.32.25:431][396]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.02.25
+[2019.03.15-18.32.25:432][396]LogWorld: Bringing up level for play took: 0.003053
+[2019.03.15-18.32.25:433][396]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.31
+[2019.03.15-18.33.59:141][846]LogBlueprint:Warning: [Rook] 'sphere2' variable not found. Base class was probably changed.
+[2019.03.15-18.33.59:141][846]LogBlueprint:Warning: [Rook] 'Cylinder1' variable not found. Base class was probably changed.
+[2019.03.15-18.33.59:141][846]LogBlueprint:Warning: [Rook] 'sphere2' variable not found. Base class was probably changed.
+[2019.03.15-18.33.59:142][846]LogBlueprint:Warning: [Rook] 'Cylinder1' variable not found. Base class was probably changed.
+[2019.03.15-18.34.18:792][ 13]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.35.54:889][675]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.35.55:683][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.35.55:737][712]LogSavePackage: Save=37.94ms
+[2019.03.15-18.35.55:737][712]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook49C9FDB24A5EDE7E3A56958EA4713072.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.35.55:744][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.35.57:409][810]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.35.57:419][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.35.57:420][810]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:35:57 am)
+[2019.03.15-18.35.57:420][810]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.35.57:425][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005075s)
+[2019.03.15-18.35.57:425][810]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.35.57:425][810]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.03.15-18.35.57:426][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006011s)
+[2019.03.15-18.35.57:445][810]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.35.57:497][810]LogInit: FAudioDevice initialized.
+[2019.03.15-18.35.57:531][810]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.35.57:535][810]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.05.57
+[2019.03.15-18.35.57:536][810]LogWorld: Bringing up level for play took: 0.002883
+[2019.03.15-18.35.57:537][810]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.207
+[2019.03.15-18.36.16:342][927]LogEditorTransaction: Undo Move Node
+[2019.03.15-18.36.16:356][927]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.36.16:368][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.36.18:733][ 46]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-18.36.18:733][ 46]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-18.36.18:733][ 46]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-18.36.20:240][134]BlueprintLog: New page: Compile Rook
+[2019.03.15-18.36.21:724][215]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.36.21:736][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.36.21:736][215]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:36:21 am)
+[2019.03.15-18.36.21:736][215]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.36.21:741][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005239s)
+[2019.03.15-18.36.21:741][215]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.36.21:741][215]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2019.03.15-18.36.21:741][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006023s)
+[2019.03.15-18.36.21:761][215]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.36.21:815][215]LogInit: FAudioDevice initialized.
+[2019.03.15-18.36.21:865][215]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.36.21:871][215]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.06.21
+[2019.03.15-18.36.21:871][215]LogWorld: Bringing up level for play took: 0.004188
+[2019.03.15-18.36.21:875][215]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.131
+[2019.03.15-18.36.31:760][795]LogRenderer: Reallocating scene render targets to support 1536x800 NumSamples 1 (Frame:256129).
+[2019.03.15-18.38.45:185][158]Cmd: DELETE
+[2019.03.15-18.38.45:185][158]Cmd: ACTOR DELETE
+[2019.03.15-18.38.45:186][158]LogEditorActor: Deleted Actor: Pawn
+[2019.03.15-18.38.45:206][158]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.03.15-18.38.57:894][913]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.03.15-18.38.59:842][ 19]Cmd: DELETE
+[2019.03.15-18.38.59:842][ 19]Cmd: ACTOR DELETE
+[2019.03.15-18.38.59:843][ 19]LogEditorActor: Deleted Actor: Brush
+[2019.03.15-18.38.59:888][ 19]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2019.03.15-18.39.56:513][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.15-18.39.56:550][800]LogSavePackage: Save=27.43ms
+[2019.03.15-18.39.56:550][800]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook2D1816694DE39A0DB6FC0CAA933777BB.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.15-18.39.56:557][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.15-18.40.19:837][ 71]BlueprintLog: New page: Compile Knight
+[2019.03.15-18.40.21:642][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Knight" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset" SILENT=true
+[2019.03.15-18.40.21:664][163]LogSavePackage: Save=18.33ms
+[2019.03.15-18.40.21:664][163]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight3DA4AE6A426BAE516CF4EBA5922449ED.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset'
+[2019.03.15-18.40.21:668][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset
+[2019.03.15-18.42.08:971][ 53]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2019.03.15-18.42.09:047][ 53]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2019.03.15-18.42.09:060][ 53]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.42.11:886][206]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-18.42.11:886][206]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-18.42.11:886][206]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-18.45.25:411][576]LogSavePackage: Save=118.63ms
+[2019.03.15-18.45.25:411][576]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto44E180BDA4BF5D250CF16829A97310016.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.15-18.45.25:414][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.15-18.45.25:416][576]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.214
+[2019.03.15-18.45.25:416][576]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2019.03.15-18.45.25:422][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.15-18.45.25:492][576]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.15-18.45.25:492][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.15-18.45.25:538][576]LogSavePackage: Save=28.55ms
+[2019.03.15-18.45.25:538][576]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto4B367A8CA46ADD2D5AF3D0891F3B1D0A1.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset'
+[2019.03.15-18.45.25:540][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset
+[2019.03.15-18.45.25:540][576]LogFileHelpers: Auto-saving content packages took 0.121
+[2019.03.15-18.52.48:479][768]BlueprintLog: New page: Compile Knight
+[2019.03.15-18.52.49:295][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Knight" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset" SILENT=true
+[2019.03.15-18.52.49:338][787]LogSavePackage: Save=25.84ms
+[2019.03.15-18.52.49:338][787]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight956EB514411D20A5FC2F63B4BEC3B478.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset'
+[2019.03.15-18.52.49:346][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset
+[2019.03.15-18.53.08:742][822]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-18.53.14:841][176]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.53.14:862][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.53.14:862][176]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:53:14 am)
+[2019.03.15-18.53.14:862][176]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.53.14:870][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007772s)
+[2019.03.15-18.53.14:871][176]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.53.14:871][176]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2019.03.15-18.53.14:871][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009348s)
+[2019.03.15-18.53.14:913][176]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.53.14:984][176]LogInit: FAudioDevice initialized.
+[2019.03.15-18.53.15:015][176]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.53.15:021][176]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.23.15
+[2019.03.15-18.53.15:021][176]LogWorld: Bringing up level for play took: 0.004063
+[2019.03.15-18.53.15:023][176]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.721
+[2019.03.15-18.53.30:223][ 47]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.30:223][ 47]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-18.53.30:235][ 47]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.30:253][ 47]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.30:810][ 66]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.30:810][ 66]LogEditorTransaction: Undo Rotate Actors
+[2019.03.15-18.53.30:820][ 66]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.30:854][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.31:380][ 97]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.31:380][ 97]LogEditorTransaction: Undo Create Actors
+[2019.03.15-18.53.31:390][ 97]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.31:426][ 97]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.32:707][171]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.32:708][171]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-18.53.32:719][171]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.32:756][171]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.33:385][204]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.33:385][204]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-18.53.33:397][204]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.33:434][204]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.34:067][238]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.34:067][238]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-18.53.34:077][238]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.34:108][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.36:417][365]Cmd: TRANSACTION UNDO
+[2019.03.15-18.53.36:417][365]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.15-18.53.36:425][365]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-18.53.36:454][365]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-18.53.38:527][471]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-18.53.38:527][471]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-18.53.38:527][471]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-18.54.26:410][317]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.26:457][320]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.26:474][321]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.26:507][323]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.26:524][324]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.27:125][360]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.27:224][366]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.27:291][370]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.27:625][390]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.29:677][512]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.29:961][529]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.30:119][538]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.30:268][547]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.30:535][563]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.30:752][576]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.31:096][596]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.31:381][613]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.32:098][656]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.35:961][887]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.35:961][887]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.35:995][889]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.36:061][893]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.37:283][966]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.37:382][972]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.37:433][975]LogActorComponent: ReregisterComponent: (/Game/FirstLevel.FirstLevel:PersistentLevel.Knight_C_1331.Sphere1) Not currently registered. Aborting.
+[2019.03.15-18.54.39:740][113]BlueprintLog: New page: Compile Knight
+[2019.03.15-18.54.40:286][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Knight" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset" SILENT=true
+[2019.03.15-18.54.40:319][134]LogSavePackage: Save=21.34ms
+[2019.03.15-18.54.40:319][134]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight4E12969E48EE1B1A69A295A8E1D6F28B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset'
+[2019.03.15-18.54.40:326][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset
+[2019.03.15-18.54.48:550][586]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.54.48:566][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.54.48:566][586]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:54:48 am)
+[2019.03.15-18.54.48:566][586]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.54.48:571][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005293s)
+[2019.03.15-18.54.48:572][586]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.54.48:572][586]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2019.03.15-18.54.48:572][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006178s)
+[2019.03.15-18.54.48:593][586]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.54.48:647][586]LogInit: FAudioDevice initialized.
+[2019.03.15-18.54.48:678][586]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.54.48:683][586]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.24.48
+[2019.03.15-18.54.48:683][586]LogWorld: Bringing up level for play took: 0.003406
+[2019.03.15-18.54.48:685][586]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.941
+[2019.03.15-18.56.16:052][ 31]Cmd: DELETE
+[2019.03.15-18.56.16:052][ 31]Cmd: ACTOR DELETE
+[2019.03.15-18.56.16:053][ 31]LogEditorActor: Deleted Actor: Knight_C
+[2019.03.15-18.56.16:069][ 31]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2019.03.15-18.56.27:033][688]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.56.27:047][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.56.27:047][688]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:56:27 am)
+[2019.03.15-18.56.27:047][688]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.56.27:052][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005076s)
+[2019.03.15-18.56.27:053][688]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.56.27:053][688]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2019.03.15-18.56.27:053][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.005929s)
+[2019.03.15-18.56.27:073][688]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.56.27:132][688]LogInit: FAudioDevice initialized.
+[2019.03.15-18.56.27:163][688]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.56.27:168][688]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.26.27
+[2019.03.15-18.56.27:169][688]LogWorld: Bringing up level for play took: 0.003401
+[2019.03.15-18.56.27:170][688]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.574
+[2019.03.15-18.56.44:202][695]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-18.56.44:216][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-18.56.44:216][695]PIE: New page: PIE session: FirstLevel (16-Mar-2019 5:56:44 am)
+[2019.03.15-18.56.44:216][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-18.56.44:222][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005896s)
+[2019.03.15-18.56.44:223][695]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-18.56.44:223][695]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2019.03.15-18.56.44:223][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006832s)
+[2019.03.15-18.56.44:245][695]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-18.56.44:304][695]LogInit: FAudioDevice initialized.
+[2019.03.15-18.56.44:354][695]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-18.56.44:363][695]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.26.44
+[2019.03.15-18.56.44:364][695]LogWorld: Bringing up level for play took: 0.007173
+[2019.03.15-18.56.44:369][695]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.624
+[2019.03.15-19.04.22:608][773]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx)
+[2019.03.15-19.04.22:685][773]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: Geometry, ItemCount : 1631
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: Model, ItemCount : 222
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: Material, ItemCount : 3
+[2019.03.15-19.04.22:686][773]LogFbx: ItemName: NodeAttribute, ItemCount : 19
+[2019.03.15-19.04.22:694][773]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx
+[2019.03.15-19.04.22:825][773]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.04.27:917][773]LogAssetTools:Warning: Failed to import 'C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx'. Failed to create asset '/Game/Assets/chess'.
+Please see Output Log for details.
+[2019.03.15-19.04.38:933][100]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx)
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: Geometry, ItemCount : 1631
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: Model, ItemCount : 222
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: Material, ItemCount : 3
+[2019.03.15-19.04.38:946][100]LogFbx: ItemName: NodeAttribute, ItemCount : 19
+[2019.03.15-19.04.38:952][100]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx
+[2019.03.15-19.04.39:066][100]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.04.42:842][100]LogAssetTools:Warning: Failed to import 'C:\Users\Rohit Panjwani\Desktop\sem6\45aa2k5q5tc0-chess\chess_fbx\chess.fbx'. Failed to create asset '/Game/Assets/chess'.
+Please see Output Log for details.
+[2019.03.15-19.05.43:809][407]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Rohit Panjwani\Desktop\sem6\izuz7qq0pt6o-chess_pieces\chess_pieces.fbx)
+[2019.03.15-19.05.43:817][407]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.03.15-19.05.43:817][407]LogFbx: ItemName: Geometry, ItemCount : 13
+[2019.03.15-19.05.43:817][407]LogFbx: ItemName: Material, ItemCount : 3
+[2019.03.15-19.05.43:817][407]LogFbx: ItemName: Model, ItemCount : 14
+[2019.03.15-19.05.43:817][407]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2019.03.15-19.05.43:822][407]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\izuz7qq0pt6o-chess_pieces\chess_pieces.fbx
+[2019.03.15-19.05.43:893][407]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.05.51:884][407]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\izuz7qq0pt6o-chess_pieces\chess_pieces.fbx
+[2019.03.15-19.05.51:930][407]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.05.51:981][407]LogLinker: Can't find file '/Game/Assets/white'
+[2019.03.15-19.05.51:981][407]LogLinker: Can't find file '/Game/Assets/white'
+[2019.03.15-19.05.51:997][407]LogMaterial: Missing cached shader map for material white, compiling. 
+[2019.03.15-19.05.52:020][407]LogFbx:Warning: Triangulating static mesh White_King
+[2019.03.15-19.05.52:661][407]LogFbx:Warning: Triangulating static mesh White_Queen
+[2019.03.15-19.05.53:620][407]LogFbx:Warning: Triangulating static mesh White_Bishop
+[2019.03.15-19.05.54:521][407]LogFbx:Warning: Triangulating static mesh White_Rook
+[2019.03.15-19.05.55:107][407]LogFbx:Warning: Triangulating static mesh White_Knight
+[2019.03.15-19.05.55:490][407]LogFbx:Warning: Triangulating static mesh White_Pawn
+[2019.03.15-19.05.55:843][407]LogLinker: Can't find file '/Game/Assets/black'
+[2019.03.15-19.05.55:844][407]LogLinker: Can't find file '/Game/Assets/black'
+[2019.03.15-19.05.55:850][407]LogMaterial: Missing cached shader map for material black, compiling. 
+[2019.03.15-19.05.55:868][407]LogFbx:Warning: Triangulating static mesh Black_King
+[2019.03.15-19.05.56:525][407]LogFbx:Warning: Triangulating static mesh Black_Queen
+[2019.03.15-19.05.57:489][407]LogFbx:Warning: Triangulating static mesh Black_Bishop
+[2019.03.15-19.05.58:358][407]LogFbx:Warning: Triangulating static mesh Black_Rook
+[2019.03.15-19.05.58:799][407]LogFbx:Warning: Triangulating static mesh Black_Knight
+[2019.03.15-19.05.59:153][407]LogFbx:Warning: Triangulating static mesh Black_Pawn
+[2019.03.15-19.05.59:497][407]LogLinker: Can't find file '/Game/Assets/lambert2'
+[2019.03.15-19.05.59:497][407]LogLinker: Can't find file '/Game/Assets/lambert2'
+[2019.03.15-19.05.59:504][407]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2019.03.15-19.05.59:520][407]LogFbx:Warning: Triangulating static mesh pPlane1
+[2019.03.15-19.05.59:735][407]LogStaticMesh: Building static mesh chess_pieces...
+[2019.03.15-19.06.05:008][407]LogStaticMesh: Built static mesh [5.27s] /Game/Assets/chess_pieces.chess_pieces
+[2019.03.15-19.06.05:258][407]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.15-19.10.25:726][438]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Rohit Panjwani\Desktop\sem6\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\12930_WoodenChessKnightSideA_v1_l3.obj)
+[2019.03.15-19.10.25:878][438]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\12930_WoodenChessKnightSideA_v1_l3.obj
+[2019.03.15-19.10.28:232][438]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.10.33:617][438]LogFbx: Loading FBX Scene from C:\Users\Rohit Panjwani\Desktop\sem6\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\WoodenChessKnightSideA_v1_L3.123c7caec641-e9b0-467c-86a0-691cabf50cdc\12930_WoodenChessKnightSideA_v1_l3.obj
+[2019.03.15-19.10.35:801][438]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.15-19.10.35:810][438]LogLinker: Can't find file '/Game/Assets/12930_WoodenChessNightSideA'
+[2019.03.15-19.10.35:811][438]LogLinker: Can't find file '/Game/Assets/12930_WoodenChessNightSideA'
+[2019.03.15-19.10.35:871][438]LogLinker: Can't find file '/Game/Assets/12930_WoodenChessNightSideA_diffuse'
+[2019.03.15-19.10.35:871][438]LogLinker: Can't find file '/Game/Assets/12930_WoodenChessNightSideA_diffuse'
+[2019.03.15-19.10.36:030][438]LogTexture:Display: Building textures: 12930_WoodenChessNightSideA_diffuse (AutoDXT)
+[2019.03.15-19.10.36:720][438]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.10.36:738][438]LogFbx:Warning: Triangulating static mesh 12930_WoodenChessNightSideA
+[2019.03.15-19.10.56:970][438]LogStaticMesh: Building static mesh 12930_WoodenChessKnightSideA_v1_l3...
+[2019.03.15-19.12.16:810][438]LogStaticMesh: Built static mesh [79.84s] /Game/Assets/12930_WoodenChessKnightSideA_v1_l3.12930_WoodenChessKnightSideA_v1_l3
+[2019.03.15-19.12.17:046][438]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2019.03.15-19.12.17:412][438]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece48)
+[2019.03.15-19.12.17:527][438]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece89)
+[2019.03.15-19.12.17:634][438]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-19.12.17:773][438]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece48)
+[2019.03.15-19.12.17:905][438]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.12.18:020][438]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.12.18:039][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.18:071][438]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-19.12.21:028][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.12.21:028][517]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.12.21:028][517]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.12.25:674][756]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.03.15-19.12.39:341][501]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-19.12.54:060][162]Cmd: TRANSACTION UNDO
+[2019.03.15-19.12.54:060][162]LogEditorTransaction: Undo Create Actors
+[2019.03.15-19.12.54:065][162]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.12.54:084][162]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.54:094][162]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.12.54:115][162]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.54:600][174]Cmd: TRANSACTION UNDO
+[2019.03.15-19.12.54:600][174]LogEditorTransaction: Undo Create Actors
+[2019.03.15-19.12.54:657][174]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.12.54:692][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.54:699][174]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.12.54:735][174]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.55:889][211]Cmd: TRANSACTION UNDO
+[2019.03.15-19.12.55:889][211]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-19.12.55:945][211]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.12.55:979][211]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.55:985][211]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.12.56:018][211]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.12.58:079][273]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-19.12.58:890][295]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.12.58:890][295]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.12.58:890][295]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.13.01:149][360]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.13.01:149][360]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.13.01:149][360]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.13.55:602][731]LogSavePackage: Save=78.28ms
+[2019.03.15-19.13.55:602][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto50FE805BA4C887384E55AFCBEC8952824.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap'
+[2019.03.15-19.13.55:605][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap
+[2019.03.15-19.13.55:607][731]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.139
+[2019.03.15-19.13.55:607][731]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.139
+[2019.03.15-19.13.55:613][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.15-19.13.55:681][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.15-19.13.55:681][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.15-19.13.55:712][731]LogSavePackage: Save=19.51ms
+[2019.03.15-19.13.55:712][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto5F9B5414F45FE6EB81CE7468F09AEC8B8.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto5.uasset'
+[2019.03.15-19.13.55:715][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto5.uasset
+[2019.03.15-19.13.55:716][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/chess_pieces] ([1] browsable assets)...
+[2019.03.15-19.13.55:784][731]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/chess_pieces.chess_pieces]
+[2019.03.15-19.13.55:784][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/chess_pieces]
+[2019.03.15-19.13.55:801][731]LogSavePackage: Save=14.28ms
+[2019.03.15-19.13.55:801][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/chess_pieces_Auto576013C6A49A713CDEB4197B982D6E073.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/chess_pieces_Auto5.uasset'
+[2019.03.15-19.13.55:804][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/chess_pieces_Auto5.uasset
+[2019.03.15-19.13.55:805][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/white] ([1] browsable assets)...
+[2019.03.15-19.13.55:874][731]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/white.white]
+[2019.03.15-19.13.55:874][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/white]
+[2019.03.15-19.13.55:875][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/white" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/white_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.03.15-19.13.55:891][731]LogSavePackage: Save=12.95ms
+[2019.03.15-19.13.55:891][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/white_Auto58F24E27C4A2191FE50BE66ACE45D2A44.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/white_Auto5.uasset'
+[2019.03.15-19.13.55:894][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/white_Auto5.uasset
+[2019.03.15-19.13.55:895][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/black] ([1] browsable assets)...
+[2019.03.15-19.13.55:962][731]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/black.black]
+[2019.03.15-19.13.55:962][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/black]
+[2019.03.15-19.13.55:962][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/black" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/black_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2019.03.15-19.13.55:978][731]LogSavePackage: Save=12.82ms
+[2019.03.15-19.13.55:978][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/black_Auto5AFBD09CD42E3A67DD41E57BF50083759.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/black_Auto5.uasset'
+[2019.03.15-19.13.55:980][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/black_Auto5.uasset
+[2019.03.15-19.13.55:981][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/lambert2] ([1] browsable assets)...
+[2019.03.15-19.13.56:046][731]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/lambert2.lambert2]
+[2019.03.15-19.13.56:047][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/lambert2]
+[2019.03.15-19.13.56:064][731]LogSavePackage: Save=14.01ms
+[2019.03.15-19.13.56:064][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/lambert2_Auto5B3B416DD477D36849FC3CFB5407F0146.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/lambert2_Auto5.uasset'
+[2019.03.15-19.13.56:066][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/lambert2_Auto5.uasset
+[2019.03.15-19.13.56:067][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/12930_WoodenChessKnightSideA_v1_l3] ([1] browsable assets)...
+[2019.03.15-19.13.56:134][731]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/12930_WoodenChessKnightSideA_v1_l3.12930_WoodenChessKnightSideA_v1_l3]
+[2019.03.15-19.13.56:134][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/12930_WoodenChessKnightSideA_v1_l3]
+[2019.03.15-19.13.56:156][731]LogSavePackage: Save=18.63ms
+[2019.03.15-19.13.56:156][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/12930_WoodenChessKnightSideA_v1_l3_Auto599CF4F0E44CE636AE333B487D4BBAA17.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessKnightSideA_v1_l3_Auto5.uasset'
+[2019.03.15-19.13.56:158][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessKnightSideA_v1_l3_Auto5.uasset
+[2019.03.15-19.13.56:160][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/12930_WoodenChessNightSideA] ([1] browsable assets)...
+[2019.03.15-19.13.56:228][731]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/12930_WoodenChessNightSideA.12930_WoodenChessNightSideA]
+[2019.03.15-19.13.56:228][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/12930_WoodenChessNightSideA]
+[2019.03.15-19.13.56:244][731]LogSavePackage: Save=13.81ms
+[2019.03.15-19.13.56:244][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/12930_WoodenChessNightSideA_Auto5EAA8530544075DB2C6AFE599DA6461A0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessNightSideA_Auto5.uasset'
+[2019.03.15-19.13.56:246][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessNightSideA_Auto5.uasset
+[2019.03.15-19.13.56:248][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/12930_WoodenChessNightSideA_diffuse] ([1] browsable assets)...
+[2019.03.15-19.13.56:257][731]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/12930_WoodenChessNightSideA_diffuse.12930_WoodenChessNightSideA_diffuse]
+[2019.03.15-19.13.56:257][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/12930_WoodenChessNightSideA_diffuse]
+[2019.03.15-19.13.56:271][731]LogSavePackage: Save=11.67ms
+[2019.03.15-19.13.56:271][731]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/12930_WoodenChessNightSideA_diffuse_Auto5A6F0092540E93924973BE498EB8917CF.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessNightSideA_diffuse_Auto5.uasset'
+[2019.03.15-19.13.56:274][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Assets/12930_WoodenChessNightSideA_diffuse_Auto5.uasset
+[2019.03.15-19.13.56:274][731]LogFileHelpers: Auto-saving content packages took 0.663
+[2019.03.15-19.20.08:715][127]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.08:788][127]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.08:798][127]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.08:825][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.03.15-19.20.10:671][228]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2019.03.15-19.20.10:671][228]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2019.03.15-19.20.10:671][228]MaterialEditorStats: Info Texture samplers: 1/16
+[2019.03.15-19.20.18:670][604]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.18:670][604]LogEditorTransaction: Undo Replace component used material
+[2019.03.15-19.20.18:706][604]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.18:717][604]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.18:722][604]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.18:737][604]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.18:744][604]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.18:759][604]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.19:558][627]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.19:558][627]LogEditorTransaction: Undo Replace component used material
+[2019.03.15-19.20.19:592][627]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.19:624][627]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.19:633][627]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.19:657][627]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.19:663][627]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.19:694][627]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.20:227][643]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.20:227][643]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-19.20.20:282][643]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.20:307][643]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.20:315][643]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.20:339][643]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.20:344][643]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.20:371][643]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.21:467][674]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.21:468][674]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-19.20.21:506][674]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.21:531][674]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.21:536][674]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.21:558][674]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.21:562][674]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.21:588][674]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:181][691]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.22:181][691]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-19.20.22:209][691]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.22:233][691]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:238][691]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.22:268][691]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:273][691]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.22:296][691]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:863][707]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.22:863][707]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-19.20.22:905][707]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.22:929][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:934][707]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.22:961][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.22:970][707]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.22:997][707]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.23:684][728]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.23:684][728]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-19.20.23:725][728]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.23:750][728]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.23:755][728]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.23:780][728]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.23:785][728]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.23:809][728]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.24:317][744]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.24:317][744]LogEditorTransaction: Undo Edit Auto Generate Collision
+[2019.03.15-19.20.24:400][744]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.24:427][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.24:432][744]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.24:458][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.24:464][744]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.24:491][744]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.25:832][783]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.20.25:833][783]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.20.25:833][783]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.20.26:197][794]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.26:197][794]LogEditorTransaction: Undo Delete Actors
+[2019.03.15-19.20.26:270][794]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.26:295][794]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.26:301][794]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.26:327][794]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.26:333][794]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.26:359][794]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.27:965][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.20.27:966][839]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.20.27:966][839]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.20.28:045][840]Cmd: TRANSACTION UNDO
+[2019.03.15-19.20.28:045][840]LogEditorTransaction: Undo Create Actors
+[2019.03.15-19.20.28:057][840]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.20.28:081][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.28:086][840]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.20.28:117][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.28:122][840]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.20.28:146][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.20.29:796][898]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.20.29:796][898]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.20.29:796][898]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.20.29:900][902]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-19.20.29:940][902]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.15-19.20.29:940][902]LogPlayLevel: [PlayLevel] Compiling Knight before play...
+[2019.03.15-19.20.30:193][902]LogPlayLevel: PlayLevel: Blueprint regeneration took 253 ms (1 blueprints)
+[2019.03.15-19.20.30:194][902]PIE: New page: PIE session: FirstLevel (16-Mar-2019 6:20:30 am)
+[2019.03.15-19.20.30:194][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-19.20.30:208][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013469s)
+[2019.03.15-19.20.30:209][902]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-19.20.30:209][902]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2019.03.15-19.20.30:209][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015314s)
+[2019.03.15-19.20.30:255][902]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-19.20.30:359][902]LogInit: FAudioDevice initialized.
+[2019.03.15-19.20.30:397][902]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.15-19.20.30:405][902]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-00.50.30
+[2019.03.15-19.20.30:406][902]LogWorld: Bringing up level for play took: 0.006621
+[2019.03.15-19.20.30:410][902]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.666
+[2019.03.15-19.20.31:017][931]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.20.31:017][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.20.31:017][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.20.32:208][985]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 23 instructions
+[2019.03.15-19.20.32:208][985]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2019.03.15-19.20.32:208][985]MaterialEditorStats: Info Texture samplers: 1/16
+[2019.03.15-19.20.35:339][172]MapCheck: New page: Map Check
+[2019.03.15-19.20.35:478][172]Cmd: MAP REBUILD ALLVISIBLE
+[2019.03.15-19.20.35:480][172]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.03.15-19.20.35:624][172]LightingResults: New page: Lighting Build - 16-Mar-2019 6:20:35 am
+[2019.03.15-19.20.35:951][172]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.03.15-19.20.36:214][172]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.03.15-19.20.36:415][172]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.03.15-19.20.39:059][172]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2019.03.15-19.20.39:201][172]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2019.03.15-19.20.44:383][172]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.03.15-19.20.44:383][172]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18828
+[2019.03.15-19.20.51:154][172]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.03.15-19.20.51:174][172]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.03.15-19.20.51:174][172]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.03.15-19.20.51:175][172]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.03.15-19.20.51:175][172]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.03.15-19.20.51:175][172]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.03.15-19.20.51:562][172]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.03.15-19.20.51:563][172]MapCheck: New page: FirstLevel - 16-Mar-2019 6:20:51 am
+[2019.03.15-19.20.51:771][172]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 207.858ms to complete.
+[2019.03.15-19.20.51:795][172]LogEditorBuildUtils: Build time 0:16
+[2019.03.15-19.20.54:495][230]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2019.03.15-19.20.55:149][230]Job has failed! Job is closed while Tasks are still PENDING
+[2019.03.15-19.20.55:149][230]DumpUnbuiltLightIteractions
+[2019.03.15-19.20.55:149][230]Lights with unbuilt interactions: 0
+[2019.03.15-19.20.55:149][230]
+[2019.03.15-19.20.55:149][230]Primitives with unbuilt interactions: 0
+[2019.03.15-19.20.55:202][231]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.03.15-19.20.55:202][231]MapCheck: New page: FirstLevel - 16-Mar-2019 6:20:55 am
+[2019.03.15-19.20.55:327][231]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.269ms to complete.
+[2019.03.15-19.21.20:529][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-19.21.23:239][304]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.21.23:266][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.23:312][304]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.21.23:356][304]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.21.23:389][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.23:618][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-19.21.23:804][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-19.21.37:030][304]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.21.37:054][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.37:107][304]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.21.37:152][304]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-19.21.37:176][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.38:914][304]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.21.38:956][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.39:019][304]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.21.39:068][304]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.21.39:106][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.40:706][304]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_21' or package '/Engine/Transient'.
+[2019.03.15-19.21.40:708][304]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_32' or package '/Engine/Transient'.
+[2019.03.15-19.21.41:492][304]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.21.41:546][304]LogMaterial:Warning: Failed to compile Material /Game/Assets/12930_WoodenChessNightSideA.12930_WoodenChessNightSideA for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.21.41:546][304]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2019.03.15-19.21.41:546][304]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2019.03.15-19.21.41:814][304]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_0' or package '/Engine/Transient'.
+[2019.03.15-19.21.41:819][304]LogMaterial: Missing cached shader map for material 12930_WoodenChessNightSideA, compiling. 
+[2019.03.15-19.21.41:820][304]LogMaterial:Warning: Failed to compile Material /Engine/Transient.12930_WoodenChessNightSideA for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.15-19.21.41:820][304]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2019.03.15-19.21.41:820][304]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object '12930_WoodenChessNightSideA' or package '/Engine/Transient'.
+[2019.03.15-19.21.45:183][404]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.21.45:283][404]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-19.21.45:296][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-19.21.45:324][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.15-19.21.46:697][442]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-19.21.46:697][442]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-19.21.46:697][442]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-19.22.05:167][243]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Knight_C_1' or package '/Engine/Transient'.
+[2019.03.15-19.22.05:167][243]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Knight_C_0' or package '/Engine/Transient'.
+[2019.03.15-19.22.05:167][243]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Knight_C_216' or package '/Engine/Transient'.
+[2019.03.15-19.22.05:167][243]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Knight_C_215' or package '/Engine/Transient'.
+[2019.03.15-19.22.09:886][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.15-19.22.10:007][481]LogSavePackage: Save=89.77ms
+[2019.03.15-19.22.10:007][481]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel1DE3E1C0403E30F92EA1AB83706B6A30.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.15-19.22.10:012][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.15-19.22.19:649][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Black_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Black_Piece.uasset" SILENT=true
+[2019.03.15-19.22.19:674][869]LogSavePackage: Save=11.46ms
+[2019.03.15-19.22.19:674][869]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Black_Piece76F89E914977C6D7E61C0DA89A07869C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Black_Piece.uasset'
+[2019.03.15-19.22.19:680][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Black_Piece.uasset
+[2019.03.15-19.22.19:721][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/White_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/White_Piece.uasset" SILENT=true
+[2019.03.15-19.22.19:745][869]LogSavePackage: Save=12.34ms
+[2019.03.15-19.22.19:745][869]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/White_Piece65525B6A457C2CC48F68F9B84C86257F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/White_Piece.uasset'
+[2019.03.15-19.22.19:750][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/White_Piece.uasset
+[2019.03.15-19.22.19:756][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2019.03.15-19.22.19:762][869]LogSavePackage: Save=1.79ms
+[2019.03.15-19.22.19:762][869]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/NewBlueprint8E6E1AD944B8024223770A83971E0BBA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/NewBlueprint.uasset'
+[2019.03.15-19.22.19:766][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/NewBlueprint.uasset
+[2019.03.15-19.22.19:835][869]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.15-19.22.20:080][870]Cmd: QUIT_EDITOR
+[2019.03.15-19.22.21:158][870]LogExit: Preparing to exit.
+[2019.03.15-19.22.22:001][870]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.03.15-19.22.22:090][870]LogExit: Editor shut down
+[2019.03.15-19.22.22:090][870]LogExit: Transaction tracking system shut down
+[2019.03.15-19.22.22:270][870]LogObj: Freed 0b from 0 cluster array pools.
+[2019.03.15-19.22.22:271][870]LogExit: Object subsystem successfully closed.
+[2019.03.15-19.22.22:298][870]LogD3D11RHI: Shutdown
+[2019.03.15-19.22.22:298][870]LogD3D11RHI: CleanupD3DDevice
+[2019.03.15-19.22.22:495][870]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.15-19.22.22:542][870]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.15-19.22.22:542][870]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5644734C-4783-8B45-9303-FB8F20EFCA1E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (248)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module TextureEditor (247)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (246)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module BlueprintGraph (244)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (243)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (242)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2019.03.15-19.22.22:569][870]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2019.03.15-19.22.22:569][870]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2019.03.15-19.22.22:575][870]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2019.03.15-19.22.22:575][870]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2019.03.15-19.22.22:575][870]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2019.03.15-19.22.22:576][870]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' was aborted.
+[2019.03.15-19.22.22:576][870]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' was aborted.
+[2019.03.15-19.22.22:576][870]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' was aborted.
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module Media (215)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2019.03.15-19.22.22:576][870]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2019.03.15-19.22.22:577][870]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2019.03.15-19.22.23:281][870]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2019.03.15-19.22.23:282][870]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2019.03.15-19.22.23:337][870]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2019.03.15-19.22.23:343][870]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2019.03.15-19.22.23:343][870]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2019.03.15-19.22.23:345][870]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2019.03.15-19.22.23:346][870]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2019.03.15-19.22.23:570][870]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2019.03.15-19.22.23:571][870]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2019.03.15-19.22.23:572][870]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2019.03.15-19.22.23:572][870]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2019.03.15-19.22.23:574][870]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2019.03.15-19.22.23:575][870]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2019.03.15-19.22.23:575][870]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2019.03.15-19.22.23:677][870]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2019.03.15-19.22.23:778][870]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2019.03.15-19.22.23:778][870]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2019.03.15-19.22.23:778][870]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2019.03.15-19.22.23:778][870]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2019.03.15-19.22.23:781][870]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2019.03.15-19.22.23:782][870]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2019.03.15-19.22.23:782][870]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2019.03.15-19.22.23:782][870]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2019.03.15-19.22.23:782][870]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2019.03.15-19.22.23:782][870]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module Core (75)
+[2019.03.15-19.22.23:786][870]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2019.03.15-19.22.23:786][870]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.03.15-19.22.23:787][870]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.03.15-19.22.23:788][870]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.03.15-19.22.23:792][870]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2019.03.15-19.22.23:937][870]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2019.03.15-19.22.23:938][870]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2019.03.15-19.22.23:938][870]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2019.03.15-19.22.23:966][870]LogDerivedDataCache: Shutdown
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2019.03.15-19.22.23:966][870]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2019.03.15-19.22.23:967][870]LogOnline:Display: Unloading online subsystem: NULL
+[2019.03.15-19.22.23:967][870]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2019.03.15-19.22.23:969][870]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.03.15-19.22.23:983][870]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.03.15-19.22.23:986][870]LogExit: Exiting.
+[2019.03.15-19.22.23:999][870]Log file closed, 03/16/19 00:52:23
