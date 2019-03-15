@@ -1,0 +1,1210 @@
+﻿Log file open, 03/15/19 22:40:39
+LogInit:Display: Running engine for game: Chess
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1727081227) SRandInit(-1727081227).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.115306
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.15-17.10.39:734][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-17.10.39:734][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-17.10.39:745][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.03.15-17.10.39:745][  0]LogInit: User: RohitPanjwani
+[2019.03.15-17.10.39:745][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.03.15-17.10.39:745][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2019.03.15-17.10.39:745][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-17.10.39:745][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-17.10.39:745][  0]LogMemory: Process Physical Memory: 264.13 MB used, 264.13 MB peak
+[2019.03.15-17.10.39:745][  0]LogMemory: Process Virtual Memory: 262.79 MB used, 262.79 MB peak
+[2019.03.15-17.10.39:745][  0]LogMemory: Physical Memory: 10817.93 MB used,  5464.59 MB free, 16282.52 MB total
+[2019.03.15-17.10.39:745][  0]LogMemory: Virtual Memory: 4812.35 MB used,  5464.59 MB free, 134217728.00 MB total
+[2019.03.15-17.10.40:662][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.03.15-17.10.41:611][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-17.10.41:735][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.15-17.10.41:735][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.15-17.10.41:745][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.15-17.10.41:745][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.15-17.10.41:749][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-17.10.41:749][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-17.10.41:749][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-17.10.41:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-17.10.41:786][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-17.10.41:786][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-17.10.41:786][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.15-17.10.41:786][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-17.10.41:787][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-17.10.41:787][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.15-17.10.41:787][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.15-17.10.41:787][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.15-17.10.41:787][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.15-17.10.41:787][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.03.15-17.10.41:832][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-17.10.41:850][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.15-17.10.41:851][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/30100/).
+[2019.03.15-17.10.41:852][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/5E3970CC4D7FE907910BA99F7FB7B872/'.
+[2019.03.15-17.10.41:852][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.03.15-17.10.43:753][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-17.10.43:878][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-17.10.43:996][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-17.10.44:113][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-17.10.44:217][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.03.15-17.10.44:320][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-17.10.44:426][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-17.10.44:530][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-17.10.44:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-17.10.44:732][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-17.10.44:838][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.15-17.10.44:941][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.15-17.10.45:049][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.15-17.10.45:149][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.15-17.10.45:257][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.15-17.10.45:487][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.15-17.10.45:487][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.15-17.10.45:576][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-17.10.45:760][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.03.15-17.10.45:820][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-17.10.45:924][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-17.10.46:041][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-17.10.46:143][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-17.10.46:269][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-17.10.46:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.03.15-17.10.47:158][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.03.15-17.10.47:285][  0]LogDerivedDataCache: Loaded boot cache 0.13s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-17.10.47:286][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.03.15-17.10.47:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-17.10.47:286][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-17.10.47:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-17.10.47:286][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-17.10.47:302][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-17.10.47:316][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-17.10.47:568][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-17.10.47:572][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.03.15-17.10.47:946][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-17.10.48:043][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-17.10.48:143][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-17.10.48:143][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.03.15-17.10.48:143][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.03.15-17.10.48:800][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.03.15-17.10.48:881][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2019.03.15-17.10.48:985][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.048063 seconds
+[2019.03.15-17.10.48:992][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.03.15-17.10.48:992][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.03.15-17.10.48:992][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-17.10.49:155][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.03.15-17.10.50:789][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.15-17.10.50:790][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-17.10.50:790][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-17.10.52:039][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-17.10.52:111][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-17.10.52:707][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.03.15-17.10.53:527][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.10.53:716][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.10.53:838][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.10.53:946][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.10.57:004][  0]LogEngine: Initializing Engine...
+[2019.03.15-17.10.57:006][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-17.10.57:571][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-17.10.57:595][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-17.10.57:719][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-17.10.57:768][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-17.10.57:779][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-17.10.58:400][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-17.10.59:493][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-17.11.02:972][  0]LocalizationService: Info Localization service is disabled
+[2019.03.15-17.11.05:130][  0]LogConsoleResponse:Display: 
+[2019.03.15-17.11.05:479][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-17.11.05:479][  0]LogCook:Display: Mobile HDR setting 1
+[2019.03.15-17.11.06:032][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.01s
+[2019.03.15-17.11.08:709][  0]SourceControl: Info Source control is disabled
+[2019.03.15-17.11.08:709][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-17.11.08:711][  0]LightingResults: New page: Lighting Build
+[2019.03.15-17.11.08:873][  0]MapCheck: New page: Map Check
+[2019.03.15-17.11.08:873][  0]LightingResults: New page: Lighting Build
+[2019.03.15-17.11.09:228][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.15-17.11.09:229][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.03.15-17.11.09:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-17.11.09:241][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-17.11.09:358][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.324ms to complete.
+[2019.03.15-17.11.09:358][  0]LogFileHelpers: Loading map 'Template_Default' took 0.648
+[2019.03.15-17.11.09:607][  0]LogCollectionManager: Loaded 0 collections in 0.003667 seconds
+[2019.03.15-17.11.09:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.03.15-17.11.09:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.03.15-17.11.09:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.03.15-17.11.09:755][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.03.15-17.11.09:770][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2190 classes and 428 folders.
+[2019.03.15-17.11.09:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-17.11.09:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-17.11.09:889][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2019.03.15-17.11.10:171][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.03.15-17.11.10:330][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2019.03.15-17.11.10:481][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.03.15-17.11.10:604][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.03.15-17.11.10:613][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.03.15-17.11.10:762][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2019.03.15-17.11.10:763][  0]LogLoad: (Engine Initialization) Total time: 33.93 seconds
+[2019.03.15-17.11.10:763][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2019.03.15-17.11.10:763][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.03.15-17.11.10:782][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.15-17.11.10:784][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-17.11.10:806][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.03.15-17.11.11:027][  0]LogRenderer: Reallocating scene render targets to support 904x448 NumSamples 1 (Frame:2).
+[2019.03.15-17.11.11:197][  2]LogAssetRegistry: Asset discovery search completed in 22.3389 seconds
+[2019.03.15-17.11.11:197][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.15-17.11.11:197][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2019.03.15-17.11.19:715][429]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2019.03.15-17.11.21:142][429]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.11.21:240][429]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.11.21:256][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.11.21:284][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.15-17.11.21:330][429]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.11.21:514][429]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.11.21:544][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.11.21:580][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.15-17.11.24:120][429]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.11.24:120][429]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.11.24:120][429]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.11.25:672][480]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.11.25:672][480]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.11.25:672][480]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.11.36:660][ 48]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-17.11.36:730][ 48]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-17.11.36:730][ 48]LightingResults: New page: Lighting Build
+[2019.03.15-17.11.36:731][ 48]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.03.15-17.11.36:732][ 48]MapCheck: New page: Map Check
+[2019.03.15-17.11.36:732][ 48]LightingResults: New page: Lighting Build
+[2019.03.15-17.11.36:845][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-17.11.36:868][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-17.11.36:974][ 48]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.869ms to complete.
+[2019.03.15-17.11.36:975][ 48]LogFileHelpers: Loading map 'FirstLevel' took 0.246
+[2019.03.15-17.11.40:962][280]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece68)
+[2019.03.15-17.11.42:370][362]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece64)
+[2019.03.15-17.11.43:754][436]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece49)
+[2019.03.15-17.11.47:133][635]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece45)
+[2019.03.15-17.11.54:400][ 51]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.11.55:744][128]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
+[2019.03.15-17.11.57:041][204]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece45)
+[2019.03.15-17.11.57:696][241]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.11.58:325][276]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece68)
+[2019.03.15-17.11.59:182][326]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece45)
+[2019.03.15-17.12.51:442][695]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece45)
+[2019.03.15-17.12.56:037][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.57:030][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.57:731][ 65]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.58:369][101]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.58:588][114]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.58:856][130]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.59:096][144]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.12.59:598][174]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.00:075][202]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.00:075][202]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.00:084][202]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.00:099][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.00:109][202]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.00:133][202]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.01:327][257]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.01:327][257]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2019.03.15-17.13.01:334][257]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.01:364][257]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.01:370][257]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.01:399][257]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.02:661][326]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece45)
+[2019.03.15-17.13.03:203][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.03:387][363]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.03:387][363]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.03:387][363]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.03:684][379]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.03:765][382]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.04:240][407]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.04:240][407]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2019.03.15-17.13.04:247][407]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.04:277][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.04:283][407]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.04:311][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.04:808][435]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.04:808][435]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.04:816][435]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.04:848][435]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.04:854][435]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.04:882][435]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.05:741][481]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.05:741][481]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.05:748][481]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.05:780][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.05:787][481]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.05:820][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.06:858][538]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.06:858][538]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.06:865][538]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.06:894][538]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.06:900][538]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.06:929][538]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.07:662][576]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.07:662][576]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.07:670][576]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.07:701][576]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.07:705][576]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.07:734][576]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.10:505][728]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.10:505][728]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.10:505][728]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.12:288][811]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.12:288][811]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.12:288][811]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.12:571][825]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.15-17.13.13:202][855]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.13:984][897]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.13:984][897]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.13:999][897]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.14:014][897]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.14:017][897]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.14:037][897]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.15:138][945]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.16:067][994]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.16:067][994]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.16:067][994]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.16:485][ 18]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.16:485][ 18]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.16:511][ 18]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.16:542][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.16:549][ 18]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.16:575][ 18]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.16:938][ 33]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.16:938][ 33]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.16:968][ 33]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.16:998][ 33]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.17:003][ 33]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.17:033][ 33]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.17:427][ 54]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.17:427][ 54]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2019.03.15-17.13.17:434][ 54]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.17:463][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.17:469][ 54]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.17:496][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:018][ 79]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.18:018][ 79]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.18:024][ 79]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.18:052][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:058][ 79]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.18:086][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:553][104]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.18:554][104]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-17.13.18:561][104]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.18:593][104]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:600][104]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.18:631][104]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:784][107]Cmd: TRANSACTION UNDO
+[2019.03.15-17.13.18:784][107]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.13.18:792][107]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.13.18:821][107]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.18:825][107]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.13.18:856][107]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.13.19:887][163]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece44)
+[2019.03.15-17.13.22:357][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.22:357][245]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.22:357][245]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.22:663][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.13.22:663][261]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.13.22:663][261]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.13.23:387][304]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.26:560][491]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece39)
+[2019.03.15-17.13.27:217][528]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.27:917][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.13.31:809][790]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.15-17.13.32:851][849]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece80)
+[2019.03.15-17.13.35:820][ 24]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece71)
+[2019.03.15-17.13.36:690][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece68)
+[2019.03.15-17.13.39:078][214]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.15-17.13.39:988][266]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.15-17.13.40:904][319]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece80)
+[2019.03.15-17.13.41:467][351]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece71)
+[2019.03.15-17.13.42:269][396]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece68)
+[2019.03.15-17.13.43:151][447]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece79)
+[2019.03.15-17.13.43:849][487]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece72)
+[2019.03.15-17.13.48:270][746]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece77)
+[2019.03.15-17.13.49:576][823]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece67)
+[2019.03.15-17.13.50:446][870]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece82)
+[2019.03.15-17.13.51:152][907]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece73)
+[2019.03.15-17.13.51:773][941]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece70)
+[2019.03.15-17.13.54:686][110]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece78)
+[2019.03.15-17.13.55:653][164]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece81)
+[2019.03.15-17.13.56:272][199]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece74)
+[2019.03.15-17.13.56:885][234]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece69)
+[2019.03.15-17.14.00:430][432]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece43)
+[2019.03.15-17.14.02:711][563]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece44)
+[2019.03.15-17.14.04:456][659]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece40)
+[2019.03.15-17.14.05:220][702]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece40)
+[2019.03.15-17.14.07:461][832]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece53)
+[2019.03.15-17.14.08:199][873]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece64)
+[2019.03.15-17.14.08:973][915]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece45)
+[2019.03.15-17.14.09:675][955]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece39)
+[2019.03.15-17.14.10:526][  4]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece54)
+[2019.03.15-17.14.12:824][137]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece46)
+[2019.03.15-17.14.14:268][221]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece52)
+[2019.03.15-17.14.15:254][276]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece63)
+[2019.03.15-17.14.18:206][447]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece57)
+[2019.03.15-17.14.20:220][563]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece66)
+[2019.03.15-17.14.21:313][627]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece51)
+[2019.03.15-17.14.22:221][680]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece65)
+[2019.03.15-17.14.23:782][772]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece58)
+[2019.03.15-17.14.32:879][309]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece56)
+[2019.03.15-17.14.33:698][356]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece61)
+[2019.03.15-17.14.35:265][448]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.35:265][448]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.35:285][448]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.35:295][448]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.35:298][448]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.35:309][448]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.35:819][463]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.35:819][463]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.35:879][463]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.35:909][463]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.35:915][463]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.35:945][463]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.36:590][489]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.36:591][489]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.36:611][489]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.36:637][489]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.36:646][489]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.36:673][489]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.37:149][507]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.37:149][507]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.37:185][507]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.37:213][507]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.37:218][507]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.37:250][507]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.37:738][529]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.37:738][529]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.37:774][529]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.37:804][529]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.37:809][529]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.37:842][529]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.38:480][556]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.38:480][556]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.38:500][556]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.38:529][556]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.38:538][556]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.38:567][556]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.39:127][582]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.39:127][582]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.39:156][582]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.39:183][582]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.39:189][582]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.39:216][582]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.40:921][647]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.14.40:921][647]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.14.40:921][647]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.14.42:188][697]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.14.42:188][697]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.14.42:188][697]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.14.44:384][825]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.14.48:181][ 50]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.48:181][ 50]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.48:190][ 50]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.48:202][ 50]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.48:204][ 50]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.48:220][ 50]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.48:614][ 62]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.48:614][ 62]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.48:653][ 62]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.48:679][ 62]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.48:684][ 62]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.48:711][ 62]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.49:075][ 81]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.49:076][ 81]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.49:096][ 81]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.49:123][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.49:129][ 81]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.49:158][ 81]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.49:554][100]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.49:554][100]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.49:598][100]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.49:628][100]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.49:636][100]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.49:666][100]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.49:935][113]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.49:935][113]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.49:972][113]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.50:001][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.50:007][113]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.50:042][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.50:424][135]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.50:424][135]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.50:461][135]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.50:488][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.50:494][135]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.50:520][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.50:930][156]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.50:930][156]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.50:950][156]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.50:980][156]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.50:986][156]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.51:016][156]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.51:500][183]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.51:500][183]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.51:541][183]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.51:561][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.51:567][183]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.51:590][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.52:100][209]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.52:100][209]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.52:121][209]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.52:148][209]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.52:152][209]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.52:178][209]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.52:683][236]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.52:683][236]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.52:718][236]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.52:746][236]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.52:754][236]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.52:783][236]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.53:170][256]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.53:170][256]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.53:208][256]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.53:240][256]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.53:246][256]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.53:270][256]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.53:643][277]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.53:643][277]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.53:676][277]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.53:707][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.53:712][277]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.53:741][277]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:087][295]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.54:087][295]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.54:107][295]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.54:137][295]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:142][295]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.54:163][295]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:467][311]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.54:467][311]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.54:487][311]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.54:517][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:522][311]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.54:549][311]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:883][329]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.54:883][329]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.54:904][329]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.54:933][329]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.54:937][329]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.54:965][329]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.55:297][347]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.55:297][347]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.55:342][347]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.55:369][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.55:375][347]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.55:402][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.55:682][361]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.55:682][361]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.55:726][361]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.55:756][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.55:761][361]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.55:790][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.56:189][381]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.56:189][381]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.56:239][381]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.56:266][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.56:271][381]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.56:298][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.56:675][401]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.56:675][401]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.56:692][401]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.56:721][401]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.56:727][401]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.56:752][401]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.57:127][419]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.57:127][419]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.14.57:145][419]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.57:175][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.57:180][419]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.57:202][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.57:621][442]Cmd: TRANSACTION UNDO
+[2019.03.15-17.14.57:621][442]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.14.57:644][442]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.14.57:665][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.57:670][442]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.14.57:694][442]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.14.59:610][547]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.14.59:610][547]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.14.59:610][547]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.01:315][638]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.01:315][638]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.01:315][638]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.04:516][824]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece52)
+[2019.03.15-17.15.05:851][902]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece51)
+[2019.03.15-17.15.06:610][945]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece39)
+[2019.03.15-17.15.07:655][  4]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece40)
+[2019.03.15-17.15.08:683][ 62]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece46)
+[2019.03.15-17.15.09:481][107]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece45)
+[2019.03.15-17.15.10:851][186]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece65)
+[2019.03.15-17.15.11:719][236]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece66)
+[2019.03.15-17.15.12:321][270]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece63)
+[2019.03.15-17.15.12:863][299]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece64)
+[2019.03.15-17.15.15:385][444]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.15:385][444]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.15.15:406][444]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.15:429][444]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.15:432][444]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.15:448][444]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.16:608][489]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece58)
+[2019.03.15-17.15.17:515][536]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece57)
+[2019.03.15-17.15.17:643][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.17:643][538]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.17:643][538]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.18:417][579]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece54)
+[2019.03.15-17.15.19:089][610]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece53)
+[2019.03.15-17.15.19:303][619]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.19:303][619]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.19:303][619]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.30:335][271]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece56)
+[2019.03.15-17.15.31:266][325]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece61)
+[2019.03.15-17.15.32:089][371]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece48)
+[2019.03.15-17.15.32:853][415]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece37)
+[2019.03.15-17.15.33:752][467]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece55)
+[2019.03.15-17.15.35:109][543]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece62)
+[2019.03.15-17.15.36:005][593]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.36:005][593]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.15.36:034][593]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.36:048][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.36:051][593]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.36:065][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.36:557][606]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.36:557][606]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.15.36:602][606]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.36:629][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.36:634][606]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.36:662][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.37:332][641]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.37:332][641]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.15.37:356][641]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.37:387][641]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.37:393][641]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.37:424][641]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.38:446][693]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece55)
+[2019.03.15-17.15.39:268][734]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece62)
+[2019.03.15-17.15.39:386][737]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.39:386][737]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.39:386][737]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.40:042][773]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece47)
+[2019.03.15-17.15.40:706][804]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece38)
+[2019.03.15-17.15.41:099][823]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.41:099][823]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.41:099][823]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.41:569][850]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece35)
+[2019.03.15-17.15.43:476][962]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.43:476][962]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.15.43:487][962]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.43:501][962]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.43:504][962]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.43:519][962]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.45:462][ 53]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.45:462][ 53]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.45:462][ 53]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.47:098][132]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.47:098][132]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.47:098][132]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.47:631][162]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece49)
+[2019.03.15-17.15.48:523][212]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece60)
+[2019.03.15-17.15.49:153][248]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece41)
+[2019.03.15-17.15.49:882][290]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece36)
+[2019.03.15-17.15.52:022][416]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece50)
+[2019.03.15-17.15.53:492][501]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece59)
+[2019.03.15-17.15.54:471][558]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece42)
+[2019.03.15-17.15.55:253][601]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece35)
+[2019.03.15-17.15.56:654][681]Cmd: TRANSACTION UNDO
+[2019.03.15-17.15.56:654][681]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.15.56:685][681]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.15.56:698][681]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.56:702][681]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.15.56:723][681]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.15.58:883][778]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.15.58:883][778]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.15.58:883][778]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.15.59:106][789]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece35)
+[2019.03.15-17.16.00:580][866]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.16.00:580][866]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.16.00:580][866]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.16.17:894][897]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece45)
+[2019.03.15-17.16.23:259][207]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.16.26:796][413]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece44)
+[2019.03.15-17.16.29:023][522]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.29:023][522]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.16.29:078][522]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.29:099][522]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.29:103][522]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.29:123][522]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.30:095][556]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-17.16.31:569][610]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.16.31:569][610]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.16.31:569][610]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.16.32:860][659]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.16.32:860][659]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.16.32:860][659]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.16.38:684][  7]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.38:684][  7]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-17.16.38:694][  7]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.38:706][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.38:709][  7]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.38:725][  7]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.39:299][ 20]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.39:299][ 20]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.39:326][ 20]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.39:355][ 20]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.39:363][ 20]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.39:388][ 20]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.40:651][ 84]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.40:651][ 84]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.40:677][ 84]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.40:703][ 84]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.40:707][ 84]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.40:739][ 84]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.41:831][135]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.41:831][135]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.03.15-17.16.41:899][135]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.41:925][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.41:930][135]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.41:953][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.43:313][204]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.43:313][204]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.15-17.16.43:328][204]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.43:356][204]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.43:361][204]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.43:391][204]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.44:157][238]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.44:157][238]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.44:176][238]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.44:209][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.44:214][238]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.44:244][238]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.45:477][291]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.45:477][291]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.45:500][291]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.45:525][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.45:529][291]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.45:556][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.47:461][390]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.16.47:461][390]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.16.47:461][390]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.16.48:786][445]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.16.48:786][445]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.16.48:786][445]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.16.54:893][802]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece42)
+[2019.03.15-17.16.55:597][842]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece35)
+[2019.03.15-17.16.56:610][900]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.56:610][900]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.16.56:636][900]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.56:648][900]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.56:650][900]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.56:663][900]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.57:136][912]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.57:136][912]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.57:171][912]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.57:203][912]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.57:208][912]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.57:237][912]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.57:675][934]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.57:675][934]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.16.57:734][934]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.57:764][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.57:769][934]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.57:798][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.58:187][953]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.58:188][953]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.58:211][953]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.58:243][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.58:250][953]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.58:283][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.58:877][985]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.58:877][985]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.58:899][985]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.58:924][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.58:929][985]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.58:954][985]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.59:404][ 10]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.59:404][ 10]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.59:421][ 10]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.59:445][ 10]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.59:450][ 10]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.59:474][ 10]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.59:874][ 31]Cmd: TRANSACTION UNDO
+[2019.03.15-17.16.59:874][ 31]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.16.59:896][ 31]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.16.59:929][ 31]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.16.59:935][ 31]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.16.59:964][ 31]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.00:193][ 41]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.00:193][ 41]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.00:215][ 41]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.00:249][ 41]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.00:256][ 41]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.00:286][ 41]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.00:611][ 58]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.00:611][ 58]LogEditorTransaction: Undo Move Actors
+[2019.03.15-17.17.00:681][ 58]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.00:716][ 58]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.00:722][ 58]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.00:754][ 58]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.01:182][ 76]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.01:182][ 76]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.01:202][ 76]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.01:234][ 76]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.01:240][ 76]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.01:272][ 76]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.01:725][ 98]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.01:725][ 98]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.01:745][ 98]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.01:776][ 98]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.01:782][ 98]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.01:813][ 98]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.02:014][108]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.02:014][108]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.02:036][108]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.02:068][108]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.02:074][108]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.02:106][108]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.02:453][126]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.02:453][126]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.02:478][126]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.02:509][126]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.02:516][126]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.02:546][126]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.02:989][150]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.02:989][150]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.03:015][150]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.03:051][150]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.03:057][150]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.03:091][150]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.03:429][167]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.03:429][167]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.03:451][167]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.03:483][167]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.03:489][167]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.03:520][167]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.03:830][183]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.03:830][183]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.03:851][183]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.03:880][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.03:886][183]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.03:916][183]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.04:214][196]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.04:214][196]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.04:234][196]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.04:263][196]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.04:268][196]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.04:297][196]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.04:654][214]Cmd: TRANSACTION UNDO
+[2019.03.15-17.17.04:654][214]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.15-17.17.04:677][214]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.15-17.17.04:701][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.04:707][214]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.15-17.17.04:734][214]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.15-17.17.07:409][360]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.17.07:409][360]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.17.07:409][360]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.17.09:132][449]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.15-17.17.09:132][449]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.15-17.17.09:132][449]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.15-17.17.55:219][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-17.17.55:272][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-17.17.55:322][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.15-17.17.55:570][673]Cmd: QUIT_EDITOR
+[2019.03.15-17.17.55:609][673]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.15-17.17.55:637][673]LogExit: Preparing to exit.
+[2019.03.15-17.17.56:440][673]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.03.15-17.17.56:476][673]LogExit: Editor shut down
+[2019.03.15-17.17.56:476][673]LogExit: Transaction tracking system shut down
+[2019.03.15-17.17.56:573][673]LogObj: Freed 0b from 0 cluster array pools.
+[2019.03.15-17.17.56:573][673]LogExit: Object subsystem successfully closed.
+[2019.03.15-17.17.56:592][673]LogD3D11RHI: Shutdown
+[2019.03.15-17.17.56:592][673]LogD3D11RHI: CleanupD3DDevice
+[2019.03.15-17.17.56:691][673]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.15-17.17.56:733][673]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.15-17.17.56:733][673]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B23676834-4946-B919-31B0-0895A619F94B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module MaterialEditor (244)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2019.03.15-17.17.56:754][673]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2019.03.15-17.17.56:754][673]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2019.03.15-17.17.56:756][673]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' was aborted.
+[2019.03.15-17.17.56:756][673]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' was aborted.
+[2019.03.15-17.17.56:756][673]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' was aborted.
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2019.03.15-17.17.56:756][673]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module Media (215)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2019.03.15-17.17.56:757][673]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2019.03.15-17.17.57:204][673]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2019.03.15-17.17.57:205][673]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2019.03.15-17.17.57:260][673]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2019.03.15-17.17.57:264][673]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2019.03.15-17.17.57:265][673]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2019.03.15-17.17.57:265][673]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2019.03.15-17.17.57:265][673]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2019.03.15-17.17.57:459][673]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2019.03.15-17.17.57:460][673]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2019.03.15-17.17.57:461][673]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2019.03.15-17.17.57:461][673]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2019.03.15-17.17.57:462][673]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2019.03.15-17.17.57:462][673]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2019.03.15-17.17.57:564][673]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2019.03.15-17.17.57:664][673]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2019.03.15-17.17.57:664][673]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2019.03.15-17.17.57:664][673]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2019.03.15-17.17.57:664][673]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2019.03.15-17.17.57:667][673]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module Core (75)
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2019.03.15-17.17.57:671][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.03.15-17.17.57:671][673]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.03.15-17.17.57:671][673]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.03.15-17.17.57:671][673]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2019.03.15-17.17.57:785][673]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2019.03.15-17.17.57:823][673]LogDerivedDataCache: Shutdown
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2019.03.15-17.17.57:823][673]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2019.03.15-17.17.57:824][673]LogOnline:Display: Unloading online subsystem: NULL
+[2019.03.15-17.17.57:824][673]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2019.03.15-17.17.57:826][673]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2019.03.15-17.17.57:827][673]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2019.03.15-17.17.57:827][673]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.03.15-17.17.57:828][673]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.03.15-17.17.57:830][673]LogExit: Exiting.
+[2019.03.15-17.17.57:831][673]Log file closed, 03/15/19 22:47:57
