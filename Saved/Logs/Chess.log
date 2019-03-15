@@ -1780,3 +1780,12 @@ LogInit: Object subsystem initialized
 [2019.03.15-09.02.50:879][921]LogHttp:Warning: 00000263FEE21000: request failed, libcurl error: 6 (Couldn't resolve host name)
 [2019.03.15-09.02.50:879][921]LogHttp:Warning: 00000263FEE21000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2019.03.15-09.02.50:879][921]LogHttp:Warning: 00000263FEE21000: libcurl info message cache 1 (Closing connection 49)
+[2019.03.15-10.49.15:283][471]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.15-10.49.15:306][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.15-10.49.15:307][471]PIE: New page: PIE session: FirstLevel (15-Mar-2019 9:49:15 pm)
+[2019.03.15-10.49.15:326][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.15-10.49.15:368][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041297s)
+[2019.03.15-10.49.15:373][471]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.15-10.49.15:375][471]LogPlayLevel: PIE: World Init took: (0.006978s)
+[2019.03.15-10.49.15:377][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.050792s)
+[2019.03.15-10.49.15:491][471]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
