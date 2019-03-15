@@ -1,0 +1,342 @@
+﻿Log file open, 03/15/19 13:07:11
+LogInit:Display: Running engine for game: Chess
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1368391693) SRandInit(1368391693).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.167764
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal  -epicusername="rohitp21" -epicuserid=4d184b3c1962427fad7cc0b2904a4a9d -epiclocale=en-US
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.15-07.37.11:873][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-07.37.11:873][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-07.37.11:890][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.03.15-07.37.11:890][  0]LogInit: User: RohitPanjwani
+[2019.03.15-07.37.11:890][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.03.15-07.37.11:891][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2019.03.15-07.37.11:891][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-07.37.11:891][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-07.37.11:891][  0]LogMemory: Process Physical Memory: 264.71 MB used, 264.71 MB peak
+[2019.03.15-07.37.11:891][  0]LogMemory: Process Virtual Memory: 262.64 MB used, 262.64 MB peak
+[2019.03.15-07.37.11:891][  0]LogMemory: Physical Memory: 9669.61 MB used,  6612.91 MB free, 16282.52 MB total
+[2019.03.15-07.37.11:891][  0]LogMemory: Virtual Memory: 4812.35 MB used,  6612.91 MB free, 134217728.00 MB total
+[2019.03.15-07.37.13:218][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.03.15-07.37.14:820][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-07.37.14:899][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.15-07.37.14:899][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.15-07.37.14:914][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.15-07.37.14:915][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.15-07.37.14:920][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-07.37.14:920][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-07.37.14:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-07.37.14:984][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-07.37.14:984][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-07.37.14:984][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-07.37.14:985][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.15-07.37.14:985][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-07.37.14:986][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.15-07.37.14:986][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.15-07.37.14:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.15-07.37.14:986][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.15-07.37.14:986][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.15-07.37.14:986][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.03.15-07.37.15:063][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.15-07.37.15:086][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.15-07.37.15:089][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/13752/).
+[2019.03.15-07.37.15:089][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/E180280848FDE03DF780CE8246669CA7/'.
+[2019.03.15-07.37.15:089][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.03.15-07.37.18:520][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.15-07.37.18:702][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.03.15-07.37.18:886][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.15-07.37.19:047][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.03.15-07.37.19:215][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.03.15-07.37.19:374][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.15-07.37.19:538][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.15-07.37.19:717][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.15-07.37.19:855][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.03.15-07.37.20:003][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.03.15-07.37.20:157][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.15-07.37.20:322][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.15-07.37.20:453][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.15-07.37.20:598][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.15-07.37.20:764][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.15-07.37.21:065][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.15-07.37.21:065][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.15-07.37.21:189][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.03.15-07.37.21:418][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.03.15-07.37.21:513][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.03.15-07.37.21:665][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.15-07.37.21:825][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.15-07.37.21:970][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.15-07.37.22:129][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.03.15-07.37.22:129][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.03.15-07.37.23:349][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.03.15-07.37.23:492][  0]LogDerivedDataCache: Loaded boot cache 0.14s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-07.37.23:492][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.03.15-07.37.23:492][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.15-07.37.23:492][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.15-07.37.23:493][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.15-07.37.23:493][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.15-07.37.23:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.15-07.37.23:529][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.15-07.37.23:885][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-07.37.23:891][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.03.15-07.37.24:345][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.15-07.37.24:479][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.15-07.37.24:609][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.15-07.37.24:609][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.03.15-07.37.24:609][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.03.15-07.37.25:451][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.03.15-07.37.25:566][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2019.03.15-07.37.25:689][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.050419 seconds
+[2019.03.15-07.37.25:699][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.03.15-07.37.25:699][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.03.15-07.37.25:699][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.15-07.37.25:932][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.03.15-07.37.28:499][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.15-07.37.28:500][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-07.37.28:500][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.15-07.37.30:320][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.15-07.37.30:434][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.15-07.37.31:190][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.03.15-07.37.32:284][  0]SourceControl: Info Source control is disabled
+[2019.03.15-07.37.32:428][  0]SourceControl: Info Source control is disabled
+[2019.03.15-07.37.32:588][  0]SourceControl: Info Source control is disabled
+[2019.03.15-07.37.32:729][  0]SourceControl: Info Source control is disabled
+[2019.03.15-07.37.36:601][  0]LogEngine: Initializing Engine...
+[2019.03.15-07.37.36:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-07.37.37:530][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.15-07.37.37:563][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.15-07.37.37:688][  0]LogInit: FAudioDevice initialized.
+[2019.03.15-07.37.37:723][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.15-07.37.37:732][  0]LogInit: Texture streaming: Enabled
+[2019.03.15-07.37.38:481][  0]LogInit: Transaction tracking system initialized
+[2019.03.15-07.37.39:889][  0]BlueprintLog: New page: Editor Load
+[2019.03.15-07.37.43:445][  0]LocalizationService: Info Localization service is disabled
+[2019.03.15-07.37.45:434][  0]LogConsoleResponse:Display: 
+[2019.03.15-07.37.45:729][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.01s
+[2019.03.15-07.37.45:729][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.15-07.37.45:729][  0]LogCook:Display: Mobile HDR setting 1
+[2019.03.15-07.37.48:785][  0]SourceControl: Info Source control is disabled
+[2019.03.15-07.37.48:785][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.15-07.37.48:786][  0]LightingResults: New page: Lighting Build
+[2019.03.15-07.37.48:909][  0]MapCheck: New page: Map Check
+[2019.03.15-07.37.48:909][  0]LightingResults: New page: Lighting Build
+[2019.03.15-07.37.49:203][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.15-07.37.49:205][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.03.15-07.37.49:211][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.15-07.37.49:216][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.15-07.37.49:312][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.483ms to complete.
+[2019.03.15-07.37.49:312][  0]LogFileHelpers: Loading map 'Template_Default' took 0.526
+[2019.03.15-07.37.49:505][  0]LogCollectionManager: Loaded 0 collections in 0.003009 seconds
+[2019.03.15-07.37.49:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.03.15-07.37.49:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.03.15-07.37.49:667][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.03.15-07.37.49:667][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.03.15-07.37.49:678][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2190 classes and 428 folders.
+[2019.03.15-07.37.49:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.15-07.37.49:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.15-07.37.49:805][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 13 classes and 0 folders.
+[2019.03.15-07.37.49:992][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.15-07.37.50:091][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.15-07.37.50:209][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.03.15-07.37.50:344][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.03.15-07.37.50:352][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.03.15-07.37.50:496][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.03.15-07.37.50:497][  0]LogLoad: (Engine Initialization) Total time: 43.14 seconds
+[2019.03.15-07.37.50:497][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2019.03.15-07.37.50:497][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.03.15-07.37.50:838][  0]LogOcInput: OculusInput pre-init called
+[2019.03.15-07.37.50:863][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.03.15-07.37.51:126][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2019.03.15-07.37.51:253][  1]LogAssetRegistry: Asset discovery search completed in 25.7094 seconds
+[2019.03.15-07.37.51:253][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.15-07.37.51:253][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2019.03.15-07.40.45:014][989]LogRenderer: Reallocating scene render targets to support 964x440 NumSamples 1 (Frame:473).
+[2019.03.15-07.40.45:065][990]LogRenderer: Reallocating scene render targets to support 964x452 NumSamples 1 (Frame:475).
+[2019.03.15-07.40.45:127][991]LogRenderer: Reallocating scene render targets to support 964x460 NumSamples 1 (Frame:477).
+[2019.03.15-07.40.45:181][992]LogRenderer: Reallocating scene render targets to support 964x468 NumSamples 1 (Frame:479).
+[2019.03.15-07.40.45:262][994]LogRenderer: Reallocating scene render targets to support 964x472 NumSamples 1 (Frame:483).
+[2019.03.15-07.40.45:309][995]LogRenderer: Reallocating scene render targets to support 964x476 NumSamples 1 (Frame:485).
+[2019.03.15-07.40.45:361][996]LogRenderer: Reallocating scene render targets to support 964x488 NumSamples 1 (Frame:487).
+[2019.03.15-07.40.45:403][997]LogRenderer: Reallocating scene render targets to support 964x496 NumSamples 1 (Frame:489).
+[2019.03.15-07.40.45:445][998]LogRenderer: Reallocating scene render targets to support 964x500 NumSamples 1 (Frame:491).
+[2019.03.15-07.40.45:489][999]LogRenderer: Reallocating scene render targets to support 964x504 NumSamples 1 (Frame:493).
+[2019.03.15-07.40.45:556][  0]LogRenderer: Reallocating scene render targets to support 964x512 NumSamples 1 (Frame:495).
+[2019.03.15-07.40.45:597][  1]LogRenderer: Reallocating scene render targets to support 964x524 NumSamples 1 (Frame:497).
+[2019.03.15-07.40.45:642][  2]LogRenderer: Reallocating scene render targets to support 964x532 NumSamples 1 (Frame:499).
+[2019.03.15-07.40.45:688][  3]LogRenderer: Reallocating scene render targets to support 964x544 NumSamples 1 (Frame:501).
+[2019.03.15-07.40.45:737][  4]LogRenderer: Reallocating scene render targets to support 964x552 NumSamples 1 (Frame:503).
+[2019.03.15-07.40.45:779][  5]LogRenderer: Reallocating scene render targets to support 964x556 NumSamples 1 (Frame:505).
+[2019.03.15-07.40.45:857][  7]LogRenderer: Reallocating scene render targets to support 964x564 NumSamples 1 (Frame:509).
+[2019.03.15-07.40.45:896][  8]LogRenderer: Reallocating scene render targets to support 964x568 NumSamples 1 (Frame:511).
+[2019.03.15-07.40.45:940][  9]LogRenderer: Reallocating scene render targets to support 964x572 NumSamples 1 (Frame:513).
+[2019.03.15-07.40.45:978][ 10]LogRenderer: Reallocating scene render targets to support 964x576 NumSamples 1 (Frame:515).
+[2019.03.15-07.40.46:215][ 23]LogRenderer: Reallocating scene render targets to support 964x580 NumSamples 1 (Frame:517).
+[2019.03.15-07.40.46:315][ 25]LogRenderer: Reallocating scene render targets to support 964x584 NumSamples 1 (Frame:521).
+[2019.03.15-07.40.46:960][ 62]LogRenderer: Reallocating scene render targets to support 964x588 NumSamples 1 (Frame:523).
+[2019.03.15-07.40.51:294][318]LogRenderer: Reallocating scene render targets to support 968x588 NumSamples 1 (Frame:745).
+[2019.03.15-07.40.51:351][319]LogRenderer: Reallocating scene render targets to support 972x588 NumSamples 1 (Frame:747).
+[2019.03.15-07.40.51:407][319]LogRenderer: Reallocating scene render targets to support 980x588 NumSamples 1 (Frame:749).
+[2019.03.15-07.40.51:499][321]LogRenderer: Reallocating scene render targets to support 988x588 NumSamples 1 (Frame:751).
+[2019.03.15-07.40.51:549][322]LogRenderer: Reallocating scene render targets to support 1000x588 NumSamples 1 (Frame:753).
+[2019.03.15-07.40.51:596][323]LogRenderer: Reallocating scene render targets to support 1004x588 NumSamples 1 (Frame:755).
+[2019.03.15-07.40.51:648][324]LogRenderer: Reallocating scene render targets to support 1016x588 NumSamples 1 (Frame:757).
+[2019.03.15-07.40.51:694][325]LogRenderer: Reallocating scene render targets to support 1032x588 NumSamples 1 (Frame:759).
+[2019.03.15-07.40.51:746][326]LogRenderer: Reallocating scene render targets to support 1040x588 NumSamples 1 (Frame:761).
+[2019.03.15-07.40.51:792][327]LogRenderer: Reallocating scene render targets to support 1048x588 NumSamples 1 (Frame:763).
+[2019.03.15-07.40.51:838][328]LogRenderer: Reallocating scene render targets to support 1052x588 NumSamples 1 (Frame:765).
+[2019.03.15-07.40.52:009][335]LogRenderer: Reallocating scene render targets to support 1056x588 NumSamples 1 (Frame:769).
+[2019.03.15-07.40.52:054][336]LogRenderer: Reallocating scene render targets to support 1060x588 NumSamples 1 (Frame:771).
+[2019.03.15-07.40.52:103][337]LogRenderer: Reallocating scene render targets to support 1068x588 NumSamples 1 (Frame:773).
+[2019.03.15-07.40.52:150][338]LogRenderer: Reallocating scene render targets to support 1072x588 NumSamples 1 (Frame:775).
+[2019.03.15-07.40.52:199][339]LogRenderer: Reallocating scene render targets to support 1080x588 NumSamples 1 (Frame:777).
+[2019.03.15-07.40.52:250][340]LogRenderer: Reallocating scene render targets to support 1104x588 NumSamples 1 (Frame:779).
+[2019.03.15-07.40.52:806][370]LogRenderer: Reallocating scene render targets to support 1108x588 NumSamples 1 (Frame:783).
+[2019.03.15-07.40.52:853][371]LogRenderer: Reallocating scene render targets to support 1116x588 NumSamples 1 (Frame:785).
+[2019.03.15-07.40.53:267][392]LogRenderer: Reallocating scene render targets to support 1120x588 NumSamples 1 (Frame:789).
+[2019.03.15-07.40.53:558][407]LogRenderer: Reallocating scene render targets to support 1128x588 NumSamples 1 (Frame:793).
+[2019.03.15-07.41.05:828][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.15-07.41.15:063][638]Cmd: DELETE
+[2019.03.15-07.41.15:063][638]Cmd: ACTOR DELETE
+[2019.03.15-07.41.15:064][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.15-07.41.15:082][638]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2019.03.15-07.43.58:874][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-07.44.00:235][990]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-07.44.00:740][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.15-07.44.19:034][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
