@@ -1289,3 +1289,706 @@ Make sure 'Queen_C' has been compiled for  K2Node_VariableGet_110
 [2019.03.16-12.12.55:175][499]LogWorld: Bringing up level for play took: 0.003385
 [2019.03.16-12.12.55:177][499]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.85
 [2019.03.16-12.12.56:652][575]LogBlueprintUserMessages: [board_Piece90] X=-361.000 Y=1025.000 Z=116.000
+[2019.03.16-12.20.40:249][856]LogBlueprintUserMessages: [board_Piece89] X=-362.000 Y=925.000 Z=116.000
+[2019.03.16-12.20.44:311][ 94]LogEditorViewport: Clicking Background
+[2019.03.16-12.22.03:677][ 59]LogSavePackage: Save=104.23ms
+[2019.03.16-12.22.03:677][ 59]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto4E6C0A7C448040EE989B412BF69C28F66.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.16-12.22.03:680][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.16-12.22.03:683][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.190
+[2019.03.16-12.22.03:683][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2019.03.16-12.23.49:854][172]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.16-12.23.49:866][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.16-12.23.49:866][172]PIE: New page: PIE session: FirstLevel (16-Mar-2019 11:23:49 pm)
+[2019.03.16-12.23.49:866][172]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.16-12.23.49:872][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005886s)
+[2019.03.16-12.23.49:873][172]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.16-12.23.49:873][172]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2019.03.16-12.23.49:873][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.006865s)
+[2019.03.16-12.23.49:902][172]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-12.23.49:954][172]LogInit: FAudioDevice initialized.
+[2019.03.16-12.23.49:987][172]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.16-12.23.49:992][172]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-17.53.49
+[2019.03.16-12.23.49:993][172]LogWorld: Bringing up level for play took: 0.003587
+[2019.03.16-12.23.49:995][172]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.031
+[2019.03.16-12.23.51:298][249]LogBlueprintUserMessages: [board_Piece88] X=-460.000 Y=925.000 Z=116.000
+[2019.03.16-12.24.03:610][982]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.24.27:470][407]BlueprintLog: New page: Compile Knight
+[2019.03.16-12.24.30:497][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Knight" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset" SILENT=true
+[2019.03.16-12.24.30:546][560]LogSavePackage: Save=28.41ms
+[2019.03.16-12.24.30:546][560]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight631BAD6F4548B602DC96E9806587FDA0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset'
+[2019.03.16-12.24.30:552][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset
+[2019.03.16-12.24.34:887][817]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.24.48:848][650]BlueprintLog: New page: Compile Pawn
+[2019.03.16-12.24.50:837][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.16-12.24.50:873][712]LogSavePackage: Save=20.74ms
+[2019.03.16-12.24.50:873][712]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn04C0A1594E10C6AC1A371888CE2A0D4C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.16-12.24.50:878][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.16-12.24.57:145][ 86]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.25.07:206][687]BlueprintLog: New page: Compile Bishop
+[2019.03.16-12.25.10:947][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.16-12.25.11:002][877]LogSavePackage: Save=31.37ms
+[2019.03.16-12.25.11:002][877]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/BishopEE376AE34AC2D48FC6D13EB9D9ACFA8F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.16-12.25.11:008][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.16-12.25.19:570][386]BlueprintLog: New page: Compile Bishop
+[2019.03.16-12.25.20:975][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.16-12.25.21:017][436]LogSavePackage: Save=26.33ms
+[2019.03.16-12.25.21:017][436]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/BishopEDE448BD41D43164A1FD909F24C4B480.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.16-12.25.21:024][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.16-12.25.53:360][359]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.26.20:523][981]BlueprintLog: New page: Compile Rook
+[2019.03.16-12.26.21:316][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.16-12.26.21:354][  0]LogSavePackage: Save=21.12ms
+[2019.03.16-12.26.21:354][  0]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/RookE79D61434602D4BAEF0233A5A5A1673D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.16-12.26.21:359][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.16-12.26.31:116][581]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.26.44:063][343]BlueprintLog: New page: Compile King
+[2019.03.16-12.26.44:864][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.16-12.26.44:913][360]LogSavePackage: Save=25.29ms
+[2019.03.16-12.26.44:913][360]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King2ABC19AF4EF06D9115D1EA8624F44E9C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.16-12.26.44:919][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.16-12.26.53:989][903]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.16-12.27.09:384][812]BlueprintLog: New page: Compile Queen
+[2019.03.16-12.27.10:369][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Queen" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset" SILENT=true
+[2019.03.16-12.27.10:423][835]LogSavePackage: Save=31.08ms
+[2019.03.16-12.27.10:423][835]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Queen3D6AAC284C4C933F387833BAC1B586CF.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset'
+[2019.03.16-12.27.10:430][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset
+[2019.03.16-12.27.22:753][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Knight" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset" SILENT=true
+[2019.03.16-12.27.22:791][572]LogSavePackage: Save=18.55ms
+[2019.03.16-12.27.22:791][572]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight7A42F7634599BD1C1468479A8255B29C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset'
+[2019.03.16-12.27.22:794][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Knight.uasset
+[2019.03.16-12.27.23:569][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.16-12.27.23:622][613]LogSavePackage: Save=30.68ms
+[2019.03.16-12.27.23:622][613]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn8A8DF87244FE699FE4E618963DD79D3C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.16-12.27.23:631][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.16-12.27.24:597][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.16-12.27.24:653][664]LogSavePackage: Save=34.67ms
+[2019.03.16-12.27.24:653][664]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Bishop0D467616483ADE3D3FBE93BBA4967E29.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.16-12.27.24:660][664]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.16-12.27.26:161][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.16-12.27.26:203][751]LogSavePackage: Save=20.72ms
+[2019.03.16-12.27.26:203][751]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/RookDAA4275440D569C9CD73609674BA7F0C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.16-12.27.26:206][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.16-12.27.27:551][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.16-12.27.27:604][829]LogSavePackage: Save=26.73ms
+[2019.03.16-12.27.27:604][829]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King89502C824E2D785753411BB7A58ADCDE.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.16-12.27.27:609][829]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.16-12.27.29:366][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Queen" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset" SILENT=true
+[2019.03.16-12.27.29:404][931]LogSavePackage: Save=18.06ms
+[2019.03.16-12.27.29:404][931]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/QueenC002B6C246F32A7A6752EC88EC425DCD.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset'
+[2019.03.16-12.27.29:408][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset
+[2019.03.16-12.27.33:506][173]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.16-12.27.33:566][173]LogSavePackage: Save=30.22ms
+[2019.03.16-12.27.33:566][173]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece91E13BDA4BBD2C59595F23968F13AE4B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.16-12.27.33:574][173]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.16-12.27.48:176][ 44]Cmd: ACTOR UNHIDE ALL
+[2019.03.16-12.27.52:608][309]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn5)
+[2019.03.16-12.27.59:711][732]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.28.14:119][573]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-12.28.19:148][869]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.16-12.28.19:971][917]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.16-12.28.31:125][578]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.28.31:598][605]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.28.32:569][663]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.16-12.28.33:260][702]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.28.37:972][982]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-12.28.38:874][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn)
+[2019.03.16-12.28.39:571][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn2)
+[2019.03.16-12.28.41:199][168]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn3)
+[2019.03.16-12.28.45:879][443]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.28.47:996][568]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn5)
+[2019.03.16-12.28.48:597][603]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.28.49:117][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.28.50:269][700]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.16-12.28.51:156][752]LogEditorViewport: Clicking on Actor (CTRL LMB): Queen_C (Queen)
+[2019.03.16-12.28.51:887][794]LogEditorViewport: Clicking on Actor (CTRL LMB): Bishop_C (Bishop)
+[2019.03.16-12.28.53:034][861]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.28.53:823][907]LogEditorViewport: Clicking on Actor (CTRL LMB): Rook_C (Rook)
+[2019.03.16-12.28.55:998][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.28.57:598][130]LogEditorViewport: Clicking on Actor (CTRL LMB): Knight_C (Knight)
+[2019.03.16-12.28.58:787][200]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn5)
+[2019.03.16-12.28.59:929][267]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn4)
+[2019.03.16-12.29.01:789][376]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn)
+[2019.03.16-12.29.03:132][454]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn11)
+[2019.03.16-12.29.04:144][511]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn8)
+[2019.03.16-12.29.04:982][559]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn2)
+[2019.03.16-12.29.06:280][630]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn3)
+[2019.03.16-12.29.07:067][675]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn9)
+[2019.03.16-12.29.08:135][737]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn10)
+[2019.03.16-12.29.57:197][531]Cmd: TRANSACTION UNDO
+[2019.03.16-12.29.57:197][531]LogEditorTransaction: Undo Rotate Actors
+[2019.03.16-12.29.58:745][612]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.29.59:554][657]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.05:439][  5]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.16-12.30.06:055][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.06:594][ 70]Cmd: TRANSACTION UNDO
+[2019.03.16-12.30.06:594][ 70]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.30.07:038][ 91]Cmd: TRANSACTION UNDO
+[2019.03.16-12.30.07:038][ 91]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.30.07:459][114]Cmd: TRANSACTION UNDO
+[2019.03.16-12.30.07:459][114]LogEditorTransaction: Undo Rename Actor
+[2019.03.16-12.30.08:033][147]Cmd: TRANSACTION UNDO
+[2019.03.16-12.30.08:033][147]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.30.23:807][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.27:286][252]Cmd: TRANSACTION UNDO
+[2019.03.16-12.30.27:286][252]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.30.46:469][390]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.47:172][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.48:184][491]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn19)
+[2019.03.16-12.30.53:072][779]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn14)
+[2019.03.16-12.30.55:835][942]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.56:823][999]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.30.57:972][ 65]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.16-12.31.01:968][303]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.16-12.31.04:836][473]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.16-12.31.07:589][636]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.16-12.31.10:739][822]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.16-12.31.18:490][278]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.16-12.31.22:882][539]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.16-12.31.23:770][590]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.16-12.31.27:007][781]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.16-12.31.27:991][838]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.16-12.31.29:211][910]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.16-12.31.32:211][ 88]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.16-12.31.33:105][140]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn19)
+[2019.03.16-12.31.34:480][220]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.16-12.31.37:831][418]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.16-12.31.40:670][586]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-12.31.43:263][739]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.16-12.31.45:731][883]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-12.31.48:570][ 51]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.16-12.31.49:969][133]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-12.31.55:231][446]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.16-12.31.59:087][666]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.16-12.32.02:360][858]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.16-12.32.08:267][205]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.16-12.32.08:279][205]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.16-12.32.08:279][205]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.16-12.32.08:415][205]LogPlayLevel: [PlayLevel] Compiling Bishop before play...
+[2019.03.16-12.32.08:577][205]LogPlayLevel: PlayLevel: Blueprint regeneration took 298 ms (2 blueprints)
+[2019.03.16-12.32.08:577][205]PIE: New page: PIE session: FirstLevel (16-Mar-2019 11:32:08 pm)
+[2019.03.16-12.32.08:577][205]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.16-12.32.08:586][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009073s)
+[2019.03.16-12.32.08:587][205]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.16-12.32.08:587][205]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2019.03.16-12.32.08:588][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010270s)
+[2019.03.16-12.32.08:616][205]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-12.32.08:683][205]LogInit: FAudioDevice initialized.
+[2019.03.16-12.32.08:738][205]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.16-12.32.08:746][205]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-18.02.08
+[2019.03.16-12.32.08:747][205]LogWorld: Bringing up level for play took: 0.007018
+[2019.03.16-12.32.08:750][205]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.724
+[2019.03.16-12.32.35:807][782]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.16-12.32.38:374][933]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn19)
+[2019.03.16-12.32.40:222][ 42]Cmd: DELETE
+[2019.03.16-12.32.40:222][ 42]Cmd: ACTOR DELETE
+[2019.03.16-12.32.40:224][ 42]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.16-12.32.40:254][ 42]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.03.16-12.32.53:545][839]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn7)
+[2019.03.16-12.32.55:221][938]Cmd: DELETE
+[2019.03.16-12.32.55:221][938]Cmd: ACTOR DELETE
+[2019.03.16-12.32.55:222][938]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.16-12.32.55:245][938]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.03.16-12.32.56:868][ 35]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn6)
+[2019.03.16-12.32.57:841][ 91]Cmd: DELETE
+[2019.03.16-12.32.57:841][ 91]Cmd: ACTOR DELETE
+[2019.03.16-12.32.57:843][ 91]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.16-12.32.57:866][ 91]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.03.16-12.33.03:070][395]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn5)
+[2019.03.16-12.33.04:282][463]Cmd: DELETE
+[2019.03.16-12.33.04:282][463]Cmd: ACTOR DELETE
+[2019.03.16-12.33.04:283][463]LogEditorActor: Deleted Actor: Pawn_C
+[2019.03.16-12.33.04:318][463]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.03.16-12.33.06:031][566]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.16-12.33.06:044][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.16-12.33.06:044][566]PIE: New page: PIE session: FirstLevel (16-Mar-2019 11:33:06 pm)
+[2019.03.16-12.33.06:044][566]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.16-12.33.06:053][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008451s)
+[2019.03.16-12.33.06:053][566]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.16-12.33.06:054][566]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2019.03.16-12.33.06:054][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009856s)
+[2019.03.16-12.33.06:086][566]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-12.33.06:148][566]LogInit: FAudioDevice initialized.
+[2019.03.16-12.33.06:182][566]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.16-12.33.06:190][566]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-18.03.06
+[2019.03.16-12.33.06:192][566]LogWorld: Bringing up level for play took: 0.007198
+[2019.03.16-12.33.06:195][566]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.168
+[2019.03.16-12.37.37:921][840]LogBlueprintUserMessages: [board_Piece90] X=-361.000 Y=1025.000 Z=116.000
+[2019.03.16-12.37.41:858][ 64]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.37.43:654][170]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece89)
+[2019.03.16-12.37.47:027][336]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.37.47:865][384]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.37.54:763][795]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.38.04:750][388]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.38.07:588][554]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.38.08:053][572]Cmd: EDIT COPY
+[2019.03.16-12.38.10:111][692]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.38.11:044][745]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.38.13:903][915]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.38.16:374][ 58]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.38.17:104][ 99]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.38.22:796][438]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.38.29:497][838]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.38.31:855][978]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.38.33:382][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.38.33:983][100]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.38.37:776][326]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.38.53:689][279]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.38.54:677][337]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.39.01:759][741]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.39.02:678][793]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.39.06:774][ 35]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.39.11:087][280]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.39.32:764][559]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.39.34:741][674]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.39.38:099][872]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.39.41:479][ 73]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.39.43:109][167]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.39.43:920][212]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.39.44:516][247]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.40.02:207][307]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.40.03:800][400]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.40.09:821][758]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.40.19:840][358]Cmd: ACTOR SELECT ALL
+[2019.03.16-12.40.21:213][438]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.40.27:968][840]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.40.42:340][701]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.41.06:919][123]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.41.22:173][934]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.41.23:178][991]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.41.24:119][ 42]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.41.28:927][326]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.41.32:703][530]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.16-12.41.36:380][742]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.41.37:612][812]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.16-12.42.04:958][441]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.42.05:303][447]LogSavePackage: Save=100.35ms
+[2019.03.16-12.42.05:303][447]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto5637DF2D64749103E67E3B6A78C575704.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap'
+[2019.03.16-12.42.05:306][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap
+[2019.03.16-12.42.05:309][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.169
+[2019.03.16-12.42.05:309][447]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2019.03.16-12.42.05:313][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.16-12.42.05:378][447]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.16-12.42.05:378][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.16-12.42.05:419][447]LogSavePackage: Save=23.04ms
+[2019.03.16-12.42.05:419][447]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto53594088B4162501110A003909F419469.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto5.uasset'
+[2019.03.16-12.42.05:421][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto5.uasset
+[2019.03.16-12.42.05:421][447]LogFileHelpers: Auto-saving content packages took 0.110
+[2019.03.16-12.42.12:347][855]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-12.42.31:404][993]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.16-12.42.33:033][ 89]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-12.42.39:052][449]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.42.41:474][592]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.42.42:293][639]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.16-12.42.51:381][ 64]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.42.52:186][109]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.42.52:960][155]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.42.54:865][268]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.42.56:367][357]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.16-12.43.17:459][620]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.43.20:491][800]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.43.22:128][896]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.44.01:883][275]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.44.03:040][343]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-12.44.04:612][436]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-12.44.19:732][341]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.45.42:583][ 34]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.16-12.46.02:340][217]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
+[2019.03.16-12.46.02:895][248]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.16-12.46.43:971][697]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.46.45:483][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.16-12.46.45:625][784]LogSavePackage: Save=95.51ms
+[2019.03.16-12.46.45:625][784]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel60D1DCD34DD99B21C9A72989373027B9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.16-12.46.45:632][784]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.16-12.46.52:914][205]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.16-12.46.59:474][595]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.47.00:432][647]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.16-12.47.01:836][729]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece88)
+[2019.03.16-12.47.02:974][796]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece87)
+[2019.03.16-12.47.04:564][890]Cmd: TRANSACTION UNDO
+[2019.03.16-12.47.04:564][890]LogEditorTransaction: Undo Move Actors
+[2019.03.16-12.47.09:087][147]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece90)
+[2019.03.16-12.47.10:215][213]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece87)
+[2019.03.16-12.47.11:465][286]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.03.16-12.47.13:261][392]Cmd: TRANSACTION UNDO
+[2019.03.16-12.47.13:261][392]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.47.14:916][482]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod)
+[2019.03.16-12.47.17:665][645]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece87)
+[2019.03.16-12.47.24:133][  7]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.47.29:175][306]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.16-12.47.31:666][450]Cmd: TRANSACTION UNDO
+[2019.03.16-12.47.31:666][450]LogEditorTransaction: Undo Move Actors
+[2019.03.16-12.47.34:100][588]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.47.35:326][659]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.16-12.47.36:617][735]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.47.42:699][ 93]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.16-12.47.44:603][203]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece85)
+[2019.03.16-12.48.27:436][752]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.48.31:612][  1]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.16-12.48.53:248][298]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.16-12.49.20:487][906]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.49.22:292][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.49.24:340][134]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.16-12.49.26:288][249]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.49.28:380][372]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.16-12.49.32:183][598]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.49.32:966][642]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.16-12.49.46:376][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.49.49:050][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.16-12.49.49:228][590]LogSavePackage: Save=118.20ms
+[2019.03.16-12.49.49:228][590]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel4FDE1E48450029F791FA6F8AFAD99376.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.16-12.49.49:234][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.16-12.50.25:547][328]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.16-12.50.29:640][572]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.16-12.50.46:701][583]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.50.48:755][705]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.50.55:786][125]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.51.00:011][377]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.51.00:859][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.51.02:530][525]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.51.12:793][133]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.12:793][133]LogEditorTransaction: Undo Paste Location
+[2019.03.16-12.51.15:684][299]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.19:803][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.51.20:795][599]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.20:795][599]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.51.22:708][705]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.22:708][705]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.51.24:000][781]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.24:000][781]LogEditorTransaction: Undo Move Actors
+[2019.03.16-12.51.24:442][806]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.24:442][806]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.51.25:702][880]Cmd: TRANSACTION UNDO
+[2019.03.16-12.51.25:702][880]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-12.51.28:072][ 20]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-12.51.32:553][283]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.33:084][313]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.34:779][410]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.51.35:586][456]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.39:327][677]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-12.51.46:007][ 72]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.49:158][259]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-12.51.56:941][723]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.57:929][780]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece84)
+[2019.03.16-12.51.59:589][871]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.52.00:132][902]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.52.03:665][112]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-12.52.04:563][164]LogEditorViewport: Clicking on Actor (context menu): Rook_C (Rook3)
+[2019.03.16-12.52.06:580][283]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.52.07:565][341]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.16-12.52.09:468][454]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.52.10:457][512]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-12.52.12:499][633]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.52.14:892][774]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-12.52.27:275][507]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.52.37:800][135]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.52.38:504][175]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.52.39:188][214]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.52.42:427][407]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.16-12.52.44:028][502]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece84)
+[2019.03.16-12.52.45:249][574]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece83)
+[2019.03.16-12.52.47:438][704]Cmd: TRANSACTION UNDO
+[2019.03.16-12.52.47:438][704]LogEditorTransaction: Undo Move Actors
+[2019.03.16-12.52.48:498][762]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece86)
+[2019.03.16-12.52.50:083][856]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod2)
+[2019.03.16-12.52.51:384][933]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod2)
+[2019.03.16-12.53.09:317][960]Cmd: TRANSACTION UNDO
+[2019.03.16-12.53.09:317][960]LogEditorTransaction: Undo Move Actors
+[2019.03.16-12.53.15:567][315]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.53.22:878][713]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.16-12.53.23:493][745]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece47)
+[2019.03.16-12.53.27:931][960]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.53.42:647][226]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.53.45:350][384]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.53.46:268][437]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.53.49:405][618]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.53.50:010][650]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.16-12.53.53:415][849]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.54.15:229][146]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.54.19:399][395]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.54.32:578][177]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.16-12.54.34:366][283]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.16-12.54.35:688][361]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.54.36:826][428]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.54.44:446][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.54.45:165][916]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.54.57:850][676]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.16-12.55.16:329][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.17:194][831]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.55.22:142][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.23:263][189]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.55.27:925][466]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.28:467][496]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.55.35:563][915]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.36:329][959]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.55.41:982][296]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.42:936][351]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.16-12.55.46:605][569]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.47:369][613]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
+[2019.03.16-12.55.48:704][691]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.55.50:068][770]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.56.27:889][ 33]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.16-12.56.31:373][240]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.56.32:167][286]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.16-12.56.44:487][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.56.45:014][ 42]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.56.51:362][419]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.56.52:696][498]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.56.53:700][558]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.56.55:755][680]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.56.56:556][727]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.16-12.57.00:141][940]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.57.13:688][741]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.57.15:087][823]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.57.16:372][898]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.16-12.57.25:386][437]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.57.26:428][497]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.16-12.57.28:274][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.57.29:784][695]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-12.57.32:228][840]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-12.57.33:858][936]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-12.57.35:224][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.57.39:605][276]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.16-12.57.40:749][343]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
+[2019.03.16-12.57.49:820][883]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
+[2019.03.16-12.57.52:216][ 24]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.57.53:242][ 83]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.16-12.58.05:362][796]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.07:069][895]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
+[2019.03.16-12.58.10:086][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.10:995][126]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.16-12.58.26:314][ 39]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.27:673][117]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.28:615][173]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.16-12.58.38:760][780]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.39:913][844]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.58.43:264][ 43]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.16-12.58.50:502][475]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.58.51:699][545]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.59.06:072][398]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-12.59.07:098][457]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-12.59.09:669][609]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.16-12.59.13:580][839]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.16-12.59.24:352][460]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-12.59.26:551][588]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.16-12.59.26:566][588]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.16-12.59.26:566][588]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.16-12.59.26:730][588]LogPlayLevel: PlayLevel: Blueprint regeneration took 164 ms (1 blueprints)
+[2019.03.16-12.59.26:730][588]PIE: New page: PIE session: FirstLevel (16-Mar-2019 11:59:26 pm)
+[2019.03.16-12.59.26:730][588]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.16-12.59.26:744][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014003s)
+[2019.03.16-12.59.26:745][588]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.16-12.59.26:746][588]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2019.03.16-12.59.26:746][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015991s)
+[2019.03.16-12.59.26:783][588]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-12.59.26:863][588]LogInit: FAudioDevice initialized.
+[2019.03.16-12.59.26:897][588]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.16-12.59.26:902][588]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-18.29.26
+[2019.03.16-12.59.26:903][588]LogWorld: Bringing up level for play took: 0.004518
+[2019.03.16-12.59.26:905][588]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.878
+[2019.03.16-13.04.21:202][212]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.16-13.05.12:327][253]LogSavePackage: Save=126.03ms
+[2019.03.16-13.05.12:327][253]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto6DB81B59E43E70B47CA45A0B7479609A5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap'
+[2019.03.16-13.05.12:329][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap
+[2019.03.16-13.05.12:332][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.194
+[2019.03.16-13.05.12:332][253]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.194
+[2019.03.16-13.05.12:336][253]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.16-13.05.12:451][253]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.16-13.05.12:451][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.16-13.05.12:512][253]LogSavePackage: Save=39.73ms
+[2019.03.16-13.05.12:512][253]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto6CA8AC0F049834E68A629479E156F28A8.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto6.uasset'
+[2019.03.16-13.05.12:516][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto6.uasset
+[2019.03.16-13.05.12:516][253]LogFileHelpers: Auto-saving content packages took 0.182
+[2019.03.16-13.05.26:497][ 91]Cmd: TRANSACTION UNDO
+[2019.03.16-13.05.26:497][ 91]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-13.05.28:776][223]Cmd: TRANSACTION UNDO
+[2019.03.16-13.05.28:776][223]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-13.05.33:326][479]Cmd: TRANSACTION REDO
+[2019.03.16-13.05.33:326][479]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.16-13.05.34:310][530]Cmd: TRANSACTION REDO
+[2019.03.16-13.05.34:310][530]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.16-13.05.39:387][833]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.05.48:726][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.16-13.05.48:891][387]LogSavePackage: Save=114.61ms
+[2019.03.16-13.05.48:891][387]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel3C97F3224B3D603A0C5CE99FF7945D6A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.16-13.05.48:897][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.16-13.28.00:211][847]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.16-13.28.04:267][ 84]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.16-13.28.07:650][283]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.16-13.28.11:501][511]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.16-13.28.18:940][950]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.16-13.28.23:570][225]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.16-13.28.27:150][438]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.16-13.28.30:696][649]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.16-13.28.34:145][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-13.28.38:967][133]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.16-13.28.43:809][422]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.16-13.28.47:212][624]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.16-13.28.51:423][874]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.16-13.28.54:452][ 53]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.16-13.28.58:903][318]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.16-13.29.03:873][590]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.16-13.29.07:551][806]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.16-13.29.12:548][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.29.33:139][ 89]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.16-13.29.42:064][595]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.16-13.29.43:602][682]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece101)
+[2019.03.16-13.29.46:485][815]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.29.47:278][860]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.16-13.29.52:569][167]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.16-13.30.11:180][228]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.30.27:893][854]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-13.30.33:285][173]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
+[2019.03.16-13.30.36:747][377]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-13.30.49:990][152]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.30.54:628][421]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.16-13.30.59:407][699]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece98)
+[2019.03.16-13.31.00:436][759]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece98)
+[2019.03.16-13.31.04:568][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.16-13.31.06:083][ 39]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece98)
+[2019.03.16-13.31.11:128][325]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.16-13.31.39:153][934]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.31.42:976][141]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece97)
+[2019.03.16-13.31.49:534][514]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.16-13.32.06:462][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.07:294][474]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.16-13.32.13:328][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.20:884][130]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.21:774][183]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.16-13.32.24:916][364]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.25:918][419]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.32.28:594][574]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.16-13.32.31:003][717]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.16-13.32.31:851][766]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece99)
+[2019.03.16-13.32.32:771][820]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece80)
+[2019.03.16-13.32.34:917][945]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.32.43:624][464]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.44:709][527]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.46:361][625]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.16-13.32.48:598][755]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.32.56:867][239]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.57:591][277]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.32.59:992][416]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.33.17:149][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.33.18:152][421]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.33.21:629][610]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.16-13.33.22:620][665]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.16-13.33.23:704][726]LogEditorViewport: Clicking on Actor (context menu): Pawn_C (Pawn15)
+[2019.03.16-13.33.24:715][779]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.33.26:342][864]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.16-13.33.30:373][ 93]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.16-13.33.31:524][155]Cmd: TRANSACTION UNDO
+[2019.03.16-13.33.31:524][155]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-13.33.32:858][222]Cmd: TRANSACTION UNDO
+[2019.03.16-13.33.32:858][222]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.16-13.33.34:250][301]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.33.34:767][331]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.16-13.33.43:684][843]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.33.45:736][955]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.16-13.33.58:136][658]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.02:059][881]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece77)
+[2019.03.16-13.34.05:666][ 84]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.06:390][114]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.16-13.34.17:319][749]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.18:424][813]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.16-13.34.19:838][896]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.20:351][925]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.16-13.34.23:780][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.24:680][176]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.16-13.34.31:136][555]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.32:115][611]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop4)
+[2019.03.16-13.34.46:871][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.51:924][779]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.16-13.34.55:237][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.34.56:508][ 48]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-13.34.57:675][116]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.16-13.35.02:297][381]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.16-13.35.14:861][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.35.19:244][320]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece99)
+[2019.03.16-13.35.24:429][602]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.16-13.35.38:706][406]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.35.39:693][460]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.16-13.35.42:770][637]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.16-13.35.54:198][289]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.16-13.35.57:673][488]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.16-13.36.14:114][422]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.36.16:752][576]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece80)
+[2019.03.16-13.36.19:984][767]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.16-13.36.20:579][801]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.16-13.36.24:776][ 48]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.16-13.36.26:324][138]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.16-13.36.38:149][826]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.16-13.36.41:550][ 26]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.16-13.37.46:052][733]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.16-13.37.46:922][773]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece82)
+[2019.03.16-13.37.50:983][997]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.16-13.38.02:192][612]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.38.02:877][649]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.16-13.38.07:044][878]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.16-13.38.19:393][576]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.38.22:736][771]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.16-13.38.30:485][233]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.16-13.38.35:915][557]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.16-13.38.39:431][765]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.16-13.38.47:751][260]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.16-13.38.51:519][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.38.52:518][539]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.16-13.38.55:994][745]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.38.57:083][808]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.16-13.39.00:552][ 11]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.16-13.39.02:854][142]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.39.10:861][571]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.16-13.39.15:397][835]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.16-13.39.20:681][143]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop4)
+[2019.03.16-13.39.24:509][368]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.16-13.39.30:172][699]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.16-13.39.38:220][173]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.16-13.39.50:668][870]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.39.52:066][950]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.16-13.40.01:036][461]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.40.02:506][543]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.16-13.40.06:501][778]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.40.07:886][859]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.16-13.40.10:242][997]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.40.11:334][ 60]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.16-13.40.14:541][250]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.40.15:688][317]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.16-13.40.18:777][498]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.16-13.40.21:163][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.16-13.40.21:372][634]LogSavePackage: Save=136.96ms
+[2019.03.16-13.40.21:372][634]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel545158644EDEC401F5A8B396E2F05193.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.16-13.40.21:380][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.16-13.40.22:675][703]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.16-13.40.22:694][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.16-13.40.22:694][703]PIE: New page: PIE session: FirstLevel (17-Mar-2019 12:40:22 am)
+[2019.03.16-13.40.22:694][703]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.16-13.40.22:704][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009082s)
+[2019.03.16-13.40.22:704][703]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.16-13.40.22:705][703]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2019.03.16-13.40.22:705][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010176s)
+[2019.03.16-13.40.22:730][703]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.16-13.40.22:791][703]LogInit: FAudioDevice initialized.
+[2019.03.16-13.40.22:823][703]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.16-13.40.22:827][703]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.16-19.10.22
+[2019.03.16-13.40.22:828][703]LogWorld: Bringing up level for play took: 0.003456
+[2019.03.16-13.40.22:829][703]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.803
+[2019.03.16-13.42.37:555][638]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.16-13.42.38:486][638]LogMaterial: Missing cached shader map for material Black_Piece, compiling. 
+[2019.03.16-13.42.38:499][638]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.16-13.42.38:559][638]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.16-13.42.42:070][770]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.16-13.42.42:070][770]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.16-13.42.42:070][770]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.16-13.42.45:757][989]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.16-13.42.45:821][989]LogMaterial: Missing cached shader map for material White_Piece, compiling. 
+[2019.03.16-13.42.45:832][989]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.03.16-13.42.45:863][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2019.03.16-13.42.47:455][ 53]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.03.16-13.42.47:456][ 53]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.03.16-13.42.47:456][ 53]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.03.16-13.43.55:047][672]LogBlueprintUserMessages: [board_Piece38] X=-366.000 Y=825.000 Z=9.739
+[2019.03.16-13.44.02:532][105]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
+[2019.03.16-13.44.03:620][169]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
+[2019.03.16-13.44.04:719][234]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece60)
+[2019.03.16-13.44.07:949][426]Cmd: TRANSACTION UNDO
+[2019.03.16-13.44.07:949][426]LogEditorTransaction: Undo Move Actors
+[2019.03.16-13.44.09:261][499]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
