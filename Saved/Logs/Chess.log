@@ -1262,3 +1262,25 @@ Make sure 'Pawn_C' has been compiled for  K2Node_VariableGet_53
 [2019.03.17-11.07.24:118][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
 [2019.03.17-11.08.00:530][778]LogSavePackage: Save=234.29ms
 [2019.03.17-11.08.00:530][778]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto62FDBC8CD405B0DEC00AA368BB9567287.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap'
+[2019.03.17-11.08.00:536][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap
+[2019.03.17-11.08.00:541][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.382
+[2019.03.17-11.08.00:541][778]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.382
+[2019.03.17-11.51.50:264][328]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-11.51.50:308][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-11.51.50:308][328]PIE: New page: PIE session: FirstLevel (17-Mar-2019 10:51:50 pm)
+[2019.03.17-11.51.50:309][328]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-11.51.50:330][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021133s)
+[2019.03.17-11.51.50:332][328]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-11.51.50:332][328]LogPlayLevel: PIE: World Init took: (0.001881s)
+[2019.03.17-11.51.50:333][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.023574s)
+[2019.03.17-11.51.50:383][328]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-11.51.50:476][328]LogInit: FAudioDevice initialized.
+[2019.03.17-11.51.50:511][328]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-11.51.50:520][328]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-17.21.50
+[2019.03.17-11.51.50:522][328]LogWorld: Bringing up level for play took: 0.008262
+[2019.03.17-11.51.50:524][328]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-11.51.50:524][328]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-11.51.50:524][328]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-11.51.50:524][328]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-11.51.50:525][328]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.506
+[2019.03.17-11.51.57:960][744]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
