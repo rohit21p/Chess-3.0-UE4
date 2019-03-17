@@ -1284,3 +1284,457 @@ Make sure 'Pawn_C' has been compiled for  K2Node_VariableGet_53
 [2019.03.17-11.51.50:524][328]LogBlueprintUserMessages: [Bishop_257] Bishop
 [2019.03.17-11.51.50:525][328]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.506
 [2019.03.17-11.51.57:960][744]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.17-11.52.54:380][134]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece62)
+[2019.03.17-11.52.57:057][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.53.00:169][463]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-11.53.18:834][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.17-11.53.59:532][705]LogBlueprint:Warning: [board_Piece] 'Pawn' variable not found. Base class was probably changed.
+[2019.03.17-11.53.59:533][705]LogBlueprint:Warning: [board_Piece] 'Pawn' variable not found. Base class was probably changed.
+[2019.03.17-11.54.10:110][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.17-11.54.10:612][284]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.17-11.54.26:084][179]LogEditorTransaction: Undo Move Nodes
+[2019.03.17-11.54.27:027][226]LogEditorTransaction: Undo Add Node
+[2019.03.17-11.54.57:918][  1]LogEditorTransaction: Undo Rename Node
+[2019.03.17-11.55.00:511][144]LogEditorTransaction: Redo Rename Node
+[2019.03.17-11.55.21:056][260]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.17-11.55.34:774][ 39]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-11.55.34:797][ 39]LogBlueprint:Warning: [Compiler board_Piece] Warning Could not find a variable named "Pawn" in 'board_Piece_C'.
+Make sure 'board_Piece_C' has been compiled for  K2Node_VariableGet_99
+[2019.03.17-11.55.34:797][ 39]LogBlueprint:Warning: [Compiler board_Piece] Warning Could not find a variable named "Pawn" in 'board_Piece_C'.
+Make sure 'board_Piece_C' has been compiled for  K2Node_VariableGet_97
+[2019.03.17-11.55.34:799][ 39]LogBlueprint:Error: [Compiler board_Piece] Error The property associated with  Pawn  could not be found
+[2019.03.17-11.55.34:799][ 39]LogBlueprint:Error: [Compiler board_Piece] Error The property associated with  Pawn  could not be found
+[2019.03.17-11.55.35:225][ 39]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Pawn" in 'board_Piece_C'.
+Make sure 'board_Piece_C' has been compiled for  K2Node_VariableGet_99
+[2019.03.17-11.55.35:225][ 39]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Pawn" in 'board_Piece_C'.
+Make sure 'board_Piece_C' has been compiled for  K2Node_VariableGet_97
+[2019.03.17-11.55.35:225][ 39]BlueprintEditorCompileResults:Error: Error The property associated with  Pawn  could not be found
+[2019.03.17-11.55.35:225][ 39]BlueprintEditorCompileResults:Error: Error The property associated with  Pawn  could not be found
+[2019.03.17-11.55.35:226][ 39]LogBlueprint:Warning: [Compiler board_Piece] Warning [7289.52] Compile of board_Piece failed. 2 Fatal Issue(s) 2 Warning(s) [in 452 ms] (/Game/Blueprints/board_Piece.board_Piece)
+[2019.03.17-11.55.51:225][947]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-11.55.51:856][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-11.55.51:955][964]LogSavePackage: Save=49.76ms
+[2019.03.17-11.55.51:955][964]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceC136B4BF4BD92B1715776EB7F6D02A3F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-11.55.51:960][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-11.55.52:934][ 20]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-11.55.52:958][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-11.55.52:958][ 20]PIE: New page: PIE session: FirstLevel (17-Mar-2019 10:55:52 pm)
+[2019.03.17-11.55.52:958][ 20]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-11.55.52:977][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018136s)
+[2019.03.17-11.55.52:978][ 20]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-11.55.52:978][ 20]LogPlayLevel: PIE: World Init took: (0.001507s)
+[2019.03.17-11.55.52:978][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.019958s)
+[2019.03.17-11.55.53:022][ 20]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-11.55.53:109][ 20]LogInit: FAudioDevice initialized.
+[2019.03.17-11.55.53:163][ 20]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-11.55.53:171][ 20]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-17.25.53
+[2019.03.17-11.55.53:173][ 20]LogWorld: Bringing up level for play took: 0.007855
+[2019.03.17-11.55.53:174][ 20]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-11.55.53:175][ 20]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-11.55.53:175][ 20]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-11.55.53:175][ 20]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-11.55.53:180][ 20]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.162
+[2019.03.17-11.56.18:164][445]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-11.56.18:834][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-11.56.18:911][469]LogSavePackage: Save=40.56ms
+[2019.03.17-11.56.18:911][469]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece693E6FD8499DBD3D273D529745603D7F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-11.56.18:920][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-11.56.19:560][505]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-11.56.19:577][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-11.56.19:577][505]PIE: New page: PIE session: FirstLevel (17-Mar-2019 10:56:19 pm)
+[2019.03.17-11.56.19:578][505]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-11.56.19:586][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008371s)
+[2019.03.17-11.56.19:587][505]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-11.56.19:587][505]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2019.03.17-11.56.19:587][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009325s)
+[2019.03.17-11.56.19:617][505]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-11.56.19:668][505]LogInit: FAudioDevice initialized.
+[2019.03.17-11.56.19:715][505]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-11.56.19:721][505]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-17.26.19
+[2019.03.17-11.56.19:721][505]LogWorld: Bringing up level for play took: 0.004354
+[2019.03.17-11.56.19:723][505]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-11.56.19:723][505]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-11.56.19:723][505]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-11.56.19:723][505]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-11.56.19:726][505]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.293
+[2019.03.17-11.56.22:346][654]LogBlueprintUserMessages: [board_Piece50] X=-66.000 Y=725.000 Z=9.739
+[2019.03.17-11.56.23:222][704]LogBlueprintUserMessages: [board_Piece55] X=-67.000 Y=825.000 Z=10.000
+[2019.03.17-11.56.23:847][741]LogBlueprintUserMessages: [board_Piece50] X=-66.000 Y=725.000 Z=9.739
+[2019.03.17-11.56.24:338][770]LogBlueprintUserMessages: [board_Piece55] X=-67.000 Y=825.000 Z=10.000
+[2019.03.17-11.56.25:590][844]LogBlueprintUserMessages: [board_Piece56] X=-66.000 Y=925.000 Z=9.739
+[2019.03.17-11.57.07:208][976]LogSavePackage: Save=220.58ms
+[2019.03.17-11.57.07:208][976]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto73FF6EFE14F3C5F96596CCFB3FF30C5EA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto7.umap'
+[2019.03.17-11.57.07:214][976]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto7.umap
+[2019.03.17-11.57.07:218][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.339
+[2019.03.17-11.57.07:218][976]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.339
+[2019.03.17-11.57.29:626][249]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-11.57.30:329][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-11.57.30:414][269]LogSavePackage: Save=44.97ms
+[2019.03.17-11.57.30:414][269]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece74A80A584B27B126BA41AF8F08182899.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-11.57.30:421][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-11.57.35:633][560]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece89)
+[2019.03.17-11.58.23:228][273]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.24:145][320]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-11.58.29:419][619]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.30:595][687]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-11.58.33:357][838]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-11.58.35:482][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.36:295][  8]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-11.58.42:288][358]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.43:266][413]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-11.58.49:621][782]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.50:208][813]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-11.58.51:204][870]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-11.58.52:239][928]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.58.53:105][978]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-11.58.59:186][323]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.59.04:115][602]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-11.59.07:625][797]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.59.24:138][711]Cmd: TRANSACTION UNDO
+[2019.03.17-11.59.24:138][711]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-11.59.25:930][803]Cmd: TRANSACTION REDO
+[2019.03.17-11.59.25:930][803]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.17-11.59.30:920][ 85]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.17-11.59.31:643][123]Cmd: ACTOR HIDE SELECTED
+[2019.03.17-11.59.32:556][176]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.59.33:632][236]Cmd: ACTOR HIDE SELECTED
+[2019.03.17-11.59.40:523][638]LogEditorViewport: Clicking Background
+[2019.03.17-11.59.41:918][711]LogEditorViewport: Clicking Background
+[2019.03.17-11.59.42:837][762]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-11.59.44:884][875]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-11.59.47:156][  5]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-11.59.49:587][145]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-11.59.52:087][286]LogEditorViewport: Clicking Background
+[2019.03.17-11.59.56:982][568]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-11.59.59:867][733]Cmd: TRANSACTION UNDO
+[2019.03.17-11.59.59:867][733]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.00.01:134][798]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.00.02:729][890]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.00.03:599][937]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.00.05:372][ 32]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.00.13:773][505]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod)
+[2019.03.17-12.00.16:133][639]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod)
+[2019.03.17-12.00.20:167][866]LogEditorViewport: Clicking Background
+[2019.03.17-12.00.31:822][139]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.00.32:413][173]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece35)
+[2019.03.17-12.00.35:882][358]LogEditorViewport: Clicking Background
+[2019.03.17-12.00.36:777][410]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.00.53:866][392]LogEditorViewport: Clicking Background
+[2019.03.17-12.00.58:728][679]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.00.59:967][750]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.01.04:292][979]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.01.05:325][ 37]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.01.06:213][ 86]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.01.10:628][332]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.01.18:784][759]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.01.22:132][951]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-12.01.27:138][234]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece84)
+[2019.03.17-12.01.31:117][428]LogEditorViewport: Clicking Background
+[2019.03.17-12.01.35:075][655]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.17-12.01.36:151][715]LogEditorViewport: Clicking Background
+[2019.03.17-12.01.39:553][909]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-12.01.55:294][811]LogEditorViewport: Clicking Background
+[2019.03.17-12.01.56:172][863]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.17-12.01.59:112][ 31]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.17-12.02.04:661][346]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.17-12.02.10:467][678]LogEditorViewport: Clicking Background
+[2019.03.17-12.02.12:614][803]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.17-12.02.15:413][967]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-12.02.18:252][133]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.17-12.02.21:452][320]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.17-12.02.24:344][484]LogEditorViewport: Clicking Background
+[2019.03.17-12.02.25:199][535]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.17-12.02.32:261][949]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece83)
+[2019.03.17-12.02.33:503][ 20]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece86)
+[2019.03.17-12.02.34:617][ 85]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece85)
+[2019.03.17-12.02.37:817][264]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece41)
+[2019.03.17-12.02.39:535][356]LogEditorViewport: Clicking Background
+[2019.03.17-12.02.40:414][407]Cmd: TRANSACTION UNDO
+[2019.03.17-12.02.40:414][407]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.02.42:291][510]Cmd: TRANSACTION UNDO
+[2019.03.17-12.02.42:291][510]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.17-12.02.48:379][860]Cmd: TRANSACTION UNDO
+[2019.03.17-12.02.48:379][860]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.02.50:681][990]LogEditorViewport: Clicking on Actor (context menu): Pawn_C (Pawn2)
+[2019.03.17-12.02.51:832][ 52]LogEditorViewport: Clicking Background
+[2019.03.17-12.02.52:379][ 84]Cmd: TRANSACTION UNDO
+[2019.03.17-12.02.52:379][ 84]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.02.52:857][106]Cmd: TRANSACTION UNDO
+[2019.03.17-12.02.52:857][106]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.17-12.02.54:215][182]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod2)
+[2019.03.17-12.02.55:641][266]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod2)
+[2019.03.17-12.02.59:585][478]LogEditorViewport: Clicking Background
+[2019.03.17-12.03.01:462][587]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.03.17-12.03.02:891][668]LogEditorViewport: Clicking Background
+[2019.03.17-12.03.05:264][801]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.03.17-12.03.12:525][207]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod)
+[2019.03.17-12.03.16:491][406]LogEditorViewport: Clicking Background
+[2019.03.17-12.03.17:316][453]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.03.20:864][653]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.03.23:240][788]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.03.31:665][259]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.03.33:705][372]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.03.37:040][563]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.03.39:901][727]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.03.42:259][863]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.03.43:389][926]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.03.45:943][ 73]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.03.47:257][147]LogEditorViewport: Clicking Background
+[2019.03.17-12.03.54:867][589]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.03.17-12.03.57:499][722]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.03.58:501][770]Cmd: TRANSACTION UNDO
+[2019.03.17-12.03.58:501][770]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.03.58:981][783]Cmd: TRANSACTION UNDO
+[2019.03.17-12.03.58:981][783]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.04.01:088][902]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod)
+[2019.03.17-12.04.03:239][ 22]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.04.04:188][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.04.08:099][294]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.04.09:343][362]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.04.12:064][519]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod)
+[2019.03.17-12.04.18:878][879]LogEditorViewport: Clicking Background
+[2019.03.17-12.04.32:295][664]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece61)
+[2019.03.17-12.04.34:035][765]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.04.38:764][ 35]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.04.43:104][288]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.04.44:953][393]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.04.57:341][118]LogEditorViewport: Clicking Background
+[2019.03.17-12.04.58:228][171]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece61)
+[2019.03.17-12.05.05:140][556]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.05:916][600]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.06:705][646]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.03.17-12.05.17:154][245]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.05.21:027][457]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.05.30:957][ 19]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.31:658][ 61]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.05.35:219][259]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.05.37:955][413]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.17-12.05.39:187][483]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.05.43:057][698]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.17-12.05.44:404][774]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.05.47:361][937]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.47:844][966]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.05.48:458][  0]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece90)
+[2019.03.17-12.05.51:190][135]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.51:698][162]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.03.17-12.05.53:189][248]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.05.55:071][354]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.05.57:625][497]LogEditorViewport: Clicking Background
+[2019.03.17-12.05.59:526][607]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.03.17-12.06.00:580][666]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.01:332][711]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.01:332][711]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.06.01:840][730]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.01:840][730]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.02:671][777]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.02:672][777]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.06.03:193][803]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.03:193][803]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.03:623][827]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.03:623][827]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.04:193][857]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.04:193][857]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.04:788][891]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.04:788][891]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.06.06:170][970]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.06:170][970]LogEditorTransaction: Undo Disband Group
+[2019.03.17-12.06.07:007][ 17]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.11:258][261]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.17-12.06.11:887][297]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece85)
+[2019.03.17-12.06.15:292][479]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.16:016][522]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.17-12.06.18:146][646]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-12.06.19:701][737]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.03.17-12.06.22:249][880]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.03.17-12.06.23:639][961]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.23:972][981]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.23:972][981]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.06.24:406][  0]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.24:406][  0]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.24:825][ 24]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.24:825][ 24]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.25:282][ 49]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.25:282][ 49]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.25:672][ 69]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.25:672][ 69]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.06.26:254][103]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.26:254][103]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.06.26:974][137]Cmd: TRANSACTION UNDO
+[2019.03.17-12.06.26:974][137]LogEditorTransaction: Undo Disband Group
+[2019.03.17-12.06.27:777][180]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.28:683][231]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.06.31:090][365]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.06.32:494][445]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.06.34:244][546]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.06.35:514][620]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.06.36:708][688]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.38:957][819]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.17-12.06.39:649][859]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.06.44:667][141]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.06.46:883][269]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.06.48:412][359]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece61)
+[2019.03.17-12.06.53:391][631]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.54:307][685]LogEditorViewport: Clicking Background
+[2019.03.17-12.06.55:042][728]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.03.17-12.06.58:889][953]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.00:677][ 57]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.07.02:820][180]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.07.07:874][458]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece62)
+[2019.03.17-12.07.09:063][525]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.07.09:864][569]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.07.12:831][736]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.07.15:066][858]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.17:341][991]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.03.17-12.07.20:063][147]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.21:979][258]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.07.24:224][387]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.07.26:550][516]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.07.27:704][580]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.07.29:549][685]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.07.30:707][749]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.31:564][799]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece62)
+[2019.03.17-12.07.40:857][317]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.41:736][368]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece55)
+[2019.03.17-12.07.48:005][728]LogEditorViewport: Clicking Background
+[2019.03.17-12.07.53:400][ 38]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.08.05:237][694]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
+[2019.03.17-12.08.11:717][ 61]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.12:528][108]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
+[2019.03.17-12.08.16:632][348]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.18:163][438]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.18:988][486]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
+[2019.03.17-12.08.25:355][854]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.26:042][895]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
+[2019.03.17-12.08.27:545][983]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
+[2019.03.17-12.08.29:687][108]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
+[2019.03.17-12.08.35:971][472]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.08.39:783][686]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
+[2019.03.17-12.08.46:105][ 47]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
+[2019.03.17-12.08.50:578][303]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.51:198][339]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
+[2019.03.17-12.08.57:183][690]LogEditorViewport: Clicking Background
+[2019.03.17-12.08.58:265][753]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
+[2019.03.17-12.09.00:241][869]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
+[2019.03.17-12.09.11:107][495]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.09.12:508][574]LogEditorViewport: Clicking Background
+[2019.03.17-12.09.25:522][328]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.03.17-12.09.27:433][437]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.27:433][437]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.29:805][561]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.29:805][561]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.30:714][612]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece49)
+[2019.03.17-12.09.32:364][707]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.32:364][707]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.33:361][763]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece61)
+[2019.03.17-12.09.35:172][866]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.35:172][866]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.44:911][424]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.09.46:496][514]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece37)
+[2019.03.17-12.09.47:420][559]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.09.48:102][589]LogEditorViewport: Clicking on Actor (CTRL LMB): Bishop_C (Bishop3)
+[2019.03.17-12.09.49:760][678]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.49:761][678]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.50:380][699]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.50:380][699]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.09.52:025][787]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.52:025][787]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.09.53:524][868]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.09.55:392][973]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece38)
+[2019.03.17-12.09.56:768][ 52]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece62)
+[2019.03.17-12.09.57:544][ 95]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.57:544][ 95]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.09.59:348][187]Cmd: TRANSACTION UNDO
+[2019.03.17-12.09.59:349][187]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.10.02:374][360]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece62)
+[2019.03.17-12.10.03:368][417]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece55)
+[2019.03.17-12.10.04:508][477]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece50)
+[2019.03.17-12.10.05:330][524]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece59)
+[2019.03.17-12.10.06:656][597]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece42)
+[2019.03.17-12.10.07:529][646]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece35)
+[2019.03.17-12.10.08:580][704]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
+[2019.03.17-12.10.09:915][780]Cmd: TRANSACTION UNDO
+[2019.03.17-12.10.09:915][780]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.10.10:915][830]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece49)
+[2019.03.17-12.10.11:710][875]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece60)
+[2019.03.17-12.10.12:813][936]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece41)
+[2019.03.17-12.10.14:618][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece36)
+[2019.03.17-12.10.15:649][ 94]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece41)
+[2019.03.17-12.10.17:583][205]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece62)
+[2019.03.17-12.10.25:240][634]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece47)
+[2019.03.17-12.10.28:472][820]Cmd: TRANSACTION UNDO
+[2019.03.17-12.10.28:472][820]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.10.28:911][840]Cmd: TRANSACTION UNDO
+[2019.03.17-12.10.28:911][840]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.10.29:344][862]Cmd: TRANSACTION UNDO
+[2019.03.17-12.10.29:344][862]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.10.29:857][891]Cmd: TRANSACTION UNDO
+[2019.03.17-12.10.29:857][891]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.17-12.10.34:194][138]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece62)
+[2019.03.17-12.10.36:494][249]LogEditorViewport: Clicking Background
+[2019.03.17-12.10.44:030][689]LogEditorViewport: Clicking Background
+[2019.03.17-12.10.49:935][ 31]LogEditorViewport: Clicking Background
+[2019.03.17-12.10.58:210][514]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece57)
+[2019.03.17-12.11.04:947][906]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece57)
+[2019.03.17-12.11.08:776][ 97]LogEditorViewport: Clicking Background
+[2019.03.17-12.11.15:530][489]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece53)
+[2019.03.17-12.11.39:174][406]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece54)
+[2019.03.17-12.11.44:011][678]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
+[2019.03.17-12.11.49:946][ 14]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece45)
+[2019.03.17-12.11.55:320][323]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece40)
+[2019.03.17-12.11.59:957][588]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.02:553][735]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece54)
+[2019.03.17-12.12.08:609][ 86]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece63)
+[2019.03.17-12.12.14:032][400]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.14:783][445]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.15:718][501]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece46)
+[2019.03.17-12.12.20:495][782]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.21:419][836]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece44)
+[2019.03.17-12.12.22:325][888]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
+[2019.03.17-12.12.23:521][958]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.25:612][ 82]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece39)
+[2019.03.17-12.12.34:226][584]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.03.17-12.12.35:369][649]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.35:997][685]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece46)
+[2019.03.17-12.12.38:126][809]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.42:341][ 57]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.43:196][108]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece44)
+[2019.03.17-12.12.48:265][403]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece51)
+[2019.03.17-12.12.52:703][661]LogEditorViewport: Clicking Background
+[2019.03.17-12.12.53:423][704]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece44)
+[2019.03.17-12.12.55:076][800]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece66)
+[2019.03.17-12.13.01:978][200]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece57)
+[2019.03.17-12.13.06:272][441]LogEditorViewport: Clicking Background
+[2019.03.17-12.13.11:800][762]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece43)
+[2019.03.17-12.13.17:394][ 84]LogEditorViewport: Clicking Background
+[2019.03.17-12.13.17:994][119]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece52)
+[2019.03.17-12.13.24:271][474]LogEditorViewport: Clicking Background
+[2019.03.17-12.13.24:858][509]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece58)
+[2019.03.17-12.13.25:938][569]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece65)
+[2019.03.17-12.13.30:650][834]LogEditorViewport: Clicking Background
+[2019.03.17-12.13.31:478][883]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece58)
+[2019.03.17-12.13.38:197][270]LogEditorViewport: Clicking Background
+[2019.03.17-12.13.40:767][420]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece40)
+[2019.03.17-12.13.41:948][486]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece46)
+[2019.03.17-12.13.43:774][589]Cmd: TRANSACTION UNDO
+[2019.03.17-12.13.43:774][589]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.13.45:830][697]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece39)
+[2019.03.17-12.13.46:784][751]Cmd: TRANSACTION UNDO
+[2019.03.17-12.13.46:784][751]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.13.47:807][799]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece39)
+[2019.03.17-12.13.48:651][848]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece44)
+[2019.03.17-12.13.49:395][889]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece43)
+[2019.03.17-12.13.50:423][947]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece45)
+[2019.03.17-12.13.51:801][ 24]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece52)
+[2019.03.17-12.13.52:684][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece51)
+[2019.03.17-12.13.53:271][106]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece46)
+[2019.03.17-12.13.54:272][162]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece65)
+[2019.03.17-12.13.54:926][198]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece66)
+[2019.03.17-12.13.55:640][239]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece63)
+[2019.03.17-12.13.56:318][276]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece53)
+[2019.03.17-12.13.57:278][329]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece64)
+[2019.03.17-12.13.58:294][385]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece58)
+[2019.03.17-12.13.59:000][424]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece57)
+[2019.03.17-12.14.00:794][527]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece54)
+[2019.03.17-12.14.02:442][621]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece44)
+[2019.03.17-12.14.04:928][750]LogEditorViewport: Clicking Background
+[2019.03.17-12.14.09:749][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
