@@ -964,3 +964,301 @@ Make sure 'Pawn_C' has been compiled for  K2Node_VariableGet_53
 [2019.03.17-10.28.52:341][854]LogHttp:Warning: 000001B5C15CA080: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
 [2019.03.17-10.28.52:341][854]LogHttp:Warning: 000001B5C15CA080: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
 [2019.03.17-10.28.52:341][854]LogHttp:Warning: 000001B5C15CA080: libcurl info message cache 4 (Closing connection 19)
+[2019.03.17-10.29.55:570][552]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-10.29.55:588][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-10.29.55:588][552]PIE: New page: PIE session: FirstLevel (17-Mar-2019 9:29:55 pm)
+[2019.03.17-10.29.55:588][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-10.29.55:597][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009139s)
+[2019.03.17-10.29.55:598][552]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-10.29.55:598][552]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2019.03.17-10.29.55:598][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010520s)
+[2019.03.17-10.29.55:630][552]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-10.29.55:684][552]LogInit: FAudioDevice initialized.
+[2019.03.17-10.29.55:715][552]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-10.29.55:720][552]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.17-15.59.55
+[2019.03.17-10.29.55:720][552]LogWorld: Bringing up level for play took: 0.004041
+[2019.03.17-10.29.55:721][552]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-10.29.55:722][552]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-10.29.55:722][552]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-10.29.55:722][552]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-10.29.55:722][552]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.296
+[2019.03.17-10.29.57:594][758]LogBlueprintUserMessages: [ChessGameMode_C_0] noone
+[2019.03.17-10.30.16:449][450]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:449][450]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:449][450]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.16:450][450]LogBlueprint:Warning: [Rook] 'id' variable not found. Base class was probably changed.
+[2019.03.17-10.30.20:517][790]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.17-10.30.21:477][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_0 or K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_0
+[2019.03.17-10.30.21:478][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22
+[2019.03.17-10.30.21:478][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22
+[2019.03.17-10.30.21:478][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_0 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_0
+[2019.03.17-10.30.21:478][844]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_66 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_66
+[2019.03.17-10.30.21:479][844]LogUObjectHash:Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_1 or EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_1
+[2019.03.17-10.30.21:493][844]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:493][844]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:493][844]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.21:494][844]LogBlueprint:Warning: [Rook] 'id' variable not found. Base class was probably changed.
+[2019.03.17-10.30.22:646][936]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.17-10.30.23:860][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_3 or K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_3
+[2019.03.17-10.30.23:860][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_0 or K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_0
+[2019.03.17-10.30.23:860][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_14 or K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_14
+[2019.03.17-10.30.23:860][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_22
+[2019.03.17-10.30.23:860][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_0 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_0
+[2019.03.17-10.30.23:861][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_110 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_110
+[2019.03.17-10.30.23:861][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_66 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_66
+[2019.03.17-10.30.23:861][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_17 or K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_17
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_AddDelegate /Game/Blueprints/Rook.Rook:EventGraph.K2Node_AddDelegate_10 or K2Node_AddDelegate /Game/Blueprints/Rook.Rook:EventGraph.K2Node_AddDelegate_10
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_10 or K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_10
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_21 or EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_21
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_525 or K2Node_CustomEvent /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CustomEvent_525
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_49 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_49
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_14 or K2Node_IfThenElse /Game/Blueprints/Rook.Rook:EventGraph.K2Node_IfThenElse_14
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_53 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_53
+[2019.03.17-10.30.23:862][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_33 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_33
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_0 or K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_0
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_2584 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_2584
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_434 or EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_434
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_1 or EdGraphNode_Comment /Game/Blueprints/Rook.Rook:EventGraph.EdGraphNode_Comment_1
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_111 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_111
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_18 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_18
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_150 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_150
+[2019.03.17-10.30.23:863][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_151 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_151
+[2019.03.17-10.30.23:864][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/Rook.Rook:EventGraph.K2Node_MacroInstance_0 or K2Node_MacroInstance /Game/Blueprints/Rook.Rook:EventGraph.K2Node_MacroInstance_0
+[2019.03.17-10.30.23:864][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_2320 or K2Node_CallFunction /Game/Blueprints/Rook.Rook:EventGraph.K2Node_CallFunction_2320
+[2019.03.17-10.30.23:864][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_560 or K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_560
+[2019.03.17-10.30.23:864][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_565 or K2Node_VariableSet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableSet_565
+[2019.03.17-10.30.23:865][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/Rook.Rook:EventGraph.K2Node_Knot_1 or K2Node_Knot /Game/Blueprints/Rook.Rook:EventGraph.K2Node_Knot_1
+[2019.03.17-10.30.23:865][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Knot /Game/Blueprints/Rook.Rook:EventGraph.K2Node_Knot_3 or K2Node_Knot /Game/Blueprints/Rook.Rook:EventGraph.K2Node_Knot_3
+[2019.03.17-10.30.23:865][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_123 or K2Node_VariableGet /Game/Blueprints/Rook.Rook:EventGraph.K2Node_VariableGet_123
+[2019.03.17-10.30.23:880][ 43]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:880][ 43]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:880][ 43]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'Queen' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'active' variable not found. Base class was probably changed.
+[2019.03.17-10.30.23:881][ 43]LogBlueprint:Warning: [Rook] 'id' variable not found. Base class was probably changed.
+[2019.03.17-10.31.22:088][973]BlueprintLog: New page: Compile Rook
+[2019.03.17-10.31.38:834][782]BlueprintLog: New page: Compile Rook
+[2019.03.17-10.31.39:539][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.17-10.31.39:653][828]LogSavePackage: Save=66.40ms
+[2019.03.17-10.31.39:653][828]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/RookB6B359B04A5E17BE82821C82F7926A69.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.17-10.31.39:659][828]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.17-10.32.42:637][645]BlueprintLog: New page: Compile Rook
+[2019.03.17-10.32.43:320][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.17-10.32.43:377][696]LogSavePackage: Save=31.46ms
+[2019.03.17-10.32.43:377][696]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/RookEE6B713E417B1A560AD2F7B46086D02D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.17-10.32.43:382][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.17-10.33.25:044][648]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.17-10.34.08:886][690]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-10.34.09:763][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-10.34.09:823][751]LogSavePackage: Save=29.13ms
+[2019.03.17-10.34.09:823][751]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode2B09CEA44DD5800B3A0A13BD57A5DB87.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-10.34.09:828][751]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-10.34.10:962][876]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-10.34.10:979][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-10.34.10:979][876]PIE: New page: PIE session: FirstLevel (17-Mar-2019 9:34:10 pm)
+[2019.03.17-10.34.10:979][876]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-10.34.10:988][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008407s)
+[2019.03.17-10.34.10:989][876]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-10.34.10:989][876]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2019.03.17-10.34.10:989][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009488s)
+[2019.03.17-10.34.11:015][876]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-10.34.11:071][876]LogInit: FAudioDevice initialized.
+[2019.03.17-10.34.11:119][876]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-10.34.11:125][876]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.17-16.04.11
+[2019.03.17-10.34.11:125][876]LogWorld: Bringing up level for play took: 0.005020
+[2019.03.17-10.34.11:127][876]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-10.34.11:127][876]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-10.34.11:127][876]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-10.34.11:127][876]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-10.34.11:131][876]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.112
+[2019.03.17-10.34.14:961][227]LogBlueprintUserMessages: [ChessGameMode_C_0] noone
+[2019.03.17-10.35.01:097][616]LogSavePackage: Save=172.65ms
+[2019.03.17-10.35.01:098][616]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto3CCA6A9F445E3E0A758D7F28312C147BE.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap'
+[2019.03.17-10.35.01:101][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap
+[2019.03.17-10.35.01:104][616]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.264
+[2019.03.17-10.35.01:104][616]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.264
+[2019.03.17-10.37.24:574][104]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-10.37.25:263][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-10.37.25:349][124]LogSavePackage: Save=47.71ms
+[2019.03.17-10.37.25:349][124]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode58258F85495A2E6FB42E82A51BC3C211.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-10.37.25:356][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-10.37.26:235][187]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-10.37.26:260][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-10.37.26:261][187]PIE: New page: PIE session: FirstLevel (17-Mar-2019 9:37:26 pm)
+[2019.03.17-10.37.26:261][187]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-10.37.26:280][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018752s)
+[2019.03.17-10.37.26:280][187]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-10.37.26:281][187]LogPlayLevel: PIE: World Init took: (0.001208s)
+[2019.03.17-10.37.26:281][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.020283s)
+[2019.03.17-10.37.26:314][187]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-10.37.26:394][187]LogInit: FAudioDevice initialized.
+[2019.03.17-10.37.26:448][187]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-10.37.26:460][187]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.17-16.07.26
+[2019.03.17-10.37.26:462][187]LogWorld: Bringing up level for play took: 0.011103
+[2019.03.17-10.37.26:465][187]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-10.37.26:465][187]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-10.37.26:465][187]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-10.37.26:465][187]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-10.37.26:473][187]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.455
+[2019.03.17-10.41.50:924][ 24]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-10.41.51:834][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-10.41.51:895][ 49]LogSavePackage: Save=28.75ms
+[2019.03.17-10.41.51:895][ 49]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameModeBC2236A94E0B60E5DEBAAF93199FA5D9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-10.41.51:900][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-10.45.17:642][850]LogSavePackage: Save=174.06ms
+[2019.03.17-10.45.17:642][850]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto47FAD0B3147C46D7919479A842556BE45.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.17-10.45.17:646][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.17-10.45.17:649][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.282
+[2019.03.17-10.45.17:650][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.282
+[2019.03.17-10.52.51:889][270]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-10.52.51:909][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-10.52.51:909][270]PIE: New page: PIE session: FirstLevel (17-Mar-2019 9:52:51 pm)
+[2019.03.17-10.52.51:909][270]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-10.52.51:918][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008813s)
+[2019.03.17-10.52.51:919][270]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-10.52.51:919][270]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.03.17-10.52.51:919][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009881s)
+[2019.03.17-10.52.51:948][270]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-10.52.51:996][270]LogInit: FAudioDevice initialized.
+[2019.03.17-10.52.52:029][270]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-10.52.52:034][270]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-16.22.52
+[2019.03.17-10.52.52:035][270]LogWorld: Bringing up level for play took: 0.003878
+[2019.03.17-10.52.52:036][270]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-10.52.52:036][270]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-10.52.52:036][270]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-10.52.52:036][270]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-10.52.52:037][270]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.017
+[2019.03.17-10.53.03:188][920]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-10.53.03:209][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-10.53.03:209][920]PIE: New page: PIE session: FirstLevel (17-Mar-2019 9:53:03 pm)
+[2019.03.17-10.53.03:209][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-10.53.03:222][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012769s)
+[2019.03.17-10.53.03:223][920]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-10.53.03:224][920]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2019.03.17-10.53.03:224][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014621s)
+[2019.03.17-10.53.03:261][920]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-10.53.03:333][920]LogInit: FAudioDevice initialized.
+[2019.03.17-10.53.03:389][920]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-10.53.03:400][920]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-16.23.03
+[2019.03.17-10.53.03:401][920]LogWorld: Bringing up level for play took: 0.008816
+[2019.03.17-10.53.03:402][920]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-10.53.03:402][920]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-10.53.03:402][920]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-10.53.03:402][920]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-10.53.03:409][920]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.61
+[2019.03.17-10.53.04:638][987]LogRenderer: Reallocating scene render targets to support 1536x800 NumSamples 1 (Frame:41127).
+[2019.03.17-10.55.11:638][341]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.17-10.55.35:334][688]BlueprintLog: New page: Compile Queen
+[2019.03.17-10.55.35:855][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Queen" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset" SILENT=true
+[2019.03.17-10.55.36:025][688]LogSavePackage: Save=102.36ms
+[2019.03.17-10.55.36:025][688]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/QueenE49B5B7C4E34E07800DB969507ABD8B7.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset'
+[2019.03.17-10.55.36:033][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Queen.uasset
+[2019.03.17-10.55.44:610][169]BlueprintLog: New page: Compile Rook
+[2019.03.17-10.55.45:163][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Rook" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset" SILENT=true
+[2019.03.17-10.55.45:262][169]LogSavePackage: Save=55.29ms
+[2019.03.17-10.55.45:262][169]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Rook835710DD42621223AA8E029056E8553D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset'
+[2019.03.17-10.55.45:269][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Rook.uasset
+[2019.03.17-10.57.16:335][901]LogSavePackage: Save=182.39ms
+[2019.03.17-10.57.16:335][901]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto5DB86150C4D56D4CFA9741B8C4ADF4F9F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap'
+[2019.03.17-10.57.16:340][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap
+[2019.03.17-10.57.16:345][901]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.301
+[2019.03.17-10.57.16:345][901]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.301
+[2019.03.17-10.59.25:633][562]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece84)
+[2019.03.17-10.59.26:367][589]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.17-10.59.41:021][426]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.17-10.59.49:445][892]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-10.59.50:411][947]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.17-10.59.58:229][376]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.17-10.59.59:757][460]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.17-11.00.04:390][713]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.00.06:036][805]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.17-11.00.07:852][910]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.17-11.00.09:208][984]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.00.15:055][314]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.17-11.00.25:111][877]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.17-11.00.34:411][416]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.17-11.00.38:081][626]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.17-11.00.39:763][723]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.17-11.00.46:130][ 81]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.17-11.00.47:188][142]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.17-11.00.53:891][515]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.17-11.00.55:559][610]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.17-11.01.02:523][  7]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.01.03:709][ 71]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.17-11.01.08:296][320]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.01.14:742][677]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.17-11.01.17:496][832]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.17-11.01.28:010][426]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.17-11.01.36:739][914]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.01.38:206][991]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.17-11.01.46:231][438]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.17-11.01.51:259][719]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.01.52:528][788]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook)
+[2019.03.17-11.01.59:182][163]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.03.17-11.02.01:124][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.02.02:272][335]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.17-11.02.04:243][446]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.17-11.02.08:070][662]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.17-11.02.10:434][794]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.17-11.02.16:072][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.02.16:829][118]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.17-11.02.22:880][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.02.25:103][587]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight3)
+[2019.03.17-11.02.27:372][719]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
+[2019.03.17-11.02.28:939][808]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop)
+[2019.03.17-11.02.30:757][914]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.17-11.02.33:306][ 59]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn3)
+[2019.03.17-11.02.36:189][226]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn10)
+[2019.03.17-11.02.37:861][323]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn2)
+[2019.03.17-11.02.39:365][403]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.17-11.02.40:779][482]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn)
+[2019.03.17-11.02.42:075][555]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
+[2019.03.17-11.02.44:497][696]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.17-11.02.45:963][780]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn11)
+[2019.03.17-11.02.46:988][837]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.02.47:669][875]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.02.47:775][877]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.04.02:609][229]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.17-11.04.04:190][320]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.17-11.04.06:838][468]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.17-11.04.19:740][206]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.17-11.04.28:481][702]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.17-11.04.30:385][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.04.31:604][876]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.17-11.04.39:238][306]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.17-11.04.45:955][686]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.17-11.04.52:630][ 62]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-11.04.59:593][451]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.17-11.05.01:821][578]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.17-11.05.09:775][ 27]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop4)
+[2019.03.17-11.06.29:802][678]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.17-11.06.34:558][951]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.06.35:415][997]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.17-11.06.43:186][447]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.17-11.06.44:381][515]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.17-11.06.54:510][ 89]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece72)
+[2019.03.17-11.06.55:206][127]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.17-11.06.59:588][377]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.17-11.07.00:666][438]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.17-11.07.06:034][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.17-11.07.07:126][792]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-11.07.12:195][ 74]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.07.13:223][128]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.17-11.07.18:192][403]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.07.18:989][447]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.17-11.07.24:118][732]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.17-11.08.00:530][778]LogSavePackage: Save=234.29ms
+[2019.03.17-11.08.00:530][778]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto62FDBC8CD405B0DEC00AA368BB9567287.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap'
