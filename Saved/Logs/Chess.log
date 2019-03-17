@@ -1738,3 +1738,1043 @@ Make sure 'board_Piece_C' has been compiled for  K2Node_VariableGet_97
 [2019.03.17-12.14.02:442][621]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece44)
 [2019.03.17-12.14.04:928][750]LogEditorViewport: Clicking Background
 [2019.03.17-12.14.09:749][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.17-12.14.09:946][ 29]LogSavePackage: Save=111.18ms
+[2019.03.17-12.14.09:946][ 29]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelC6169C9C41EC9946E88A49A10AA770E9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.17-12.14.09:954][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.17-12.22.50:073][490]LogEditorViewport: Clicking Background
+[2019.03.17-12.22.50:689][526]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece71)
+[2019.03.17-12.22.56:708][841]LogEditorViewport: Clicking Background
+[2019.03.17-12.22.57:821][907]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.23.12:496][611]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece80)
+[2019.03.17-12.23.19:549][  9]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece71)
+[2019.03.17-12.23.23:934][258]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece68)
+[2019.03.17-12.23.33:956][833]LogEditorViewport: Clicking Background
+[2019.03.17-12.24.09:151][883]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece68)
+[2019.03.17-12.24.11:381][ 13]LogEditorViewport: Clicking Background
+[2019.03.17-12.24.15:423][157]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece67)
+[2019.03.17-12.24.21:836][529]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece72)
+[2019.03.17-12.24.26:676][814]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.17-12.24.33:653][223]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.24.40:166][605]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece70)
+[2019.03.17-12.24.56:364][559]LogEditorViewport: Clicking Background
+[2019.03.17-12.24.57:067][601]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.17-12.25.02:032][889]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.03:083][950]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.17-12.25.04:188][ 14]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.25.11:190][406]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.12:175][462]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.17-12.25.12:939][505]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.17-12.25.13:748][553]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.25.19:888][910]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece69)
+[2019.03.17-12.25.24:966][206]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.25:719][251]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece74)
+[2019.03.17-12.25.31:129][569]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.32:484][649]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-12.25.33:371][699]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-12.25.34:238][749]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-12.25.34:967][792]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.25.41:868][198]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.43:324][284]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.25.44:159][330]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.25.53:754][889]LogEditorViewport: Clicking Background
+[2019.03.17-12.25.55:268][979]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece69)
+[2019.03.17-12.25.57:218][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece70)
+[2019.03.17-12.25.58:285][154]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece67)
+[2019.03.17-12.25.59:905][249]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece71)
+[2019.03.17-12.26.01:283][327]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece68)
+[2019.03.17-12.26.02:091][372]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece72)
+[2019.03.17-12.26.03:043][425]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece74)
+[2019.03.17-12.26.03:825][468]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece73)
+[2019.03.17-12.26.05:274][549]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn15)
+[2019.03.17-12.26.06:547][618]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece80)
+[2019.03.17-12.26.09:153][764]LogEditorViewport: Clicking on Actor (CTRL LMB): Knight_C (Knight4)
+[2019.03.17-12.26.11:405][892]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.26.12:289][940]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.12:289][940]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.26.12:680][956]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.12:680][956]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.26.13:968][ 27]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.26.14:854][ 77]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.14:854][ 77]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.26.15:195][ 96]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.15:195][ 96]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.26.15:652][122]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.15:652][122]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.26.17:032][201]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.17:032][201]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.26.18:035][254]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece80)
+[2019.03.17-12.26.19:852][355]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.26.21:231][430]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece79)
+[2019.03.17-12.26.22:465][500]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.26.23:737][573]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.26.25:351][663]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.26.26:701][740]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn12)
+[2019.03.17-12.26.28:239][828]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.28:239][828]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.26.29:139][864]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn12)
+[2019.03.17-12.26.29:964][909]Cmd: TRANSACTION UNDO
+[2019.03.17-12.26.29:964][909]LogEditorTransaction: Undo Move Actors
+[2019.03.17-12.26.32:957][ 79]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.26.34:340][156]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.26.39:063][423]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.26.40:620][509]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece81)
+[2019.03.17-12.26.45:599][771]LogEditorViewport: Clicking Background
+[2019.03.17-12.26.56:136][382]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece73)
+[2019.03.17-12.26.57:265][442]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.00:799][645]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece72)
+[2019.03.17-12.27.02:957][758]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.03:481][789]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.17-12.27.19:423][694]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.21:204][799]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.27.28:766][238]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.34:826][594]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.27.38:850][823]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.40:928][947]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.27.46:349][265]LogEditorViewport: Clicking Background
+[2019.03.17-12.27.47:851][354]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.27.55:006][774]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.27.56:101][837]LogEditorViewport: Clicking Background
+[2019.03.17-12.28.01:230][138]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.28.03:711][281]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece58)
+[2019.03.17-12.28.04:875][345]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.28.10:079][637]LogEditorViewport: Clicking Background
+[2019.03.17-12.28.13:505][824]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece69)
+[2019.03.17-12.28.20:465][206]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece69)
+[2019.03.17-12.28.24:039][367]LogEditorViewport: Clicking Background
+[2019.03.17-12.28.24:676][404]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.28.27:559][567]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.28.29:130][656]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.28.30:466][730]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece69)
+[2019.03.17-12.28.32:383][824]LogEditorViewport: Clicking Background
+[2019.03.17-12.28.37:618][129]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.28.39:527][238]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.03.17-12.28.40:422][287]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.28.41:675][358]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece39)
+[2019.03.17-12.28.43:061][436]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.28.44:991][546]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.44:991][546]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.45:402][561]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.45:403][561]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.45:970][588]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.45:970][588]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.46:414][612]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.46:414][612]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.46:881][635]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.46:881][635]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.47:350][663]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.47:350][663]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.28.47:858][689]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.47:858][689]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.17-12.28.48:332][714]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.48:332][714]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.48:816][741]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.48:816][741]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.49:286][767]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.49:286][767]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.28.49:824][798]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.49:824][798]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.28.51:152][874]Cmd: TRANSACTION UNDO
+[2019.03.17-12.28.51:152][874]LogEditorTransaction: Undo Disband Group
+[2019.03.17-12.28.52:121][929]LogEditorViewport: Clicking Background
+[2019.03.17-12.28.55:982][153]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.28.57:044][211]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.29.02:867][513]LogEditorViewport: Clicking Background
+[2019.03.17-12.29.06:188][699]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.29.09:909][906]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece100)
+[2019.03.17-12.29.14:931][178]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.29.34:708][256]LogEditorViewport: Clicking Background
+[2019.03.17-12.29.35:549][304]LogEditorViewport: Clicking Background
+[2019.03.17-12.29.36:438][357]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.29.41:309][640]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.29.43:814][784]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.29.44:951][850]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.29.52:496][290]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.30.00:121][735]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.30.01:110][790]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.30.02:379][863]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.30.04:506][984]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.09:283][261]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.30.13:046][474]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.30.14:471][554]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.30.15:973][638]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.30.16:667][676]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.30.18:129][759]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.18:130][759]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.30.18:873][786]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.30.20:116][856]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece100)
+[2019.03.17-12.30.22:432][964]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.24:731][ 97]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.34:390][655]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.34:390][655]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.35:447][709]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.35:447][709]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.36:417][763]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.36:417][763]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.03.17-12.30.40:565][  0]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.41:130][ 33]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.30.43:245][152]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.43:664][176]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.43:664][176]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.44:065][192]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.44:066][192]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.30.44:507][215]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.44:507][215]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.45:286][258]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.45:286][258]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.03.17-12.30.45:917][293]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.45:917][293]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.30.46:629][333]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.46:629][333]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.30.48:704][451]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.48:704][451]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.17-12.30.49:108][473]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.49:108][473]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.17-12.30.49:515][495]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.49:515][495]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2019.03.17-12.30.50:048][525]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.50:048][525]LogEditorTransaction: Redo Clicking Background
+[2019.03.17-12.30.50:565][556]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.50:565][556]LogEditorTransaction: Redo Clicking on Actors
+[2019.03.17-12.30.51:150][588]Cmd: TRANSACTION REDO
+[2019.03.17-12.30.51:150][588]LogEditorTransaction: Redo Clicking Background
+[2019.03.17-12.30.52:635][675]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.52:635][675]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.53:257][707]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.53:257][707]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.30.53:817][738]Cmd: TRANSACTION UNDO
+[2019.03.17-12.30.53:817][738]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.30.55:423][827]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece100)
+[2019.03.17-12.30.57:187][914]LogEditorViewport: Clicking Background
+[2019.03.17-12.30.58:161][971]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece97)
+[2019.03.17-12.31.39:745][917]LogEditorViewport: Clicking Background
+[2019.03.17-12.31.40:510][962]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.31.46:722][326]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece98)
+[2019.03.17-12.31.59:553][ 76]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.32.05:038][386]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.32.06:393][464]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.32.07:501][526]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.32.09:315][629]LogEditorViewport: Clicking Background
+[2019.03.17-12.32.10:919][723]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece97)
+[2019.03.17-12.32.13:642][877]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.32.14:672][935]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece98)
+[2019.03.17-12.32.15:283][968]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.32.19:124][185]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.32.20:031][237]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.32.23:498][417]LogEditorViewport: Clicking Background
+[2019.03.17-12.32.25:516][532]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece74)
+[2019.03.17-12.32.26:175][567]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece51)
+[2019.03.17-12.32.28:067][673]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.03.17-12.32.29:340][744]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.03.17-12.32.30:266][796]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.03.17-12.32.31:013][837]LogEditorViewport: Clicking Background
+[2019.03.17-12.32.35:268][ 81]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-12.32.36:370][144]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.32.39:209][304]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece74)
+[2019.03.17-12.32.42:889][478]LogEditorViewport: Clicking Background
+[2019.03.17-12.32.43:612][520]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.32.48:461][794]LogEditorViewport: Clicking Background
+[2019.03.17-12.32.49:143][833]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn12)
+[2019.03.17-12.33.03:754][651]LogEditorViewport: Clicking Background
+[2019.03.17-12.33.06:260][796]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.33.09:483][981]LogEditorViewport: Clicking Background
+[2019.03.17-12.33.10:898][ 64]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn13)
+[2019.03.17-12.33.26:464][965]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.17-12.33.29:493][142]LogEditorViewport: Clicking Background
+[2019.03.17-12.33.30:714][213]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn20)
+[2019.03.17-12.33.42:083][876]LogEditorViewport: Clicking Background
+[2019.03.17-12.33.42:533][902]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece80)
+[2019.03.17-12.33.45:224][ 57]LogEditorViewport: Clicking Background
+[2019.03.17-12.33.45:992][102]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn15)
+[2019.03.17-12.34.04:385][160]LogEditorViewport: Clicking Background
+[2019.03.17-12.34.10:105][491]LogEditorViewport: Clicking Background
+[2019.03.17-12.34.10:793][532]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.34.13:347][672]LogEditorViewport: Clicking Background
+[2019.03.17-12.34.14:222][722]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight4)
+[2019.03.17-12.34.35:396][927]LogEditorViewport: Clicking Background
+[2019.03.17-12.34.38:246][ 92]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop4)
+[2019.03.17-12.34.44:993][467]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.34.49:516][725]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop4)
+[2019.03.17-12.35.06:031][663]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.06:966][719]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.35.10:600][929]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop2)
+[2019.03.17-12.35.19:716][455]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.20:559][505]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.21:192][542]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.35.24:251][720]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.24:992][764]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.35.35:473][377]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.42:912][819]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.35.43:910][877]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.44:683][923]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.35.52:203][362]Cmd: ACTOR SELECT ALL
+[2019.03.17-12.35.54:474][493]LogEditorViewport: Clicking Background
+[2019.03.17-12.35.55:976][581]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight2)
+[2019.03.17-12.36.00:609][852]LogEditorViewport: Clicking Background
+[2019.03.17-12.36.02:768][978]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.36.03:886][ 40]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece96)
+[2019.03.17-12.36.05:435][123]LogEditorViewport: Clicking Background
+[2019.03.17-12.36.16:433][765]LogEditorViewport: Clicking Background
+[2019.03.17-12.36.17:263][813]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece68)
+[2019.03.17-12.36.18:159][863]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece67)
+[2019.03.17-12.36.19:056][913]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece70)
+[2019.03.17-12.36.19:676][948]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece69)
+[2019.03.17-12.36.24:241][206]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.36.25:242][263]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece80)
+[2019.03.17-12.36.26:163][313]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece71)
+[2019.03.17-12.36.29:206][483]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece78)
+[2019.03.17-12.36.30:517][557]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece77)
+[2019.03.17-12.36.31:593][618]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.36.34:248][767]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece74)
+[2019.03.17-12.36.35:649][847]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.36.37:773][967]Cmd: TRANSACTION UNDO
+[2019.03.17-12.36.37:773][967]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.36.40:280][100]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece74)
+[2019.03.17-12.36.42:203][210]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece81)
+[2019.03.17-12.36.48:897][597]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece72)
+[2019.03.17-12.36.49:976][658]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.36.50:868][707]Cmd: TRANSACTION UNDO
+[2019.03.17-12.36.50:868][707]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.36.51:616][741]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece82)
+[2019.03.17-12.36.52:712][803]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece73)
+[2019.03.17-12.36.56:364][ 11]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece79)
+[2019.03.17-12.36.57:314][ 64]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece79)
+[2019.03.17-12.36.59:466][163]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.05:940][544]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.37.06:472][575]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece100)
+[2019.03.17-12.37.08:927][704]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.11:063][820]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
+[2019.03.17-12.37.12:153][878]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.12:985][927]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.37.15:865][ 85]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.17:123][156]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn16)
+[2019.03.17-12.37.29:896][878]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.30:763][930]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece76)
+[2019.03.17-12.37.31:437][969]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.37.33:676][ 99]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.35:549][208]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn18)
+[2019.03.17-12.37.51:482][129]LogEditorViewport: Clicking Background
+[2019.03.17-12.37.52:882][213]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.38.01:124][690]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.01:848][731]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook2)
+[2019.03.17-12.38.17:137][579]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.38.18:429][649]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.19:131][690]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.17-12.38.22:791][892]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.38.25:450][ 42]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.26:115][ 81]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.17-12.38.34:016][527]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.35:124][591]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
+[2019.03.17-12.38.42:342][996]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.43:908][ 84]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.46:725][247]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.51:264][506]LogEditorViewport: Clicking Background
+[2019.03.17-12.38.51:946][546]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-12.38.53:002][603]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece101)
+[2019.03.17-12.38.55:557][742]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece99)
+[2019.03.17-12.38.58:789][923]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece102)
+[2019.03.17-12.39.00:012][993]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.39.01:471][ 75]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod4)
+[2019.03.17-12.39.03:029][155]LogEditorViewport: Clicking Background
+[2019.03.17-12.39.06:381][344]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.39.07:360][399]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece95)
+[2019.03.17-12.39.26:194][481]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.39.26:212][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.39.26:212][481]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:39:26 pm)
+[2019.03.17-12.39.26:212][481]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.39.26:224][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011439s)
+[2019.03.17-12.39.26:225][481]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.39.26:225][481]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2019.03.17-12.39.26:226][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013178s)
+[2019.03.17-12.39.26:298][481]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.39.26:386][481]LogInit: FAudioDevice initialized.
+[2019.03.17-12.39.26:421][481]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.39.26:428][481]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.09.26
+[2019.03.17-12.39.26:429][481]LogWorld: Bringing up level for play took: 0.005401
+[2019.03.17-12.39.26:430][481]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.39.26:430][481]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.39.26:430][481]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.39.26:430][481]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.39.26:431][481]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.412
+[2019.03.17-12.39.45:363][594]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.39.47:986][741]LogEditorViewport: Clicking Background
+[2019.03.17-12.39.48:925][796]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.39.51:393][939]LogEditorViewport: Clicking Background
+[2019.03.17-12.39.52:752][ 19]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn17)
+[2019.03.17-12.40.05:372][753]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.06:197][802]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.40.07:071][853]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.40.10:721][ 62]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn14)
+[2019.03.17-12.40.23:081][766]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.30:253][189]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece97)
+[2019.03.17-12.40.32:234][303]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.32:993][347]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.17-12.40.40:633][792]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.41:234][828]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece98)
+[2019.03.17-12.40.43:894][984]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.44:766][ 36]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.45:923][103]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece98)
+[2019.03.17-12.40.48:542][253]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.49:091][286]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook4)
+[2019.03.17-12.40.58:712][842]LogEditorViewport: Clicking Background
+[2019.03.17-12.40.59:978][917]LogEditorViewport: Clicking on Actor (LMB): King_C (King2)
+[2019.03.17-12.41.05:082][206]LogEditorViewport: Clicking Background
+[2019.03.17-12.41.10:968][545]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece96)
+[2019.03.17-12.41.12:068][606]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece98)
+[2019.03.17-12.41.12:966][656]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece95)
+[2019.03.17-12.41.14:928][766]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece97)
+[2019.03.17-12.41.16:709][866]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.41.17:630][918]LogEditorViewport: Clicking on Actor (context menu): movable_Rod_C (movable_Rod3)
+[2019.03.17-12.41.21:730][144]LogEditorViewport: Clicking Background
+[2019.03.17-12.41.26:182][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.17-12.41.26:448][297]LogSavePackage: Save=175.78ms
+[2019.03.17-12.41.26:448][297]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelE9D84CD8451C902009D7849E8DC80A18.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.17-12.41.26:455][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.17-12.41.27:084][331]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.41.27:117][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.41.27:118][331]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:41:27 pm)
+[2019.03.17-12.41.27:118][331]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.41.27:130][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012688s)
+[2019.03.17-12.41.27:131][331]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.41.27:132][331]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2019.03.17-12.41.27:132][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014394s)
+[2019.03.17-12.41.27:173][331]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.41.27:270][331]LogInit: FAudioDevice initialized.
+[2019.03.17-12.41.27:319][331]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.41.27:325][331]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.11.27
+[2019.03.17-12.41.27:326][331]LogWorld: Bringing up level for play took: 0.005570
+[2019.03.17-12.41.27:328][331]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.41.27:328][331]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.41.27:328][331]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.41.27:328][331]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.41.27:329][331]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.689
+[2019.03.17-12.53.59:094][568]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.17-12.53.59:975][619]LogEditorViewport: Clicking Background
+[2019.03.17-12.54.00:998][679]Cmd: TRANSACTION UNDO
+[2019.03.17-12.54.00:998][679]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-12.54.02:107][738]Cmd: TRANSACTION UNDO
+[2019.03.17-12.54.02:107][738]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-12.54.10:417][233]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.54.10:434][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.54.10:434][233]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:54:10 pm)
+[2019.03.17-12.54.10:434][233]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.54.10:443][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008339s)
+[2019.03.17-12.54.10:443][233]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.54.10:443][233]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2019.03.17-12.54.10:444][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009280s)
+[2019.03.17-12.54.10:475][233]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.54.10:538][233]LogInit: FAudioDevice initialized.
+[2019.03.17-12.54.10:573][233]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.54.10:579][233]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.24.10
+[2019.03.17-12.54.10:580][233]LogWorld: Bringing up level for play took: 0.004376
+[2019.03.17-12.54.10:581][233]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.54.10:581][233]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.54.10:581][233]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.54.10:581][233]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.54.10:582][233]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.564
+[2019.03.17-12.54.36:971][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.54.36:971][790]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:54:36 pm)
+[2019.03.17-12.54.36:971][790]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.54.36:979][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007371s)
+[2019.03.17-12.54.36:979][790]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.54.36:979][790]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2019.03.17-12.54.36:979][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008320s)
+[2019.03.17-12.54.37:007][790]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.54.37:063][790]LogInit: FAudioDevice initialized.
+[2019.03.17-12.54.37:096][790]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.54.37:101][790]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.24.37
+[2019.03.17-12.54.37:102][790]LogWorld: Bringing up level for play took: 0.004361
+[2019.03.17-12.54.37:103][790]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.54.37:103][790]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.54.37:103][790]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.54.37:103][790]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.54.37:104][790]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.086
+[2019.03.17-12.54.45:173][264]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.54.45:187][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.54.45:187][264]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:54:45 pm)
+[2019.03.17-12.54.45:187][264]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.54.45:195][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007291s)
+[2019.03.17-12.54.45:195][264]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.54.45:195][264]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2019.03.17-12.54.45:195][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008105s)
+[2019.03.17-12.54.45:225][264]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.54.45:281][264]LogInit: FAudioDevice initialized.
+[2019.03.17-12.54.45:310][264]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.54.45:315][264]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.24.45
+[2019.03.17-12.54.45:315][264]LogWorld: Bringing up level for play took: 0.003932
+[2019.03.17-12.54.45:316][264]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.54.45:316][264]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.54.45:316][264]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.54.45:316][264]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.54.45:317][264]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.702
+[2019.03.17-12.54.48:972][476]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece55)
+[2019.03.17-12.54.50:737][577]LogEditorViewport: Clicking Background
+[2019.03.17-12.55.23:224][467]LogEditorViewport: Clicking Background
+[2019.03.17-12.55.23:740][498]LogEditorViewport: Clicking Background
+[2019.03.17-12.55.29:941][860]LogEditorViewport: Clicking Background
+[2019.03.17-12.55.35:887][ 79]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.03.17-12.55.36:502][ 95]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Chess
+
+[2019.03.17-12.55.36:502][ 95]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2019.03.17-12.55.36:502][ 95]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.14
+
+[2019.03.17-12.55.36:502][ 95]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
+
+[2019.03.17-12.55.36:502][ 95]LogTemp:Display: BranchPath = ROHIT-PANJWANI/C/Program Files/Epic Games/UE_4.14/Engine/Binaries --- GameBranchPath = ROHIT-PANJWANI/C/Program Files/Epic Games/UE_4.14/Engine/Binaries
+
+[2019.03.17-12.55.36:651][104]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rohit Panjwani\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2019.03.17-12.55.36:651][104]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2019.03.17-12.55.36:652][104]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2019.03.17-12.55.36:652][104]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2019.03.17-12.55.36:652][104]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2019.03.17-12.55.36:652][104]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2019.03.17-12.55.36:652][104]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2019.03.17-12.56.26:386][ 11]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.56.26:414][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.56.26:414][ 11]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:56:26 pm)
+[2019.03.17-12.56.26:414][ 11]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.56.26:422][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007489s)
+[2019.03.17-12.56.26:423][ 11]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.56.26:423][ 11]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2019.03.17-12.56.26:423][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008896s)
+[2019.03.17-12.56.26:454][ 11]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.56.26:508][ 11]LogInit: FAudioDevice initialized.
+[2019.03.17-12.56.26:559][ 11]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.56.26:569][ 11]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.26.26
+[2019.03.17-12.56.26:571][ 11]LogWorld: Bringing up level for play took: 0.009156
+[2019.03.17-12.56.26:572][ 11]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.56.26:572][ 11]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.56.26:572][ 11]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.56.26:572][ 11]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.56.26:577][ 11]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.558
+[2019.03.17-12.56.39:479][770]LogBlueprintUserMessages: [board_Piece59] X=-160.000 Y=725.000 Z=10.000
+[2019.03.17-12.57.46:307][666]LogEditorViewport: Clicking Background
+[2019.03.17-12.59.27:008][548]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-12.59.27:557][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-12.59.27:666][560]LogSavePackage: Save=54.54ms
+[2019.03.17-12.59.27:667][560]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece468E675B464F7D7EF784A1835B0A1254.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-12.59.27:675][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-12.59.28:814][624]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-12.59.28:881][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-12.59.28:882][624]PIE: New page: PIE session: FirstLevel (17-Mar-2019 11:59:28 pm)
+[2019.03.17-12.59.28:882][624]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-12.59.28:909][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027043s)
+[2019.03.17-12.59.28:910][624]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-12.59.28:911][624]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2019.03.17-12.59.28:911][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.029220s)
+[2019.03.17-12.59.28:962][624]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-12.59.29:058][624]LogInit: FAudioDevice initialized.
+[2019.03.17-12.59.29:115][624]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-12.59.29:127][624]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-18.29.29
+[2019.03.17-12.59.29:128][624]LogWorld: Bringing up level for play took: 0.010251
+[2019.03.17-12.59.29:130][624]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-12.59.29:130][624]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-12.59.29:130][624]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-12.59.29:130][624]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-12.59.29:138][624]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.12
+[2019.03.17-12.59.47:827][702]LogEditorTransaction: Undo Change Object Pin Value
+[2019.03.17-12.59.48:441][725]LogEditorTransaction: Undo Move Nodes
+[2019.03.17-12.59.48:929][749]LogEditorTransaction: Undo Add Node
+[2019.03.17-12.59.49:358][768]LogEditorTransaction: Undo Create Pin Link
+[2019.03.17-12.59.50:352][821]LogEditorTransaction: Undo Create Pin Link
+[2019.03.17-12.59.51:244][870]LogEditorTransaction: Undo Add Node
+[2019.03.17-12.59.51:493][879]LogEditorTransaction: Undo Change Number Pin Value
+[2019.03.17-12.59.51:862][891]LogEditorTransaction: Undo Create Pin Link
+[2019.03.17-12.59.52:371][921]LogEditorTransaction: Undo Add Node
+[2019.03.17-12.59.52:933][948]LogEditorTransaction: Undo Move Node
+[2019.03.17-12.59.53:456][975]LogEditorTransaction: Undo Change String Pin Value
+[2019.03.17-12.59.53:980][  1]LogEditorTransaction: Undo Create Pin Link
+[2019.03.17-12.59.54:543][ 34]LogEditorTransaction: Undo Move Node
+[2019.03.17-12.59.55:064][ 60]LogEditorTransaction: Undo Add Node
+[2019.03.17-12.59.55:556][ 84]LogEditorTransaction: Undo Split Struct Pin
+[2019.03.17-12.59.56:180][116]LogEditorTransaction: Undo Add Node
+[2019.03.17-12.59.58:311][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-12.59.58:397][231]LogSavePackage: Save=42.04ms
+[2019.03.17-12.59.58:397][231]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece752F24B041FD26820A5D779BD0692946.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-12.59.58:405][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-12.59.58:674][246]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-13.00.04:030][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.17-13.00.04:229][541]LogSavePackage: Save=117.59ms
+[2019.03.17-13.00.04:229][541]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel050ECED7412F0A3CA8EF55BE18674263.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.17-13.00.04:234][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.17-13.01.15:652][747]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-13.01.20:180][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-13.01.20:273][954]LogSavePackage: Save=51.02ms
+[2019.03.17-13.01.20:273][954]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode4F43206B4B3AB7C2B6AC1E8A42C23646.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-13.01.20:282][954]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-13.10.04:812][  2]LogSavePackage: Save=113.62ms
+[2019.03.17-13.10.04:812][  2]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto8BD70BC424B24BC52766BEDA120731BDC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto8.umap'
+[2019.03.17-13.10.04:814][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto8.umap
+[2019.03.17-13.10.04:817][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.188
+[2019.03.17-13.10.04:817][  2]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.188
+[2019.03.17-13.58.01:300][745]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-13.58.01:379][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-13.58.01:380][745]PIE: New page: PIE session: FirstLevel (18-Mar-2019 12:58:01 am)
+[2019.03.17-13.58.01:381][745]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-13.58.01:423][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042440s)
+[2019.03.17-13.58.01:428][745]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-13.58.01:430][745]LogPlayLevel: PIE: World Init took: (0.006614s)
+[2019.03.17-13.58.01:431][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.050316s)
+[2019.03.17-13.58.01:631][745]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-13.58.01:715][745]LogInit: FAudioDevice initialized.
+[2019.03.17-13.58.01:780][745]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-13.58.01:795][745]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-19.28.01
+[2019.03.17-13.58.01:798][745]LogWorld: Bringing up level for play took: 0.013647
+[2019.03.17-13.58.01:805][745]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-13.58.01:806][745]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-13.58.01:806][745]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-13.58.01:806][745]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-13.58.01:813][745]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.205
+[2019.03.17-16.38.36:375][998]LogBlueprintUserMessages: [board_Piece102] X=446.000 Y=626.000 Z=590.000
+[2019.03.17-16.39.47:784][271]LogEditorViewport: Clicking Background
+[2019.03.17-16.39.48:480][302]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
+[2019.03.17-16.40.26:688][668]LogEditorViewport: Clicking Background
+[2019.03.17-16.41.38:325][280]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-16.41.43:145][504]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece83)
+[2019.03.17-16.41.46:523][608]LogEditorViewport: Clicking Background
+[2019.03.17-16.41.47:860][679]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.03.17-16.41.50:033][768]LogEditorViewport: Clicking Background
+[2019.03.17-16.41.51:034][822]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen)
+[2019.03.17-16.41.54:408][971]LogEditorViewport: Clicking Background
+[2019.03.17-16.41.54:954][993]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.54:955][993]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.41.55:516][  1]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.55:516][  1]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.41.56:511][ 53]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.56:511][ 53]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.41.57:493][100]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.57:493][100]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.41.58:559][155]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.58:559][155]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.41.59:637][200]Cmd: TRANSACTION UNDO
+[2019.03.17-16.41.59:637][200]LogEditorTransaction: Undo Disband Group
+[2019.03.17-16.42.00:574][231]LogEditorViewport: Clicking Background
+[2019.03.17-16.42.04:344][407]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
+[2019.03.17-16.42.04:951][429]LogEditorViewport: Clicking on Actor (context menu): board_Piece_C (board_Piece42)
+[2019.03.17-16.42.09:085][567]LogEditorViewport: Clicking Background
+[2019.03.17-16.42.10:141][619]LogEditorViewport: Clicking Background
+[2019.03.17-16.42.10:865][657]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
+[2019.03.17-16.42.13:336][760]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn9)
+[2019.03.17-16.42.16:999][915]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
+[2019.03.17-16.42.20:271][ 65]LogEditorViewport: Clicking on Actor (LMB): Bishop_C (Bishop3)
+[2019.03.17-16.42.21:482][120]LogEditorViewport: Clicking Background
+[2019.03.17-16.42.21:892][139]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.21:892][139]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.42.22:465][151]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.22:465][151]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.42.23:711][200]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.23:711][200]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.42.24:383][228]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.24:383][228]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.42.24:958][248]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.24:958][248]LogEditorTransaction: Undo Clicking on Actors
+[2019.03.17-16.42.25:791][292]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.25:791][292]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.42.27:116][365]Cmd: TRANSACTION UNDO
+[2019.03.17-16.42.27:116][365]LogEditorTransaction: Undo Clicking Background
+[2019.03.17-16.42.57:255][799]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.17-16.43.10:308][443]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.17-16.45.10:599][694]LogEditorTransaction: Undo Move Nodes
+[2019.03.17-16.45.14:293][807]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.17-16.45.18:084][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_132 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_132
+[2019.03.17-16.45.18:084][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_133 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_133
+[2019.03.17-16.45.18:085][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_26 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_26
+[2019.03.17-16.45.18:085][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_40 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_40
+[2019.03.17-16.45.18:085][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_50 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_50
+[2019.03.17-16.45.18:086][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_27 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_27
+[2019.03.17-16.45.18:086][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_41 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_41
+[2019.03.17-16.45.18:087][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_51 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_51
+[2019.03.17-16.45.18:087][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_335 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_335
+[2019.03.17-16.45.18:088][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_SwitchString_17 or K2Node_SwitchString /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_SwitchString_17
+[2019.03.17-16.45.18:088][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_69 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_69
+[2019.03.17-16.45.18:089][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_443 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_443
+[2019.03.17-16.45.18:089][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_47 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_47
+[2019.03.17-16.45.18:090][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_109 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_109
+[2019.03.17-16.45.18:090][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_95 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_95
+[2019.03.17-16.45.18:090][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_107 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_107
+[2019.03.17-16.45.18:091][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_147 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_147
+[2019.03.17-16.45.18:091][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_155 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_155
+[2019.03.17-16.45.18:092][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_7 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_7
+[2019.03.17-16.45.18:092][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_120 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_120
+[2019.03.17-16.45.18:093][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_164
+[2019.03.17-16.45.18:093][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_171 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_171
+[2019.03.17-16.45.18:093][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_493 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_493
+[2019.03.17-16.45.18:094][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_136 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_136
+[2019.03.17-16.45.18:094][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_185 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_185
+[2019.03.17-16.45.18:095][974]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_190 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_190
+[2019.03.17-16.45.20:563][ 56]LogEditorTransaction: Undo Paste clipboard contents
+[2019.03.17-16.45.22:809][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_132 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_132
+[2019.03.17-16.45.22:810][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_133 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_133
+[2019.03.17-16.45.22:810][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_26 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_26
+[2019.03.17-16.45.22:811][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_40 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_40
+[2019.03.17-16.45.22:811][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_50 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_50
+[2019.03.17-16.45.22:812][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_27 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_27
+[2019.03.17-16.45.22:812][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_41 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_41
+[2019.03.17-16.45.22:812][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_51 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_51
+[2019.03.17-16.45.22:813][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_335 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_335
+[2019.03.17-16.45.22:813][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SwitchString /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_SwitchString_17 or K2Node_SwitchString /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_SwitchString_17
+[2019.03.17-16.45.22:813][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_69 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_69
+[2019.03.17-16.45.22:814][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_443 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_443
+[2019.03.17-16.45.22:814][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_47 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_47
+[2019.03.17-16.45.22:815][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_109 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_109
+[2019.03.17-16.45.22:815][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_95 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_95
+[2019.03.17-16.45.22:816][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_107 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_107
+[2019.03.17-16.45.22:816][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_147 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_147
+[2019.03.17-16.45.22:816][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_155 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_155
+[2019.03.17-16.45.22:817][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_7 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_7
+[2019.03.17-16.45.22:817][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_120 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_120
+[2019.03.17-16.45.22:818][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_164 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_164
+[2019.03.17-16.45.22:818][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_171 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_171
+[2019.03.17-16.45.22:819][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_493 or K2Node_CallFunction /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_CallFunction_493
+[2019.03.17-16.45.22:819][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_136 or K2Node_MacroInstance /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_MacroInstance_136
+[2019.03.17-16.45.22:819][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_185 or K2Node_IfThenElse /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_IfThenElse_185
+[2019.03.17-16.45.22:820][151]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_190 or K2Node_VariableGet /Game/Blueprints/ChessGameMode.ChessGameMode:EventGraph.K2Node_VariableGet_190
+[2019.03.17-16.46.16:032][261]LogEditorTransaction: Undo Move Node
+[2019.03.17-16.46.17:289][298]LogEditorTransaction: Undo Add Node
+[2019.03.17-16.46.22:003][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-16.46.24:261][495]LogSavePackage: Save=534.51ms
+[2019.03.17-16.46.24:261][495]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode3CBDC9684EE4F38A2B065FB47557AD49.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-16.46.24:351][495]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-16.46.49:744][513]LogClass:Warning: Property moveTo of moveTo has a struct type mismatch (tag Piece_Id != prop Vector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2019.03.17-16.46.51:256][563]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-16.46.58:769][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-16.46.58:859][732]LogSavePackage: Save=53.92ms
+[2019.03.17-16.46.58:859][732]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode12EBA4FD42ED8AB2EA25C0BF99932E1B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-16.46.58:864][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-16.47.05:690][ 72]LogHttp:Warning: 000001B69D9FA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.17-16.47.05:690][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b5c06054b0 [can pipeline])
+[2019.03.17-16.47.05:690][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 1 (Re-using existing connection! (#177) with host datarouter.ol.epicgames.com)
+[2019.03.17-16.47.05:690][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.196.66.229) port 443 (#177))
+[2019.03.17-16.47.05:690][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 3 (upload completely sent off: 597 out of 597 bytes)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 6 (Closing connection 177)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95D1D8DF-4CFD-3814-D983-94B3D2679B9F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.17-16.47.05:691][ 72]LogHttp:Warning: 000001B69D9FA980: libcurl info message cache 10 (Closing connection 178)
+[2019.03.17-16.48.12:407][410]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-16.48.12:518][410]LogBlueprint:Error: [Compiler board_Piece] Error This blueprint (self) is not a ChessGameMode_C, therefore ' self ' must have a connection.
+[2019.03.17-16.48.13:861][410]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ChessGameMode_C, therefore ' self ' must have a connection.
+[2019.03.17-16.48.13:861][410]LogBlueprint:Warning: [Compiler board_Piece] Warning [4848.16] Compile of board_Piece failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,454 ms] (/Game/Blueprints/board_Piece.board_Piece)
+[2019.03.17-16.48.23:730][915]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-16.48.25:631][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-16.48.25:923][970]LogSavePackage: Save=181.31ms
+[2019.03.17-16.48.25:923][970]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceE4714CD94B887974A15A978B01966228.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-16.48.25:938][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-16.50.14:407][566]BlueprintLog: New page: Compile Bishop
+[2019.03.17-16.50.16:443][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.17-16.50.16:572][592]LogSavePackage: Save=46.12ms
+[2019.03.17-16.50.16:572][592]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Bishop54E87D8144A41791436797B048B074B0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.17-16.50.16:578][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.17-16.50.50:030][896]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-16.50.51:662][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-16.50.51:981][918]LogSavePackage: Save=214.54ms
+[2019.03.17-16.50.51:981][918]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode3F00CE554B85B93535F48BA701855CCD.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-16.50.51:997][918]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-16.50.54:011][ 11]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.50.54:069][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-16.50.54:088][ 11]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:50:54 am)
+[2019.03.17-16.50.54:088][ 11]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.50.54:136][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046916s)
+[2019.03.17-16.50.54:138][ 11]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.50.54:139][ 11]LogPlayLevel: PIE: World Init took: (0.002769s)
+[2019.03.17-16.50.54:139][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.050386s)
+[2019.03.17-16.50.54:229][ 11]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.50.54:361][ 11]LogInit: FAudioDevice initialized.
+[2019.03.17-16.50.54:472][ 11]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.50.54:505][ 11]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.20.54
+[2019.03.17-16.50.54:507][ 11]LogWorld: Bringing up level for play took: 0.032184
+[2019.03.17-16.50.54:510][ 11]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.50.54:511][ 11]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.50.54:511][ 11]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.50.54:511][ 11]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.50.54:528][ 11]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.51
+[2019.03.17-16.51.33:220][625]BlueprintLog: New page: Compile board_Piece
+[2019.03.17-16.51.34:310][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-16.51.34:590][625]LogSavePackage: Save=165.27ms
+[2019.03.17-16.51.34:590][625]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceCA7F8952457B97BB65A8008338FC2686.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-16.51.34:607][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-16.51.35:892][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.17-16.51.36:069][681]LogSavePackage: Save=95.99ms
+[2019.03.17-16.51.36:069][681]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceAB01BCF64056D4A39F7F05A780C5240E.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.17-16.51.36:077][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.17-16.51.36:756][713]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.51.36:814][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-16.51.36:814][713]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:51:36 am)
+[2019.03.17-16.51.36:815][713]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.51.36:853][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037434s)
+[2019.03.17-16.51.36:854][713]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.51.36:855][713]LogPlayLevel: PIE: World Init took: (0.001738s)
+[2019.03.17-16.51.36:855][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.039934s)
+[2019.03.17-16.51.36:925][713]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.51.37:061][713]LogInit: FAudioDevice initialized.
+[2019.03.17-16.51.37:131][713]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.51.37:145][713]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.21.37
+[2019.03.17-16.51.37:147][713]LogWorld: Bringing up level for play took: 0.011783
+[2019.03.17-16.51.37:150][713]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.51.37:150][713]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.51.37:151][713]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.51.37:151][713]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.51.37:162][713]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.144
+[2019.03.17-16.51.39:492][817]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1b5c0606770 [can pipeline])
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 1 (Re-using existing connection! (#180) with host datarouter.ol.epicgames.com)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (100.25.121.66) port 443 (#180))
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 3 (upload completely sent off: 1688 out of 1688 bytes)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 6 (Closing connection 180)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.03.17-16.51.41:431][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B95D1D8DF-4CFD-3814-D983-94B3D2679B9F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2019.03.17-16.51.41:432][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.03.17-16.51.41:432][908]LogHttp:Warning: 000001B6637C1D80: libcurl info message cache 10 (Closing connection 181)
+[2019.03.17-16.52.06:979][299]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.52.07:033][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-16.52.07:033][299]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:52:07 am)
+[2019.03.17-16.52.07:034][299]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.52.07:067][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033156s)
+[2019.03.17-16.52.07:071][299]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.52.07:072][299]LogPlayLevel: PIE: World Init took: (0.004231s)
+[2019.03.17-16.52.07:072][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.038186s)
+[2019.03.17-16.52.07:135][299]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.52.07:265][299]LogInit: FAudioDevice initialized.
+[2019.03.17-16.52.07:338][299]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.52.07:351][299]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.22.07
+[2019.03.17-16.52.07:353][299]LogWorld: Bringing up level for play took: 0.010654
+[2019.03.17-16.52.07:356][299]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.52.07:356][299]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.52.07:356][299]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.52.07:356][299]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.52.07:373][299]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.645
+[2019.03.17-16.52.10:910][468]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.52.12:886][566]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.53.09:955][387]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.17-16.53.10:926][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.17-16.53.11:215][387]LogSavePackage: Save=195.63ms
+[2019.03.17-16.53.11:215][387]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode6218048649F4BE527586AF97EFFA6D7F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.17-16.53.11:231][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.17-16.53.12:905][466]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.53.12:925][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-16.53.12:925][466]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:53:12 am)
+[2019.03.17-16.53.12:925][466]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.53.12:935][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009915s)
+[2019.03.17-16.53.12:936][466]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.53.12:936][466]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2019.03.17-16.53.12:936][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010914s)
+[2019.03.17-16.53.12:970][466]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.53.13:061][466]LogInit: FAudioDevice initialized.
+[2019.03.17-16.53.13:149][466]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.53.13:167][466]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.23.13
+[2019.03.17-16.53.13:169][466]LogWorld: Bringing up level for play took: 0.015791
+[2019.03.17-16.53.13:173][466]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.53.13:173][466]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.53.13:173][466]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.53.13:173][466]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.53.13:190][466]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.172
+[2019.03.17-16.53.16:856][617]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.53.16:856][617]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.53.27:501][ 39]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.53.27:501][ 39]LogBlueprintUserMessages: [board_Piece60] moved
+[2019.03.17-16.53.30:897][173]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.53.30:897][173]LogBlueprintUserMessages: [board_Piece42] moved
+[2019.03.17-16.53.32:214][224]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.53.32:214][224]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.53.33:460][270]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.53.33:460][270]LogBlueprintUserMessages: [board_Piece49] moved
+[2019.03.17-16.54.30:749][ 39]BlueprintLog: New page: Compile Bishop
+[2019.03.17-16.54.31:955][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.17-16.54.32:149][ 67]LogSavePackage: Save=131.83ms
+[2019.03.17-16.54.32:149][ 67]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Bishop66EB60674AA8E8749673C68ED586B6D2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.17-16.54.32:164][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.17-16.54.34:246][170]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.54.34:300][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-16.54.34:300][170]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:54:34 am)
+[2019.03.17-16.54.34:301][170]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.54.34:335][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033630s)
+[2019.03.17-16.54.34:336][170]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.54.34:336][170]LogPlayLevel: PIE: World Init took: (0.001427s)
+[2019.03.17-16.54.34:337][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.035632s)
+[2019.03.17-16.54.34:403][170]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.54.34:532][170]LogInit: FAudioDevice initialized.
+[2019.03.17-16.54.34:606][170]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.54.34:620][170]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.24.34
+[2019.03.17-16.54.34:622][170]LogWorld: Bringing up level for play took: 0.012803
+[2019.03.17-16.54.34:625][170]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.54.34:625][170]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.54.34:625][170]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.54.34:625][170]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.54.34:638][170]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.62
+[2019.03.17-16.54.36:607][254]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.54.36:607][254]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.54.58:625][372]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.54.58:674][372]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.17-16.54.58:693][372]LogPlayLevel: [PlayLevel] Compiling board_Piece before play...
+[2019.03.17-16.54.59:543][372]LogPlayLevel: PlayLevel: Blueprint regeneration took 869 ms (1 blueprints)
+[2019.03.17-16.54.59:544][372]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:54:59 am)
+[2019.03.17-16.54.59:544][372]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.54.59:578][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034188s)
+[2019.03.17-16.54.59:579][372]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.54.59:580][372]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2019.03.17-16.54.59:580][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.036695s)
+[2019.03.17-16.54.59:642][372]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.54.59:745][372]LogInit: FAudioDevice initialized.
+[2019.03.17-16.54.59:809][372]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.54.59:817][372]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.24.59
+[2019.03.17-16.54.59:818][372]LogWorld: Bringing up level for play took: 0.006655
+[2019.03.17-16.54.59:820][372]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.54.59:820][372]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.54.59:820][372]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.54.59:820][372]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.54.59:828][372]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.809
+[2019.03.17-16.55.01:869][455]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.01:869][455]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.55.04:238][574]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.04:238][574]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.55.04:848][604]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.04:848][604]LogBlueprintUserMessages: [board_Piece55] moved
+[2019.03.17-16.55.05:814][654]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.05:814][654]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.55.06:869][709]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.06:870][709]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.55.08:838][809]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.08:838][809]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.55.09:906][862]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.09:906][862]LogBlueprintUserMessages: [board_Piece55] moved
+[2019.03.17-16.55.10:948][913]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.10:948][913]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.55.11:852][960]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.11:852][960]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.55.12:784][  6]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.12:784][  6]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.55.13:878][ 59]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.13:878][ 59]LogBlueprintUserMessages: [board_Piece55] moved
+[2019.03.17-16.55.15:279][126]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.15:280][126]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.55.15:753][148]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.15:753][148]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.55.16:388][178]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.16:388][178]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.55.17:007][208]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.17:007][208]LogBlueprintUserMessages: [board_Piece55] moved
+[2019.03.17-16.55.17:854][252]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.17:854][252]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.55.18:310][274]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.18:311][274]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.55.18:691][291]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.55.18:691][291]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.56.05:004][579]LogSavePackage: Save=300.17ms
+[2019.03.17-16.56.05:004][579]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto96317D63245613F6F0358FC8A6CE2A334.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto9.umap'
+[2019.03.17-16.56.05:007][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto9.umap
+[2019.03.17-16.56.05:050][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.778
+[2019.03.17-16.56.05:050][579]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.778
+[2019.03.17-16.56.05:078][579]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/board_Piece] ([1] browsable assets)...
+[2019.03.17-16.56.05:166][579]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/board_Piece.board_Piece]
+[2019.03.17-16.56.05:166][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/board_Piece]
+[2019.03.17-16.56.05:359][579]LogSavePackage: Save=100.99ms
+[2019.03.17-16.56.05:360][579]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece_Auto971094CC349B9448FA3BCE8BA9D72C9BD.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/board_Piece_Auto9.uasset'
+[2019.03.17-16.56.05:384][579]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/board_Piece_Auto9.uasset
+[2019.03.17-16.56.05:384][579]LogFileHelpers: Auto-saving content packages took 0.330
+[2019.03.17-16.58.23:554][896]BlueprintLog: New page: Compile Bishop
+[2019.03.17-16.58.24:836][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bishop" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset" SILENT=true
+[2019.03.17-16.58.25:045][924]LogSavePackage: Save=111.08ms
+[2019.03.17-16.58.25:045][924]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Bishop97E9797B454451F6584FD99A15FC32C5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset'
+[2019.03.17-16.58.25:058][924]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Bishop.uasset
+[2019.03.17-16.58.25:672][957]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-16.58.25:688][957]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.17-16.58.25:688][957]LogPlayLevel: [PlayLevel] Compiling board_Piece before play...
+[2019.03.17-16.58.25:987][957]LogPlayLevel: PlayLevel: Blueprint regeneration took 300 ms (1 blueprints)
+[2019.03.17-16.58.25:988][957]PIE: New page: PIE session: FirstLevel (18-Mar-2019 3:58:25 am)
+[2019.03.17-16.58.25:988][957]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-16.58.25:995][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007309s)
+[2019.03.17-16.58.25:996][957]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-16.58.25:996][957]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2019.03.17-16.58.25:996][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008226s)
+[2019.03.17-16.58.26:022][957]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-16.58.26:137][957]LogInit: FAudioDevice initialized.
+[2019.03.17-16.58.26:213][957]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-16.58.26:226][957]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.28.26
+[2019.03.17-16.58.26:228][957]LogWorld: Bringing up level for play took: 0.010854
+[2019.03.17-16.58.26:230][957]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-16.58.26:230][957]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-16.58.26:231][957]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-16.58.26:231][957]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-16.58.26:243][957]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.224
+[2019.03.17-16.58.28:492][ 62]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.28:492][ 62]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.58.39:674][677]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.39:675][677]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.58.40:485][721]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.40:485][721]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-16.58.41:310][765]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.41:310][765]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.58.42:020][803]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.42:021][803]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.58.43:069][858]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.43:069][858]LogBlueprintUserMessages: [board_Piece60] moved
+[2019.03.17-16.58.45:590][994]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.45:590][994]LogBlueprintUserMessages: [board_Piece41] moved
+[2019.03.17-16.58.46:808][ 60]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.46:808][ 60]LogBlueprintUserMessages: [board_Piece60] moved
+[2019.03.17-16.58.50:515][261]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.58.51:507][315]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-16.58.52:309][356]LogBlueprintUserMessages: [board_Piece62] moved
+[2019.03.17-16.58.57:168][610]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.58.57:168][610]LogBlueprintUserMessages: [board_Piece47] moved
+[2019.03.17-16.59.01:987][864]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-16.59.01:987][864]LogBlueprintUserMessages: [board_Piece35] moved
+[2019.03.17-17.01.05:198][769]BlueprintLog: New page: Compile Bishop
+[2019.03.17-17.01.06:603][825]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.17-17.01.06:622][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-17.01.06:622][825]PIE: New page: PIE session: FirstLevel (18-Mar-2019 4:01:06 am)
+[2019.03.17-17.01.06:622][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.17-17.01.06:631][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009608s)
+[2019.03.17-17.01.06:632][825]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.17-17.01.06:632][825]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2019.03.17-17.01.06:633][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011077s)
+[2019.03.17-17.01.06:671][825]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.17-17.01.06:741][825]LogInit: FAudioDevice initialized.
+[2019.03.17-17.01.06:814][825]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.17-17.01.06:822][825]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.17-22.31.06
+[2019.03.17-17.01.06:823][825]LogWorld: Bringing up level for play took: 0.006502
+[2019.03.17-17.01.06:824][825]LogBlueprintUserMessages: [Bishop2] Bishop
+[2019.03.17-17.01.06:824][825]LogBlueprintUserMessages: [Bishop3] Bishop
+[2019.03.17-17.01.06:824][825]LogBlueprintUserMessages: [Bishop4] Bishop
+[2019.03.17-17.01.06:824][825]LogBlueprintUserMessages: [Bishop_257] Bishop
+[2019.03.17-17.01.06:830][825]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.811
+[2019.03.17-17.01.11:797][105]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-17.01.11:797][105]LogBlueprintUserMessages: [board_Piece59] moved
+[2019.03.17-17.01.12:787][160]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-17.01.13:295][190]LogBlueprintUserMessages: [board_Piece50] moved
+[2019.03.17-17.01.13:898][226]LogBlueprintUserMessages: [board_Piece49] moved
+[2019.03.17-17.01.14:133][239]LogBlueprintUserMessages: [board_Piece49] moved
+[2019.03.17-17.01.14:792][276]LogBlueprintUserMessages: [board_Piece60] moved
+[2019.03.17-17.01.14:942][285]LogBlueprintUserMessages: [board_Piece60] moved
+[2019.03.17-17.01.18:901][494]LogBlueprintUserMessages: [ChessGameMode_C_0] yay
+[2019.03.17-17.01.18:901][494]LogBlueprintUserMessages: [board_Piece35] moved
+[2019.03.17-17.08.17:381][112]LogSavePackage: Save=333.70ms
+[2019.03.17-17.08.17:381][112]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto08918C02C4E8B7146B912D48C46A64D95.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto0.umap'
+[2019.03.17-17.08.17:386][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto0.umap
+[2019.03.17-17.08.17:392][112]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.448
+[2019.03.17-17.08.17:392][112]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.448
+[2019.03.17-17.08.17:399][112]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bishop] ([1] browsable assets)...
+[2019.03.17-17.08.17:482][112]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bishop.Bishop]
+[2019.03.17-17.08.17:482][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bishop]
+[2019.03.17-17.08.17:676][112]LogSavePackage: Save=118.41ms
+[2019.03.17-17.08.17:676][112]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Bishop_Auto04E3C087F443659B2AABE39AD59027C92.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Bishop_Auto0.uasset'
+[2019.03.17-17.08.17:680][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Bishop_Auto0.uasset
+[2019.03.17-17.08.17:683][112]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/board_Piece] ([1] browsable assets)...
+[2019.03.17-17.08.17:763][112]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/board_Piece.board_Piece]
+[2019.03.17-17.08.17:763][112]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/board_Piece]
+[2019.03.17-17.08.17:956][112]LogSavePackage: Save=53.74ms
+[2019.03.17-17.08.17:956][112]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_Piece_Auto0B82FE63842B0A61BAC554D9B605D7158.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/board_Piece_Auto0.uasset'
+[2019.03.17-17.08.17:959][112]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/board_Piece_Auto0.uasset
+[2019.03.17-17.08.17:959][112]LogFileHelpers: Auto-saving content packages took 0.563
