@@ -1,0 +1,107 @@
+[33mcommit d014f3606b3324ba197b27db98fd9f21ae42b40d[m[33m ([m[1;36mHEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Mon Mar 18 08:52:16 2019 +0530
+
+    given currently on variable value to white pieces
+
+[33mcommit 84507cb4b1a5e14d3cd4e323d7163151fda46d72[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 23:55:44 2019 +0530
+
+    removed bug in moving character
+
+[33mcommit 69f11d8880d06c8248f258333d0d551c5d1e712e[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 22:56:29 2019 +0530
+
+    Pieces made movable
+
+[33mcommit 9a12c282c30a3eba9f1290e4e8e9a80e60c0f2b0[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 18:12:34 2019 +0530
+
+    Given id to every board piece and corrected top board alignment with middle board
+
+[33mcommit d0bb18ba0a32f98c055156a36b56a902cd6b0be1[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 17:26:57 2019 +0530
+
+    Board piece BP organised
+
+[33mcommit 3f88429587c46871e367f2a1db24a36cd85b489c[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 17:22:39 2019 +0530
+
+    Given id to each character
+
+[33mcommit 9babdf6ccecc67f4685ba076fe7aaac17970fe50[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 16:08:54 2019 +0530
+
+    All pieces can be selected with deselecting others
+
+[33mcommit 9b55f13363841078834655477f3824f604cdccd8[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 15:32:01 2019 +0530
+
+    Bishop unselect bug removed
+
+[33mcommit 08c22e206fa6210a46d130ed292a3563809bcefd[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sun Mar 17 14:50:36 2019 +0530
+
+    now bishop and knight can be selected
+
+[33mcommit ce67cab1eb84cb945a0501d90828b1289dad3dfc[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sat Mar 16 19:27:41 2019 +0530
+
+    Fixed every character/piece position
+
+[33mcommit b30ad0aa15aa6238c9aaa352a89d22b7865d5a79[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sat Mar 16 17:49:55 2019 +0530
+
+    All characters/pieces ready
+
+[33mcommit 8ed0108620ffba21a258691d2529df4552f3f807[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Sat Mar 16 00:55:32 2019 +0530
+
+    Rook and pawn BP added
+
+[33mcommit 7d5b1600e34432db9fe3d27c2c2b46976459d82f[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 22:50:45 2019 +0530
+
+    Main boards also grouped
+
+[33mcommit ee7e84aef5c10c46de159eedacdb32a9b4dd7c12[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 20:58:47 2019 +0530
+
+    movable rod added and pieces are grouped together
+
+[33mcommit e1b6dfa09f25136b4b6c8f16456eac6bfd7f5c29[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 19:11:41 2019 +0530
+
+    for testing, location printed on click of each piece of board
+
+[33mcommit 076c8db261c0b1a401a2d79486831089b0a8f8b8[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 16:59:11 2019 +0530
+
+    64 pieces ready
+
+[33mcommit 976966a5884b11d47e851d02e61fb3a1eb61350c[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 16:22:50 2019 +0530
+
+    Three main base ready
+
+[33mcommit d31615537f99832384e062ac226b1af9178cdc62[m
+Author: Rohit <iamrohit.panjwani@gmail.com>
+Date:   Fri Mar 15 13:14:56 2019 +0530
+
+    Project initialized
