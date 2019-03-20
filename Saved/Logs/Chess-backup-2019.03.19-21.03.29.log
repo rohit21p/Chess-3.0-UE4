@@ -1,0 +1,2027 @@
+﻿Log file open, 03/19/19 17:57:06
+LogInit:Display: Running engine for game: Chess
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-935539849) SRandInit(-935539849).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.102891
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.19-12.27.06:801][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.19-12.27.06:801][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.19-12.27.06:831][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.03.19-12.27.06:831][  0]LogInit: User: RohitPanjwani
+[2019.03.19-12.27.06:831][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.03.19-12.27.06:831][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2019.03.19-12.27.06:831][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.19-12.27.06:831][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.19-12.27.06:831][  0]LogMemory: Process Physical Memory: 265.07 MB used, 265.07 MB peak
+[2019.03.19-12.27.06:831][  0]LogMemory: Process Virtual Memory: 262.79 MB used, 262.79 MB peak
+[2019.03.19-12.27.06:831][  0]LogMemory: Physical Memory: 5519.24 MB used,  10763.29 MB free, 16282.52 MB total
+[2019.03.19-12.27.06:831][  0]LogMemory: Virtual Memory: 4812.63 MB used,  10763.29 MB free, 134217728.00 MB total
+[2019.03.19-12.27.07:610][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.03.19-12.27.08:425][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.19-12.27.08:480][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.19-12.27.08:480][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.19-12.27.08:491][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.19-12.27.08:491][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.19-12.27.08:494][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.19-12.27.08:494][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.19-12.27.08:494][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.19-12.27.08:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.19-12.27.08:525][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.19-12.27.08:525][  0]LogWindows: EnumDisplayDevices:
+[2019.03.19-12.27.08:525][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.19-12.27.08:526][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.19-12.27.08:526][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.19-12.27.08:526][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.19-12.27.08:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.19-12.27.08:526][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.19-12.27.08:526][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.19-12.27.08:526][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.03.19-12.27.08:571][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.19-12.27.08:589][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.19-12.27.08:590][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/18952/).
+[2019.03.19-12.27.08:590][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/1E6FE9114C9CEE1DCFA9E5A71790FEB7/'.
+[2019.03.19-12.27.08:590][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.03.19-12.27.10:413][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.19-12.27.10:530][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.03.19-12.27.10:631][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.19-12.27.10:729][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.03.19-12.27.10:842][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.03.19-12.27.10:956][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.19-12.27.11:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.19-12.27.11:175][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.19-12.27.11:273][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.03.19-12.27.11:378][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.03.19-12.27.11:478][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.19-12.27.11:575][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.19-12.27.11:673][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.19-12.27.11:772][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.19-12.27.11:879][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.19-12.27.12:092][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.19-12.27.12:092][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.19-12.27.12:175][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.03.19-12.27.12:334][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.03.19-12.27.12:391][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.03.19-12.27.12:489][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.19-12.27.12:588][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.19-12.27.12:689][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.19-12.27.12:786][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.03.19-12.27.12:786][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.03.19-12.27.13:620][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.03.19-12.27.13:667][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.19-12.27.13:667][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.03.19-12.27.13:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.19-12.27.13:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.19-12.27.13:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.19-12.27.13:668][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.19-12.27.13:683][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.19-12.27.13:698][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.19-12.27.13:950][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.19-12.27.13:954][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.03.19-12.27.14:272][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.19-12.27.14:362][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.19-12.27.14:464][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.19-12.27.14:464][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.03.19-12.27.14:464][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.03.19-12.27.15:134][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.03.19-12.27.15:217][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2019.03.19-12.27.15:323][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.058863 seconds
+[2019.03.19-12.27.15:328][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.03.19-12.27.15:328][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.03.19-12.27.15:328][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.19-12.27.15:463][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.03.19-12.27.17:128][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.19-12.27.17:129][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.19-12.27.17:129][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.19-12.27.18:271][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.19-12.27.18:342][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.19-12.27.18:900][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.03.19-12.27.19:633][  0]SourceControl: Info Source control is disabled
+[2019.03.19-12.27.19:708][  0]SourceControl: Info Source control is disabled
+[2019.03.19-12.27.19:812][  0]SourceControl: Info Source control is disabled
+[2019.03.19-12.27.19:917][  0]SourceControl: Info Source control is disabled
+[2019.03.19-12.27.22:665][  0]LogEngine: Initializing Engine...
+[2019.03.19-12.27.22:666][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.19-12.27.23:063][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.19-12.27.23:079][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.27.23:179][  0]LogInit: FAudioDevice initialized.
+[2019.03.19-12.27.23:207][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.19-12.27.23:215][  0]LogInit: Texture streaming: Enabled
+[2019.03.19-12.27.23:589][  0]LogInit: Transaction tracking system initialized
+[2019.03.19-12.27.24:328][  0]BlueprintLog: New page: Editor Load
+[2019.03.19-12.27.26:215][  0]LocalizationService: Info Localization service is disabled
+[2019.03.19-12.27.27:595][  0]LogConsoleResponse:Display: 
+[2019.03.19-12.27.27:854][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.19-12.27.27:854][  0]LogCook:Display: Mobile HDR setting 1
+[2019.03.19-12.27.28:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.02s
+[2019.03.19-12.27.30:361][  0]SourceControl: Info Source control is disabled
+[2019.03.19-12.27.30:361][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.19-12.27.30:361][  0]LightingResults: New page: Lighting Build
+[2019.03.19-12.27.30:495][  0]MapCheck: New page: Map Check
+[2019.03.19-12.27.30:495][  0]LightingResults: New page: Lighting Build
+[2019.03.19-12.27.30:807][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.19-12.27.30:808][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.03.19-12.27.30:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.19-12.27.30:820][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.19-12.27.30:931][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.439ms to complete.
+[2019.03.19-12.27.30:931][  0]LogFileHelpers: Loading map 'Template_Default' took 0.571
+[2019.03.19-12.27.31:132][  0]LogCollectionManager: Loaded 0 collections in 0.002958 seconds
+[2019.03.19-12.27.31:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.03.19-12.27.31:260][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.03.19-12.27.31:261][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.03.19-12.27.31:261][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.03.19-12.27.31:270][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2190 classes and 428 folders.
+[2019.03.19-12.27.31:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.19-12.27.31:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.19-12.27.31:366][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0012 seconds. Added 13 classes and 0 folders.
+[2019.03.19-12.27.31:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.19-12.27.31:858][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.19-12.27.31:956][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.03.19-12.27.32:065][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.03.19-12.27.32:075][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.03.19-12.27.32:205][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2019.03.19-12.27.32:206][  0]LogLoad: (Engine Initialization) Total time: 28.40 seconds
+[2019.03.19-12.27.32:206][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2019.03.19-12.27.32:206][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.03.19-12.27.32:206][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.03.19-12.27.32:545][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.19-12.27.32:551][  0]LogOcInput: OculusInput pre-init called
+[2019.03.19-12.27.32:571][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.03.19-12.27.32:855][  0]LogRenderer: Reallocating scene render targets to support 860x464 NumSamples 1 (Frame:2).
+[2019.03.19-12.27.33:337][  2]LogAssetRegistry: Asset discovery search completed in 18.1423 seconds
+[2019.03.19-12.27.33:337][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.19-12.27.33:337][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2019.03.19-12.28.00:661][262]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.28.00:716][262]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.19-12.28.00:716][262]LightingResults: New page: Lighting Build
+[2019.03.19-12.28.00:717][262]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.03.19-12.28.00:717][262]MapCheck: New page: Map Check
+[2019.03.19-12.28.00:717][262]LightingResults: New page: Lighting Build
+[2019.03.19-12.28.00:839][262]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.19-12.28.00:866][262]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.19-12.28.00:973][262]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.998ms to complete.
+[2019.03.19-12.28.00:973][262]LogFileHelpers: Loading map 'FirstLevel' took 0.258
+[2019.03.19-12.28.02:456][334]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.28.02:469][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.28.02:470][334]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:28:02 pm)
+[2019.03.19-12.28.02:470][334]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.28.02:479][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009374s)
+[2019.03.19-12.28.02:481][334]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.28.02:481][334]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2019.03.19-12.28.02:481][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011102s)
+[2019.03.19-12.28.02:499][334]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.28.02:560][334]LogInit: FAudioDevice initialized.
+[2019.03.19-12.28.02:649][334]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.28.02:654][334]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-17.58.02
+[2019.03.19-12.28.02:655][334]LogWorld: Bringing up level for play took: 0.004567
+[2019.03.19-12.28.02:783][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2019.03.19-12.28.02:785][334]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.101
+[2019.03.19-12.28.04:731][449]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.28.04:732][449]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.28.10:794][808]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.28.15:544][ 93]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.28.16:577][155]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.28.22:943][434]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2019.03.19-12.28.38:683][284]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.28.39:614][320]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.28.39:639][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.28.39:639][320]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:28:39 pm)
+[2019.03.19-12.28.39:639][320]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.28.39:649][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009652s)
+[2019.03.19-12.28.39:649][320]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.28.39:649][320]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2019.03.19-12.28.39:650][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010797s)
+[2019.03.19-12.28.39:677][320]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.28.39:739][320]LogInit: FAudioDevice initialized.
+[2019.03.19-12.28.39:795][320]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.28.39:804][320]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-17.58.39
+[2019.03.19-12.28.39:804][320]LogWorld: Bringing up level for play took: 0.007192
+[2019.03.19-12.28.39:816][320]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.931
+[2019.03.19-12.28.39:852][320]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1212).
+[2019.03.19-12.28.48:251][798]LogEditorTransaction: Undo Create Pin Link
+[2019.03.19-12.28.49:723][865]LogEditorTransaction: Undo Delete current selection
+[2019.03.19-12.28.50:292][882]LogEditorTransaction: Undo Resize Node
+[2019.03.19-12.29.35:378][531]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.29.36:046][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.29.36:205][553]LogSavePackage: Save=82.09ms
+[2019.03.19-12.29.36:205][553]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnC374429345CBBF45152009B6DE8F2DED.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.29.36:211][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.29.37:015][600]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.29.37:028][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.29.37:028][600]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:29:37 pm)
+[2019.03.19-12.29.37:028][600]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.29.37:038][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008983s)
+[2019.03.19-12.29.37:038][600]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.29.37:039][600]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2019.03.19-12.29.37:039][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010181s)
+[2019.03.19-12.29.37:061][600]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.29.37:125][600]LogInit: FAudioDevice initialized.
+[2019.03.19-12.29.37:187][600]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.29.37:193][600]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-17.59.37
+[2019.03.19-12.29.37:194][600]LogWorld: Bringing up level for play took: 0.005011
+[2019.03.19-12.29.37:203][600]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.317
+[2019.03.19-12.29.38:518][676]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.29.38:518][676]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.29.39:634][743]LogBlueprintUserMessages: [board_Piece66_12840] 5
+[2019.03.19-12.29.44:235][ 19]LogBlueprintUserMessages: [board_Piece51_12813] 5
+[2019.03.19-12.29.44:651][ 44]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.29.48:336][265]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.29.49:070][309]LogBlueprintUserMessages: [Pawn_674] 0
+[2019.03.19-12.29.49:070][309]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.35.41:229][236]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.35.42:032][277]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.35.42:049][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.35.42:049][277]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:35:42 pm)
+[2019.03.19-12.35.42:049][277]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.35.42:058][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008908s)
+[2019.03.19-12.35.42:059][277]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.35.42:059][277]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2019.03.19-12.35.42:060][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010195s)
+[2019.03.19-12.35.42:079][277]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.35.42:132][277]LogInit: FAudioDevice initialized.
+[2019.03.19-12.35.42:188][277]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.35.42:194][277]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.05.42
+[2019.03.19-12.35.42:194][277]LogWorld: Bringing up level for play took: 0.004324
+[2019.03.19-12.35.42:205][277]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.681
+[2019.03.19-12.35.56:611][896]LogEditorTransaction: Undo Move Node
+[2019.03.19-12.35.56:999][909]LogEditorTransaction: Undo Change Bool Pin Value
+[2019.03.19-12.35.57:534][952]LogEditorTransaction: Undo Break Pin Links
+[2019.03.19-12.35.58:125][  6]LogEditorTransaction: Undo Break Pin Links
+[2019.03.19-12.35.59:101][104]LogEditorTransaction: Undo Change Bool Pin Value
+[2019.03.19-12.36.00:157][213]LogEditorTransaction: Undo AddPin
+[2019.03.19-12.40.05:381][497]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.40.06:330][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.40.06:517][536]LogSavePackage: Save=110.00ms
+[2019.03.19-12.40.06:517][536]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn5DC241854AD1A84783F417B01FE7F849.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.40.06:523][536]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.40.07:080][595]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.40.07:100][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.40.07:100][595]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:40:07 pm)
+[2019.03.19-12.40.07:100][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.40.07:109][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008807s)
+[2019.03.19-12.40.07:110][595]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.40.07:110][595]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2019.03.19-12.40.07:111][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010093s)
+[2019.03.19-12.40.07:136][595]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.40.07:204][595]LogInit: FAudioDevice initialized.
+[2019.03.19-12.40.07:262][595]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.40.07:270][595]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.10.07
+[2019.03.19-12.40.07:271][595]LogWorld: Bringing up level for play took: 0.006379
+[2019.03.19-12.40.07:282][595]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.397
+[2019.03.19-12.40.29:021][913]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.40.29:703][949]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.40.29:724][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.40.29:725][949]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:40:29 pm)
+[2019.03.19-12.40.29:725][949]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.40.29:735][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010676s)
+[2019.03.19-12.40.29:736][949]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.40.29:737][949]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2019.03.19-12.40.29:737][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012365s)
+[2019.03.19-12.40.29:766][949]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.40.29:840][949]LogInit: FAudioDevice initialized.
+[2019.03.19-12.40.29:904][949]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.40.29:911][949]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.10.29
+[2019.03.19-12.40.29:912][949]LogWorld: Bringing up level for play took: 0.005799
+[2019.03.19-12.40.29:928][949]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.042
+[2019.03.19-12.40.31:559][ 78]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.40.31:560][ 78]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.41.04:524][310]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.41.05:487][387]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.41.05:506][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.41.05:506][387]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:41:05 pm)
+[2019.03.19-12.41.05:506][387]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.41.05:514][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007826s)
+[2019.03.19-12.41.05:514][387]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.41.05:514][387]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2019.03.19-12.41.05:515][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008622s)
+[2019.03.19-12.41.05:534][387]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.41.05:589][387]LogInit: FAudioDevice initialized.
+[2019.03.19-12.41.05:646][387]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.41.05:654][387]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.11.05
+[2019.03.19-12.41.05:655][387]LogWorld: Bringing up level for play took: 0.006598
+[2019.03.19-12.41.05:669][387]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.783
+[2019.03.19-12.41.09:970][832]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.41.09:971][832]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.41.11:679][ 14]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.41.16:163][464]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.41.17:312][585]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.41.45:981][338]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.41.45:981][338]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.42.22:680][250]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.42.22:702][250]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.42.22:702][250]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.42.22:968][250]LogPlayLevel: PlayLevel: Blueprint regeneration took 265 ms (1 blueprints)
+[2019.03.19-12.42.22:968][250]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:42:22 pm)
+[2019.03.19-12.42.22:968][250]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.42.22:982][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013518s)
+[2019.03.19-12.42.22:983][250]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.42.22:983][250]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2019.03.19-12.42.22:983][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014911s)
+[2019.03.19-12.42.23:013][250]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.42.23:073][250]LogInit: FAudioDevice initialized.
+[2019.03.19-12.42.23:126][250]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.42.23:132][250]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.12.23
+[2019.03.19-12.42.23:133][250]LogWorld: Bringing up level for play took: 0.005318
+[2019.03.19-12.42.23:144][250]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.259
+[2019.03.19-12.42.26:343][464]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.26:343][464]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.26:343][464]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.42.26:344][464]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.42.32:635][941]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.32:635][941]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.32:635][941]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.42.36:789][251]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.36:789][251]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.42.36:789][251]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.42.38:246][361]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.43.04:290][666]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.43.04:312][666]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.43.04:312][666]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.43.04:700][666]LogPlayLevel: PlayLevel: Blueprint regeneration took 387 ms (1 blueprints)
+[2019.03.19-12.43.04:700][666]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:43:04 pm)
+[2019.03.19-12.43.04:700][666]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.43.04:714][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013643s)
+[2019.03.19-12.43.04:715][666]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.43.04:715][666]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2019.03.19-12.43.04:715][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015129s)
+[2019.03.19-12.43.04:753][666]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.43.04:847][666]LogInit: FAudioDevice initialized.
+[2019.03.19-12.43.04:919][666]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.43.04:928][666]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.13.04
+[2019.03.19-12.43.04:930][666]LogWorld: Bringing up level for play took: 0.007875
+[2019.03.19-12.43.04:947][666]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.061
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:864][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:865][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.43.06:866][781]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.43.11:126][ 87]LogBlueprintUserMessages: [board_Piece44_12804] 5
+[2019.03.19-12.43.11:496][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:496][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:496][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:496][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:496][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:497][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.11:498][116]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:964][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:965][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.12:966][229]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.43.16:343][491]LogBlueprintUserMessages: [board_Piece70_13764] 5
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:698][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.16:699][521]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:501][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.43.17:502][588]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.43.32:165][ 61]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.43.32:185][ 61]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.43.32:185][ 61]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.43.32:360][ 61]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2019.03.19-12.43.32:360][ 61]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:43:32 pm)
+[2019.03.19-12.43.32:360][ 61]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.43.32:367][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007381s)
+[2019.03.19-12.43.32:368][ 61]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.43.32:369][ 61]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2019.03.19-12.43.32:369][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008862s)
+[2019.03.19-12.43.32:390][ 61]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.43.32:452][ 61]LogInit: FAudioDevice initialized.
+[2019.03.19-12.43.32:507][ 61]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.43.32:516][ 61]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.13.32
+[2019.03.19-12.43.32:517][ 61]LogWorld: Bringing up level for play took: 0.007516
+[2019.03.19-12.43.32:528][ 61]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.358
+[2019.03.19-12.43.34:331][194]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.34:331][194]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.34:331][194]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.43.34:332][194]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.43.40:023][666]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.40:023][666]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.40:024][666]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.43.41:357][781]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.41:357][781]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.43.41:357][781]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.43.42:245][855]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.44.21:935][655]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.44.21:964][655]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.44.21:964][655]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.44.22:248][655]LogPlayLevel: PlayLevel: Blueprint regeneration took 284 ms (1 blueprints)
+[2019.03.19-12.44.22:249][655]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:44:22 pm)
+[2019.03.19-12.44.22:249][655]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.44.22:260][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010888s)
+[2019.03.19-12.44.22:261][655]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.44.22:261][655]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2019.03.19-12.44.22:261][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012220s)
+[2019.03.19-12.44.22:287][655]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.44.22:353][655]LogInit: FAudioDevice initialized.
+[2019.03.19-12.44.22:408][655]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.44.22:417][655]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.14.22
+[2019.03.19-12.44.22:418][655]LogWorld: Bringing up level for play took: 0.006925
+[2019.03.19-12.44.22:433][655]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.453
+[2019.03.19-12.44.24:183][788]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.24:184][788]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.24:184][788]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.25:280][886]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.25:281][886]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.25:281][886]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.25:281][886]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.34:064][777]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.44.34:089][777]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.44.34:089][777]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.44.34:296][777]LogPlayLevel: PlayLevel: Blueprint regeneration took 205 ms (1 blueprints)
+[2019.03.19-12.44.34:296][777]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:44:34 pm)
+[2019.03.19-12.44.34:296][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.44.34:303][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007676s)
+[2019.03.19-12.44.34:304][777]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.44.34:304][777]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2019.03.19-12.44.34:304][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008642s)
+[2019.03.19-12.44.34:326][777]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.44.34:393][777]LogInit: FAudioDevice initialized.
+[2019.03.19-12.44.34:453][777]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.44.34:463][777]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.14.34
+[2019.03.19-12.44.34:465][777]LogWorld: Bringing up level for play took: 0.009007
+[2019.03.19-12.44.34:481][777]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.405
+[2019.03.19-12.44.35:685][863]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.35:685][863]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.37:726][ 40]LogEditorTransaction: Undo Create Pin Link
+[2019.03.19-12.44.38:687][ 97]LogEditorTransaction: Undo Delete current selection
+[2019.03.19-12.44.40:176][227]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.44.41:062][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.44.41:256][275]LogSavePackage: Save=119.13ms
+[2019.03.19-12.44.41:256][275]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnC8C0FC944E89DC8AA9CFD681704A48E3.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.44.41:265][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.44.42:090][358]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.44.42:111][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.44.42:111][358]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:44:42 pm)
+[2019.03.19-12.44.42:111][358]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.44.42:121][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009488s)
+[2019.03.19-12.44.42:122][358]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.44.42:122][358]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2019.03.19-12.44.42:122][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010491s)
+[2019.03.19-12.44.42:148][358]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.44.42:213][358]LogInit: FAudioDevice initialized.
+[2019.03.19-12.44.42:272][358]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.44.42:279][358]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.14.42
+[2019.03.19-12.44.42:280][358]LogWorld: Bringing up level for play took: 0.004863
+[2019.03.19-12.44.42:292][358]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.594
+[2019.03.19-12.44.43:729][479]LogBlueprintUserMessages: [board_Piece47] 5
+[2019.03.19-12.44.44:709][569]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.44:711][569]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.44:712][569]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.45:763][669]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.45:763][669]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.45:764][669]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.45:764][669]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:110][703]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.46:110][703]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:110][703]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.46:111][703]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:111][703]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:421][731]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.46:422][731]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:422][731]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.46:423][731]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:423][731]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:424][731]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:860][773]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.46:860][773]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:860][773]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.46:861][773]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:861][773]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:862][773]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.46:862][773]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:717][853]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.44.47:718][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:719][853]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.44.47:719][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:720][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:721][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:722][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.47:722][853]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.44.51:466][214]LogEditorTransaction: Undo Move Node
+[2019.03.19-12.44.52:484][286]LogEditorTransaction: Undo Add Node
+[2019.03.19-12.45.12:921][621]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.45.13:667][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.45.13:802][667]LogSavePackage: Save=74.34ms
+[2019.03.19-12.45.13:802][667]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnFCD7B84645301DB94C978684A3E8C2B4.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.45.13:807][667]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.45.14:615][757]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.45.14:633][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.45.14:633][757]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:45:14 pm)
+[2019.03.19-12.45.14:633][757]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.45.14:642][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008854s)
+[2019.03.19-12.45.14:642][757]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.45.14:643][757]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.03.19-12.45.14:643][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010028s)
+[2019.03.19-12.45.14:665][757]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.45.14:723][757]LogInit: FAudioDevice initialized.
+[2019.03.19-12.45.14:777][757]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.45.14:783][757]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.15.14
+[2019.03.19-12.45.14:784][757]LogWorld: Bringing up level for play took: 0.004301
+[2019.03.19-12.45.14:795][757]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.091
+[2019.03.19-12.45.16:526][933]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.16:526][933]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.16:527][933]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.17:430][ 32]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.17:430][ 32]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.17:430][ 32]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.17:430][ 32]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.17:838][ 73]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.17:838][ 73]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.17:839][ 73]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.17:839][ 73]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.17:839][ 73]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:177][103]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.18:177][103]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:177][103]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.18:177][103]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:178][103]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:178][103]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:491][132]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.18:491][132]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:491][132]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.18:492][132]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:493][132]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:494][132]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.18:495][132]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:044][179]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.19:044][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:044][179]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.19:045][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:045][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:045][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:046][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:046][179]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:388][215]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.19:388][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:388][215]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.19:389][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:390][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:390][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:390][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:391][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:391][215]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:771][255]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.19:771][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:771][255]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.19:772][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:772][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:773][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:773][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:773][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:774][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.19:774][255]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:126][292]LogBlueprintUserMessages: [Pawn_674] called
+[2019.03.19-12.45.20:126][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:126][292]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.20:126][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:127][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:127][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:127][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:128][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:128][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:128][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.20:128][292]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.46:246][272]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.45.46:967][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.45.47:111][315]LogSavePackage: Save=79.20ms
+[2019.03.19-12.45.47:111][315]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn9D7D8A3548D12ABCB4B3268AAEF11167.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.45.47:116][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.45.47:951][409]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.45.47:971][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.45.47:971][409]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:45:47 pm)
+[2019.03.19-12.45.47:971][409]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.45.47:981][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009431s)
+[2019.03.19-12.45.47:981][409]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.45.47:981][409]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2019.03.19-12.45.47:982][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010368s)
+[2019.03.19-12.45.48:004][409]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.45.48:061][409]LogInit: FAudioDevice initialized.
+[2019.03.19-12.45.48:119][409]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.45.48:124][409]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.15.48
+[2019.03.19-12.45.48:125][409]LogWorld: Bringing up level for play took: 0.004397
+[2019.03.19-12.45.48:136][409]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.75
+[2019.03.19-12.45.50:862][676]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.50:862][676]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.50:863][676]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.51:900][782]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.51:900][782]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.51:901][782]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.51:901][782]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.55:417][130]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.45.55:432][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.45.55:432][130]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:45:55 pm)
+[2019.03.19-12.45.55:433][130]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.45.55:441][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008019s)
+[2019.03.19-12.45.55:441][130]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.45.55:441][130]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2019.03.19-12.45.55:441][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008798s)
+[2019.03.19-12.45.55:461][130]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.45.55:513][130]LogInit: FAudioDevice initialized.
+[2019.03.19-12.45.55:544][130]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.45.55:549][130]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.15.55
+[2019.03.19-12.45.55:549][130]LogWorld: Bringing up level for play took: 0.003400
+[2019.03.19-12.45.55:552][130]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.666
+[2019.03.19-12.45.58:171][432]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.58:171][432]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.58:171][432]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.58:815][509]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.58:816][509]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.58:816][509]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.58:816][509]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:192][554]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.59:192][554]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:193][554]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.59:193][554]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:193][554]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:552][597]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.45.59:553][597]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:553][597]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.45.59:554][597]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:554][597]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.45.59:554][597]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:399][686]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.46.00:400][686]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:400][686]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.46.00:401][686]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:401][686]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:401][686]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:402][686]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:728][722]LogBlueprintUserMessages: [Pawn_674] will call
+[2019.03.19-12.46.00:729][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:729][722]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.46.00:729][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:730][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:730][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:730][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.00:731][722]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.23:175][ 95]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.46.23:821][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.46.23:981][117]LogSavePackage: Save=89.67ms
+[2019.03.19-12.46.23:981][117]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnC27AEBE043E70A54D27ECAB8375BF2D7.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.46.23:987][117]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.46.25:009][228]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.46.25:030][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.46.25:030][228]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:46:25 pm)
+[2019.03.19-12.46.25:030][228]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.46.25:040][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009759s)
+[2019.03.19-12.46.25:040][228]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.46.25:041][228]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2019.03.19-12.46.25:041][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010884s)
+[2019.03.19-12.46.25:066][228]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.46.25:133][228]LogInit: FAudioDevice initialized.
+[2019.03.19-12.46.25:193][228]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.46.25:203][228]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.16.25
+[2019.03.19-12.46.25:204][228]LogWorld: Bringing up level for play took: 0.008518
+[2019.03.19-12.46.25:207][228]LogBlueprintUserMessages: [Pawn10] Hello
+[2019.03.19-12.46.25:207][228]LogBlueprintUserMessages: [Pawn11] Hello
+[2019.03.19-12.46.25:207][228]LogBlueprintUserMessages: [Pawn12] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn13] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn14] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn15] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn16] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn17] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn18] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn2] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn20] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn3] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn4] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn8] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn9] Hello
+[2019.03.19-12.46.25:208][228]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.46.25:219][228]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.334
+[2019.03.19-12.46.27:199][401]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.27:200][401]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.46.27:914][470]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.46.27:914][470]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.46.27:914][470]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.04:192][794]LogSavePackage: Save=95.04ms
+[2019.03.19-12.47.04:192][794]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto106F2ACBD408B12183763F8B75FA14F17.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap'
+[2019.03.19-12.47.04:195][794]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap
+[2019.03.19-12.47.04:197][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.180
+[2019.03.19-12.47.04:197][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.180
+[2019.03.19-12.47.34:776][628]Cmd: RecompileShaders SlateElementPixelShader
+[2019.03.19-12.47.37:599][628]LogShaderCompilers:Warning: 		[RecompileShaders SingleShader] took [2.3389] s
+[2019.03.19-12.47.40:104][912]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.47.40:120][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.47.40:120][912]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:47:40 pm)
+[2019.03.19-12.47.40:120][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.47.40:128][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008259s)
+[2019.03.19-12.47.40:129][912]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.47.40:129][912]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2019.03.19-12.47.40:129][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009165s)
+[2019.03.19-12.47.40:151][912]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.47.40:203][912]LogInit: FAudioDevice initialized.
+[2019.03.19-12.47.40:236][912]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.47.40:243][912]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.17.40
+[2019.03.19-12.47.40:243][912]LogWorld: Bringing up level for play took: 0.004535
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn10] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn11] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn12] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn13] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn14] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn15] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn16] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn17] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn18] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn2] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn20] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn3] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn4] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn8] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn9] Hello
+[2019.03.19-12.47.40:245][912]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.47.40:246][912]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.64
+[2019.03.19-12.47.42:368][146]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.42:369][146]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.47.43:272][254]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.43:272][254]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.47.43:273][254]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.43:666][301]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.43:666][301]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.47.43:666][301]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.43:667][301]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.44:043][346]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.44:043][346]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.47.44:044][346]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.44:044][346]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.47.44:044][346]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.48.25:991][686]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.48.26:011][686]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.48.26:011][686]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.48.26:263][686]LogPlayLevel: PlayLevel: Blueprint regeneration took 250 ms (1 blueprints)
+[2019.03.19-12.48.26:263][686]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:48:26 pm)
+[2019.03.19-12.48.26:263][686]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.48.26:272][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009065s)
+[2019.03.19-12.48.26:273][686]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.48.26:273][686]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2019.03.19-12.48.26:274][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010440s)
+[2019.03.19-12.48.26:300][686]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.48.26:375][686]LogInit: FAudioDevice initialized.
+[2019.03.19-12.48.26:436][686]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.48.26:444][686]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.18.26
+[2019.03.19-12.48.26:445][686]LogWorld: Bringing up level for play took: 0.006503
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn10] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn11] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn12] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn13] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn14] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn15] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn16] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn17] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn18] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn2] working
+[2019.03.19-12.48.26:448][686]LogBlueprintUserMessages: [Pawn20] working
+[2019.03.19-12.48.26:449][686]LogBlueprintUserMessages: [Pawn3] working
+[2019.03.19-12.48.26:449][686]LogBlueprintUserMessages: [Pawn4] working
+[2019.03.19-12.48.26:449][686]LogBlueprintUserMessages: [Pawn8] working
+[2019.03.19-12.48.26:449][686]LogBlueprintUserMessages: [Pawn9] working
+[2019.03.19-12.48.26:449][686]LogBlueprintUserMessages: [Pawn_674] working
+[2019.03.19-12.48.26:458][686]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.428
+[2019.03.19-12.48.32:303][126]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.48.32:323][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.48.32:323][126]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:48:32 pm)
+[2019.03.19-12.48.32:323][126]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.48.32:334][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010398s)
+[2019.03.19-12.48.32:334][126]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.48.32:335][126]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2019.03.19-12.48.32:335][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011467s)
+[2019.03.19-12.48.32:358][126]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.48.32:422][126]LogInit: FAudioDevice initialized.
+[2019.03.19-12.48.32:454][126]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.48.32:460][126]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.18.32
+[2019.03.19-12.48.32:460][126]LogWorld: Bringing up level for play took: 0.004249
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn10] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn11] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn12] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn13] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn14] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn15] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn16] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn17] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn18] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn2] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn20] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn3] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn4] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn8] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn9] working
+[2019.03.19-12.48.32:463][126]LogBlueprintUserMessages: [Pawn_674] working
+[2019.03.19-12.48.32:463][126]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.423
+[2019.03.19-12.49.13:938][407]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.49.15:010][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.49.15:156][484]LogSavePackage: Save=76.72ms
+[2019.03.19-12.49.15:156][484]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn85F943E04C3897E593C86E8D6FD19426.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.49.15:161][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.49.15:786][547]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.49.15:806][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.49.15:806][547]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:49:15 pm)
+[2019.03.19-12.49.15:806][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.49.15:814][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008130s)
+[2019.03.19-12.49.15:815][547]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.49.15:815][547]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2019.03.19-12.49.15:815][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009060s)
+[2019.03.19-12.49.15:839][547]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.49.15:895][547]LogInit: FAudioDevice initialized.
+[2019.03.19-12.49.15:945][547]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.49.15:950][547]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.19.15
+[2019.03.19-12.49.15:950][547]LogWorld: Bringing up level for play took: 0.004011
+[2019.03.19-12.49.15:961][547]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.075
+[2019.03.19-12.49.22:321][101]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.22:321][101]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.22:322][101]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.49.22:322][101]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.49.29:333][769]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.49.29:351][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.49.29:351][769]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:49:29 pm)
+[2019.03.19-12.49.29:351][769]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.49.29:359][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007827s)
+[2019.03.19-12.49.29:360][769]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.49.29:360][769]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2019.03.19-12.49.29:360][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008725s)
+[2019.03.19-12.49.29:378][769]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.49.29:432][769]LogInit: FAudioDevice initialized.
+[2019.03.19-12.49.29:485][769]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.49.29:492][769]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.19.29
+[2019.03.19-12.49.29:492][769]LogWorld: Bringing up level for play took: 0.004981
+[2019.03.19-12.49.29:502][769]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.617
+[2019.03.19-12.49.30:780][872]LogBlueprintUserMessages: [board_Piece62] 5
+[2019.03.19-12.49.31:464][936]LogBlueprintUserMessages: [board_Piece62] 5
+[2019.03.19-12.49.31:973][984]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.31:973][984]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.31:973][984]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.49.31:974][984]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.49.36:835][423]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.36:835][423]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.36:835][423]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.49.40:498][754]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.40:498][754]LogBlueprintUserMessages: [Pawn_674] false
+[2019.03.19-12.49.40:498][754]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.49.47:901][436]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.49.53:729][975]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.49.53:729][975]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.49.54:271][ 24]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.49.54:271][ 24]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.49.54:271][ 24]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.50.25:432][ 60]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.50.25:457][ 60]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-12.50.25:457][ 60]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-12.50.25:736][ 60]LogPlayLevel: PlayLevel: Blueprint regeneration took 278 ms (1 blueprints)
+[2019.03.19-12.50.25:736][ 60]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:50:25 pm)
+[2019.03.19-12.50.25:736][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.50.25:752][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015492s)
+[2019.03.19-12.50.25:752][ 60]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.50.25:753][ 60]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2019.03.19-12.50.25:753][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.016838s)
+[2019.03.19-12.50.25:780][ 60]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.50.25:854][ 60]LogInit: FAudioDevice initialized.
+[2019.03.19-12.50.25:918][ 60]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.50.25:927][ 60]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.20.25
+[2019.03.19-12.50.25:928][ 60]LogWorld: Bringing up level for play took: 0.007721
+[2019.03.19-12.50.25:942][ 60]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.056
+[2019.03.19-12.50.33:455][630]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.50.33:456][630]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.50.40:098][149]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.50.42:903][349]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.50.51:259][  9]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.51.07:522][411]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.51.08:363][446]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.51.08:386][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.51.08:387][446]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:51:08 pm)
+[2019.03.19-12.51.08:387][446]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.51.08:397][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010094s)
+[2019.03.19-12.51.08:397][446]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.51.08:398][446]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2019.03.19-12.51.08:398][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011217s)
+[2019.03.19-12.51.08:426][446]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.51.08:503][446]LogInit: FAudioDevice initialized.
+[2019.03.19-12.51.08:568][446]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.51.08:575][446]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.21.08
+[2019.03.19-12.51.08:576][446]LogWorld: Bringing up level for play took: 0.006193
+[2019.03.19-12.51.08:589][446]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.297
+[2019.03.19-12.51.09:791][527]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.51.09:791][527]LogBlueprintUserMessages: [Pawn_674] Hello
+[2019.03.19-12.51.09:791][527]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.51.09:792][527]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.51.24:470][920]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.19-12.51.33:305][917]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
+[2019.03.19-12.53.07:253][733]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.19-12.53.17:135][816]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.19-12.53.55:306][318]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.19-12.54.34:123][273]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.19-12.54.36:793][553]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece79)
+[2019.03.19-12.54.38:743][757]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece73)
+[2019.03.19-12.54.56:303][574]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.54.57:088][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.54.57:283][606]LogSavePackage: Save=112.91ms
+[2019.03.19-12.54.57:283][606]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn5D98C0D44A11D0953E7D08A176AFCA8B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.54.57:291][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.54.58:083][677]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.54.58:111][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.54.58:112][677]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:54:58 pm)
+[2019.03.19-12.54.58:112][677]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.54.58:125][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012931s)
+[2019.03.19-12.54.58:126][677]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.54.58:126][677]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2019.03.19-12.54.58:126][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014423s)
+[2019.03.19-12.54.58:156][677]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.54.58:221][677]LogInit: FAudioDevice initialized.
+[2019.03.19-12.54.58:281][677]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.54.58:291][677]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.24.58
+[2019.03.19-12.54.58:292][677]LogWorld: Bringing up level for play took: 0.007796
+[2019.03.19-12.54.58:305][677]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.581
+[2019.03.19-12.55.01:129][877]LogBlueprintUserMessages: [board_Piece47] 5
+[2019.03.19-12.55.01:701][921]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.55.01:702][921]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.55.04:593][140]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.55.09:864][584]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.55.10:646][656]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.12:410][819]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.12:410][819]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.31:396][829]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.55.32:175][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.55.32:310][871]LogSavePackage: Save=74.86ms
+[2019.03.19-12.55.32:310][871]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn0F837E06426C678E9ECB40A6E88471ED.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.55.32:315][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.55.33:882][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.55.33:902][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.55.33:902][ 48]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:55:33 pm)
+[2019.03.19-12.55.33:902][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.55.33:910][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007614s)
+[2019.03.19-12.55.33:911][ 48]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.55.33:911][ 48]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2019.03.19-12.55.33:911][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008498s)
+[2019.03.19-12.55.33:930][ 48]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.55.33:983][ 48]LogInit: FAudioDevice initialized.
+[2019.03.19-12.55.34:034][ 48]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.55.34:040][ 48]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.25.34
+[2019.03.19-12.55.34:040][ 48]LogWorld: Bringing up level for play took: 0.004835
+[2019.03.19-12.55.34:051][ 48]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.834
+[2019.03.19-12.55.36:789][285]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.55.36:790][285]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.55.42:818][832]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-12.55.44:200][958]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-12.55.45:345][ 62]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-12.55.45:345][ 62]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-12.55.45:345][ 62]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.45:346][ 62]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.45:346][ 62]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.55.51:198][597]LogBlueprintUserMessages: [Pawn20] hurray
+[2019.03.19-12.55.51:198][597]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.55.51:198][597]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.55.51:199][597]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-12.56.01:736][483]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-12.56.01:736][483]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-12.56.01:736][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.01:736][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.01:737][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.01:737][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.01:737][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.01:738][483]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-12.56.04:844][693]LogBlueprintUserMessages: [Pawn20] hurray
+[2019.03.19-12.56.04:844][693]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.56.04:846][693]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.56.04:847][693]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-12.56.04:848][693]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.56.04:849][693]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-12.56.28:353][484]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece57)
+[2019.03.19-12.57.40:203][931]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.57.40:828][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.57.40:998][947]LogSavePackage: Save=105.87ms
+[2019.03.19-12.57.40:998][947]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnBBA7C0CB478A8FBF280C7D84990AD95D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.57.41:004][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.57.41:524][  0]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.57.41:546][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.57.41:546][  0]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:57:41 pm)
+[2019.03.19-12.57.41:546][  0]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.57.41:556][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009381s)
+[2019.03.19-12.57.41:557][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.57.41:557][  0]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2019.03.19-12.57.41:557][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010749s)
+[2019.03.19-12.57.41:585][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.57.41:639][  0]LogInit: FAudioDevice initialized.
+[2019.03.19-12.57.41:693][  0]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.57.41:699][  0]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.27.41
+[2019.03.19-12.57.41:700][  0]LogWorld: Bringing up level for play took: 0.005668
+[2019.03.19-12.57.41:710][  0]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.825
+[2019.03.19-12.57.49:732][676]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.57.49:733][676]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.57.51:142][796]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.57.51:142][796]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.57.51:143][796]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.57.51:683][843]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.57.51:683][843]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.57.51:684][843]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.57.51:684][843]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.58.11:412][889]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.58.12:100][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-12.58.12:306][912]LogSavePackage: Save=128.44ms
+[2019.03.19-12.58.12:306][912]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn93C1DABC488ABBA03B65AFABD17F0250.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-12.58.12:313][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-12.58.12:701][944]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.58.12:721][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.58.12:721][944]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:58:12 pm)
+[2019.03.19-12.58.12:721][944]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.58.12:730][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008723s)
+[2019.03.19-12.58.12:731][944]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.58.12:731][944]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2019.03.19-12.58.12:731][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009705s)
+[2019.03.19-12.58.12:756][944]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.58.12:818][944]LogInit: FAudioDevice initialized.
+[2019.03.19-12.58.12:876][944]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.58.12:886][944]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.28.12
+[2019.03.19-12.58.12:887][944]LogWorld: Bringing up level for play took: 0.008215
+[2019.03.19-12.58.12:901][944]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.016
+[2019.03.19-12.58.14:334][ 41]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.58.14:335][ 41]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.58.17:577][291]LogEditorTransaction: Undo Change Bool Pin Value
+[2019.03.19-12.58.19:155][414]LogEditorTransaction: Undo Delete current selection
+[2019.03.19-12.59.05:649][141]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.59.06:795][231]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.59.06:813][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.59.06:813][231]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:59:06 pm)
+[2019.03.19-12.59.06:813][231]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.59.06:821][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007288s)
+[2019.03.19-12.59.06:821][231]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.59.06:821][231]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.03.19-12.59.06:821][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008215s)
+[2019.03.19-12.59.06:843][231]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.59.06:900][231]LogInit: FAudioDevice initialized.
+[2019.03.19-12.59.06:953][231]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.59.06:961][231]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.29.06
+[2019.03.19-12.59.06:962][231]LogWorld: Bringing up level for play took: 0.006848
+[2019.03.19-12.59.06:973][231]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.087
+[2019.03.19-12.59.09:788][487]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.59.09:788][487]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.59.10:614][568]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.59.10:614][568]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-12.59.10:615][568]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.59.44:055][425]BlueprintLog: New page: Compile Pawn
+[2019.03.19-12.59.45:010][500]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-12.59.45:031][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-12.59.45:031][500]PIE: New page: PIE session: FirstLevel (19-Mar-2019 11:59:45 pm)
+[2019.03.19-12.59.45:031][500]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-12.59.45:040][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008514s)
+[2019.03.19-12.59.45:040][500]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-12.59.45:041][500]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2019.03.19-12.59.45:041][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009696s)
+[2019.03.19-12.59.45:062][500]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-12.59.45:115][500]LogInit: FAudioDevice initialized.
+[2019.03.19-12.59.45:171][500]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-12.59.45:177][500]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.29.45
+[2019.03.19-12.59.45:178][500]LogWorld: Bringing up level for play took: 0.004796
+[2019.03.19-12.59.45:189][500]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.304
+[2019.03.19-12.59.50:807][  0]LogBlueprintUserMessages: [Pawn8] 3
+[2019.03.19-12.59.50:807][  0]LogBlueprintUserMessages: [Pawn8] 4
+[2019.03.19-12.59.51:677][ 82]LogBlueprintUserMessages: [board_Piece47] 5
+[2019.03.19-12.59.52:189][131]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-12.59.52:190][131]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-13.00.31:274][131]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.00.32:281][200]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.00.32:305][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.00.32:306][200]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:00:32 am)
+[2019.03.19-13.00.32:306][200]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.00.32:316][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010675s)
+[2019.03.19-13.00.32:317][200]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.00.32:317][200]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2019.03.19-13.00.32:318][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011951s)
+[2019.03.19-13.00.32:345][200]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.00.32:417][200]LogInit: FAudioDevice initialized.
+[2019.03.19-13.00.32:480][200]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.00.32:488][200]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.30.32
+[2019.03.19-13.00.32:489][200]LogWorld: Bringing up level for play took: 0.006744
+[2019.03.19-13.00.32:502][200]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.383
+[2019.03.19-13.00.34:345][333]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.00.34:347][333]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-13.00.37:286][563]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.00.37:287][563]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-13.00.37:287][563]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.00.42:159][943]LogBlueprintUserMessages: [board_Piece79_13791] 5
+[2019.03.19-13.00.42:964][  7]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-13.00.42:965][  7]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-13.00.44:554][132]LogBlueprintUserMessages: [Pawn20] hurray
+[2019.03.19-13.00.44:555][132]LogBlueprintUserMessages: [Pawn20] 4
+[2019.03.19-13.00.44:555][132]LogBlueprintUserMessages: [Pawn20] 4
+[2019.03.19-13.00.54:845][912]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-13.00.54:845][912]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-13.00.54:845][912]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-13.05.27:960][954]LogSavePackage: Save=102.31ms
+[2019.03.19-13.05.27:961][954]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto267A04B504DC1FC0AA3F0D18C324AF2E0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap'
+[2019.03.19-13.05.27:962][954]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap
+[2019.03.19-13.05.27:965][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.195
+[2019.03.19-13.05.27:965][954]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.195
+[2019.03.19-13.05.27:970][954]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.19-13.05.28:037][954]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.19-13.05.28:037][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.19-13.05.28:183][954]LogSavePackage: Save=84.09ms
+[2019.03.19-13.05.28:183][954]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto268AE02B84FCBF2381CBA9094545A0B28.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset'
+[2019.03.19-13.05.28:186][954]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset
+[2019.03.19-13.05.28:186][954]LogFileHelpers: Auto-saving content packages took 0.217
+[2019.03.19-13.19.23:025][814]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.19.23:047][814]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-13.19.23:047][814]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-13.19.23:401][814]LogPlayLevel: PlayLevel: Blueprint regeneration took 354 ms (1 blueprints)
+[2019.03.19-13.19.23:401][814]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:19:23 am)
+[2019.03.19-13.19.23:401][814]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.19.23:421][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019605s)
+[2019.03.19-13.19.23:422][814]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.19.23:423][814]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2019.03.19-13.19.23:423][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.021520s)
+[2019.03.19-13.19.23:448][814]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.19.23:516][814]LogInit: FAudioDevice initialized.
+[2019.03.19-13.19.23:548][814]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.19.23:554][814]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.49.23
+[2019.03.19-13.19.23:555][814]LogWorld: Bringing up level for play took: 0.004757
+[2019.03.19-13.19.23:558][814]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.672
+[2019.03.19-13.19.31:280][540]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece62)
+[2019.03.19-13.19.41:599][648]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.19.41:618][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.19.41:618][648]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:19:41 am)
+[2019.03.19-13.19.41:618][648]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.19.41:627][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008719s)
+[2019.03.19-13.19.41:627][648]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.19.41:628][648]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2019.03.19-13.19.41:628][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009994s)
+[2019.03.19-13.19.41:652][648]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.19.41:719][648]LogInit: FAudioDevice initialized.
+[2019.03.19-13.19.41:751][648]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.19.41:756][648]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.49.41
+[2019.03.19-13.19.41:757][648]LogWorld: Bringing up level for play took: 0.003940
+[2019.03.19-13.19.41:759][648]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.874
+[2019.03.19-13.19.44:949][  7]LogBlueprintUserMessages: [Pawn9] hurray
+[2019.03.19-13.19.44:949][  7]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.19.55:948][110]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.19.55:965][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.19.55:966][110]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:19:55 am)
+[2019.03.19-13.19.55:966][110]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.19.55:974][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008002s)
+[2019.03.19-13.19.55:974][110]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.19.55:974][110]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2019.03.19-13.19.55:975][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008980s)
+[2019.03.19-13.19.55:996][110]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.19.56:049][110]LogInit: FAudioDevice initialized.
+[2019.03.19-13.19.56:080][110]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.19.56:086][110]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.49.56
+[2019.03.19-13.19.56:087][110]LogWorld: Bringing up level for play took: 0.004467
+[2019.03.19-13.19.56:089][110]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.796
+[2019.03.19-13.19.58:163][354]LogBlueprintUserMessages: [Pawn9] hurray
+[2019.03.19-13.19.58:163][354]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.21.45:877][499]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.21.46:838][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-13.21.47:017][530]LogSavePackage: Save=104.06ms
+[2019.03.19-13.21.47:017][530]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnA0A2BE2A4289B7C01812F7BDDF8FB6B3.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-13.21.47:024][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-13.21.54:059][249]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.21.54:078][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.21.54:079][249]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:21:54 am)
+[2019.03.19-13.21.54:079][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.21.54:089][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009877s)
+[2019.03.19-13.21.54:090][249]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.21.54:090][249]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2019.03.19-13.21.54:090][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011342s)
+[2019.03.19-13.21.54:119][249]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.21.54:181][249]LogInit: FAudioDevice initialized.
+[2019.03.19-13.21.54:216][249]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.21.54:220][249]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.51.54
+[2019.03.19-13.21.54:221][249]LogWorld: Bringing up level for play took: 0.003514
+[2019.03.19-13.21.54:223][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.663
+[2019.03.19-13.21.56:846][539]LogBlueprintUserMessages: [Pawn9] hurray
+[2019.03.19-13.21.56:846][539]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.22.23:539][702]LogBlueprintUserMessages: [Pawn8] hurray
+[2019.03.19-13.22.23:540][702]LogBlueprintUserMessages: [Pawn8] 3
+[2019.03.19-13.22.51:462][877]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.22.52:483][945]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.22.52:503][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.22.52:504][945]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:22:52 am)
+[2019.03.19-13.22.52:504][945]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.22.52:519][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015646s)
+[2019.03.19-13.22.52:520][945]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.22.52:521][945]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2019.03.19-13.22.52:521][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.017010s)
+[2019.03.19-13.22.52:542][945]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.22.52:603][945]LogInit: FAudioDevice initialized.
+[2019.03.19-13.22.52:658][945]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.22.52:666][945]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-18.52.52
+[2019.03.19-13.22.52:667][945]LogWorld: Bringing up level for play took: 0.006584
+[2019.03.19-13.22.52:680][945]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.206
+[2019.03.19-13.22.54:684][112]LogBlueprintUserMessages: [Pawn9] hurray
+[2019.03.19-13.22.54:685][112]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.25.28:701][219]LogEditorTransaction: Undo Replace Pin Variable
+[2019.03.19-13.30.16:012][616]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.30.16:992][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-13.30.17:147][660]LogSavePackage: Save=86.30ms
+[2019.03.19-13.30.17:147][660]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn6B946244447792AC1D0F9D9925A7E4E2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-13.30.17:152][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-13.30.17:720][724]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.30.17:743][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.30.17:744][724]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:30:17 am)
+[2019.03.19-13.30.17:744][724]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.30.17:752][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008700s)
+[2019.03.19-13.30.17:753][724]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.30.17:753][724]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.03.19-13.30.17:754][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009909s)
+[2019.03.19-13.30.17:785][724]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.30.17:844][724]LogInit: FAudioDevice initialized.
+[2019.03.19-13.30.17:897][724]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.30.17:903][724]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-19.00.17
+[2019.03.19-13.30.17:904][724]LogWorld: Bringing up level for play took: 0.004557
+[2019.03.19-13.30.17:915][724]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.029
+[2019.03.19-13.30.19:410][859]LogBlueprintUserMessages: [board_Piece62] 5
+[2019.03.19-13.30.19:905][909]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.32.58:544][158]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.32.59:721][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-13.32.59:905][240]LogSavePackage: Save=110.36ms
+[2019.03.19-13.32.59:905][240]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnACA72F7A49428DAD43B1B1922F12FEDC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-13.32.59:911][240]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-13.33.00:969][352]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.33.01:002][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.33.01:002][352]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:33:01 am)
+[2019.03.19-13.33.01:002][352]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.33.01:012][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009848s)
+[2019.03.19-13.33.01:013][352]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.33.01:013][352]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2019.03.19-13.33.01:013][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011200s)
+[2019.03.19-13.33.01:039][352]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.33.01:103][352]LogInit: FAudioDevice initialized.
+[2019.03.19-13.33.01:169][352]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.33.01:177][352]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.03.19-19.03.01
+[2019.03.19-13.33.01:178][352]LogWorld: Bringing up level for play took: 0.006202
+[2019.03.19-13.33.01:191][352]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.305
+[2019.03.19-13.33.07:170][809]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.33.08:492][927]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.33.08:493][927]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.34.07:317][240]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.19-13.34.53:142][946]LogSavePackage: Save=91.61ms
+[2019.03.19-13.34.53:142][946]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto330B035EF4B0F57CAB2A8538743B5036E.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap'
+[2019.03.19-13.34.53:145][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap
+[2019.03.19-13.34.53:147][946]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.186
+[2019.03.19-13.34.53:147][946]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2019.03.19-13.34.53:152][946]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.19-13.34.53:216][946]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.19-13.34.53:216][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.19-13.34.53:361][946]LogSavePackage: Save=87.72ms
+[2019.03.19-13.34.53:361][946]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto3A3E23C284BC9916EC61FB78D0F044C06.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto3.uasset'
+[2019.03.19-13.34.53:363][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto3.uasset
+[2019.03.19-13.34.53:363][946]LogFileHelpers: Auto-saving content packages took 0.214
+[2019.03.19-13.35.31:975][644]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.35.32:001][644]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-13.35.32:001][644]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-13.35.32:274][644]LogPlayLevel: PlayLevel: Blueprint regeneration took 272 ms (1 blueprints)
+[2019.03.19-13.35.32:275][644]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:35:32 am)
+[2019.03.19-13.35.32:275][644]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.35.32:284][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008837s)
+[2019.03.19-13.35.32:284][644]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.35.32:285][644]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2019.03.19-13.35.32:285][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009975s)
+[2019.03.19-13.35.32:311][644]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.35.32:377][644]LogInit: FAudioDevice initialized.
+[2019.03.19-13.35.32:416][644]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.35.32:424][644]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.05.32
+[2019.03.19-13.35.32:425][644]LogWorld: Bringing up level for play took: 0.005834
+[2019.03.19-13.35.32:429][644]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.457
+[2019.03.19-13.35.34:355][750]LogBlueprintUserMessages: [board_Piece62] 5
+[2019.03.19-13.35.35:055][792]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.35.35:055][792]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.36.20:737][492]LogEditorTransaction: Undo Delete current selection
+[2019.03.19-13.36.21:466][521]LogEditorTransaction: Undo Edit Contains Color
+[2019.03.19-13.36.22:249][568]LogEditorTransaction: Undo Edit Contains
+[2019.03.19-13.36.23:983][672]LogEditorTransaction: Redo Edit Contains
+[2019.03.19-13.36.24:417][698]LogEditorTransaction: Redo Edit Contains Color
+[2019.03.19-13.36.24:966][731]LogEditorTransaction: Redo Delete current selection
+[2019.03.19-13.36.31:440][ 90]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.36.31:459][ 90]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-13.36.31:459][ 90]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-13.36.31:701][ 90]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2019.03.19-13.36.31:701][ 90]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:36:31 am)
+[2019.03.19-13.36.31:701][ 90]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.36.31:709][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007980s)
+[2019.03.19-13.36.31:710][ 90]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.36.31:710][ 90]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2019.03.19-13.36.31:711][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009338s)
+[2019.03.19-13.36.31:733][ 90]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.36.31:789][ 90]LogInit: FAudioDevice initialized.
+[2019.03.19-13.36.31:850][ 90]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.36.31:856][ 90]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.06.31
+[2019.03.19-13.36.31:857][ 90]LogWorld: Bringing up level for play took: 0.005094
+[2019.03.19-13.36.31:868][ 90]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.983
+[2019.03.19-13.36.33:353][167]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.36.33:353][167]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.43.01:202][177]BlueprintLog: New page: Compile Pawn
+[2019.03.19-13.43.02:100][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-13.43.02:315][201]LogSavePackage: Save=138.99ms
+[2019.03.19-13.43.02:315][201]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnC57DFB30468D5DEB227E7FBFE885C924.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-13.43.02:326][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-13.43.02:931][234]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-13.43.02:969][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-13.43.02:969][234]PIE: New page: PIE session: FirstLevel (20-Mar-2019 12:43:02 am)
+[2019.03.19-13.43.02:969][234]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-13.43.02:979][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009787s)
+[2019.03.19-13.43.02:980][234]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-13.43.02:980][234]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2019.03.19-13.43.02:980][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011169s)
+[2019.03.19-13.43.03:007][234]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-13.43.03:070][234]LogInit: FAudioDevice initialized.
+[2019.03.19-13.43.03:136][234]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-13.43.03:145][234]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.13.03
+[2019.03.19-13.43.03:147][234]LogWorld: Bringing up level for play took: 0.009174
+[2019.03.19-13.43.03:164][234]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.279
+[2019.03.19-13.43.05:588][370]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.43.05:589][370]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-13.43.05:589][370]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-13.43.05:589][370]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-13.43.14:455][897]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-13.43.14:455][897]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-13.43.14:456][897]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-13.43.14:456][897]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-13.43.16:350][ 10]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-13.43.16:350][ 10]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.19-13.43.16:351][ 10]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-13.43.16:351][ 10]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.19-13.43.23:243][421]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.43.23:244][421]LogBlueprintUserMessages: [Pawn9] 4
+[2019.03.19-13.43.23:244][421]LogBlueprintUserMessages: [Pawn9] 4
+[2019.03.19-13.43.23:245][421]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-13.43.24:826][515]LogBlueprintUserMessages: [Pawn9] 6
+[2019.03.19-13.43.24:827][515]LogBlueprintUserMessages: [Pawn9] 5
+[2019.03.19-13.43.24:827][515]LogBlueprintUserMessages: [Pawn9] 5
+[2019.03.19-13.43.24:827][515]LogBlueprintUserMessages: [Pawn9] 6
+[2019.03.19-13.43.27:343][665]LogBlueprintUserMessages: [Pawn20] hurray
+[2019.03.19-13.43.27:343][665]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-13.43.27:344][665]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-13.43.27:344][665]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-13.43.27:344][665]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-13.43.43:047][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.19-13.43.43:303][391]LogSavePackage: Save=139.93ms
+[2019.03.19-13.43.43:303][391]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelD15E4B1C4FBC88738C1CADB0181E3EC2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.19-13.43.43:311][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.19-14.06.17:407][ 87]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-14.06.17:424][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-14.06.17:425][ 87]PIE: New page: PIE session: FirstLevel (20-Mar-2019 1:06:17 am)
+[2019.03.19-14.06.17:425][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-14.06.17:433][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008066s)
+[2019.03.19-14.06.17:435][ 87]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-14.06.17:435][ 87]LogPlayLevel: PIE: World Init took: (0.002075s)
+[2019.03.19-14.06.17:435][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010606s)
+[2019.03.19-14.06.17:466][ 87]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-14.06.17:515][ 87]LogInit: FAudioDevice initialized.
+[2019.03.19-14.06.17:549][ 87]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-14.06.17:555][ 87]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.36.17
+[2019.03.19-14.06.17:555][ 87]LogWorld: Bringing up level for play took: 0.003798
+[2019.03.19-14.06.17:558][ 87]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.673
+[2019.03.19-14.06.27:018][643]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-14.06.27:019][643]LogBlueprintUserMessages: [Pawn9] 4
+[2019.03.19-14.06.27:019][643]LogBlueprintUserMessages: [Pawn9] 4
+[2019.03.19-14.06.27:019][643]LogBlueprintUserMessages: [Pawn9] 3
+[2019.03.19-14.06.30:785][869]LogBlueprintUserMessages: [Pawn9] 6
+[2019.03.19-14.06.30:785][869]LogBlueprintUserMessages: [Pawn9] 5
+[2019.03.19-14.06.30:785][869]LogBlueprintUserMessages: [Pawn9] 5
+[2019.03.19-14.06.30:786][869]LogBlueprintUserMessages: [Pawn9] 6
+[2019.03.19-14.06.38:853][352]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.19-14.06.38:853][352]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-14.06.38:853][352]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.19-14.08.50:227][633]BlueprintLog: New page: Compile Pawn
+[2019.03.19-14.08.51:463][675]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-14.08.51:480][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-14.08.51:481][675]PIE: New page: PIE session: FirstLevel (20-Mar-2019 1:08:51 am)
+[2019.03.19-14.08.51:481][675]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-14.08.51:488][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006880s)
+[2019.03.19-14.08.51:488][675]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-14.08.51:488][675]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2019.03.19-14.08.51:488][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007694s)
+[2019.03.19-14.08.51:509][675]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-14.08.51:566][675]LogInit: FAudioDevice initialized.
+[2019.03.19-14.08.51:628][675]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-14.08.51:635][675]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.38.51
+[2019.03.19-14.08.51:636][675]LogWorld: Bringing up level for play took: 0.005559
+[2019.03.19-14.08.51:648][675]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.763
+[2019.03.19-14.08.53:413][777]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.08.53:414][777]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.09.05:496][478]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-14.09.05:516][478]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-14.09.05:516][478]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-14.09.05:813][478]LogPlayLevel: PlayLevel: Blueprint regeneration took 297 ms (1 blueprints)
+[2019.03.19-14.09.05:814][478]PIE: New page: PIE session: FirstLevel (20-Mar-2019 1:09:05 am)
+[2019.03.19-14.09.05:814][478]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-14.09.05:825][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010876s)
+[2019.03.19-14.09.05:826][478]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-14.09.05:826][478]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2019.03.19-14.09.05:826][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012296s)
+[2019.03.19-14.09.05:863][478]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-14.09.05:924][478]LogInit: FAudioDevice initialized.
+[2019.03.19-14.09.05:983][478]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-14.09.05:991][478]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-19.39.05
+[2019.03.19-14.09.05:991][478]LogWorld: Bringing up level for play took: 0.006082
+[2019.03.19-14.09.06:005][478]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.12
+[2019.03.19-14.09.07:789][569]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.09.07:789][569]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-14.09.07:790][569]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-14.09.07:790][569]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.09.35:577][186]LogSavePackage: Save=125.62ms
+[2019.03.19-14.09.35:577][186]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto4DD04DA9E498C85D0CAE66FB6D6BDB27C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.19-14.09.35:580][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.19-14.09.35:582][186]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.244
+[2019.03.19-14.09.35:582][186]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
+[2019.03.19-14.09.35:586][186]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.19-14.09.35:641][186]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.19-14.09.35:641][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.19-14.09.35:839][186]LogSavePackage: Save=127.49ms
+[2019.03.19-14.09.35:839][186]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto4B164CC704EE11D7F8E2A2EA77947D4DA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto4.uasset'
+[2019.03.19-14.09.35:843][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto4.uasset
+[2019.03.19-14.09.35:843][186]LogFileHelpers: Auto-saving content packages took 0.258
+[2019.03.19-14.19.36:275][ 92]LogSavePackage: Save=142.46ms
+[2019.03.19-14.19.36:275][ 92]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto592A30A114679B885230770963CC23D2C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap'
+[2019.03.19-14.19.36:278][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto5.umap
+[2019.03.19-14.19.36:281][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.261
+[2019.03.19-14.19.36:281][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.261
+[2019.03.19-14.19.36:288][ 92]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.19-14.19.36:358][ 92]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.19-14.19.36:358][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.19-14.19.36:584][ 92]LogSavePackage: Save=153.04ms
+[2019.03.19-14.19.36:584][ 92]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto5E231B4464F52A16E6EF24A94D0F93BF6.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto5.uasset'
+[2019.03.19-14.19.36:590][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto5.uasset
+[2019.03.19-14.19.36:590][ 92]LogFileHelpers: Auto-saving content packages took 0.306
+[2019.03.19-14.55.23:373][248]BlueprintLog: New page: Compile Pawn
+[2019.03.19-14.55.24:261][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-14.55.24:485][269]LogSavePackage: Save=122.89ms
+[2019.03.19-14.55.24:485][269]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn37C9036B4B79B0EFD2018DAD2BCF6D40.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-14.55.24:492][269]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-14.55.25:054][301]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-14.55.25:085][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-14.55.25:086][301]PIE: New page: PIE session: FirstLevel (20-Mar-2019 1:55:25 am)
+[2019.03.19-14.55.25:086][301]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-14.55.25:096][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010405s)
+[2019.03.19-14.55.25:097][301]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-14.55.25:097][301]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.03.19-14.55.25:097][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011693s)
+[2019.03.19-14.55.25:127][301]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-14.55.25:192][301]LogInit: FAudioDevice initialized.
+[2019.03.19-14.55.25:255][301]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-14.55.25:264][301]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-20.25.25
+[2019.03.19-14.55.25:265][301]LogWorld: Bringing up level for play took: 0.007683
+[2019.03.19-14.55.25:283][301]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.397
+[2019.03.19-14.55.26:822][385]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.55.26:822][385]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.57.25:207][362]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-14.57.25:231][362]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.19-14.57.25:231][362]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.19-14.57.25:512][362]LogPlayLevel: PlayLevel: Blueprint regeneration took 280 ms (1 blueprints)
+[2019.03.19-14.57.25:512][362]PIE: New page: PIE session: FirstLevel (20-Mar-2019 1:57:25 am)
+[2019.03.19-14.57.25:512][362]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-14.57.25:522][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010089s)
+[2019.03.19-14.57.25:523][362]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-14.57.25:523][362]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2019.03.19-14.57.25:524][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011788s)
+[2019.03.19-14.57.25:559][362]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-14.57.25:635][362]LogInit: FAudioDevice initialized.
+[2019.03.19-14.57.25:707][362]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-14.57.25:716][362]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-20.27.25
+[2019.03.19-14.57.25:717][362]LogWorld: Bringing up level for play took: 0.007878
+[2019.03.19-14.57.25:738][362]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.853
+[2019.03.19-14.57.27:499][450]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.57.27:499][450]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-14.59.34:282][845]LogSavePackage: Save=121.22ms
+[2019.03.19-14.59.34:282][845]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto61C0555BE4A3F54A0EAFF95B1796FC55A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap'
+[2019.03.19-14.59.34:287][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto6.umap
+[2019.03.19-14.59.34:290][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.250
+[2019.03.19-14.59.34:290][845]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.250
+[2019.03.19-14.59.34:296][845]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.19-14.59.34:364][845]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.19-14.59.34:364][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.19-14.59.34:566][845]LogSavePackage: Save=126.78ms
+[2019.03.19-14.59.34:566][845]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto6BB0B5CCB47FF795926E724B9C37F8334.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto6.uasset'
+[2019.03.19-14.59.34:569][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto6.uasset
+[2019.03.19-14.59.34:569][845]LogFileHelpers: Auto-saving content packages took 0.277
+[2019.03.19-15.01.15:268][751]BlueprintLog: New page: Compile Pawn
+[2019.03.19-15.01.16:481][795]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-15.01.16:504][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-15.01.16:504][795]PIE: New page: PIE session: FirstLevel (20-Mar-2019 2:01:16 am)
+[2019.03.19-15.01.16:504][795]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-15.01.16:515][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010812s)
+[2019.03.19-15.01.16:515][795]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-15.01.16:516][795]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2019.03.19-15.01.16:516][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012019s)
+[2019.03.19-15.01.16:545][795]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-15.01.16:622][795]LogInit: FAudioDevice initialized.
+[2019.03.19-15.01.16:687][795]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-15.01.16:694][795]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-20.31.16
+[2019.03.19-15.01.16:694][795]LogWorld: Bringing up level for play took: 0.005650
+[2019.03.19-15.01.16:709][795]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.177
+[2019.03.19-15.01.22:281][126]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.01.22:282][126]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.01.22:282][126]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.01.22:282][126]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.01.22:282][126]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.01.22:283][126]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.01.28:966][527]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.01.28:967][527]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.01.28:967][527]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.01.28:967][527]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.01.28:968][527]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.01.28:968][527]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.01.30:983][648]LogBlueprintUserMessages: [Pawn13] 6
+[2019.03.19-15.01.30:983][648]LogBlueprintUserMessages: [Pawn13] 5
+[2019.03.19-15.01.30:984][648]LogBlueprintUserMessages: [Pawn13] 5
+[2019.03.19-15.02.40:094][766]BlueprintLog: New page: Compile Pawn
+[2019.03.19-15.02.40:858][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-15.02.41:015][769]LogSavePackage: Save=95.73ms
+[2019.03.19-15.02.41:015][769]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn8324887049319933E5CF468658675978.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-15.02.41:020][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-15.02.42:328][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-15.02.42:481][844]LogSavePackage: Save=88.53ms
+[2019.03.19-15.02.42:481][844]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn424CF1BF4F20F87AACE4139697190608.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-15.02.42:485][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.19-15.02.43:043][876]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-15.02.43:060][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-15.02.43:060][876]PIE: New page: PIE session: FirstLevel (20-Mar-2019 2:02:43 am)
+[2019.03.19-15.02.43:060][876]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-15.02.43:068][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008023s)
+[2019.03.19-15.02.43:069][876]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-15.02.43:069][876]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2019.03.19-15.02.43:069][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009419s)
+[2019.03.19-15.02.43:090][876]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-15.02.43:141][876]LogInit: FAudioDevice initialized.
+[2019.03.19-15.02.43:207][876]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-15.02.43:219][876]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-20.32.43
+[2019.03.19-15.02.43:221][876]LogWorld: Bringing up level for play took: 0.010619
+[2019.03.19-15.02.43:242][876]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.357
+[2019.03.19-15.02.44:561][952]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.02.44:561][952]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.02.44:562][952]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.02.44:562][952]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.02.44:563][952]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.02.44:563][952]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.02.49:428][244]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.02.49:429][244]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.02.49:429][244]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.02.49:429][244]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.02.49:430][244]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.02.49:430][244]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.02.51:595][374]LogBlueprintUserMessages: [Pawn13] 6
+[2019.03.19-15.02.51:596][374]LogBlueprintUserMessages: [Pawn13] 5
+[2019.03.19-15.02.51:596][374]LogBlueprintUserMessages: [Pawn13] 5
+[2019.03.19-15.03.23:418][195]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.19-15.03.23:921][196]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.19-15.03.27:869][391]LogEditorTransaction: Undo Delete current selection
+[2019.03.19-15.03.34:710][734]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.19-15.04.53:280][390]BlueprintLog: New page: Compile Pawn
+[2019.03.19-15.04.55:044][463]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.19-15.04.55:060][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.19-15.04.55:060][463]PIE: New page: PIE session: FirstLevel (20-Mar-2019 2:04:55 am)
+[2019.03.19-15.04.55:060][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.19-15.04.55:067][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006877s)
+[2019.03.19-15.04.55:067][463]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.19-15.04.55:068][463]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2019.03.19-15.04.55:068][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.007830s)
+[2019.03.19-15.04.55:087][463]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.19-15.04.55:138][463]LogInit: FAudioDevice initialized.
+[2019.03.19-15.04.55:191][463]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.19-15.04.55:198][463]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.19-20.34.55
+[2019.03.19-15.04.55:198][463]LogWorld: Bringing up level for play took: 0.005357
+[2019.03.19-15.04.55:210][463]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.324
+[2019.03.19-15.04.56:741][551]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.04.56:742][551]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.04.56:742][551]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.19-15.04.56:742][551]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.19-15.05.02:244][874]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.05.02:246][874]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.05.02:247][874]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.19-15.05.02:248][874]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.19-15.05.03:761][961]LogBlueprintUserMessages: [Pawn13] 6
+[2019.03.19-15.05.03:762][961]LogBlueprintUserMessages: [Pawn13] 5
+[2019.03.19-15.05.15:187][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.19-15.05.15:388][595]LogSavePackage: Save=134.12ms
+[2019.03.19-15.05.15:388][595]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn42DD13574C74B07979DCBEA0454BA6BC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.19-15.05.15:394][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
