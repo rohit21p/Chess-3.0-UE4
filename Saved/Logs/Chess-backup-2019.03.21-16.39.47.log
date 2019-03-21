@@ -1,0 +1,875 @@
+﻿Log file open, 03/21/19 13:49:54
+LogInit:Display: Running engine for game: Chess
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-269959345) SRandInit(-269959345).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.149192
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.21-08.19.55:085][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.21-08.19.55:085][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.21-08.19.55:136][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.03.21-08.19.55:136][  0]LogInit: User: RohitPanjwani
+[2019.03.21-08.19.55:136][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.03.21-08.19.55:136][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2019.03.21-08.19.55:137][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.21-08.19.55:137][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.21-08.19.55:137][  0]LogMemory: Process Physical Memory: 263.75 MB used, 263.75 MB peak
+[2019.03.21-08.19.55:137][  0]LogMemory: Process Virtual Memory: 262.65 MB used, 262.65 MB peak
+[2019.03.21-08.19.55:137][  0]LogMemory: Physical Memory: 8613.84 MB used,  7668.69 MB free, 16282.52 MB total
+[2019.03.21-08.19.55:137][  0]LogMemory: Virtual Memory: 4812.63 MB used,  7668.69 MB free, 134217728.00 MB total
+[2019.03.21-08.19.56:154][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.03.21-08.19.57:336][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.21-08.19.57:398][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.21-08.19.57:398][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.21-08.19.57:409][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.21-08.19.57:409][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.21-08.19.57:413][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.21-08.19.57:413][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.21-08.19.57:413][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.21-08.19.57:453][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.21-08.19.57:453][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.21-08.19.57:453][  0]LogWindows: EnumDisplayDevices:
+[2019.03.21-08.19.57:454][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.21-08.19.57:454][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.21-08.19.57:454][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.21-08.19.57:454][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.21-08.19.57:454][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.21-08.19.57:454][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.21-08.19.57:454][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.21-08.19.57:454][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.03.21-08.19.57:510][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.21-08.19.57:531][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.21-08.19.57:532][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/19172/).
+[2019.03.21-08.19.57:533][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/AB4D4F7041B0A430F36A62AFB01CD990/'.
+[2019.03.21-08.19.57:533][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.03.21-08.19.59:470][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.21-08.19.59:601][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.03.21-08.19.59:726][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.21-08.19.59:832][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.03.21-08.19.59:944][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.03.21-08.20.00:087][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.21-08.20.00:254][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.21-08.20.00:412][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.21-08.20.00:605][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.03.21-08.20.00:766][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.03.21-08.20.00:928][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.03.21-08.20.01:100][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.03.21-08.20.01:244][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.03.21-08.20.01:424][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.03.21-08.20.01:565][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.03.21-08.20.01:911][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.03.21-08.20.01:911][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.03.21-08.20.02:031][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.03.21-08.20.02:256][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.03.21-08.20.02:339][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.03.21-08.20.02:488][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.21-08.20.02:639][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.21-08.20.02:809][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.21-08.20.02:950][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.03.21-08.20.02:950][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.03.21-08.20.04:236][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache: Loaded boot cache 0.09s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.21-08.20.04:325][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.21-08.20.04:354][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.21-08.20.04:370][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.21-08.20.04:780][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.21-08.20.04:786][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.03.21-08.20.05:363][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.21-08.20.05:513][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.21-08.20.05:641][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.21-08.20.05:641][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.03.21-08.20.05:641][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.03.21-08.20.06:627][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.03.21-08.20.06:765][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2019.03.21-08.20.06:948][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.118315 seconds
+[2019.03.21-08.20.06:960][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.03.21-08.20.06:960][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.03.21-08.20.06:960][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.21-08.20.07:180][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.03.21-08.20.09:663][  0]LogSlate: Using Freetype 2.6.0
+[2019.03.21-08.20.09:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.21-08.20.09:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.21-08.20.11:436][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.21-08.20.11:543][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.21-08.20.12:525][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.03.21-08.20.13:680][  0]SourceControl: Info Source control is disabled
+[2019.03.21-08.20.13:801][  0]SourceControl: Info Source control is disabled
+[2019.03.21-08.20.13:972][  0]SourceControl: Info Source control is disabled
+[2019.03.21-08.20.14:107][  0]SourceControl: Info Source control is disabled
+[2019.03.21-08.20.18:244][  0]LogEngine: Initializing Engine...
+[2019.03.21-08.20.18:245][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.21-08.20.18:829][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.21-08.20.18:850][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-08.20.18:927][  0]LogInit: FAudioDevice initialized.
+[2019.03.21-08.20.18:966][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.03.21-08.20.18:972][  0]LogInit: Texture streaming: Enabled
+[2019.03.21-08.20.19:570][  0]LogInit: Transaction tracking system initialized
+[2019.03.21-08.20.20:749][  0]BlueprintLog: New page: Editor Load
+[2019.03.21-08.20.24:051][  0]LocalizationService: Info Localization service is disabled
+[2019.03.21-08.20.26:467][  0]LogConsoleResponse:Display: 
+[2019.03.21-08.20.26:914][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.21-08.20.26:914][  0]LogCook:Display: Mobile HDR setting 1
+[2019.03.21-08.20.27:440][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.04s
+[2019.03.21-08.20.30:054][  0]SourceControl: Info Source control is disabled
+[2019.03.21-08.20.30:054][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.21-08.20.30:055][  0]LightingResults: New page: Lighting Build
+[2019.03.21-08.20.30:185][  0]MapCheck: New page: Map Check
+[2019.03.21-08.20.30:185][  0]LightingResults: New page: Lighting Build
+[2019.03.21-08.20.30:533][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.21-08.20.30:535][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.03.21-08.20.30:542][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.21-08.20.30:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.21-08.20.30:677][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.705ms to complete.
+[2019.03.21-08.20.30:677][  0]LogFileHelpers: Loading map 'Template_Default' took 0.623
+[2019.03.21-08.20.31:056][  0]LogCollectionManager: Loaded 0 collections in 0.003169 seconds
+[2019.03.21-08.20.31:207][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.03.21-08.20.31:207][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.03.21-08.20.31:208][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.03.21-08.20.31:208][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.03.21-08.20.31:219][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2190 classes and 428 folders.
+[2019.03.21-08.20.31:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.21-08.20.31:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.21-08.20.31:334][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2019.03.21-08.20.31:550][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.03.21-08.20.32:640][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.21-08.20.32:762][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.03.21-08.20.32:946][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.03.21-08.20.32:957][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.03.21-08.20.33:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.03.21-08.20.33:146][  0]LogLoad: (Engine Initialization) Total time: 41.91 seconds
+[2019.03.21-08.20.33:146][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
+[2019.03.21-08.20.33:146][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.03.21-08.20.33:146][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.03.21-08.20.33:156][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.03.21-08.20.33:157][  0]LogOcInput: OculusInput pre-init called
+[2019.03.21-08.20.33:176][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.03.21-08.20.33:623][  0]LogRenderer: Reallocating scene render targets to support 860x352 NumSamples 1 (Frame:2).
+[2019.03.21-08.20.33:773][  1]LogAssetRegistry: Asset discovery search completed in 27.0301 seconds
+[2019.03.21-08.20.33:773][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.21-08.20.33:773][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.03.21-08.20.45:322][924]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-08.20.45:413][924]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.21-08.20.45:413][924]LightingResults: New page: Lighting Build
+[2019.03.21-08.20.45:415][924]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.03.21-08.20.45:415][924]MapCheck: New page: Map Check
+[2019.03.21-08.20.45:415][924]LightingResults: New page: Lighting Build
+[2019.03.21-08.20.45:553][924]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.21-08.20.45:580][924]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.21-08.20.45:705][924]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.205ms to complete.
+[2019.03.21-08.20.45:705][924]LogFileHelpers: Loading map 'FirstLevel' took 0.294
+[2019.03.21-08.21.55:426][859]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
+[2019.03.21-08.24.13:529][449]BlueprintLog: New page: Compile King
+[2019.03.21-08.24.15:134][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-08.24.15:339][476]LogSavePackage: Save=57.04ms
+[2019.03.21-08.24.15:339][476]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King678F24394C40E8530C9E98A9071D18DD.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-08.24.15:350][476]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-08.25.18:669][ 85]LogClass:Warning: Type mismatch in NewAvailableLocation of SKEL_King_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-08.25.21:437][237]BlueprintLog: New page: Compile King
+[2019.03.21-08.25.24:141][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-08.25.24:345][292]LogSavePackage: Save=72.88ms
+[2019.03.21-08.25.24:345][292]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/KingEE97A63B441242CE2315CABC14A002E2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-08.25.24:354][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-08.25.31:469][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.21-08.25.31:861][688]LogSavePackage: Save=231.00ms
+[2019.03.21-08.25.31:861][688]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameModeF430B9A74F58A117B0F2DBBDBFBB9586.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.21-08.25.31:874][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.21-08.26.10:577][930]BlueprintLog: New page: Compile King
+[2019.03.21-08.26.12:361][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-08.26.12:535][953]LogSavePackage: Save=59.80ms
+[2019.03.21-08.26.12:535][953]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King2EEC5370488BAFED212DDEA2C5F88533.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-08.26.12:543][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-08.29.19:700][889]LogEditorTransaction: Undo Resize Node
+[2019.03.21-08.29.20:423][923]LogEditorTransaction: Undo Replace Pin Variable
+[2019.03.21-08.29.29:163][436]LogEditorTransaction: Undo Replace Pin Variable
+[2019.03.21-08.29.38:325][966]LogEditorTransaction: Undo Replace Pin Variable
+[2019.03.21-08.30.00:014][232]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.30.00:665][251]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.30.01:656][296]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.30.02:444][342]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.30.04:485][462]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.30.09:250][742]Cmd: TRANSACTION REDO
+[2019.03.21-08.30.09:250][742]LogEditorTransaction: Redo Add Node
+[2019.03.21-08.30.10:038][776]Cmd: TRANSACTION REDO
+[2019.03.21-08.30.10:038][776]LogEditorTransaction: Redo Create Pin Link
+[2019.03.21-08.30.11:982][887]Cmd: TRANSACTION REDO
+[2019.03.21-08.30.11:982][887]LogEditorTransaction: Redo Move Node
+[2019.03.21-08.30.13:090][948]Cmd: TRANSACTION REDO
+[2019.03.21-08.30.13:090][948]LogEditorTransaction: Redo Delete current selection
+[2019.03.21-08.30.14:152][  7]Cmd: TRANSACTION REDO
+[2019.03.21-08.30.14:152][  7]LogEditorTransaction: Redo Delete current selection
+[2019.03.21-08.30.19:521][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.21-08.30.22:252][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-08.30.22:431][464]LogSavePackage: Save=66.53ms
+[2019.03.21-08.30.22:431][464]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King549CF58D4170AF821B996AA58D6BCB08.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-08.30.22:438][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-08.30.51:836][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.21-08.30.52:131][105]LogSavePackage: Save=189.49ms
+[2019.03.21-08.30.52:131][105]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn781B04E74E97385E918C668EC13215FC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.21-08.30.52:139][105]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.21-08.31.23:360][927]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-08.31.37:773][693]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.21-08.31.38:278][694]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.03.21-08.31.56:299][716]LogEditorTransaction: Undo Move Nodes
+[2019.03.21-08.31.57:448][769]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.31.59:078][854]LogEditorTransaction: Redo Delete current selection
+[2019.03.21-08.32.00:232][911]LogEditorTransaction: Redo Move Nodes
+[2019.03.21-08.35.47:660][312]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-08.35.58:825][957]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-08.36.08:281][514]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-08.36.18:248][ 88]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-08.37.05:493][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.21-08.37.05:700][819]LogSavePackage: Save=105.10ms
+[2019.03.21-08.37.05:700][819]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnE685CFD941736CC0ABEA7DBADD0A7307.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.21-08.37.05:705][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.21-08.37.32:120][ 69]LogSavePackage: Save=104.50ms
+[2019.03.21-08.37.32:120][ 69]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto1D7A2FD6E414505D32D5A0ABB4E5AB00A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap'
+[2019.03.21-08.37.32:123][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap
+[2019.03.21-08.37.32:125][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.236
+[2019.03.21-08.37.32:125][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.236
+[2019.03.21-08.40.42:996][238]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-08.40.43:023][238]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.21-08.40.43:023][238]LogPlayLevel: [PlayLevel] Compiling King before play...
+[2019.03.21-08.40.43:395][238]LogPlayLevel: [PlayLevel] Compiling Pawn before play...
+[2019.03.21-08.40.43:862][238]LogPlayLevel: PlayLevel: Blueprint regeneration took 838 ms (2 blueprints)
+[2019.03.21-08.40.43:869][238]PIE: New page: PIE session: FirstLevel (21-Mar-2019 7:40:43 pm)
+[2019.03.21-08.40.43:869][238]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-08.40.43:880][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010675s)
+[2019.03.21-08.40.43:880][238]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-08.40.43:881][238]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2019.03.21-08.40.43:881][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012269s)
+[2019.03.21-08.40.43:909][238]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-08.40.44:006][238]LogInit: FAudioDevice initialized.
+[2019.03.21-08.40.44:081][238]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-08.40.44:093][238]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.10.44
+[2019.03.21-08.40.44:094][238]LogWorld: Bringing up level for play took: 0.009847
+[2019.03.21-08.40.44:290][238]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2019.03.21-08.40.44:295][238]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.346
+[2019.03.21-08.40.44:491][238]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1917).
+[2019.03.21-08.40.46:384][328]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.21-08.40.46:385][328]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.21-08.40.46:385][328]LogBlueprintUserMessages: [Pawn_674] 3
+[2019.03.21-08.40.46:385][328]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.21-08.40.46:386][328]LogBlueprintUserMessages: [Pawn_674] 4
+[2019.03.21-08.40.52:909][712]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.21-08.40.52:910][712]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.21-08.40.52:911][712]LogBlueprintUserMessages: [Pawn20] 6
+[2019.03.21-08.40.52:911][712]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.21-08.40.52:912][712]LogBlueprintUserMessages: [Pawn20] 5
+[2019.03.21-08.40.54:535][806]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.40.54:535][806]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.21-08.40.54:537][806]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.21-08.40.54:538][806]LogBlueprintUserMessages: [Pawn_674] 5
+[2019.03.21-08.40.56:036][895]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2918
+[2019.03.21-08.40.56:036][895]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+[2019.03.21-08.40.56:038][895]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.21-08.40.56:040][895]LogBlueprintUserMessages: [Pawn_674] 6
+[2019.03.21-08.40.57:603][979]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1D63
+[2019.03.21-08.40.57:603][979]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+[2019.03.21-08.40.58:113][  5]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2918
+[2019.03.21-08.40.58:113][  5]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+[2019.03.21-08.40.58:113][  5]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.40.58:113][  5]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.40.58:114][  5]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.21-08.40.58:114][  5]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.21-08.40.58:115][  5]LogBlueprintUserMessages: [Pawn_674] 7
+[2019.03.21-08.40.58:980][ 56]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1D63
+[2019.03.21-08.40.58:980][ 56]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+[2019.03.21-08.40.58:984][ 56]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:0FBE
+[2019.03.21-08.40.58:984][ 56]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+[2019.03.21-08.40.58:984][ 56]LogScript:Warning: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:0FD3
+[2019.03.21-08.40.58:985][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-08.40.58:985][ 56]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1022
+[2019.03.21-08.40.58:985][ 56]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+[2019.03.21-08.40.58:985][ 56]LogScript:Warning: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1037
+[2019.03.21-08.40.58:985][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-08.40.58:986][ 56]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1070
+[2019.03.21-08.40.58:986][ 56]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item16, but Pawn20 is pending kill
+[2019.03.21-08.40.58:986][ 56]LogScript:Warning: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1085
+[2019.03.21-08.40.58:986][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-08.41.02:151][240]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2918
+[2019.03.21-08.41.02:151][240]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+[2019.03.21-08.41.02:152][240]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.41.02:152][240]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.41.02:152][240]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.41.02:152][240]LogBlueprintUserMessages: [Pawn_674] 8
+[2019.03.21-08.41.02:153][240]LogBlueprintUserMessages: [Pawn_674] 8
+[2019.03.21-08.41.02:153][240]LogBlueprintUserMessages: [Pawn_674] 8
+[2019.03.21-08.41.03:300][307]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1D63
+[2019.03.21-08.41.03:300][307]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+[2019.03.21-08.41.04:070][348]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2918
+[2019.03.21-08.41.04:070][348]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item5, but Pawn20 is pending kill
+[2019.03.21-08.41.04:071][348]LogBlueprintUserMessages: [Pawn_674] hurray
+[2019.03.21-08.41.04:072][348]LogBlueprintUserMessages: [Pawn_674] 9
+[2019.03.21-08.41.05:094][405]LogScript:Warning: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:1D63
+[2019.03.21-08.41.05:094][405]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item11, but Pawn20 is pending kill
+[2019.03.21-08.42.42:304][627]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.43.02:399][784]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.43.14:318][456]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-08.46.19:380][334]BlueprintLog: New page: Compile King
+[2019.03.21-08.46.20:119][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-08.46.20:320][358]LogSavePackage: Save=82.89ms
+[2019.03.21-08.46.20:320][358]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King60C2FC37431737AA5CECEDB6493E692C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-08.46.20:328][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-08.46.57:878][570]LogEditorTransaction: Undo Resize Node
+[2019.03.21-08.47.48:233][553]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-08.51.50:931][828]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'MyBlueprint'
+[2019.03.21-08.52.11:245][ 13]BlueprintLog: New page: Compile King
+[2019.03.21-08.56.25:709][937]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.56.26:316][958]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.56.26:791][980]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.56.27:212][  5]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.56.27:813][ 35]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.56.28:268][ 55]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.29:204][105]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.56.29:765][132]LogEditorTransaction: Undo Break Pin Links
+[2019.03.21-08.56.30:306][159]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-08.56.30:819][183]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.31:311][206]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.56.31:777][234]LogEditorTransaction: Undo AddPin
+[2019.03.21-08.56.32:389][264]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.56.33:073][305]LogEditorTransaction: Undo Change Number Pin Value
+[2019.03.21-08.56.33:889][346]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.34:461][373]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.56.35:055][402]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.56.35:531][423]LogEditorTransaction: Undo Change Number Pin Value
+[2019.03.21-08.56.36:082][450]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-08.56.36:641][483]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.37:205][510]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.37:742][535]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.56.38:256][560]LogEditorTransaction: Undo Add Node
+[2019.03.21-08.56.38:773][585]LogEditorTransaction: Undo Move Node
+[2019.03.21-08.56.39:646][630]LogEditorTransaction: Undo Move Nodes
+[2019.03.21-09.02.00:571][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.21-09.02.00:732][489]LogSavePackage: Save=44.39ms
+[2019.03.21-09.02.00:732][489]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceA3AC098A4CF4D5A775A392AAB8F48131.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.21-09.02.00:738][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.21-09.02.28:117][ 91]BlueprintLog: New page: Compile King
+[2019.03.21-09.02.28:941][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-09.02.29:104][120]LogSavePackage: Save=71.68ms
+[2019.03.21-09.02.29:104][120]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/KingA3FC906D474F8235AD72399B4FED9ED6.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-09.02.29:110][120]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-09.05.21:889][382]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-09.05.28:089][745]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-09.06.26:572][155]LogSavePackage: Save=152.91ms
+[2019.03.21-09.06.26:572][155]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto2FA50280743D50A6C8AC3E4842D482E2A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap'
+[2019.03.21-09.06.26:576][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap
+[2019.03.21-09.06.26:579][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.295
+[2019.03.21-09.06.26:579][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.295
+[2019.03.21-09.06.26:585][155]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn] ([1] browsable assets)...
+[2019.03.21-09.06.26:651][155]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn.Pawn]
+[2019.03.21-09.06.26:651][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn]
+[2019.03.21-09.06.26:867][155]LogSavePackage: Save=142.97ms
+[2019.03.21-09.06.26:867][155]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Pawn_Auto2E9BD753A4A579A2A14F032A5AAA87AA1.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset'
+[2019.03.21-09.06.26:907][155]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Pawn_Auto2.uasset
+[2019.03.21-09.06.26:907][155]LogFileHelpers: Auto-saving content packages took 0.326
+[2019.03.21-09.13.34:188][308]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-09.13.40:078][654]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-09.13.53:363][444]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
+[2019.03.21-09.17.55:232][631]LogEditorTransaction: Undo Replace Pin Variable
+[2019.03.21-09.18.40:461][198]Cmd: TRANSACTION UNDO
+[2019.03.21-09.18.40:461][198]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-09.18.40:987][208]LogEditorTransaction: Undo Create Pin Link
+[2019.03.21-09.18.42:866][319]LogEditorTransaction: Redo Create Pin Link
+[2019.03.21-09.18.43:852][377]LogEditorTransaction: Redo Delete current selection
+[2019.03.21-09.18.45:188][439]LogEditorTransaction: Undo Delete current selection
+[2019.03.21-09.19.45:337][892]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.19.45:367][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.21-09.19.45:367][892]LogPlayLevel: [PlayLevel] Compiling ChessGameMode before play...
+[2019.03.21-09.19.45:616][892]LogPlayLevel: [PlayLevel]   Compiling board_Piece as a dependent...
+[2019.03.21-09.19.45:683][892]LogPlayLevel: [PlayLevel]   Compiling Pawn as a dependent...
+[2019.03.21-09.19.46:755][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 1388 ms (3 blueprints)
+[2019.03.21-09.19.46:755][892]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:19:46 pm)
+[2019.03.21-09.19.46:755][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.19.46:765][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009564s)
+[2019.03.21-09.19.46:766][892]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.19.46:766][892]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2019.03.21-09.19.46:766][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010604s)
+[2019.03.21-09.19.46:790][892]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.19.46:848][892]LogInit: FAudioDevice initialized.
+[2019.03.21-09.19.46:896][892]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.19.46:902][892]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.49.46
+[2019.03.21-09.19.46:903][892]LogWorld: Bringing up level for play took: 0.005318
+[2019.03.21-09.19.46:907][892]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.958
+[2019.03.21-09.20.05:512][843]LogScript:Warning: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2E04
+[2019.03.21-09.20.05:512][843]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.06:120][870]LogScript:Warning: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:2265
+[2019.03.21-09.20.06:120][870]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill
+[2019.03.21-09.20.06:120][870]LogScript:Warning: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:14C0
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.06:121][870]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-09.20.06:569][892]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.07:866][955]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill
+[2019.03.21-09.20.09:370][ 31]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.10:670][ 93]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.19:624][515]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.20.19:661][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.20.19:661][515]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:20:19 pm)
+[2019.03.21-09.20.19:661][515]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.20.19:684][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021657s)
+[2019.03.21-09.20.19:685][515]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.20.19:685][515]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2019.03.21-09.20.19:685][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.023050s)
+[2019.03.21-09.20.19:719][515]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.20.19:800][515]LogInit: FAudioDevice initialized.
+[2019.03.21-09.20.19:897][515]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.20.19:905][515]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.50.19
+[2019.03.21-09.20.19:906][515]LogWorld: Bringing up level for play took: 0.006862
+[2019.03.21-09.20.19:923][515]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.975
+[2019.03.21-09.20.44:427][668]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.46:011][744]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill
+[2019.03.21-09.20.46:013][744]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.46:013][744]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-09.20.46:014][744]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.46:014][744]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-09.20.46:015][744]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item15, but Pawn_674 is pending kill
+[2019.03.21-09.20.46:015][744]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-09.20.47:225][802]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn9 via property CallFunc_Array_Get_Item4, but Pawn9 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn9 via property CallFunc_Array_Get_Item4, but Pawn9 is pending kill
+[2019.03.21-09.20.47:226][802]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.20.48:021][839]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn9 via property CallFunc_Array_Get_Item10, but Pawn9 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn9 via property CallFunc_Array_Get_Item10, but Pawn9 is pending kill
+[2019.03.21-09.20.48:022][839]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item10, but Pawn_674 is pending kill
+[2019.03.21-09.20.49:671][920]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn9 via property CallFunc_Array_Get_Item4, but Pawn9 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn9 via property CallFunc_Array_Get_Item4, but Pawn9 is pending kill
+[2019.03.21-09.20.49:671][920]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn_674 via property CallFunc_Array_Get_Item4, but Pawn_674 is pending kill
+[2019.03.21-09.21.54:810][470]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
+[2019.03.21-09.23.01:677][383]BlueprintLog: New page: Compile King
+[2019.03.21-09.23.04:792][545]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.23.04:854][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.23.04:855][545]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:23:04 pm)
+[2019.03.21-09.23.04:855][545]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.23.04:871][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016556s)
+[2019.03.21-09.23.04:872][545]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.23.04:872][545]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2019.03.21-09.23.04:873][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.017838s)
+[2019.03.21-09.23.04:914][545]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.23.05:007][545]LogInit: FAudioDevice initialized.
+[2019.03.21-09.23.05:073][545]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.23.05:084][545]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.53.05
+[2019.03.21-09.23.05:085][545]LogWorld: Bringing up level for play took: 0.009321
+[2019.03.21-09.23.05:103][545]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.155
+[2019.03.21-09.24.16:037][662]BlueprintLog: New page: Compile King
+[2019.03.21-09.24.18:118][769]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.24.18:142][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.24.18:143][769]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:24:18 pm)
+[2019.03.21-09.24.18:143][769]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.24.18:153][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010297s)
+[2019.03.21-09.24.18:154][769]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.24.18:154][769]LogPlayLevel: PIE: World Init took: (0.000955s)
+[2019.03.21-09.24.18:154][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011520s)
+[2019.03.21-09.24.18:180][769]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.24.18:236][769]LogInit: FAudioDevice initialized.
+[2019.03.21-09.24.18:288][769]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.24.18:294][769]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.54.18
+[2019.03.21-09.24.18:295][769]LogWorld: Bringing up level for play took: 0.005004
+[2019.03.21-09.24.18:303][769]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.646
+[2019.03.21-09.24.32:556][614]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.24.32:556][614]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-09.24.32:556][614]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.24.32:557][614]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-09.24.32:557][614]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.24.32:557][614]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-09.24.54:641][931]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill
+[2019.03.21-09.24.54:641][931]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill
+[2019.03.21-09.24.55:531][984]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill
+[2019.03.21-09.24.55:532][984]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill
+[2019.03.21-09.24.59:389][213]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill
+[2019.03.21-09.24.59:389][213]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill
+[2019.03.21-09.25.00:540][282]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill
+[2019.03.21-09.25.00:541][282]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill
+[2019.03.21-09.25.04:166][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.25.04:166][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-09.25.04:166][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item15, but Pawn4 is pending kill
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.03.21-09.25.04:167][493]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item15, but Pawn8 is pending kill
+[2019.03.21-09.25.04:168][493]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.03.21-09.25.12:396][978]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill
+[2019.03.21-09.25.12:397][978]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill
+[2019.03.21-09.25.12:397][978]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill
+[2019.03.21-09.25.12:792][  1]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill
+[2019.03.21-09.25.12:792][  1]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item4, but Pawn4 is pending kill
+[2019.03.21-09.25.12:792][  1]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item4, but Pawn8 is pending kill
+[2019.03.21-09.25.13:231][ 27]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill
+[2019.03.21-09.25.13:231][ 27]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn4 via property CallFunc_Array_Get_Item10, but Pawn4 is pending kill
+[2019.03.21-09.25.13:232][ 27]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn8 via property CallFunc_Array_Get_Item10, but Pawn8 is pending kill
+[2019.03.21-09.25.32:333][153]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.32:333][153]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.32:334][153]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.33:133][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item10 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item10
+[2019.03.21-09.25.33:134][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item10 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item10
+[2019.03.21-09.25.33:134][201]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item10 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item10
+[2019.03.21-09.25.37:398][451]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.37:399][451]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.37:399][451]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.39:530][577]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.39:530][577]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.39:531][577]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:080][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:080][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:080][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:951][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:951][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.25.40:951][661]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2019.03.21-09.26.33:856][680]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2019.03.21-09.26.36:490][838]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2019.03.21-09.26.37:557][902]LogBlueprint:Warning: Unknown type of hyperlinked object
+[2019.03.21-09.27.16:664][206]LogEditorViewport: Clicking on Actor (LMB): King_C (King)
+[2019.03.21-09.27.21:272][471]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.27.21:320][471]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.21-09.27.21:320][471]LogPlayLevel: [PlayLevel] Compiling ChessGameMode before play...
+[2019.03.21-09.27.22:147][471]LogPlayLevel: PlayLevel: Blueprint regeneration took 826 ms (1 blueprints)
+[2019.03.21-09.27.22:148][471]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:27:22 pm)
+[2019.03.21-09.27.22:148][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.27.22:160][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011896s)
+[2019.03.21-09.27.22:160][471]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.27.22:161][471]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2019.03.21-09.27.22:161][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013164s)
+[2019.03.21-09.27.22:192][471]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.27.22:259][471]LogInit: FAudioDevice initialized.
+[2019.03.21-09.27.22:414][471]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.27.22:419][471]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.57.22
+[2019.03.21-09.27.22:419][471]LogWorld: Bringing up level for play took: 0.003868
+[2019.03.21-09.27.22:422][471]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.474
+[2019.03.21-09.28.08:529][164]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.28.08:544][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.28.08:545][164]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:28:08 pm)
+[2019.03.21-09.28.08:545][164]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.28.08:554][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008956s)
+[2019.03.21-09.28.08:555][164]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.28.08:555][164]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2019.03.21-09.28.08:555][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010391s)
+[2019.03.21-09.28.08:583][164]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.28.08:650][164]LogInit: FAudioDevice initialized.
+[2019.03.21-09.28.08:687][164]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.28.08:692][164]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-14.58.08
+[2019.03.21-09.28.08:692][164]LogWorld: Bringing up level for play took: 0.004015
+[2019.03.21-09.28.08:696][164]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.253
+[2019.03.21-09.31.06:051][637]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.21-09.31.07:391][675]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.31.07:408][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.31.07:408][675]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:31:07 pm)
+[2019.03.21-09.31.07:408][675]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.31.07:416][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007735s)
+[2019.03.21-09.31.07:417][675]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.31.07:417][675]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2019.03.21-09.31.07:417][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008688s)
+[2019.03.21-09.31.07:444][675]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.31.07:504][675]LogInit: FAudioDevice initialized.
+[2019.03.21-09.31.07:565][675]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.31.07:575][675]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.01.07
+[2019.03.21-09.31.07:576][675]LogWorld: Bringing up level for play took: 0.008173
+[2019.03.21-09.31.07:592][675]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.643
+[2019.03.21-09.31.43:788][783]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.21-09.31.45:173][829]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.31.45:201][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.31.45:201][829]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:31:45 pm)
+[2019.03.21-09.31.45:201][829]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.31.45:212][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010450s)
+[2019.03.21-09.31.45:212][829]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.31.45:213][829]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2019.03.21-09.31.45:213][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011749s)
+[2019.03.21-09.31.45:247][829]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.31.45:314][829]LogInit: FAudioDevice initialized.
+[2019.03.21-09.31.45:382][829]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.31.45:392][829]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.01.45
+[2019.03.21-09.31.45:394][829]LogWorld: Bringing up level for play took: 0.009573
+[2019.03.21-09.31.45:414][829]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.465
+[2019.03.21-09.33.15:964][185]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill
+[2019.03.21-09.33.16:836][235]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill
+[2019.03.21-09.33.24:961][710]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill
+[2019.03.21-09.33.26:258][786]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item4, but Pawn20 is pending kill
+[2019.03.21-09.33.27:214][842]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn20 via property CallFunc_Array_Get_Item10, but Pawn20 is pending kill
+[2019.03.21-09.34.15:720][579]BlueprintLog: New page: Compile ChessGameMode
+[2019.03.21-09.34.19:118][746]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.34.19:141][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.34.19:141][746]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:34:19 pm)
+[2019.03.21-09.34.19:141][746]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.34.19:149][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008006s)
+[2019.03.21-09.34.19:150][746]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.34.19:150][746]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.03.21-09.34.19:150][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.009048s)
+[2019.03.21-09.34.19:176][746]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.34.19:232][746]LogInit: FAudioDevice initialized.
+[2019.03.21-09.34.19:296][746]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.34.19:303][746]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.04.19
+[2019.03.21-09.34.19:304][746]LogWorld: Bringing up level for play took: 0.004850
+[2019.03.21-09.34.19:319][746]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.371
+[2019.03.21-09.37.27:998][790]BlueprintLog: New page: Compile King
+[2019.03.21-09.37.29:172][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-09.37.29:389][831]LogSavePackage: Save=101.27ms
+[2019.03.21-09.37.29:389][831]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/KingBBAB299847D35E3BB53F6EA0C5000B76.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-09.37.29:396][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-09.37.30:518][897]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-09.37.30:539][897]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-09.37.30:539][897]PIE: New page: PIE session: FirstLevel (21-Mar-2019 8:37:30 pm)
+[2019.03.21-09.37.30:539][897]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-09.37.30:554][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014576s)
+[2019.03.21-09.37.30:554][897]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-09.37.30:555][897]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.03.21-09.37.30:555][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015874s)
+[2019.03.21-09.37.30:586][897]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-09.37.30:662][897]LogInit: FAudioDevice initialized.
+[2019.03.21-09.37.30:719][897]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-09.37.30:730][897]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.07.30
+[2019.03.21-09.37.30:732][897]LogWorld: Bringing up level for play took: 0.010466
+[2019.03.21-09.37.30:751][897]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.198
+[2019.03.21-09.38.05:115][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.21-09.38.05:348][870]LogSavePackage: Save=104.70ms
+[2019.03.21-09.38.05:348][870]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel416803884598EB8038FCB9B7F605F50C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.03.21-09.38.05:355][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.03.21-09.38.13:387][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pawn" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset" SILENT=true
+[2019.03.21-09.38.13:541][327]LogSavePackage: Save=87.20ms
+[2019.03.21-09.38.13:541][327]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PawnA5A042834A0847A9D0753899289C32FB.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset'
+[2019.03.21-09.38.13:547][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Pawn.uasset
+[2019.03.21-09.38.15:416][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/board_Piece" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset" SILENT=true
+[2019.03.21-09.38.15:578][430]LogSavePackage: Save=75.93ms
+[2019.03.21-09.38.15:578][430]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/board_PieceF518F20D432F57F8A8B5819EDCCFA805.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset'
+[2019.03.21-09.38.15:585][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/board_Piece.uasset
+[2019.03.21-09.38.17:309][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.03.21-09.38.17:643][515]LogSavePackage: Save=209.85ms
+[2019.03.21-09.38.17:643][515]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameMode6255307A4B58E15CD184E18D12254903.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.03.21-09.38.17:653][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.03.21-09.38.58:483][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-09.38.58:647][918]LogSavePackage: Save=70.48ms
+[2019.03.21-09.38.58:647][918]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King56389BE0438F4BF4EBB879991C40F00A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-09.38.58:654][918]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-09.39.06:986][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.03.21-09.39.07:233][392]LogSavePackage: Save=117.38ms
+[2019.03.21-09.39.07:233][392]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/KingD382D32A43CD3C0BA0B780802B051D63.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.03.21-09.39.07:243][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-10.15.25:378][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.21-10.15.50:077][286]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-10.15.50:157][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.15.50:158][286]PIE: New page: PIE session: FirstLevel (21-Mar-2019 9:15:50 pm)
+[2019.03.21-10.15.50:158][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-10.15.50:178][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019197s)
+[2019.03.21-10.15.50:180][286]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-10.15.50:181][286]LogPlayLevel: PIE: World Init took: (0.002966s)
+[2019.03.21-10.15.50:182][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.022979s)
+[2019.03.21-10.15.50:442][286]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.15.50:499][286]LogInit: FAudioDevice initialized.
+[2019.03.21-10.15.50:539][286]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-10.15.50:546][286]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.45.50
+[2019.03.21-10.15.50:546][286]LogWorld: Bringing up level for play took: 0.005606
+[2019.03.21-10.15.50:550][286]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.398
+[2019.03.21-10.16.55:382][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.21-10.17.36:045][452]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-10.18.35:397][940]LogSavePackage: Save=105.42ms
+[2019.03.21-10.18.35:397][940]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto3C54848234ED61CD55984E5AA003D7FDE.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap'
+[2019.03.21-10.18.35:400][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap
+[2019.03.21-10.18.35:402][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.230
+[2019.03.21-10.18.35:402][940]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2019.03.21-10.18.35:407][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.21-10.18.35:468][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.21-10.18.35:468][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.21-10.18.35:608][940]LogSavePackage: Save=59.27ms
+[2019.03.21-10.18.35:608][940]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto3A0A9C35B48F4540E124B3EACD8BD1F3B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto3.uasset'
+[2019.03.21-10.18.35:612][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto3.uasset
+[2019.03.21-10.18.35:612][940]LogFileHelpers: Auto-saving content packages took 0.207
+[2019.03.21-10.21.03:549][614]BlueprintLog: New page: Compile Knight
+[2019.03.21-10.21.42:690][762]LogClass:Warning: Type mismatch in newAvailableLocation of SKEL_Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.25.56:013][280]LogEditorTransaction: Undo Change Variable Type
+[2019.03.21-10.25.56:033][280]LogClass:Warning: Type mismatch in newAvailableLocation of SKEL_Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.28.36:548][613]LogSavePackage: Save=107.36ms
+[2019.03.21-10.28.36:548][613]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto4D5B1B71747017D2BE516FA8DD83A6FC5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.21-10.28.36:552][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.21-10.28.36:554][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.221
+[2019.03.21-10.28.36:555][613]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.221
+[2019.03.21-10.28.36:561][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.21-10.28.36:631][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.21-10.28.36:631][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.21-10.28.36:779][613]LogSavePackage: Save=61.81ms
+[2019.03.21-10.28.36:779][613]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto488C011B9449A660B3FDEB18EB19D4606.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset'
+[2019.03.21-10.28.36:783][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset
+[2019.03.21-10.28.36:783][613]LogFileHelpers: Auto-saving content packages took 0.225
+[2019.03.21-10.29.08:803][918]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-10.33.04:485][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-10.33.04:543][ 24]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.21-10.33.04:543][ 24]LogPlayLevel: [PlayLevel] Compiling Knight before play...
+[2019.03.21-10.33.04:619][ 24]LogClass:Warning: Type mismatch in newAvailableLocation of Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.33.05:948][ 24]LogPlayLevel: PlayLevel: Blueprint regeneration took 1405 ms (1 blueprints)
+[2019.03.21-10.33.05:948][ 24]PIE: New page: PIE session: FirstLevel (21-Mar-2019 9:33:05 pm)
+[2019.03.21-10.33.05:948][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
