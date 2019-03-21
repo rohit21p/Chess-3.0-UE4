@@ -820,3 +820,56 @@ LogInit: Object subsystem initialized
 [2019.03.21-09.39.07:233][392]LogSavePackage: Save=117.38ms
 [2019.03.21-09.39.07:233][392]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/KingD382D32A43CD3C0BA0B780802B051D63.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
 [2019.03.21-09.39.07:243][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.03.21-10.15.25:378][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.03.21-10.15.50:077][286]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-10.15.50:157][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.21-10.15.50:158][286]PIE: New page: PIE session: FirstLevel (21-Mar-2019 9:15:50 pm)
+[2019.03.21-10.15.50:158][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.03.21-10.15.50:178][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019197s)
+[2019.03.21-10.15.50:180][286]LogAIModule: Creating AISystem for world FirstLevel
+[2019.03.21-10.15.50:181][286]LogPlayLevel: PIE: World Init took: (0.002966s)
+[2019.03.21-10.15.50:182][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.022979s)
+[2019.03.21-10.15.50:442][286]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.21-10.15.50:499][286]LogInit: FAudioDevice initialized.
+[2019.03.21-10.15.50:539][286]LogLoad: Game class is 'ChessGameMode_C'
+[2019.03.21-10.15.50:546][286]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.03.21-15.45.50
+[2019.03.21-10.15.50:546][286]LogWorld: Bringing up level for play took: 0.005606
+[2019.03.21-10.15.50:550][286]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.398
+[2019.03.21-10.16.55:382][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.21-10.17.36:045][452]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-10.18.35:397][940]LogSavePackage: Save=105.42ms
+[2019.03.21-10.18.35:397][940]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto3C54848234ED61CD55984E5AA003D7FDE.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap'
+[2019.03.21-10.18.35:400][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto3.umap
+[2019.03.21-10.18.35:402][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.230
+[2019.03.21-10.18.35:402][940]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2019.03.21-10.18.35:407][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.21-10.18.35:468][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.21-10.18.35:468][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.21-10.18.35:608][940]LogSavePackage: Save=59.27ms
+[2019.03.21-10.18.35:608][940]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto3A0A9C35B48F4540E124B3EACD8BD1F3B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto3.uasset'
+[2019.03.21-10.18.35:612][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto3.uasset
+[2019.03.21-10.18.35:612][940]LogFileHelpers: Auto-saving content packages took 0.207
+[2019.03.21-10.21.03:549][614]BlueprintLog: New page: Compile Knight
+[2019.03.21-10.21.42:690][762]LogClass:Warning: Type mismatch in newAvailableLocation of SKEL_Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.25.56:013][280]LogEditorTransaction: Undo Change Variable Type
+[2019.03.21-10.25.56:033][280]LogClass:Warning: Type mismatch in newAvailableLocation of SKEL_Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.28.36:548][613]LogSavePackage: Save=107.36ms
+[2019.03.21-10.28.36:548][613]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto4D5B1B71747017D2BE516FA8DD83A6FC5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap'
+[2019.03.21-10.28.36:552][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto4.umap
+[2019.03.21-10.28.36:554][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.221
+[2019.03.21-10.28.36:555][613]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.221
+[2019.03.21-10.28.36:561][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Knight] ([1] browsable assets)...
+[2019.03.21-10.28.36:631][613]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Knight.Knight]
+[2019.03.21-10.28.36:631][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Knight]
+[2019.03.21-10.28.36:779][613]LogSavePackage: Save=61.81ms
+[2019.03.21-10.28.36:779][613]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Knight_Auto488C011B9449A660B3FDEB18EB19D4606.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset'
+[2019.03.21-10.28.36:783][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Knight_Auto4.uasset
+[2019.03.21-10.28.36:783][613]LogFileHelpers: Auto-saving content packages took 0.225
+[2019.03.21-10.29.08:803][918]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.21-10.33.04:485][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2019.03.21-10.33.04:543][ 24]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.21-10.33.04:543][ 24]LogPlayLevel: [PlayLevel] Compiling Knight before play...
+[2019.03.21-10.33.04:619][ 24]LogClass:Warning: Type mismatch in newAvailableLocation of Knight_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.03.21-10.33.05:948][ 24]LogPlayLevel: PlayLevel: Blueprint regeneration took 1405 ms (1 blueprints)
+[2019.03.21-10.33.05:948][ 24]PIE: New page: PIE session: FirstLevel (21-Mar-2019 9:33:05 pm)
+[2019.03.21-10.33.05:948][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
