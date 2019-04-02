@@ -1,0 +1,963 @@
+﻿Log file open, 04/02/19 20:07:34
+LogInit:Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: Loading recent project file: ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Chess.uproject
+LogInit:Display: RandInit(1104850645) SRandInit(1104850645).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.143016
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.02-14.37.34:549][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-14.37.34:549][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.02-14.37.34:572][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.04.02-14.37.34:572][  0]LogInit: User: RohitPanjwani
+[2019.04.02-14.37.34:572][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.04.02-14.37.34:572][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2019.04.02-14.37.34:572][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.02-14.37.34:572][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.02-14.37.34:572][  0]LogMemory: Process Physical Memory: 263.46 MB used, 263.46 MB peak
+[2019.04.02-14.37.34:572][  0]LogMemory: Process Virtual Memory: 262.69 MB used, 262.69 MB peak
+[2019.04.02-14.37.34:572][  0]LogMemory: Physical Memory: 7487.56 MB used,  8794.96 MB free, 16282.52 MB total
+[2019.04.02-14.37.34:572][  0]LogMemory: Virtual Memory: 4812.63 MB used,  8794.96 MB free, 134217728.00 MB total
+[2019.04.02-14.37.35:948][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.04.02-14.37.41:529][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.02-14.37.41:599][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.02-14.37.41:599][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.02-14.37.41:610][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.02-14.37.41:610][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.02-14.37.41:613][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.02-14.37.41:613][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.02-14.37.41:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.02-14.37.41:649][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.02-14.37.41:649][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.02-14.37.41:649][  0]LogWindows: EnumDisplayDevices:
+[2019.04.02-14.37.41:649][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.02-14.37.41:650][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.02-14.37.41:650][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.02-14.37.41:650][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.02-14.37.41:650][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.02-14.37.41:650][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.02-14.37.41:650][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.02-14.37.41:650][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.04.02-14.37.41:697][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.02-14.37.41:715][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.02-14.37.41:716][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/8136/).
+[2019.04.02-14.37.41:716][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/FB5296864FF37641CB8F199A0E47BFE6/'.
+[2019.04.02-14.37.41:716][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.04.02-14.37.45:131][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.02-14.37.45:227][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.04.02-14.37.45:324][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.02-14.37.45:450][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.04.02-14.37.45:621][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.04.02-14.37.45:725][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.02-14.37.45:825][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.02-14.37.45:935][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.02-14.37.46:029][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.04.02-14.37.46:169][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.04.02-14.37.46:268][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.02-14.37.46:394][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.02-14.37.46:502][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.02-14.37.46:628][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.02-14.37.46:730][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.02-14.37.46:937][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.02-14.37.46:937][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.02-14.37.47:018][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.04.02-14.37.47:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.04.02-14.37.47:266][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.04.02-14.37.47:363][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.02-14.37.47:461][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.02-14.37.47:568][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.02-14.37.47:701][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.04.02-14.37.47:701][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.04.02-14.37.49:179][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache: Loaded boot cache 0.64s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.02-14.37.49:823][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.02-14.37.49:885][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.02-14.37.49:912][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.02-14.37.55:647][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.02-14.37.55:652][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.04.02-14.37.56:078][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.02-14.37.56:229][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.02-14.37.56:328][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.02-14.37.56:328][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.04.02-14.37.56:328][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.04.02-14.37.58:138][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.04.02-14.37.58:225][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2019.04.02-14.37.58:405][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.120322 seconds
+[2019.04.02-14.37.58:412][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.04.02-14.37.58:412][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.04.02-14.37.58:412][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.02-14.37.58:556][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.04.02-14.38.00:271][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.02-14.38.00:295][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.02-14.38.00:295][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.02-14.38.25:083][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.02-14.38.25:184][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.02-14.38.26:367][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.04.02-14.38.27:559][  0]SourceControl: Info Source control is disabled
+[2019.04.02-14.38.27:849][  0]SourceControl: Info Source control is disabled
+[2019.04.02-14.38.28:013][  0]SourceControl: Info Source control is disabled
+[2019.04.02-14.38.28:168][  0]SourceControl: Info Source control is disabled
+[2019.04.02-14.38.31:889][  0]LogEngine: Initializing Engine...
+[2019.04.02-14.38.31:890][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.02-14.38.32:752][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.02-14.38.32:772][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.38.32:842][  0]LogInit: FAudioDevice initialized.
+[2019.04.02-14.38.32:873][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.02-14.38.32:878][  0]LogInit: Texture streaming: Enabled
+[2019.04.02-14.38.33:360][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.04.02-14.38.33:519][  0]LogInit: Transaction tracking system initialized
+[2019.04.02-14.38.34:524][  0]BlueprintLog: New page: Editor Load
+[2019.04.02-14.38.37:311][  0]LocalizationService: Info Localization service is disabled
+[2019.04.02-14.38.39:692][  0]LogConsoleResponse:Display: 
+[2019.04.02-14.38.43:725][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.02-14.38.43:725][  0]LogCook:Display: Mobile HDR setting 1
+[2019.04.02-14.38.44:739][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.02s
+[2019.04.02-14.38.48:550][  0]SourceControl: Info Source control is disabled
+[2019.04.02-14.38.48:551][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-14.38.48:556][  0]LightingResults: New page: Lighting Build
+[2019.04.02-14.38.48:673][  0]MapCheck: New page: Map Check
+[2019.04.02-14.38.48:673][  0]LightingResults: New page: Lighting Build
+[2019.04.02-14.38.49:380][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.38.49:381][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.04.02-14.38.49:719][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-14.38.49:725][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-14.38.49:866][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.112ms to complete.
+[2019.04.02-14.38.49:867][  0]LogFileHelpers: Loading map 'Template_Default' took 1.316
+[2019.04.02-14.38.50:207][  0]LogCollectionManager: Loaded 0 collections in 0.003215 seconds
+[2019.04.02-14.38.50:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.04.02-14.38.50:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.04.02-14.38.50:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.04.02-14.38.50:339][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.04.02-14.38.50:349][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2190 classes and 428 folders.
+[2019.04.02-14.38.50:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.02-14.38.50:505][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.02-14.38.50:506][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0014 seconds. Added 13 classes and 0 folders.
+[2019.04.02-14.38.50:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.04.02-14.38.52:414][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.02-14.38.52:553][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.04.02-14.38.52:724][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.04.02-14.38.52:769][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.04.02-14.38.53:000][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.04.02-14.38.53:000][  0]LogLoad: (Engine Initialization) Total time: 83.69 seconds
+[2019.04.02-14.38.53:000][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2019.04.02-14.38.53:000][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.04.02-14.38.53:001][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.04.02-14.38.53:021][  0]LogOcInput: OculusInput pre-init called
+[2019.04.02-14.38.53:054][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.02-14.38.53:959][  0]LogRenderer: Reallocating scene render targets to support 860x428 NumSamples 1 (Frame:2).
+[2019.04.02-14.38.54:183][  1]LogAssetRegistry: Asset discovery search completed in 55.9802 seconds
+[2019.04.02-14.38.54:183][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.02-14.38.54:183][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2019.04.02-14.38.59:143][243]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 6.11s
+[2019.04.02-14.39.00:998][354]AssetReimport: New page: Detailed File System Changes from 8:09:00 pm
+[2019.04.02-14.39.01:021][354]AssetReimport: Info 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/play.png' has been created.
+[2019.04.02-14.39.01:021][354]AssetReimport: Info 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/play_hover.png' has been created.
+[2019.04.02-14.39.12:169][890]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 111 classes and 0 folders.
+[2019.04.02-14.39.17:951][105]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.39.17:987][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-14.39.17:987][105]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:39:17 am)
+[2019.04.02-14.39.17:987][105]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.39.17:991][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003688s)
+[2019.04.02-14.39.17:992][105]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.39.17:992][105]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2019.04.02-14.39.17:993][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005261s)
+[2019.04.02-14.39.18:046][105]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.39.18:135][105]LogInit: FAudioDevice initialized.
+[2019.04.02-14.39.22:867][105]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.39.22:870][105]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 3) at 2019.04.02-20.09.22
+[2019.04.02-14.39.22:871][105]LogWorld: Bringing up level for play took: 0.001619
+[2019.04.02-14.39.23:009][105]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2019.04.02-14.39.23:015][105]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 5.219
+[2019.04.02-14.39.23:040][105]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:6).
+[2019.04.02-14.39.26:265][123]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.02-14.39.29:614][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.02-14.40.18:994][587]AssetReimport: New page: Outstanding source content changes 1:40:18 am
+[2019.04.02-14.40.18:996][587]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/yay-1.png)
+[2019.04.02-14.40.19:152][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/yay-1" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/yay-1.uasset" SILENT=true
+[2019.04.02-14.40.19:179][588]LogSavePackage: Save=23.39ms
+[2019.04.02-14.40.19:179][588]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/yay-1CE4456C646887368DF6ADB9CED80E8E3.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/yay-1.uasset'
+[2019.04.02-14.40.19:184][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/yay-1.uasset
+[2019.04.02-14.40.22:239][762]AssetReimport: Info Importing new asset /Game/Assets/yay-1.
+[2019.04.02-14.40.39:976][794]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.40.39:994][794]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.40.39:994][794]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.40.40:129][794]LogPlayLevel: PlayLevel: Blueprint regeneration took 133 ms (1 blueprints)
+[2019.04.02-14.40.40:129][794]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:40:40 am)
+[2019.04.02-14.40.40:129][794]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.40.40:131][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002339s)
+[2019.04.02-14.40.40:132][794]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.40.40:132][794]LogPlayLevel: PIE: World Init took: (0.000717s)
+[2019.04.02-14.40.40:132][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003308s)
+[2019.04.02-14.40.40:155][794]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.40.40:233][794]LogInit: FAudioDevice initialized.
+[2019.04.02-14.40.40:284][794]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.40.40:288][794]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.10.40
+[2019.04.02-14.40.40:289][794]LogWorld: Bringing up level for play took: 0.002001
+[2019.04.02-14.40.40:294][794]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.499
+[2019.04.02-14.41.27:281][910]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.41.27:310][910]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.41.27:310][910]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.41.27:542][910]LogPlayLevel: PlayLevel: Blueprint regeneration took 233 ms (1 blueprints)
+[2019.04.02-14.41.27:543][910]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:41:27 am)
+[2019.04.02-14.41.27:543][910]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.41.27:545][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002509s)
+[2019.04.02-14.41.27:546][910]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.41.27:546][910]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2019.04.02-14.41.27:547][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004072s)
+[2019.04.02-14.41.27:578][910]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.41.27:661][910]LogInit: FAudioDevice initialized.
+[2019.04.02-14.41.27:727][910]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.41.27:731][910]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.11.27
+[2019.04.02-14.41.27:731][910]LogWorld: Bringing up level for play took: 0.002287
+[2019.04.02-14.41.27:736][910]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.06
+[2019.04.02-14.41.52:681][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-14.41.52:904][368]LogSavePackage: Save=50.17ms
+[2019.04.02-14.41.52:904][368]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening2AAA57864096CBCB7B43E1BDC9CDBD14.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-14.41.52:917][368]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-14.41.53:344][392]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.41.53:367][392]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.41.53:367][392]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.41.53:584][392]LogPlayLevel: PlayLevel: Blueprint regeneration took 217 ms (1 blueprints)
+[2019.04.02-14.41.53:585][392]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:41:53 am)
+[2019.04.02-14.41.53:585][392]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.41.53:587][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002090s)
+[2019.04.02-14.41.53:588][392]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.41.53:588][392]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2019.04.02-14.41.53:588][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003546s)
+[2019.04.02-14.41.53:621][392]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.41.53:712][392]LogInit: FAudioDevice initialized.
+[2019.04.02-14.41.53:769][392]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.41.53:773][392]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.11.53
+[2019.04.02-14.41.53:774][392]LogWorld: Bringing up level for play took: 0.001884
+[2019.04.02-14.41.53:779][392]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.016
+[2019.04.02-14.42.05:114][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-14.42.05:320][ 44]LogSavePackage: Save=36.48ms
+[2019.04.02-14.42.05:320][ 44]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening22D8D44F48CBB5A7FF94AFB2BB2D7BAA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-14.42.05:327][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-14.42.05:740][ 68]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.42.05:766][ 68]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.42.05:766][ 68]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.42.06:027][ 68]LogPlayLevel: PlayLevel: Blueprint regeneration took 261 ms (1 blueprints)
+[2019.04.02-14.42.06:027][ 68]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:42:06 am)
+[2019.04.02-14.42.06:027][ 68]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.42.06:030][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002590s)
+[2019.04.02-14.42.06:030][ 68]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.42.06:031][ 68]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2019.04.02-14.42.06:031][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003998s)
+[2019.04.02-14.42.06:068][ 68]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.42.06:163][ 68]LogInit: FAudioDevice initialized.
+[2019.04.02-14.42.06:221][ 68]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.42.06:226][ 68]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.12.06
+[2019.04.02-14.42.06:226][ 68]LogWorld: Bringing up level for play took: 0.001789
+[2019.04.02-14.42.06:233][ 68]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.437
+[2019.04.02-14.42.11:499][360]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.42.11:527][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-14.42.11:528][360]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:42:11 am)
+[2019.04.02-14.42.11:528][360]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.42.11:530][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2019.04.02-14.42.11:531][360]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.42.11:532][360]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2019.04.02-14.42.11:532][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003985s)
+[2019.04.02-14.42.11:569][360]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.42.11:669][360]LogInit: FAudioDevice initialized.
+[2019.04.02-14.42.11:729][360]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.42.11:734][360]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.12.11
+[2019.04.02-14.42.11:734][360]LogWorld: Bringing up level for play took: 0.002010
+[2019.04.02-14.42.11:740][360]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.056
+[2019.04.02-14.45.38:201][164]AssetReimport: New page: Outstanding source content changes 1:45:38 am
+[2019.04.02-14.45.38:203][164]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.png)
+[2019.04.02-14.45.38:301][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Untitled-1" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset" SILENT=true
+[2019.04.02-14.45.38:333][165]LogSavePackage: Save=28.49ms
+[2019.04.02-14.45.38:333][165]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Untitled-1E85F753440C079C13F1F32AC41FE15A2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset'
+[2019.04.02-14.45.38:341][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset
+[2019.04.02-14.45.41:527][253]AssetReimport: Info Importing new asset /Game/Assets/Untitled-1.
+[2019.04.02-14.45.58:119][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-14.45.58:327][199]LogSavePackage: Save=30.08ms
+[2019.04.02-14.45.58:327][199]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening1CCB85514E3B71071E4DF8834BB89C11.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-14.45.58:335][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-14.45.58:902][232]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.45.58:928][232]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.45.58:928][232]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.45.59:118][232]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2019.04.02-14.45.59:118][232]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:45:59 am)
+[2019.04.02-14.45.59:118][232]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.45.59:121][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002475s)
+[2019.04.02-14.45.59:122][232]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.45.59:122][232]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2019.04.02-14.45.59:122][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003783s)
+[2019.04.02-14.45.59:152][232]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.45.59:242][232]LogInit: FAudioDevice initialized.
+[2019.04.02-14.45.59:300][232]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.45.59:305][232]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.15.59
+[2019.04.02-14.45.59:305][232]LogWorld: Bringing up level for play took: 0.001865
+[2019.04.02-14.45.59:311][232]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.484
+[2019.04.02-14.47.29:767][332]AssetReimport: New page: Outstanding source content changes 1:47:29 am
+[2019.04.02-14.47.29:768][332]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.png)
+[2019.04.02-14.47.34:930][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Untitled-1" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset" SILENT=true
+[2019.04.02-14.47.34:974][333]LogSavePackage: Save=37.49ms
+[2019.04.02-14.47.34:974][333]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Untitled-1D3A4F5D346385FB6617276853840ADA7.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset'
+[2019.04.02-14.47.34:981][333]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.uasset
+[2019.04.02-14.47.37:995][512]AssetReimport: Info Importing new asset /Game/Assets/Untitled-1.
+[2019.04.02-14.47.40:602][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-14.47.40:820][663]LogSavePackage: Save=35.07ms
+[2019.04.02-14.47.40:820][663]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/OpeningCB70DC6F4EA8CE64C50A1983EC3D4799.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-14.47.40:824][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-14.47.41:152][682]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.47.41:173][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-14.47.41:173][682]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:47:41 am)
+[2019.04.02-14.47.41:173][682]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.47.41:176][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002221s)
+[2019.04.02-14.47.41:176][682]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.47.41:177][682]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.04.02-14.47.41:177][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003448s)
+[2019.04.02-14.47.41:209][682]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.47.41:296][682]LogInit: FAudioDevice initialized.
+[2019.04.02-14.47.41:352][682]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.47.41:356][682]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.17.41
+[2019.04.02-14.47.41:356][682]LogWorld: Bringing up level for play took: 0.001920
+[2019.04.02-14.47.41:362][682]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.434
+[2019.04.02-14.48.07:909][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-14.48.08:049][218]LogSavePackage: Save=20.92ms
+[2019.04.02-14.48.08:049][218]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/OpeningA77B33004728297F4E98B4A0FBBD114D.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-14.48.08:055][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-14.48.08:871][266]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.48.08:893][266]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-14.48.08:893][266]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-14.48.09:023][266]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2019.04.02-14.48.09:023][266]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:48:09 am)
+[2019.04.02-14.48.09:024][266]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.48.09:026][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002068s)
+[2019.04.02-14.48.09:026][266]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.48.09:026][266]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.04.02-14.48.09:027][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003074s)
+[2019.04.02-14.48.09:051][266]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.48.09:125][266]LogInit: FAudioDevice initialized.
+[2019.04.02-14.48.09:179][266]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.48.09:182][266]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.18.09
+[2019.04.02-14.48.09:182][266]LogWorld: Bringing up level for play took: 0.001269
+[2019.04.02-14.48.09:187][266]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.608
+[2019.04.02-14.48.17:493][759]LogRenderer: Reallocating scene render targets to support 1536x800 NumSamples 1 (Frame:9726).
+[2019.04.02-14.57.01:868][253]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.57.01:897][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-14.57.01:897][253]PIE: New page: PIE session: Untitled_1 (03-Apr-2019 1:57:01 am)
+[2019.04.02-14.57.01:897][253]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.02-14.57.01:900][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002924s)
+[2019.04.02-14.57.01:902][253]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.02-14.57.01:902][253]LogPlayLevel: PIE: World Init took: (0.001767s)
+[2019.04.02-14.57.01:903][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005415s)
+[2019.04.02-14.57.01:929][253]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.57.02:003][253]LogInit: FAudioDevice initialized.
+[2019.04.02-14.57.02:057][253]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.57.02:061][253]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2019.04.02-20.27.02
+[2019.04.02-14.57.02:061][253]LogWorld: Bringing up level for play took: 0.002020
+[2019.04.02-14.57.02:067][253]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.271
+[2019.04.02-14.57.35:487][184]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-14.57.35:556][184]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.02-14.57.35:556][184]LightingResults: New page: Lighting Build
+[2019.04.02-14.57.35:557][184]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.04.02-14.57.35:558][184]MapCheck: New page: Map Check
+[2019.04.02-14.57.35:558][184]LightingResults: New page: Lighting Build
+[2019.04.02-14.57.35:732][184]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.02-14.57.35:775][184]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.02-14.57.35:921][184]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.434ms to complete.
+[2019.04.02-14.57.35:922][184]LogFileHelpers: Loading map 'FirstLevel' took 0.367
+[2019.04.02-14.57.44:017][508]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-14.57.44:051][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-14.57.44:051][508]PIE: New page: PIE session: FirstLevel (03-Apr-2019 1:57:44 am)
+[2019.04.02-14.57.44:052][508]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-14.57.44:070][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018372s)
+[2019.04.02-14.57.44:072][508]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-14.57.44:073][508]LogPlayLevel: PIE: World Init took: (0.001985s)
+[2019.04.02-14.57.44:073][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.021250s)
+[2019.04.02-14.57.44:115][508]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-14.57.44:225][508]LogInit: FAudioDevice initialized.
+[2019.04.02-14.57.44:287][508]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.57.44:297][508]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.27.44
+[2019.04.02-14.57.44:298][508]LogWorld: Bringing up level for play took: 0.007936
+[2019.04.02-14.57.44:306][508]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.511
+[2019.04.02-14.58.02:074][909]Cmd: RestartLevel
+[2019.04.02-14.58.02:076][909]LogNet: Browse: /Game/FirstLevel?restart
+[2019.04.02-14.58.02:077][909]LogLoad: LoadMap: /Game/FirstLevel
+[2019.04.02-14.58.02:115][909]Cmd: MEM
+[2019.04.02-14.58.02:144][909]LogMemory: Platform Memory Stats for Windows
+[2019.04.02-14.58.02:145][909]LogMemory: Process Physical Memory: 1427.15 MB used, 1443.60 MB peak
+[2019.04.02-14.58.02:145][909]LogMemory: Process Virtual Memory: 2905.78 MB used, 3199.96 MB peak
+[2019.04.02-14.58.02:145][909]LogMemory: Physical Memory: 7960.60 MB used,  8321.93 MB free, 16282.52 MB total
+[2019.04.02-14.58.02:145][909]LogMemory: Virtual Memory: 8090.13 MB used,  8321.93 MB free, 134217728.00 MB total
+[2019.04.02-14.58.02:145][909]LogMemory: 
+[2019.04.02-14.58.02:145][909]Allocator Stats for TBB: (not implemented)
+[2019.04.02-14.58.02:145][909]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-14.58.02:164][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018470s)
+[2019.04.02-14.58.02:165][909]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-14.58.02:166][909]LogPlayLevel: PIE: World Init took: (0.001509s)
+[2019.04.02-14.58.02:166][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.021060s)
+[2019.04.02-14.58.02:167][909]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.58.02:178][909]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.28.02
+[2019.04.02-14.58.02:179][909]LogWorld: Bringing up level for play took: 0.008301
+[2019.04.02-14.58.02:186][909]LogLoad: Took 0.108448 seconds to LoadMap(/Game/UEDPIE_0_FirstLevel)
+[2019.04.02-14.58.16:123][742]Cmd: RestartLevel
+[2019.04.02-14.58.16:125][742]LogNet: Browse: /Game/FirstLevel?restart
+[2019.04.02-14.58.16:126][742]LogLoad: LoadMap: /Game/FirstLevel
+[2019.04.02-14.58.16:168][742]Cmd: MEM
+[2019.04.02-14.58.16:198][742]LogMemory: Platform Memory Stats for Windows
+[2019.04.02-14.58.16:198][742]LogMemory: Process Physical Memory: 1425.08 MB used, 1443.60 MB peak
+[2019.04.02-14.58.16:198][742]LogMemory: Process Virtual Memory: 2435.61 MB used, 3199.96 MB peak
+[2019.04.02-14.58.16:198][742]LogMemory: Physical Memory: 7929.13 MB used,  8353.40 MB free, 16282.52 MB total
+[2019.04.02-14.58.16:199][742]LogMemory: Virtual Memory: 7676.25 MB used,  8353.40 MB free, 134217728.00 MB total
+[2019.04.02-14.58.16:199][742]LogMemory: 
+[2019.04.02-14.58.16:199][742]Allocator Stats for TBB: (not implemented)
+[2019.04.02-14.58.16:199][742]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-14.58.16:213][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013702s)
+[2019.04.02-14.58.16:214][742]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-14.58.16:214][742]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2019.04.02-14.58.16:215][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015945s)
+[2019.04.02-14.58.16:215][742]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-14.58.16:223][742]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.28.16
+[2019.04.02-14.58.16:224][742]LogWorld: Bringing up level for play took: 0.006057
+[2019.04.02-14.58.16:229][742]LogLoad: Took 0.102519 seconds to LoadMap(/Game/UEDPIE_0_FirstLevel)
+[2019.04.02-15.10.05:775][369]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.021
+[2019.04.02-15.10.05:779][369]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Opening] ([1] browsable assets)...
+[2019.04.02-15.10.05:779][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Opening]
+[2019.04.02-15.10.05:952][369]LogSavePackage: Save=22.31ms
+[2019.04.02-15.10.05:953][369]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening_Auto19E48C2BD400FF600276E0A8E7CE3BF41.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Opening_Auto1.uasset'
+[2019.04.02-15.10.05:957][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/Opening_Auto1.uasset
+[2019.04.02-15.10.05:957][369]LogFileHelpers: Auto-saving content packages took 0.181
+[2019.04.02-15.12.20:891][975]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.12.20:912][975]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.02-15.12.20:913][975]LogPlayLevel: [PlayLevel] Compiling Opening before play...
+[2019.04.02-15.12.21:066][975]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (1 blueprints)
+[2019.04.02-15.12.21:067][975]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:12:21 am)
+[2019.04.02-15.12.21:067][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.12.21:080][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012711s)
+[2019.04.02-15.12.21:081][975]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.12.21:081][975]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2019.04.02-15.12.21:082][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014599s)
+[2019.04.02-15.12.21:114][975]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.12.21:186][975]LogInit: FAudioDevice initialized.
+[2019.04.02-15.12.21:244][975]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.12.21:252][975]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.42.21
+[2019.04.02-15.12.21:254][975]LogWorld: Bringing up level for play took: 0.007210
+[2019.04.02-15.12.21:260][975]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.535
+[2019.04.02-15.14.43:878][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-15.14.44:051][481]LogSavePackage: Save=20.50ms
+[2019.04.02-15.14.44:051][481]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening09D12CB24FC50C1995FE72ABD6D5EAF2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-15.14.44:057][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-15.14.44:577][512]BlueprintLog: New page: Compile Opening
+[2019.04.02-15.14.45:646][547]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.14.45:668][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.14.45:669][547]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:14:45 am)
+[2019.04.02-15.14.45:669][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.14.45:679][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010259s)
+[2019.04.02-15.14.45:680][547]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.14.45:681][547]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2019.04.02-15.14.45:681][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011955s)
+[2019.04.02-15.14.45:711][547]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.14.45:785][547]LogInit: FAudioDevice initialized.
+[2019.04.02-15.14.45:842][547]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.14.45:849][547]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.44.45
+[2019.04.02-15.14.45:850][547]LogWorld: Bringing up level for play took: 0.006098
+[2019.04.02-15.14.45:856][547]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.061
+[2019.04.02-15.15.38:995][148]AssetReimport: New page: Detailed File System Changes from 8:45:38 pm
+[2019.04.02-15.15.39:013][148]AssetReimport: Info 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/Untitled-1.png' has been moved/renamed to C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.png.
+[2019.04.02-15.15.39:014][148]AssetReimport: Info 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/play.png' has been deleted.
+[2019.04.02-15.15.39:014][148]AssetReimport: Info 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/play_hover.png' has been deleted.
+[2019.04.02-15.15.46:385][587]AssetReimport: New page: Outstanding source content changes 2:15:46 am
+[2019.04.02-15.15.46:493][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PlayButton" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.uasset" SILENT=true
+[2019.04.02-15.15.46:501][587]LogSavePackage: Save=4.68ms
+[2019.04.02-15.15.46:501][587]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PlayButtonC10FE6C74FA673B5F5B4829C99A0607A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.uasset'
+[2019.04.02-15.15.46:619][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-15.15.46:748][587]LogSavePackage: Save=16.59ms
+[2019.04.02-15.15.46:748][587]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/OpeningAEBD7E5644080FBCE53BEF84051DB3C2.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-15.15.56:135][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PlayButton" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.uasset" SILENT=true
+[2019.04.02-15.15.56:261][589]LogSavePackage: Save=3.26ms
+[2019.04.02-15.15.56:261][589]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/PlayButtonAF18A7274FAA328CAE02F39FB6804FFC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.uasset'
+[2019.04.02-15.15.56:266][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/PlayButton.uasset
+[2019.04.02-15.15.59:283][770]AssetReimport: Info Moving asset /Game/Assets/Untitled-1 to /Game/Assets/PlayButton.
+[2019.04.02-15.15.59:283][770]AssetReimport: Info Attempting to delete play (its source file has been removed).
+[2019.04.02-15.15.59:283][770]AssetReimport: Info Attempting to delete play_hover (its source file has been removed).
+[2019.04.02-15.16.02:295][949]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.16.02:323][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.16.02:324][949]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:16:02 am)
+[2019.04.02-15.16.02:324][949]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.16.02:336][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011849s)
+[2019.04.02-15.16.02:337][949]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.16.02:337][949]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2019.04.02-15.16.02:337][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013469s)
+[2019.04.02-15.16.02:370][949]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.16.02:444][949]LogInit: FAudioDevice initialized.
+[2019.04.02-15.16.02:556][949]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.16.02:562][949]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.46.02
+[2019.04.02-15.16.02:562][949]LogWorld: Bringing up level for play took: 0.004248
+[2019.04.02-15.16.02:566][949]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.771
+[2019.04.02-15.16.12:214][460]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.16.12:234][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.16.12:234][460]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:16:12 am)
+[2019.04.02-15.16.12:235][460]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.16.12:243][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009536s)
+[2019.04.02-15.16.12:244][460]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.16.12:244][460]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2019.04.02-15.16.12:245][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010981s)
+[2019.04.02-15.16.12:266][460]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.16.12:329][460]LogInit: FAudioDevice initialized.
+[2019.04.02-15.16.12:376][460]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.16.12:381][460]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.46.12
+[2019.04.02-15.16.12:382][460]LogWorld: Bringing up level for play took: 0.004065
+[2019.04.02-15.16.12:385][460]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.59
+[2019.04.02-15.16.19:910][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-15.16.20:101][830]LogSavePackage: Save=21.96ms
+[2019.04.02-15.16.20:101][830]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/OpeningEFF1271341952C4C02303DAAC377B7E4.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-15.16.20:110][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-15.16.20:751][863]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.16.20:779][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.16.20:779][863]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:16:20 am)
+[2019.04.02-15.16.20:779][863]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.16.20:790][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010780s)
+[2019.04.02-15.16.20:791][863]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.16.20:791][863]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2019.04.02-15.16.20:792][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012275s)
+[2019.04.02-15.16.20:820][863]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.16.20:886][863]LogInit: FAudioDevice initialized.
+[2019.04.02-15.16.20:922][863]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.16.20:927][863]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.46.20
+[2019.04.02-15.16.20:928][863]LogWorld: Bringing up level for play took: 0.004020
+[2019.04.02-15.16.20:931][863]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.136
+[2019.04.02-15.16.41:862][  5]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.16.41:877][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.16.41:877][  5]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:16:41 am)
+[2019.04.02-15.16.41:877][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.16.41:885][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007742s)
+[2019.04.02-15.16.41:885][  5]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.16.41:886][  5]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2019.04.02-15.16.41:886][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008896s)
+[2019.04.02-15.16.41:905][  5]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.16.41:960][  5]LogInit: FAudioDevice initialized.
+[2019.04.02-15.16.42:012][  5]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.16.42:018][  5]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.46.42
+[2019.04.02-15.16.42:019][  5]LogWorld: Bringing up level for play took: 0.005420
+[2019.04.02-15.16.42:025][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.23
+[2019.04.02-15.16.48:028][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Opening" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset" SILENT=true
+[2019.04.02-15.16.48:140][354]LogSavePackage: Save=11.89ms
+[2019.04.02-15.16.48:140][354]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Opening268B306040E29BBC50DC908AC62E3C8A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset'
+[2019.04.02-15.16.48:142][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/Opening.uasset
+[2019.04.02-15.16.52:285][580]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.02-15.16.52:301][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.02-15.16.52:301][580]PIE: New page: PIE session: FirstLevel (03-Apr-2019 2:16:52 am)
+[2019.04.02-15.16.52:301][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.02-15.16.52:309][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007096s)
+[2019.04.02-15.16.52:309][580]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.02-15.16.52:309][580]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2019.04.02-15.16.52:310][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.008322s)
+[2019.04.02-15.16.52:328][580]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.02-15.16.52:390][580]LogInit: FAudioDevice initialized.
+[2019.04.02-15.16.52:426][580]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.02-15.16.52:432][580]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.02-20.46.52
+[2019.04.02-15.16.52:432][580]LogWorld: Bringing up level for play took: 0.004013
+[2019.04.02-15.16.52:435][580]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.64
+[2019.04.02-15.16.56:243][796]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.04.02-15.16.56:511][797]Cmd: QUIT_EDITOR
+[2019.04.02-15.16.57:443][797]LogExit: Preparing to exit.
+[2019.04.02-15.16.58:539][797]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.04.02-15.16.58:587][797]LogExit: Editor shut down
+[2019.04.02-15.16.58:588][797]LogExit: Transaction tracking system shut down
+[2019.04.02-15.16.58:722][797]LogObj: Freed 0b from 0 cluster array pools.
+[2019.04.02-15.16.58:723][797]LogExit: Object subsystem successfully closed.
+[2019.04.02-15.16.58:755][797]LogD3D11RHI: Shutdown
+[2019.04.02-15.16.58:755][797]LogD3D11RHI: CleanupD3DDevice
+[2019.04.02-15.16.58:956][797]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.02-15.16.59:006][797]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.02-15.16.59:006][797]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFFBB26F0-4DC3-9527-FFD6-D085DC75F6E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (245)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module SequencerWidgets (244)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2019.04.02-15.16.59:028][797]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2019.04.02-15.16.59:028][797]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2019.04.02-15.16.59:031][797]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2019.04.02-15.16.59:031][797]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2019.04.02-15.16.59:031][797]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2019.04.02-15.16.59:031][797]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' was aborted.
+[2019.04.02-15.16.59:031][797]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' was aborted.
+[2019.04.02-15.16.59:031][797]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' was aborted.
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module Media (215)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2019.04.02-15.16.59:032][797]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2019.04.02-15.16.59:169][797]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2019.04.02-15.16.59:225][797]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2019.04.02-15.16.59:234][797]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2019.04.02-15.16.59:367][797]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2019.04.02-15.16.59:368][797]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2019.04.02-15.16.59:370][797]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2019.04.02-15.16.59:370][797]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2019.04.02-15.16.59:372][797]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2019.04.02-15.16.59:374][797]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2019.04.02-15.16.59:375][797]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2019.04.02-15.16.59:476][797]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2019.04.02-15.16.59:576][797]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2019.04.02-15.16.59:576][797]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2019.04.02-15.16.59:576][797]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2019.04.02-15.16.59:576][797]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2019.04.02-15.16.59:579][797]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module Core (75)
+[2019.04.02-15.16.59:584][797]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2019.04.02-15.16.59:584][797]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.04.02-15.16.59:584][797]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.04.02-15.16.59:585][797]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.04.02-15.16.59:589][797]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2019.04.02-15.16.59:745][797]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2019.04.02-15.16.59:770][797]LogDerivedDataCache: Shutdown
+[2019.04.02-15.16.59:770][797]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2019.04.02-15.16.59:770][797]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2019.04.02-15.16.59:770][797]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2019.04.02-15.16.59:771][797]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2019.04.02-15.16.59:772][797]LogOnline:Display: Unloading online subsystem: NULL
+[2019.04.02-15.16.59:772][797]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2019.04.02-15.16.59:774][797]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.04.02-15.16.59:776][797]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.04.02-15.16.59:779][797]LogExit: Exiting.
+[2019.04.02-15.16.59:781][797]Log file closed, 04/02/19 20:46:59
