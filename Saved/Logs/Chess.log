@@ -835,3 +835,262 @@ LogInit: Object subsystem initialized
 [2019.04.03-12.23.32:182][  2]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece120)
 [2019.04.03-12.23.37:528][318]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece40)
 [2019.04.03-12.23.39:940][461]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece125)
+[2019.04.03-12.23.46:042][818]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece124)
+[2019.04.03-12.23.51:263][130]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.24.12:322][385]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece125)
+[2019.04.03-12.24.13:270][440]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.24.19:308][790]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece123)
+[2019.04.03-12.24.24:487][ 87]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.24.33:229][591]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
+[2019.04.03-12.24.35:155][704]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
+[2019.04.03-12.24.42:962][166]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.24.45:266][301]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.24.45:307][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.24.45:307][301]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:24:45 pm)
+[2019.04.03-12.24.45:307][301]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.24.45:325][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018029s)
+[2019.04.03-12.24.45:326][301]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.24.45:327][301]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2019.04.03-12.24.45:327][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.019650s)
+[2019.04.03-12.24.45:361][301]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.24.45:431][301]LogInit: FAudioDevice initialized.
+[2019.04.03-12.24.45:472][301]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.24.45:482][301]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-17.54.45
+[2019.04.03-12.24.45:484][301]LogWorld: Bringing up level for play took: 0.009116
+[2019.04.03-12.24.45:490][301]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.332
+[2019.04.03-12.24.56:706][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.25.06:311][536]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.25.06:325][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.25.06:325][536]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:25:06 pm)
+[2019.04.03-12.25.06:325][536]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.25.06:335][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010280s)
+[2019.04.03-12.25.06:336][536]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.25.06:336][536]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2019.04.03-12.25.06:336][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011190s)
+[2019.04.03-12.25.06:356][536]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.25.06:415][536]LogInit: FAudioDevice initialized.
+[2019.04.03-12.25.06:448][536]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.25.06:454][536]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-17.55.06
+[2019.04.03-12.25.06:455][536]LogWorld: Bringing up level for play took: 0.005008
+[2019.04.03-12.25.06:458][536]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.637
+[2019.04.03-12.25.18:204][229]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.25.21:322][406]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece123)
+[2019.04.03-12.25.22:393][469]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.25.25:917][679]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.25.27:383][765]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece123)
+[2019.04.03-12.25.29:557][894]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
+[2019.04.03-12.25.32:664][ 79]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.25.36:633][302]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece92)
+[2019.04.03-12.25.45:662][838]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.25.49:584][ 72]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece93)
+[2019.04.03-12.25.54:233][346]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece92)
+[2019.04.03-12.25.55:567][425]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece93)
+[2019.04.03-12.26.00:538][722]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece94)
+[2019.04.03-12.26.07:424][133]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.26.10:713][329]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-12.26.11:814][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-12.26.12:198][390]LogSavePackage: Save=203.25ms
+[2019.04.03-12.26.12:198][390]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel83F0FB114B9AD186734C5A8E62105C57.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-12.26.12:204][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.03-12.26.12:645][414]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.26.12:660][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.26.12:660][414]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:26:12 pm)
+[2019.04.03-12.26.12:660][414]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.26.12:673][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013111s)
+[2019.04.03-12.26.12:674][414]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.26.12:675][414]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2019.04.03-12.26.12:675][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014647s)
+[2019.04.03-12.26.12:700][414]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.26.12:772][414]LogInit: FAudioDevice initialized.
+[2019.04.03-12.26.12:806][414]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.26.12:813][414]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-17.56.12
+[2019.04.03-12.26.12:814][414]LogWorld: Bringing up level for play took: 0.006518
+[2019.04.03-12.26.12:819][414]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.997
+[2019.04.03-12.35.05:496][ 35]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.35.10:362][324]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.35.13:148][488]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-12.35.15:224][611]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.35.20:419][920]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
+[2019.04.03-12.35.22:722][ 56]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.04.03-12.35.25:446][211]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.35.33:030][660]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.04.03-12.35.41:980][195]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.35.44:066][318]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece103)
+[2019.04.03-12.35.51:798][779]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
+[2019.04.03-12.36.11:606][964]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.36.12:774][ 32]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
+[2019.04.03-12.36.13:713][ 87]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece106)
+[2019.04.03-12.36.26:338][843]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
+[2019.04.03-12.36.27:324][901]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.36.28:676][981]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece106)
+[2019.04.03-12.36.32:362][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.36.33:841][288]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.36.33:854][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.36.33:855][288]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:36:33 pm)
+[2019.04.03-12.36.33:855][288]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.36.33:865][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010182s)
+[2019.04.03-12.36.33:865][288]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.36.33:866][288]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.04.03-12.36.33:866][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011238s)
+[2019.04.03-12.36.33:889][288]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.36.33:947][288]LogInit: FAudioDevice initialized.
+[2019.04.03-12.36.33:982][288]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.36.33:988][288]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-18.06.33
+[2019.04.03-12.36.33:989][288]LogWorld: Bringing up level for play took: 0.004752
+[2019.04.03-12.36.33:992][288]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.171
+[2019.04.03-12.37.00:396][866]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.37.04:205][ 93]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.04.03-12.37.07:972][316]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.37.10:640][473]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
+[2019.04.03-12.37.12:264][566]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-12.37.18:494][922]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece103)
+[2019.04.03-12.37.19:950][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-12.37.20:338][  4]LogSavePackage: Save=193.42ms
+[2019.04.03-12.37.20:338][  4]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel53189D404DE6B782234EC5B89C761AAC.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-12.37.20:345][  4]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.03-12.37.20:749][ 24]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.37.20:768][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.37.20:768][ 24]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:37:20 pm)
+[2019.04.03-12.37.20:768][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.37.20:783][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014724s)
+[2019.04.03-12.37.20:784][ 24]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.37.20:784][ 24]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2019.04.03-12.37.20:784][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015886s)
+[2019.04.03-12.37.20:814][ 24]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.37.20:889][ 24]LogInit: FAudioDevice initialized.
+[2019.04.03-12.37.20:925][ 24]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.37.20:933][ 24]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-18.07.20
+[2019.04.03-12.37.20:934][ 24]LogWorld: Bringing up level for play took: 0.006601
+[2019.04.03-12.37.20:938][ 24]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.117
+[2019.04.03-12.38.23:732][471]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece106)
+[2019.04.03-12.38.24:499][516]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
+[2019.04.03-12.38.25:897][599]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece106)
+[2019.04.03-12.38.26:716][647]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece103)
+[2019.04.03-12.38.31:146][907]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece126)
+[2019.04.03-12.38.36:084][195]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece124)
+[2019.04.03-12.38.42:294][563]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece40)
+[2019.04.03-12.38.44:703][701]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece125)
+[2019.04.03-12.38.45:500][747]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.38.55:938][360]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece43)
+[2019.04.03-12.39.04:238][847]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece128)
+[2019.04.03-12.39.12:498][335]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece127)
+[2019.04.03-12.39.18:413][687]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece129)
+[2019.04.03-12.39.23:723][  2]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece130)
+[2019.04.03-12.39.28:779][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-12.39.35:441][682]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece58)
+[2019.04.03-12.39.36:727][757]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece115)
+[2019.04.03-12.39.39:255][907]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece118)
+[2019.04.03-12.39.40:498][980]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece116)
+[2019.04.03-12.39.41:209][ 21]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece117)
+[2019.04.03-12.39.42:031][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-12.39.42:405][ 65]LogSavePackage: Save=194.18ms
+[2019.04.03-12.39.42:405][ 65]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel5026B578496AD2423DF55E8C9FEEBA47.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-12.39.42:411][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.03-12.39.42:870][ 89]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.03-12.39.42:887][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.03-12.39.42:887][ 89]PIE: New page: PIE session: FirstLevel (03-Apr-2019 11:39:42 pm)
+[2019.04.03-12.39.42:887][ 89]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.03-12.39.42:899][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011743s)
+[2019.04.03-12.39.42:899][ 89]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.03-12.39.42:900][ 89]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2019.04.03-12.39.42:900][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012854s)
+[2019.04.03-12.39.42:924][ 89]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.03-12.39.42:991][ 89]LogInit: FAudioDevice initialized.
+[2019.04.03-12.39.43:024][ 89]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.03-12.39.43:034][ 89]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.03-18.09.43
+[2019.04.03-12.39.43:035][ 89]LogWorld: Bringing up level for play took: 0.009469
+[2019.04.03-12.39.43:039][ 89]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.782
+[2019.04.03-12.40.58:788][624]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item10, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:37E1
+[2019.04.03-12.40.58:789][624]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item10, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item10, but Pawn13 is pending kill
+[2019.04.03-12.40.59:572][671]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item4, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:4343
+[2019.04.03-12.40.59:572][671]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item4, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item4, but Pawn13 is pending kill
+[2019.04.03-12.41.53:466][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-12.41.53:848][342]LogSavePackage: Save=216.90ms
+[2019.04.03-12.41.53:848][342]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelC161C77A423EDE3EEF25F6A9997F95B0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-12.41.53:851][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.03-12.50.19:994][ 21]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-12.50.22:542][171]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.15.28:196][312]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.15.30:494][446]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-13.15.34:624][663]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.15.42:435][113]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod4)
+[2019.04.03-13.15.44:427][231]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod3)
+[2019.04.03-13.15.48:065][447]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod7)
+[2019.04.03-13.15.51:577][655]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.15.53:481][767]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod8)
+[2019.04.03-13.16.47:994][921]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.16.52:875][203]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.16.55:698][371]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.04.03-13.17.02:036][737]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.17.07:308][ 44]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece86)
+[2019.04.03-13.17.13:489][409]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.17.18:152][672]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece83)
+[2019.04.03-13.17.24:031][994]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.17.28:288][241]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.17.29:703][324]LogEditorViewport: Clicking on Actor (LMB): Rook_C (Rook3)
+[2019.04.03-13.17.31:061][403]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.17.31:893][448]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
+[2019.04.03-13.17.32:579][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.17.33:735][551]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece84)
+[2019.04.03-13.17.38:284][812]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.17.46:628][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.17.51:295][564]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.04.03-13.17.55:000][768]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.01:876][140]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.04.03-13.18.05:079][327]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.11:854][717]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn4)
+[2019.04.03-13.18.13:269][800]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.04.03-13.18.19:023][141]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.25:131][498]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece88)
+[2019.04.03-13.18.29:442][746]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.35:452][ 99]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
+[2019.04.03-13.18.39:929][365]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.46:813][757]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.18.48:193][836]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece89)
+[2019.04.03-13.18.50:144][950]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
+[2019.04.03-13.18.51:469][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.18.52:784][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-13.18.53:131][102]LogSavePackage: Save=165.84ms
+[2019.04.03-13.18.53:131][102]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel9C77904E4EA20BAAB5628885EE25959C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-13.18.53:137][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.03-13.18.56:818][317]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod)
+[2019.04.03-13.18.59:244][456]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
+[2019.04.03-13.19.00:209][512]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.19.03:875][701]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-13.19.12:009][181]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod6)
+[2019.04.03-13.19.19:262][609]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-13.19.20:738][695]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece103)
+[2019.04.03-13.19.24:711][928]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod6)
+[2019.04.03-13.19.44:990][581]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece104)
+[2019.04.03-13.19.45:949][636]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece103)
+[2019.04.03-13.19.47:284][713]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
+[2019.04.03-13.19.51:505][963]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod6)
+[2019.04.03-13.19.55:017][166]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece106)
+[2019.04.03-13.19.58:174][350]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod6)
+[2019.04.03-13.20.01:852][556]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.20.04:235][689]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece92)
+[2019.04.03-13.20.08:881][965]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-13.20.12:757][191]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-13.20.16:886][437]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-13.20.21:207][693]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece93)
+[2019.04.03-13.20.25:667][958]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-13.20.30:535][229]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece91)
+[2019.04.03-13.20.32:042][318]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece94)
+[2019.04.03-13.20.35:469][522]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod5)
+[2019.04.03-13.20.39:689][762]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
+[2019.04.03-13.20.47:530][222]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece119)
+[2019.04.03-13.20.52:311][507]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod10)
+[2019.04.03-13.20.55:653][704]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece122)
+[2019.04.03-13.20.59:131][911]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod10)
+[2019.04.03-13.21.02:788][126]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece121)
+[2019.04.03-13.21.09:310][513]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod10)
+[2019.04.03-13.21.16:838][942]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece120)
+[2019.04.03-13.21.20:223][141]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod10)
+[2019.04.03-13.21.46:910][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.03-13.21.47:270][506]LogSavePackage: Save=198.24ms
+[2019.04.03-13.21.47:270][506]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelD3CC89B849D4CE92919DC59F756CE66C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.03-13.21.47:278][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
