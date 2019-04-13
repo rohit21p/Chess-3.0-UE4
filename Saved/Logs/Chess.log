@@ -1,10 +1,10 @@
-﻿Log file open, 04/13/19 20:06:44
+﻿Log file open, 04/13/19 22:54:25
 LogInit:Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: Loading recent project file: ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Chess.uproject
-LogInit:Display: RandInit(1480170277) SRandInit(1480170277).
+LogInit:Display: RandInit(1174916236) SRandInit(1174916236).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.122512
+LogStats: Stats thread started at 0.278187
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,769 +144,497 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.04.13-14.36.45:142][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.13-14.36.45:142][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.04.13-14.36.45:162][  0]LogInit: Computer: ROHIT-PANJWANI
-[2019.04.13-14.36.45:162][  0]LogInit: User: RohitPanjwani
-[2019.04.13-14.36.45:162][  0]LogInit: CPU Page size=65536, Cores=4
-[2019.04.13-14.36.45:162][  0]LogInit: High frequency timer resolution =2.531252 MHz
-[2019.04.13-14.36.45:163][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.04.13-14.36.45:163][  0]LogMemory: Platform Memory Stats for Windows
-[2019.04.13-14.36.45:163][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
-[2019.04.13-14.36.45:163][  0]LogMemory: Process Virtual Memory: 262.74 MB used, 262.74 MB peak
-[2019.04.13-14.36.45:163][  0]LogMemory: Physical Memory: 7224.28 MB used,  9058.25 MB free, 16282.52 MB total
-[2019.04.13-14.36.45:163][  0]LogMemory: Virtual Memory: 4812.63 MB used,  9058.25 MB free, 134217728.00 MB total
-[2019.04.13-14.36.46:280][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
-[2019.04.13-14.36.48:281][  0]LogD3D11RHI: D3D11 adapters:
-[2019.04.13-14.36.48:383][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2019.04.13-14.36.48:383][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.04.13-14.36.48:397][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.04.13-14.36.48:397][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.04.13-14.36.48:401][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.04.13-14.36.48:401][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.04.13-14.36.48:401][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.04.13-14.36.48:457][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.04.13-14.36.48:457][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2019.04.13-14.36.48:457][  0]LogWindows: EnumDisplayDevices:
-[2019.04.13-14.36.48:457][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.04.13-14.36.48:458][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.04.13-14.36.48:458][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.04.13-14.36.48:458][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.04.13-14.36.48:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2019.04.13-14.36.48:458][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.04.13-14.36.48:458][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.04.13-14.36.48:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2019.04.13-14.36.48:553][  0]LogD3D11RHI: Async texture creation enabled
-[2019.04.13-14.36.48:583][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.04.13-14.36.48:584][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/20648/).
-[2019.04.13-14.36.48:584][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/8641D0D34ABC761B8C41D98BEC08BA19/'.
-[2019.04.13-14.36.48:584][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2019.04.13-14.36.51:340][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2019.04.13-14.36.51:501][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2019.04.13-14.36.51:640][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2019.04.13-14.36.51:761][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2019.04.13-14.36.51:894][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2019.04.13-14.36.52:123][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2019.04.13-14.36.52:282][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.04.13-14.36.52:439][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2019.04.13-14.36.52:585][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2019.04.13-14.36.52:712][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2019.04.13-14.36.52:821][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2019.04.13-14.36.52:934][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2019.04.13-14.36.53:052][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2019.04.13-14.36.53:184][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2019.04.13-14.36.53:369][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2019.04.13-14.36.53:657][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2019.04.13-14.36.53:657][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.04.13-14.36.53:796][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2019.04.13-14.36.54:092][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2019.04.13-14.36.54:235][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2019.04.13-14.36.54:432][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2019.04.13-14.36.54:655][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.04.13-14.36.54:817][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2019.04.13-14.36.54:935][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2019.04.13-14.36.54:935][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2019.04.13-14.36.56:274][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.04.13-14.36.56:339][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.04.13-14.36.56:367][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.04.13-14.36.56:382][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.04.13-14.36.56:689][  0]LogInit: Selected Device Profile: [Windows]
-[2019.04.13-14.36.56:694][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2019.04.13-14.36.57:263][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.04.13-14.36.57:606][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.04.13-14.36.57:831][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.04.13-14.36.57:832][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2019.04.13-14.36.57:832][  0]LogMeshUtilities: No automatic mesh merging module available
-[2019.04.13-14.36.59:330][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
-[2019.04.13-14.36.59:454][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
-[2019.04.13-14.36.59:597][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.068303 seconds
-[2019.04.13-14.36.59:611][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2019.04.13-14.36.59:611][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2019.04.13-14.36.59:611][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.04.13-14.36.59:909][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.04.13-14.37.03:350][  0]LogSlate: Using Freetype 2.6.0
-[2019.04.13-14.37.03:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.13-14.37.03:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.04.13-14.37.05:359][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.04.13-14.37.05:458][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.04.13-14.37.06:300][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.04.13-14.37.07:329][  0]SourceControl: Info Source control is disabled
-[2019.04.13-14.37.07:446][  0]SourceControl: Info Source control is disabled
-[2019.04.13-14.37.07:585][  0]SourceControl: Info Source control is disabled
-[2019.04.13-14.37.07:703][  0]SourceControl: Info Source control is disabled
-[2019.04.13-14.37.13:577][  0]LogEngine: Initializing Engine...
-[2019.04.13-14.37.13:580][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.04.13-14.37.14:401][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.04.13-14.37.14:431][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.37.14:539][  0]LogInit: FAudioDevice initialized.
-[2019.04.13-14.37.14:582][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2019.04.13-14.37.14:588][  0]LogInit: Texture streaming: Enabled
-[2019.04.13-14.37.15:401][  0]LogInit: Transaction tracking system initialized
-[2019.04.13-14.37.16:998][  0]BlueprintLog: New page: Editor Load
-[2019.04.13-14.37.21:227][  0]LocalizationService: Info Localization service is disabled
-[2019.04.13-14.37.24:350][  0]LogConsoleResponse:Display: 
-[2019.04.13-14.37.24:747][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.04.13-14.37.24:747][  0]LogCook:Display: Mobile HDR setting 1
-[2019.04.13-14.37.25:108][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.02s
-[2019.04.13-14.37.29:745][  0]SourceControl: Info Source control is disabled
-[2019.04.13-14.37.29:746][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.13-14.37.29:747][  0]LightingResults: New page: Lighting Build
-[2019.04.13-14.37.29:904][  0]MapCheck: New page: Map Check
-[2019.04.13-14.37.29:904][  0]LightingResults: New page: Lighting Build
-[2019.04.13-14.37.30:394][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.04.13-14.37.30:397][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2019.04.13-14.37.30:413][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.13-14.37.30:422][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.13-14.37.30:616][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 193.637ms to complete.
-[2019.04.13-14.37.30:616][  0]LogFileHelpers: Loading map 'Template_Default' took 0.871
-[2019.04.13-14.37.30:890][  0]LogCollectionManager: Loaded 0 collections in 0.004354 seconds
-[2019.04.13-14.37.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
-[2019.04.13-14.37.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
-[2019.04.13-14.37.31:170][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
-[2019.04.13-14.37.31:170][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2019.04.13-14.37.31:190][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2190 classes and 428 folders.
-[2019.04.13-14.37.31:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.04.13-14.37.31:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.04.13-14.37.31:372][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 13 classes and 0 folders.
-[2019.04.13-14.37.31:651][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2019.04.13-14.37.31:843][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
-[2019.04.13-14.37.32:034][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2019.04.13-14.37.32:239][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2019.04.13-14.37.32:252][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2019.04.13-14.37.32:487][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2019.04.13-14.37.32:488][  0]LogLoad: (Engine Initialization) Total time: 51.04 seconds
-[2019.04.13-14.37.32:488][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.50 seconds
-[2019.04.13-14.37.32:488][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2019.04.13-14.37.32:488][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2019.04.13-14.37.32:828][  0]LogOcInput: OculusInput pre-init called
-[2019.04.13-14.37.32:848][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2019.04.13-14.37.33:130][  0]LogRenderer: Reallocating scene render targets to support 1040x372 NumSamples 1 (Frame:2).
-[2019.04.13-14.37.33:682][  2]LogAssetRegistry: Asset discovery search completed in 34.2505 seconds
-[2019.04.13-14.37.33:682][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.04.13-14.37.33:682][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2019.04.13-14.38.32:980][338]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.38.33:121][338]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.04.13-14.38.33:121][338]LightingResults: New page: Lighting Build
-[2019.04.13-14.38.33:122][338]LoadErrors: New page: Loading map: FirstLevel.umap
-[2019.04.13-14.38.33:123][338]MapCheck: New page: Map Check
-[2019.04.13-14.38.33:123][338]LightingResults: New page: Lighting Build
-[2019.04.13-14.38.33:333][338]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.04.13-14.38.33:379][338]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.04.13-14.38.33:540][338]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.599ms to complete.
-[2019.04.13-14.38.33:541][338]LogFileHelpers: Loading map 'FirstLevel' took 0.422
-[2019.04.13-14.38.35:193][407]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.38.35:237][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.38.35:238][407]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:38:35 am)
-[2019.04.13-14.38.35:238][407]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.38.35:268][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029312s)
-[2019.04.13-14.38.35:269][407]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.38.35:269][407]LogPlayLevel: PIE: World Init took: (0.001040s)
-[2019.04.13-14.38.35:269][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.030789s)
-[2019.04.13-14.38.35:298][407]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.38.35:388][407]LogInit: FAudioDevice initialized.
-[2019.04.13-14.38.35:517][407]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.38.35:523][407]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.08.35
-[2019.04.13-14.38.35:524][407]LogWorld: Bringing up level for play took: 0.005282
-[2019.04.13-14.38.35:642][407]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
-[2019.04.13-14.38.35:719][407]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.985
-[2019.04.13-14.38.37:840][527]LogRenderer: Reallocating scene render targets to support 1040x376 NumSamples 1 (Frame:123).
-[2019.04.13-14.38.37:886][528]LogRenderer: Reallocating scene render targets to support 1040x432 NumSamples 1 (Frame:124).
-[2019.04.13-14.38.37:945][529]LogRenderer: Reallocating scene render targets to support 1040x548 NumSamples 1 (Frame:125).
-[2019.04.13-14.38.38:010][530]LogRenderer: Reallocating scene render targets to support 1040x604 NumSamples 1 (Frame:126).
-[2019.04.13-14.38.38:072][531]LogRenderer: Reallocating scene render targets to support 1040x616 NumSamples 1 (Frame:127).
-[2019.04.13-14.38.38:123][532]LogRenderer: Reallocating scene render targets to support 1040x624 NumSamples 1 (Frame:128).
-[2019.04.13-14.38.38:172][533]LogRenderer: Reallocating scene render targets to support 1040x632 NumSamples 1 (Frame:129).
-[2019.04.13-14.38.38:221][534]LogRenderer: Reallocating scene render targets to support 1040x648 NumSamples 1 (Frame:130).
-[2019.04.13-14.38.38:289][535]LogRenderer: Reallocating scene render targets to support 1040x664 NumSamples 1 (Frame:131).
-[2019.04.13-14.38.38:343][536]LogRenderer: Reallocating scene render targets to support 1040x668 NumSamples 1 (Frame:132).
-[2019.04.13-14.39.19:606][961]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.39.19:606][961]LogBlueprintUserMessages: [movable_Rod2] Hello
-[2019.04.13-14.39.27:556][436]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.29:860][571]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.29:992][579]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.30:176][590]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.30:309][598]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.34:293][837]LogBlueprintUserMessages: [movable_Rod11] 1
-[2019.04.13-14.39.34:293][837]LogBlueprintUserMessages: [movable_Rod11] Hello
-[2019.04.13-14.40.43:374][969]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.04.13-14.40.43:961][994]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Chess
-
-[2019.04.13-14.40.43:961][994]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
-
-[2019.04.13-14.40.43:961][994]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.14
-
-[2019.04.13-14.40.43:961][994]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.14\Engine\Binaries\DotNet\IOS
-
-[2019.04.13-14.40.43:961][994]LogTemp:Display: BranchPath = ROHIT-PANJWANI/C/Program Files/Epic Games/UE_4.14/Engine/Binaries --- GameBranchPath = ROHIT-PANJWANI/C/Program Files/Epic Games/UE_4.14/Engine/Binaries
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Rohit Panjwani\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
-
-[2019.04.13-14.40.44:259][ 11]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
-
-[2019.04.13-14.40.54:661][319]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
-[2019.04.13-14.40.58:479][534]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
-[2019.04.13-14.41.05:330][772]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.41.05:350][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.41.05:350][772]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:41:05 am)
-[2019.04.13-14.41.05:350][772]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.41.05:361][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011150s)
-[2019.04.13-14.41.05:362][772]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.41.05:362][772]LogPlayLevel: PIE: World Init took: (0.000757s)
-[2019.04.13-14.41.05:362][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012172s)
-[2019.04.13-14.41.05:382][772]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.41.05:448][772]LogInit: FAudioDevice initialized.
-[2019.04.13-14.41.05:478][772]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.41.05:484][772]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.11.05
-[2019.04.13-14.41.05:485][772]LogWorld: Bringing up level for play took: 0.005105
-[2019.04.13-14.41.05:519][772]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.786
-[2019.04.13-14.41.16:605][411]LogEditorViewport: Clicking Background
-[2019.04.13-14.41.17:388][458]Cmd: ACTOR HIDE SELECTED
-[2019.04.13-14.41.18:206][497]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere4)
-[2019.04.13-14.41.18:980][542]Cmd: ACTOR HIDE SELECTED
-[2019.04.13-14.41.19:697][585]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere3)
-[2019.04.13-14.41.20:147][611]Cmd: ACTOR HIDE SELECTED
-[2019.04.13-14.41.20:764][648]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.04.13-14.41.21:217][674]Cmd: ACTOR HIDE SELECTED
-[2019.04.13-14.41.21:751][706]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.04.13-14.41.22:203][732]Cmd: ACTOR HIDE SELECTED
-[2019.04.13-14.41.28:721][120]LogEditorViewport: Clicking Background
-[2019.04.13-14.41.29:571][171]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod2)
-[2019.04.13-14.41.30:461][223]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
-[2019.04.13-14.41.33:893][418]LogEditorViewport: Clicking Background
-[2019.04.13-14.41.39:110][731]LogEditorViewport: Clicking Background
-[2019.04.13-14.41.40:410][809]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece85)
-[2019.04.13-14.41.44:864][ 70]LogEditorViewport: Clicking Background
-[2019.04.13-14.41.46:386][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.41.46:709][158]LogSavePackage: Save=160.20ms
-[2019.04.13-14.41.46:709][158]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelB8AB2EF54E99283F6994799277D84D20.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.41.46:714][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.41.47:374][194]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.41.47:387][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.41.47:387][194]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:41:47 am)
-[2019.04.13-14.41.47:387][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.41.47:401][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013319s)
-[2019.04.13-14.41.47:401][194]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.41.47:402][194]LogPlayLevel: PIE: World Init took: (0.000838s)
-[2019.04.13-14.41.47:402][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014421s)
-[2019.04.13-14.41.47:427][194]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.41.47:492][194]LogInit: FAudioDevice initialized.
-[2019.04.13-14.41.47:523][194]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.41.47:529][194]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.11.47
-[2019.04.13-14.41.47:530][194]LogWorld: Bringing up level for play took: 0.004822
-[2019.04.13-14.41.47:565][194]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.831
-[2019.04.13-14.42.14:770][797]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
-[2019.04.13-14.42.23:743][329]LogEditorViewport: Clicking Background
-[2019.04.13-14.42.25:556][437]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.42.25:572][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.42.25:572][437]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:42:25 am)
-[2019.04.13-14.42.25:572][437]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.42.25:586][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014078s)
-[2019.04.13-14.42.25:587][437]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.42.25:587][437]LogPlayLevel: PIE: World Init took: (0.001217s)
-[2019.04.13-14.42.25:588][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015638s)
-[2019.04.13-14.42.25:607][437]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.42.25:676][437]LogInit: FAudioDevice initialized.
-[2019.04.13-14.42.25:712][437]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.42.25:721][437]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.12.25
-[2019.04.13-14.42.25:722][437]LogWorld: Bringing up level for play took: 0.007552
-[2019.04.13-14.42.25:787][437]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.053
-[2019.04.13-14.42.50:312][902]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece87)
-[2019.04.13-14.42.53:692][103]LogEditorViewport: Clicking Background
-[2019.04.13-14.42.58:852][409]LogEditorViewport: Clicking Background
-[2019.04.13-14.43.03:180][668]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece90)
-[2019.04.13-14.43.07:300][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.43.07:618][909]LogSavePackage: Save=162.19ms
-[2019.04.13-14.43.07:618][909]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelB378C1D240E65DA3ABFA52BC2AB729B7.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.43.07:623][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.43.08:618][967]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.43.08:632][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.43.08:632][967]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:43:08 am)
-[2019.04.13-14.43.08:632][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.43.08:643][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010547s)
-[2019.04.13-14.43.08:643][967]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.43.08:643][967]LogPlayLevel: PIE: World Init took: (0.000586s)
-[2019.04.13-14.43.08:643][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011342s)
-[2019.04.13-14.43.08:663][967]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.43.08:731][967]LogInit: FAudioDevice initialized.
-[2019.04.13-14.43.08:769][967]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.43.08:778][967]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.13.08
-[2019.04.13-14.43.08:779][967]LogWorld: Bringing up level for play took: 0.007275
-[2019.04.13-14.43.08:824][967]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.09
-[2019.04.13-14.43.39:175][767]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
-[2019.04.13-14.43.40:859][867]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.43.40:872][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.43.40:872][867]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:43:40 am)
-[2019.04.13-14.43.40:873][867]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.43.40:883][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010337s)
-[2019.04.13-14.43.40:883][867]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.43.40:884][867]LogPlayLevel: PIE: World Init took: (0.000723s)
-[2019.04.13-14.43.40:884][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011270s)
-[2019.04.13-14.43.40:899][867]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.43.40:951][867]LogInit: FAudioDevice initialized.
-[2019.04.13-14.43.40:987][867]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.43.40:993][867]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.13.40
-[2019.04.13-14.43.40:994][867]LogWorld: Bringing up level for play took: 0.004969
-[2019.04.13-14.43.41:024][867]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.29
-[2019.04.13-14.43.56:213][770]LogEditorViewport: Clicking Background
-[2019.04.13-14.43.59:165][947]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
-[2019.04.13-14.43.59:898][989]LogEditorViewport: Clicking on Actor (LMB): Knight_C (Knight)
-[2019.04.13-14.44.00:583][ 30]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.44.03:251][188]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
-[2019.04.13-14.44.06:231][365]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
-[2019.04.13-14.44.08:018][470]LogEditorViewport: Clicking Background
-[2019.04.13-14.44.09:394][552]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
-[2019.04.13-14.44.12:795][748]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
-[2019.04.13-14.44.17:135][  1]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
-[2019.04.13-14.44.26:138][537]LogEditorViewport: Clicking Background
-[2019.04.13-14.44.27:112][595]LogEditorViewport: Clicking Background
-[2019.04.13-14.44.27:883][641]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
-[2019.04.13-14.44.29:805][753]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
-[2019.04.13-14.44.31:407][844]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.44.33:102][942]LogEditorViewport: Clicking Background
-[2019.04.13-14.44.34:273][ 11]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece36)
-[2019.04.13-14.44.35:495][ 82]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
-[2019.04.13-14.44.36:701][151]LogEditorViewport: Clicking Background
-[2019.04.13-14.44.37:940][225]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
-[2019.04.13-14.44.39:199][299]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
-[2019.04.13-14.44.41:849][451]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece50)
-[2019.04.13-14.44.42:950][514]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
-[2019.04.13-14.44.43:812][562]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece42)
-[2019.04.13-14.44.44:952][628]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
-[2019.04.13-14.44.46:094][694]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece62)
-[2019.04.13-14.44.47:445][773]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece55)
-[2019.04.13-14.44.51:467][ 12]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
-[2019.04.13-14.44.53:623][140]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece61)
-[2019.04.13-14.44.54:643][200]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.44.58:233][412]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.45.00:315][535]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.45.03:930][749]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.45.03:951][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.45.03:951][749]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:45:03 am)
-[2019.04.13-14.45.03:951][749]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.45.03:966][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015650s)
-[2019.04.13-14.45.03:968][749]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.45.03:968][749]LogPlayLevel: PIE: World Init took: (0.001316s)
-[2019.04.13-14.45.03:968][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.017471s)
-[2019.04.13-14.45.03:994][749]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.45.04:070][749]LogInit: FAudioDevice initialized.
-[2019.04.13-14.45.04:101][749]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.45.04:108][749]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.15.04
-[2019.04.13-14.45.04:109][749]LogWorld: Bringing up level for play took: 0.005494
-[2019.04.13-14.45.04:140][749]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.594
-[2019.04.13-14.45.10:443][122]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.14:744][380]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.15:677][436]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.45.17:510][545]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.45.24:253][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.45.24:590][944]LogSavePackage: Save=201.65ms
-[2019.04.13-14.45.24:590][944]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel0E82F0E948AE2BFE06A317B558726CC5.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.45.24:596][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.45.25:687][  5]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.45.25:701][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.45.25:701][  5]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:45:25 am)
-[2019.04.13-14.45.25:701][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.45.25:712][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010900s)
-[2019.04.13-14.45.25:713][  5]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.45.25:713][  5]LogPlayLevel: PIE: World Init took: (0.000665s)
-[2019.04.13-14.45.25:713][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011953s)
-[2019.04.13-14.45.25:730][  5]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.45.25:791][  5]LogInit: FAudioDevice initialized.
-[2019.04.13-14.45.25:824][  5]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.45.25:830][  5]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.15.25
-[2019.04.13-14.45.25:831][  5]LogWorld: Bringing up level for play took: 0.004841
-[2019.04.13-14.45.25:860][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.125
-[2019.04.13-14.45.40:048][840]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.40:564][871]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.41:281][914]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.45.42:526][988]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
-[2019.04.13-14.45.43:892][ 69]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.44:508][106]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.45:191][147]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.45.46:369][217]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.45.52:703][597]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.53:420][640]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.54:189][686]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece38)
-[2019.04.13-14.45.55:522][760]LogEditorViewport: Clicking Background
-[2019.04.13-14.45.56:456][816]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece47)
-[2019.04.13-14.46.02:968][204]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.46.04:506][295]LogEditorViewport: Clicking Background
-[2019.04.13-14.46.06:595][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.46.06:978][417]LogSavePackage: Save=212.60ms
-[2019.04.13-14.46.06:978][417]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelE3FBB15B42EF962576DA949388B6E0CA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.46.06:984][417]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.46.08:027][471]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.46.08:046][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.46.08:046][471]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:46:08 am)
-[2019.04.13-14.46.08:046][471]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.46.08:060][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014423s)
-[2019.04.13-14.46.08:061][471]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.46.08:061][471]LogPlayLevel: PIE: World Init took: (0.000873s)
-[2019.04.13-14.46.08:061][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015610s)
-[2019.04.13-14.46.08:087][471]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.46.08:184][471]LogInit: FAudioDevice initialized.
-[2019.04.13-14.46.08:222][471]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.46.08:230][471]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.16.08
-[2019.04.13-14.46.08:231][471]LogWorld: Bringing up level for play took: 0.006093
-[2019.04.13-14.46.08:267][471]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.467
-[2019.04.13-14.46.13:995][810]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece37)
-[2019.04.13-14.46.15:585][903]LogEditorViewport: Clicking on Actor (LMB): Pawn_C (Pawn8)
-[2019.04.13-14.46.21:366][242]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece48)
-[2019.04.13-14.46.24:313][414]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece47)
-[2019.04.13-14.46.26:345][532]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece42)
-[2019.04.13-14.46.29:445][706]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece41)
-[2019.04.13-14.46.37:313][176]LogEditorViewport: Clicking Background
-[2019.04.13-14.46.38:965][275]LogEditorViewport: Clicking Background
-[2019.04.13-14.46.39:783][324]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece60)
-[2019.04.13-14.46.43:246][530]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece35)
-[2019.04.13-14.46.44:511][604]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece59)
-[2019.04.13-14.46.46:113][698]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece60)
-[2019.04.13-14.46.48:150][818]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece62)
-[2019.04.13-14.46.48:774][854]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece61)
-[2019.04.13-14.46.57:938][402]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
-[2019.04.13-14.46.59:882][517]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece55)
-[2019.04.13-14.47.02:037][644]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece50)
-[2019.04.13-14.47.02:672][681]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece49)
-[2019.04.13-14.47.08:283][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.47.08:573][ 12]LogSavePackage: Save=154.48ms
-[2019.04.13-14.47.08:573][ 12]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel78E5A55F47C455668B7571B91DDBF273.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.47.08:578][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.47.09:387][ 56]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.47.09:403][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.47.09:403][ 56]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:47:09 am)
-[2019.04.13-14.47.09:403][ 56]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.47.09:416][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012351s)
-[2019.04.13-14.47.09:416][ 56]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.47.09:416][ 56]LogPlayLevel: PIE: World Init took: (0.000759s)
-[2019.04.13-14.47.09:417][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013408s)
-[2019.04.13-14.47.09:432][ 56]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.47.09:493][ 56]LogInit: FAudioDevice initialized.
-[2019.04.13-14.47.09:529][ 56]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.47.09:535][ 56]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.17.09
-[2019.04.13-14.47.09:536][ 56]LogWorld: Bringing up level for play took: 0.004565
-[2019.04.13-14.47.09:563][ 56]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.829
-[2019.04.13-14.47.24:151][916]LogEditorViewport: Clicking Background
-[2019.04.13-14.47.35:319][586]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece40)
-[2019.04.13-14.47.37:440][712]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece39)
-[2019.04.13-14.47.38:596][780]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece43)
-[2019.04.13-14.47.39:836][853]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece44)
-[2019.04.13-14.47.46:336][241]LogEditorViewport: Clicking Background
-[2019.04.13-14.47.49:841][444]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece45)
-[2019.04.13-14.47.50:490][482]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece46)
-[2019.04.13-14.47.51:189][523]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece51)
-[2019.04.13-14.47.51:924][566]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece52)
-[2019.04.13-14.47.59:876][ 42]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.02:506][198]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.48.07:740][490]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece46)
-[2019.04.13-14.48.09:353][585]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece63)
-[2019.04.13-14.48.10:902][673]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.48.10:932][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.48.10:933][673]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:48:10 am)
-[2019.04.13-14.48.10:933][673]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.48.10:945][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012460s)
-[2019.04.13-14.48.10:946][673]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.48.10:946][673]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2019.04.13-14.48.10:946][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013489s)
-[2019.04.13-14.48.10:968][673]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.48.11:022][673]LogInit: FAudioDevice initialized.
-[2019.04.13-14.48.11:053][673]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.48.11:059][673]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.18.11
-[2019.04.13-14.48.11:059][673]LogWorld: Bringing up level for play took: 0.004976
-[2019.04.13-14.48.11:096][673]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.362
-[2019.04.13-14.48.22:446][339]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.36:663][191]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.37:463][239]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.38:164][281]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece45)
-[2019.04.13-14.48.47:516][838]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.48.53:524][197]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.58:034][452]LogEditorViewport: Clicking Background
-[2019.04.13-14.48.58:733][493]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.49.02:420][712]LogEditorViewport: Clicking Background
-[2019.04.13-14.49.04:313][824]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.49.05:068][868]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece63)
-[2019.04.13-14.49.05:921][918]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece65)
-[2019.04.13-14.49.06:740][966]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece66)
-[2019.04.13-14.49.13:524][369]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece68)
-[2019.04.13-14.49.14:437][422]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece67)
-[2019.04.13-14.49.15:166][465]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece70)
-[2019.04.13-14.49.15:815][502]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece69)
-[2019.04.13-14.49.23:849][982]LogEditorViewport: Clicking Background
-[2019.04.13-14.49.26:782][158]LogEditorViewport: Clicking Background
-[2019.04.13-14.49.27:632][209]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece53)
-[2019.04.13-14.49.29:718][333]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece54)
-[2019.04.13-14.49.30:453][376]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece57)
-[2019.04.13-14.49.31:018][409]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece58)
-[2019.04.13-14.49.37:432][791]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece74)
-[2019.04.13-14.49.38:133][832]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece73)
-[2019.04.13-14.49.38:915][878]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece118)
-[2019.04.13-14.49.40:818][991]Cmd: TRANSACTION UNDO
-[2019.04.13-14.49.40:818][991]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.49.42:068][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece72)
-[2019.04.13-14.49.43:058][117]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece71)
-[2019.04.13-14.50.00:071][136]LogEditorViewport: Clicking Background
-[2019.04.13-14.50.06:776][525]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece80)
-[2019.04.13-14.50.07:604][572]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece79)
-[2019.04.13-14.50.08:543][626]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece82)
-[2019.04.13-14.50.09:158][660]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece81)
-[2019.04.13-14.50.16:324][ 81]LogEditorViewport: Clicking Background
-[2019.04.13-14.50.18:384][204]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece75)
-[2019.04.13-14.50.19:279][256]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece76)
-[2019.04.13-14.50.19:955][295]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece78)
-[2019.04.13-14.50.21:104][361]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece99)
-[2019.04.13-14.50.22:265][428]LogEditorViewport: Clicking on Actor (CTRL LMB): Pawn_C (Pawn14)
-[2019.04.13-14.50.24:298][548]Cmd: TRANSACTION UNDO
-[2019.04.13-14.50.24:298][548]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.50.25:204][594]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece96)
-[2019.04.13-14.50.44:290][729]LogEditorViewport: Clicking Background
-[2019.04.13-14.50.45:978][830]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.50.45:994][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.50.45:994][830]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:50:45 am)
-[2019.04.13-14.50.45:994][830]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.50.46:008][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013883s)
-[2019.04.13-14.50.46:009][830]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.50.46:009][830]LogPlayLevel: PIE: World Init took: (0.001144s)
-[2019.04.13-14.50.46:009][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015326s)
-[2019.04.13-14.50.46:037][830]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.50.46:106][830]LogInit: FAudioDevice initialized.
-[2019.04.13-14.50.46:141][830]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.50.46:148][830]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.20.46
-[2019.04.13-14.50.46:149][830]LogWorld: Bringing up level for play took: 0.006794
-[2019.04.13-14.50.46:193][830]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.541
-[2019.04.13-14.51.08:197][140]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.51.08:209][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.51.08:209][140]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:51:08 am)
-[2019.04.13-14.51.08:210][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.51.08:219][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009518s)
-[2019.04.13-14.51.08:219][140]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.51.08:220][140]LogPlayLevel: PIE: World Init took: (0.000529s)
-[2019.04.13-14.51.08:220][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010276s)
-[2019.04.13-14.51.08:232][140]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.51.08:287][140]LogInit: FAudioDevice initialized.
-[2019.04.13-14.51.08:323][140]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.51.08:328][140]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.21.08
-[2019.04.13-14.51.08:329][140]LogWorld: Bringing up level for play took: 0.004541
-[2019.04.13-14.51.08:357][140]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.376
-[2019.04.13-14.51.15:401][558]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece100)
-[2019.04.13-14.51.17:903][707]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece95)
-[2019.04.13-14.51.24:133][ 78]LogEditorViewport: Clicking Background
-[2019.04.13-14.51.26:166][195]LogEditorViewport: Clicking on Actor (LMB): Queen_C (Queen2)
-[2019.04.13-14.51.27:100][249]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece102)
-[2019.04.13-14.51.32:647][569]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece101)
-[2019.04.13-14.51.34:493][678]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece98)
-[2019.04.13-14.51.35:085][712]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece117)
-[2019.04.13-14.51.36:341][786]Cmd: TRANSACTION UNDO
-[2019.04.13-14.51.36:341][786]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.51.37:981][878]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece117)
-[2019.04.13-14.51.38:751][922]Cmd: TRANSACTION UNDO
-[2019.04.13-14.51.38:751][922]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.51.41:643][ 84]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece97)
-[2019.04.13-14.51.49:112][529]LogEditorViewport: Clicking Background
-[2019.04.13-14.51.51:844][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.51.52:153][690]LogSavePackage: Save=157.95ms
-[2019.04.13-14.51.52:153][690]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel19087CD542BBB4FB9FBFF5AB50F5B39E.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.51.52:158][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.51.52:589][714]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.51.52:602][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.51.52:602][714]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:51:52 am)
-[2019.04.13-14.51.52:603][714]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.51.52:613][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010872s)
-[2019.04.13-14.51.52:614][714]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.51.52:614][714]LogPlayLevel: PIE: World Init took: (0.000832s)
-[2019.04.13-14.51.52:615][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011938s)
-[2019.04.13-14.51.52:632][714]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.51.52:694][714]LogInit: FAudioDevice initialized.
-[2019.04.13-14.51.52:730][714]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.51.52:736][714]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.21.52
-[2019.04.13-14.51.52:737][714]LogWorld: Bringing up level for play took: 0.005162
-[2019.04.13-14.51.52:766][714]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.032
-[2019.04.13-14.52.01:642][237]LogEditorViewport: Clicking Background
-[2019.04.13-14.52.02:259][274]Cmd: TRANSACTION UNDO
-[2019.04.13-14.52.02:259][274]LogEditorTransaction: Undo Clicking Background
-[2019.04.13-14.52.07:843][576]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece101)
-[2019.04.13-14.52.09:282][660]LogEditorViewport: Clicking on Actor (CTRL LMB): movable_Rod_C (movable_Rod3)
-[2019.04.13-14.52.10:596][737]Cmd: TRANSACTION UNDO
-[2019.04.13-14.52.10:596][737]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.52.11:273][766]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece102)
-[2019.04.13-14.52.14:609][953]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece97)
-[2019.04.13-14.52.16:624][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece98)
-[2019.04.13-14.52.22:345][404]LogEditorViewport: Clicking Background
-[2019.04.13-14.52.25:324][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.52.25:730][578]LogSavePackage: Save=224.12ms
-[2019.04.13-14.52.25:730][578]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel2ADF65CB414D6D4C022D42BE5D8EF670.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.52.25:738][578]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.52.26:579][625]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.52.26:598][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.52.26:598][625]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:52:26 am)
-[2019.04.13-14.52.26:598][625]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.52.26:613][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014300s)
-[2019.04.13-14.52.26:613][625]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.52.26:614][625]LogPlayLevel: PIE: World Init took: (0.000884s)
-[2019.04.13-14.52.26:614][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015515s)
-[2019.04.13-14.52.26:631][625]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.52.26:706][625]LogInit: FAudioDevice initialized.
-[2019.04.13-14.52.26:738][625]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.52.26:745][625]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.22.26
-[2019.04.13-14.52.26:746][625]LogWorld: Bringing up level for play took: 0.006242
-[2019.04.13-14.52.26:784][625]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.05
-[2019.04.13-14.52.47:968][882]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece77)
-[2019.04.13-14.52.54:336][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.52.54:723][259]LogSavePackage: Save=209.89ms
-[2019.04.13-14.52.54:723][259]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel7FF1233E4CAC9D4FDA5F8CA6DDAE2184.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.52.54:729][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.52.55:213][284]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.02:443][715]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece68)
-[2019.04.13-14.53.03:630][785]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.10:628][196]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece128)
-[2019.04.13-14.53.11:747][262]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.12:597][313]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece67)
-[2019.04.13-14.53.13:869][388]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.17:492][596]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece69)
-[2019.04.13-14.53.19:193][697]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece112)
-[2019.04.13-14.53.20:597][777]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece113)
-[2019.04.13-14.53.26:395][119]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece109)
-[2019.04.13-14.53.26:981][153]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece108)
-[2019.04.13-14.53.32:719][496]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.36:230][704]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece105)
-[2019.04.13-14.53.36:928][744]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.53.48:103][413]LogEditorViewport: Clicking on Actor (LMB): movable_Rod_C (movable_Rod6)
-[2019.04.13-14.53.49:118][472]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece45)
-[2019.04.13-14.53.51:080][588]LogEditorViewport: Clicking Background
-[2019.04.13-14.53.54:742][803]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece110)
-[2019.04.13-14.53.55:434][843]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece128)
-[2019.04.13-14.53.56:411][900]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece111)
-[2019.04.13-14.53.58:597][ 30]Cmd: TRANSACTION UNDO
-[2019.04.13-14.53.58:597][ 30]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.53.59:127][ 56]Cmd: TRANSACTION UNDO
-[2019.04.13-14.53.59:127][ 56]LogEditorTransaction: Undo Move Actors
-[2019.04.13-14.54.00:358][128]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece107)
-[2019.04.13-14.54.01:374][182]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece111)
-[2019.04.13-14.54.02:528][245]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece114)
-[2019.04.13-14.54.08:427][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.54.08:774][587]LogSavePackage: Save=184.07ms
-[2019.04.13-14.54.08:774][587]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel3781A2E847D34CEEAD0DA7A2A59FD097.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.54.08:780][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.54.09:427][622]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.54.09:455][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.54.09:455][622]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:54:09 am)
-[2019.04.13-14.54.09:455][622]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.54.09:481][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025073s)
-[2019.04.13-14.54.09:482][622]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.54.09:482][622]LogPlayLevel: PIE: World Init took: (0.001679s)
-[2019.04.13-14.54.09:483][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.027219s)
-[2019.04.13-14.54.09:511][622]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.54.09:598][622]LogInit: FAudioDevice initialized.
-[2019.04.13-14.54.09:633][622]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.54.09:639][622]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.24.09
-[2019.04.13-14.54.09:640][622]LogWorld: Bringing up level for play took: 0.005230
-[2019.04.13-14.54.09:679][622]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.945
-[2019.04.13-14.54.16:359][ 11]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.23:663][449]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece112)
-[2019.04.13-14.54.24:820][517]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.29:738][812]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece58)
-[2019.04.13-14.54.31:453][913]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.35:467][152]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.36:200][196]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece118)
-[2019.04.13-14.54.37:691][283]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece115)
-[2019.04.13-14.54.42:877][591]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.44:094][664]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece71)
-[2019.04.13-14.54.46:325][796]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece119)
-[2019.04.13-14.54.47:204][847]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece122)
-[2019.04.13-14.54.49:123][959]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece115)
-[2019.04.13-14.54.50:001][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece118)
-[2019.04.13-14.54.58:171][499]LogEditorViewport: Clicking Background
-[2019.04.13-14.54.59:855][600]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece81)
-[2019.04.13-14.55.01:309][686]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece117)
-[2019.04.13-14.55.02:614][763]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece116)
-[2019.04.13-14.55.05:188][915]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece120)
-[2019.04.13-14.55.07:023][ 24]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece121)
-[2019.04.13-14.55.13:260][395]LogEditorViewport: Clicking Background
-[2019.04.13-14.55.20:325][813]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece52)
-[2019.04.13-14.55.21:094][858]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
-[2019.04.13-14.55.22:430][937]LogEditorViewport: Clicking Background
-[2019.04.13-14.55.23:905][ 22]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece43)
-[2019.04.13-14.55.29:043][319]LogEditorViewport: Clicking Background
-[2019.04.13-14.55.29:712][359]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece124)
-[2019.04.13-14.55.30:832][425]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece125)
-[2019.04.13-14.55.32:335][514]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece128)
-[2019.04.13-14.55.33:159][562]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece129)
-[2019.04.13-14.55.41:822][ 80]LogEditorViewport: Clicking Background
-[2019.04.13-14.55.42:577][125]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece61)
-[2019.04.13-14.55.48:500][479]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
-[2019.04.13-14.55.50:669][607]LogEditorViewport: Clicking Background
-[2019.04.13-14.55.52:792][734]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece123)
-[2019.04.13-14.55.53:488][774]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece126)
-[2019.04.13-14.55.55:398][887]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece127)
-[2019.04.13-14.55.57:086][986]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece130)
-[2019.04.13-14.56.01:611][253]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.07:199][575]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece41)
-[2019.04.13-14.56.08:500][651]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.12:398][880]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece49)
-[2019.04.13-14.56.16:273][110]Cmd: TRANSACTION UNDO
-[2019.04.13-14.56.16:273][110]LogEditorTransaction: Undo Move Actors
-[2019.04.13-14.56.16:998][145]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.17:718][188]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.18:433][231]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece92)
-[2019.04.13-14.56.19:181][274]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece91)
-[2019.04.13-14.56.20:841][372]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece104)
-[2019.04.13-14.56.23:554][531]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece103)
-[2019.04.13-14.56.38:995][455]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.39:886][508]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece56)
-[2019.04.13-14.56.41:261][588]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.42:303][650]Cmd: TRANSACTION UNDO
-[2019.04.13-14.56.42:303][650]LogEditorTransaction: Undo Clicking Background
-[2019.04.13-14.56.42:809][672]Cmd: TRANSACTION UNDO
-[2019.04.13-14.56.42:809][672]LogEditorTransaction: Undo Clicking on Actors
-[2019.04.13-14.56.43:237][696]Cmd: TRANSACTION UNDO
-[2019.04.13-14.56.43:237][696]LogEditorTransaction: Undo Clicking Background
-[2019.04.13-14.56.50:968][158]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.53:880][328]LogEditorViewport: Clicking Background
-[2019.04.13-14.56.54:550][367]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece93)
-[2019.04.13-14.56.55:920][447]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.56.57:618][547]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece106)
-[2019.04.13-14.56.58:458][596]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece105)
-[2019.04.13-14.57.01:457][773]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece94)
-[2019.04.13-14.57.02:735][848]LogEditorViewport: Clicking on Actor (CTRL LMB): board_Piece_C (board_Piece93)
-[2019.04.13-14.57.08:733][206]LogEditorViewport: Clicking Background
-[2019.04.13-14.57.10:500][312]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece63)
-[2019.04.13-14.57.11:621][378]LogEditorViewport: Clicking on Actor (LMB): board_Piece_C (board_Piece64)
-[2019.04.13-14.57.14:365][541]Cmd: ACTOR SELECT ALL
-[2019.04.13-14.57.16:026][633]Cmd: TRANSACTION UNDO
-[2019.04.13-14.57.16:026][633]LogEditorTransaction: Undo Select All
-[2019.04.13-14.57.20:695][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.04.13-14.57.21:048][901]LogSavePackage: Save=206.15ms
-[2019.04.13-14.57.21:048][901]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel4575891E4B084EE476891D93B550780B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
-[2019.04.13-14.57.21:055][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
-[2019.04.13-14.57.21:512][926]LogTemp: Repeting last play command: Selected Viewport
-[2019.04.13-14.57.21:524][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.04.13-14.57.21:524][926]PIE: New page: PIE session: FirstLevel (14-Apr-2019 1:57:21 am)
-[2019.04.13-14.57.21:524][926]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
-[2019.04.13-14.57.21:534][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010076s)
-[2019.04.13-14.57.21:535][926]LogAIModule: Creating AISystem for world FirstLevel
-[2019.04.13-14.57.21:535][926]LogPlayLevel: PIE: World Init took: (0.000642s)
-[2019.04.13-14.57.21:535][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.010942s)
-[2019.04.13-14.57.21:552][926]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.04.13-14.57.21:618][926]LogInit: FAudioDevice initialized.
-[2019.04.13-14.57.21:653][926]LogLoad: Game class is 'ChessGameMode_C'
-[2019.04.13-14.57.21:661][926]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-20.27.21
-[2019.04.13-14.57.21:663][926]LogWorld: Bringing up level for play took: 0.007180
-[2019.04.13-14.57.21:715][926]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.981
-[2019.04.13-14.59.04:722][ 84]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.59.06:022][162]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.59.14:723][684]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.59.15:206][713]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.59.19:490][970]LogBlueprintUserMessages: [movable_Rod2] 1
-[2019.04.13-14.59.19:490][970]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.13-17.24.26:443][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.13-17.24.26:443][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.13-17.24.26:467][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.04.13-17.24.26:467][  0]LogInit: User: RohitPanjwani
+[2019.04.13-17.24.26:467][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.04.13-17.24.26:467][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2019.04.13-17.24.26:468][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.13-17.24.26:468][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.13-17.24.26:468][  0]LogMemory: Process Physical Memory: 263.63 MB used, 263.63 MB peak
+[2019.04.13-17.24.26:468][  0]LogMemory: Process Virtual Memory: 262.76 MB used, 262.76 MB peak
+[2019.04.13-17.24.26:468][  0]LogMemory: Physical Memory: 8756.66 MB used,  7525.86 MB free, 16282.52 MB total
+[2019.04.13-17.24.26:468][  0]LogMemory: Virtual Memory: 4812.63 MB used,  7525.86 MB free, 134217728.00 MB total
+[2019.04.13-17.24.26:592][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.04.13-17.24.30:860][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.13-17.24.30:985][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.13-17.24.30:985][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.13-17.24.31:000][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.13-17.24.31:000][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.13-17.24.31:004][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.13-17.24.31:004][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.13-17.24.31:004][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.13-17.24.31:044][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.13-17.24.31:044][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.13-17.24.31:044][  0]LogWindows: EnumDisplayDevices:
+[2019.04.13-17.24.31:045][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.13-17.24.31:045][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.13-17.24.31:045][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.13-17.24.31:045][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.13-17.24.31:045][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.13-17.24.31:045][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.13-17.24.31:045][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.13-17.24.31:045][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.04.13-17.24.31:096][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.13-17.24.31:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.13-17.24.31:116][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/17620/).
+[2019.04.13-17.24.31:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/2538763E434B655B6978919E92832EF1/'.
+[2019.04.13-17.24.31:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.04.13-17.24.34:202][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.13-17.24.34:464][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.04.13-17.24.34:682][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.13-17.24.34:917][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.04.13-17.24.35:144][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.04.13-17.24.35:353][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.13-17.24.35:575][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.13-17.24.35:752][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.13-17.24.35:933][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.04.13-17.24.36:076][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-17.24.36:215][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.13-17.24.36:384][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.13-17.24.36:554][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.13-17.24.36:769][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.13-17.24.36:927][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.13-17.24.37:346][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.13-17.24.37:346][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.13-17.24.37:530][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.04.13-17.24.37:838][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.04.13-17.24.37:952][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.04.13-17.24.38:139][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.13-17.24.38:351][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.13-17.24.38:563][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.13-17.24.38:767][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.04.13-17.24.38:767][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.04.13-17.24.40:133][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.13-17.24.40:205][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.13-17.24.40:234][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.13-17.24.40:249][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.13-17.24.40:700][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.13-17.24.40:709][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.04.13-17.24.41:272][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.13-17.24.41:420][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.13-17.24.41:561][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.13-17.24.41:561][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.04.13-17.24.41:561][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.04.13-17.24.42:539][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.04.13-17.24.42:658][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2019.04.13-17.24.42:780][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.063866 seconds
+[2019.04.13-17.24.42:790][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.04.13-17.24.42:790][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.04.13-17.24.42:790][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.13-17.24.43:029][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.04.13-17.24.45:347][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.13-17.24.45:349][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.13-17.24.45:349][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.13-17.24.47:098][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.13-17.24.47:186][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.13-17.24.47:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.04.13-17.24.49:060][  0]SourceControl: Info Source control is disabled
+[2019.04.13-17.24.49:186][  0]SourceControl: Info Source control is disabled
+[2019.04.13-17.24.49:359][  0]SourceControl: Info Source control is disabled
+[2019.04.13-17.24.49:485][  0]SourceControl: Info Source control is disabled
+[2019.04.13-17.24.53:348][  0]LogEngine: Initializing Engine...
+[2019.04.13-17.24.53:349][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.13-17.24.54:099][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.13-17.24.54:123][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.24.54:243][  0]LogInit: FAudioDevice initialized.
+[2019.04.13-17.24.54:307][  0]LogDerivedDataCache: Saved boot cache 0.06s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.13-17.24.54:313][  0]LogInit: Texture streaming: Enabled
+[2019.04.13-17.24.54:858][  0]LogInit: Transaction tracking system initialized
+[2019.04.13-17.24.55:996][  0]BlueprintLog: New page: Editor Load
+[2019.04.13-17.24.58:968][  0]LocalizationService: Info Localization service is disabled
+[2019.04.13-17.25.00:578][  0]LogConsoleResponse:Display: 
+[2019.04.13-17.25.00:882][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.13-17.25.00:882][  0]LogCook:Display: Mobile HDR setting 1
+[2019.04.13-17.25.01:439][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.02s
+[2019.04.13-17.25.03:371][  0]SourceControl: Info Source control is disabled
+[2019.04.13-17.25.03:371][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.13-17.25.03:371][  0]LightingResults: New page: Lighting Build
+[2019.04.13-17.25.03:481][  0]MapCheck: New page: Map Check
+[2019.04.13-17.25.03:481][  0]LightingResults: New page: Lighting Build
+[2019.04.13-17.25.03:695][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.13-17.25.03:696][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.04.13-17.25.03:702][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.13-17.25.03:706][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.13-17.25.03:812][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.101ms to complete.
+[2019.04.13-17.25.03:812][  0]LogFileHelpers: Loading map 'Template_Default' took 0.441
+[2019.04.13-17.25.03:996][  0]LogCollectionManager: Loaded 0 collections in 0.002740 seconds
+[2019.04.13-17.25.04:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.04.13-17.25.04:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.04.13-17.25.04:130][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.04.13-17.25.04:130][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.04.13-17.25.04:139][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2190 classes and 428 folders.
+[2019.04.13-17.25.04:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.13-17.25.04:230][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.13-17.25.04:231][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2019.04.13-17.25.04:361][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.13-17.25.04:438][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.04.13-17.25.04:560][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.04.13-17.25.04:660][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.04.13-17.25.04:667][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.04.13-17.25.04:832][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.04.13-17.25.04:832][  0]LogLoad: (Engine Initialization) Total time: 43.48 seconds
+[2019.04.13-17.25.04:832][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2019.04.13-17.25.04:833][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.04.13-17.25.04:833][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.04.13-17.25.05:172][  0]LogOcInput: OculusInput pre-init called
+[2019.04.13-17.25.05:190][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.13-17.25.05:342][  0]LogRenderer: Reallocating scene render targets to support 796x472 NumSamples 1 (Frame:2).
+[2019.04.13-17.25.05:517][  1]LogAssetRegistry: Asset discovery search completed in 22.8815 seconds
+[2019.04.13-17.25.05:517][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.13-17.25.05:517][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2019.04.13-17.30.13:958][578]AssetReimport: New page: Outstanding source content changes 4:30:13 am
+[2019.04.13-17.30.13:974][578]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/blackWins.png)
+[2019.04.13-17.30.14:885][579]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/whiteWins.png)
+[2019.04.13-17.30.15:309][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/blackWins" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/blackWins.uasset" SILENT=true
+[2019.04.13-17.30.15:616][580]LogSavePackage: Save=301.22ms
+[2019.04.13-17.30.15:616][580]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/blackWins242ED6724A9F4F5336F108BBB804450F.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/blackWins.uasset'
+[2019.04.13-17.30.15:622][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/blackWins.uasset
+[2019.04.13-17.30.15:644][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/whiteWins" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/whiteWins.uasset" SILENT=true
+[2019.04.13-17.30.16:006][580]LogSavePackage: Save=358.32ms
+[2019.04.13-17.30.16:006][580]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/whiteWinsAE15F2A74BFFED54A408299F2A06C4E9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/whiteWins.uasset'
+[2019.04.13-17.30.16:013][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Assets/whiteWins.uasset
+[2019.04.13-17.30.19:023][760]AssetReimport: Info Importing new asset /Game/Assets/blackWins.
+[2019.04.13-17.30.19:023][760]AssetReimport: Info Importing new asset /Game/Assets/whiteWins.
+[2019.04.13-17.30.33:736][351]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 111 classes and 0 folders.
+[2019.04.13-17.30.38:270][361]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.38:816][362]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.40:059][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.40:567][367]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.42:458][371]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.43:047][372]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.43:567][373]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.30.56:478][577]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.30.56:629][577]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.13-17.30.56:629][577]LightingResults: New page: Lighting Build
+[2019.04.13-17.30.56:630][577]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.04.13-17.30.56:631][577]MapCheck: New page: Map Check
+[2019.04.13-17.30.56:631][577]LightingResults: New page: Lighting Build
+[2019.04.13-17.30.56:821][577]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.13-17.30.56:861][577]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.13-17.30.56:980][577]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.661ms to complete.
+[2019.04.13-17.30.56:982][577]LogFileHelpers: Loading map 'FirstLevel' took 0.354
+[2019.04.13-17.31.32:626][147]LogMetaData: Removing '/Game/Blueprints/GameEnds.SKEL_GameEnds_C' ref from Metadata '/Game/Blueprints/WhiteWins.PackageMetaData'
+[2019.04.13-17.31.32:626][147]LogMetaData: Removing '/Game/Blueprints/GameEnds.GameEnds_C' ref from Metadata '/Game/Blueprints/WhiteWins.PackageMetaData'
+[2019.04.13-17.31.32:626][147]LogMetaData: Removing '/Game/Blueprints/GameEnds.GameEnds:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/WhiteWins.PackageMetaData'
+[2019.04.13-17.31.32:626][147]LogMetaData: Removing '/Game/Blueprints/GameEnds.GameEnds:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/WhiteWins.PackageMetaData'
+[2019.04.13-17.31.32:697][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameEnds" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset" SILENT=true
+[2019.04.13-17.31.32:710][147]LogSavePackage: Save=9.18ms
+[2019.04.13-17.31.32:710][147]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/GameEnds5FF59FEA4DA29B6AFC4070BDF73A452E.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset'
+[2019.04.13-17.31.32:717][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset
+[2019.04.13-17.36.35:087][922]BlueprintLog: New page: Compile ChessGameMode
+[2019.04.13-17.36.39:437][929]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.36.40:482][929]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.36.40:620][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ChessGameMode" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset" SILENT=true
+[2019.04.13-17.36.41:046][929]LogSavePackage: Save=257.63ms
+[2019.04.13-17.36.41:046][929]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/ChessGameModeAE1EA9FA452FE4FAF8979F85456F44DB.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset'
+[2019.04.13-17.36.41:054][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/ChessGameMode.uasset
+[2019.04.13-17.36.44:148][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.36.44:649][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.36.45:160][938]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.42.18:031][206]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.13-17.42.40:719][535]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-17.42.40:744][535]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.13-17.42.40:744][535]LogPlayLevel: [PlayLevel] Compiling King before play...
+[2019.04.13-17.42.40:989][535]LogPlayLevel: [PlayLevel] Compiling GameEnds before play...
+[2019.04.13-17.42.41:182][535]LogPlayLevel: PlayLevel: Blueprint regeneration took 438 ms (2 blueprints)
+[2019.04.13-17.42.41:182][535]PIE: New page: PIE session: FirstLevel (14-Apr-2019 4:42:41 am)
+[2019.04.13-17.42.41:183][535]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-17.42.41:195][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012099s)
+[2019.04.13-17.42.41:195][535]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.42.41:196][535]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2019.04.13-17.42.41:196][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013536s)
+[2019.04.13-17.42.41:220][535]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.42.41:277][535]LogInit: FAudioDevice initialized.
+[2019.04.13-17.42.41:333][535]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-17.42.41:340][535]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-23.12.41
+[2019.04.13-17.42.41:341][535]LogWorld: Bringing up level for play took: 0.006205
+[2019.04.13-17.42.41:454][535]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2019.04.13-17.42.41:492][535]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.758
+[2019.04.13-17.42.41:655][535]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:7109).
+[2019.04.13-17.42.42:652][539]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.13-17.42.45:351][674]LogRenderer: Reallocating scene render targets to support 1536x800 NumSamples 1 (Frame:7397).
+[2019.04.13-17.43.21:774][835]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:3356
+[2019.04.13-17.43.21:774][835]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.43.21:774][835]LogScript:Warning: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:336B
+[2019.04.13-17.43.21:775][835]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.43.21:775][835]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:33BA
+[2019.04.13-17.43.21:775][835]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.43.21:775][835]LogScript:Warning: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:33CF
+[2019.04.13-17.43.21:775][835]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.43.21:775][835]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:3408
+[2019.04.13-17.43.21:775][835]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.43.21:775][835]LogScript:Warning: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:341D
+[2019.04.13-17.43.21:775][835]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.43.44:193][ 92]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-17.43.44:238][ 92]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.13-17.43.44:238][ 92]LogPlayLevel: [PlayLevel] Compiling King before play...
+[2019.04.13-17.43.44:533][ 92]LogPlayLevel: PlayLevel: Blueprint regeneration took 295 ms (1 blueprints)
+[2019.04.13-17.43.44:534][ 92]PIE: New page: PIE session: FirstLevel (14-Apr-2019 4:43:44 am)
+[2019.04.13-17.43.44:534][ 92]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-17.43.44:553][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019129s)
+[2019.04.13-17.43.44:553][ 92]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.43.44:554][ 92]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2019.04.13-17.43.44:554][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.021104s)
+[2019.04.13-17.43.44:590][ 92]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.43.44:673][ 92]LogInit: FAudioDevice initialized.
+[2019.04.13-17.43.44:719][ 92]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-17.43.44:729][ 92]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-23.13.44
+[2019.04.13-17.43.44:731][ 92]LogWorld: Bringing up level for play took: 0.009211
+[2019.04.13-17.43.44:830][ 92]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.096
+[2019.04.13-17.44.07:511][366]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:3356
+[2019.04.13-17.44.07:511][366]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.07:512][366]LogScript:Warning: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:336B
+[2019.04.13-17.44.07:512][366]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.44.07:512][366]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:33BA
+[2019.04.13-17.44.07:512][366]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.07:512][366]LogScript:Warning: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:33CF
+[2019.04.13-17.44.07:512][366]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.44.07:512][366]LogScript:Warning: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:3408
+[2019.04.13-17.44.07:512][366]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.07:512][366]LogScript:Warning: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:341D
+[2019.04.13-17.44.07:512][366]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.44.16:981][874]LogScript:Warning: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:354C
+[2019.04.13-17.44.16:981][874]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.44.16:981][874]LogScript:Warning: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:3561
+[2019.04.13-17.44.16:981][874]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.44.16:982][874]LogScript:Warning: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:35B0
+[2019.04.13-17.44.16:982][874]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.44.16:982][874]LogScript:Warning: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:35C5
+[2019.04.13-17.44.16:982][874]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.44.16:982][874]LogScript:Warning: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+	ChessGameMode_C /Game/UEDPIE_0_FirstLevel.FirstLevel:PersistentLevel.ChessGameMode_C_0
+	Function /Game/Blueprints/ChessGameMode.ChessGameMode_C:ExecuteUbergraph_ChessGameMode:35FE
+[2019.04.13-17.44.16:982][874]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.44.16:982][874]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.44.40:359][223]BlueprintLog: New page: Compile King
+[2019.04.13-17.44.42:020][268]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-17.44.42:075][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-17.44.42:075][268]PIE: New page: PIE session: FirstLevel (14-Apr-2019 4:44:42 am)
+[2019.04.13-17.44.42:075][268]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-17.44.42:092][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016749s)
+[2019.04.13-17.44.42:093][268]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.44.42:093][268]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2019.04.13-17.44.42:093][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.018259s)
+[2019.04.13-17.44.42:124][268]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.44.42:201][268]LogInit: FAudioDevice initialized.
+[2019.04.13-17.44.42:247][268]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-17.44.42:259][268]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-23.14.42
+[2019.04.13-17.44.42:260][268]LogWorld: Bringing up level for play took: 0.010485
+[2019.04.13-17.44.42:354][268]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.38
+[2019.04.13-17.44.59:844][297]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.59:844][297]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.44.59:844][297]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.59:844][297]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.44.59:844][297]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.44.59:845][297]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.45.45:289][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-17.45.45:289][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.45.45:289][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-17.45.45:289][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.45.45:290][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-17.45.45:290][ 18]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.45.45:290][ 18]LogBlueprintUserMessages: [King_353] wons
+[2019.04.13-17.47.13:251][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameEnds" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset" SILENT=true
+[2019.04.13-17.47.13:401][187]LogSavePackage: Save=13.21ms
+[2019.04.13-17.47.13:401][187]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/GameEnds4D6AC227436C91A6E2C7EC8743ED6123.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset'
+[2019.04.13-17.47.13:406][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset
+[2019.04.13-17.47.42:179][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameEnds" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset" SILENT=true
+[2019.04.13-17.47.42:361][888]LogSavePackage: Save=75.46ms
+[2019.04.13-17.47.42:361][888]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/GameEndsBC9B4AA04FD94EF41AB9088C40239F76.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset'
+[2019.04.13-17.47.42:368][888]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset
+[2019.04.13-17.47.43:397][950]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-17.47.43:444][950]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.13-17.47.43:444][950]LogPlayLevel: [PlayLevel] Compiling GameEnds before play...
+[2019.04.13-17.47.43:718][950]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (1 blueprints)
+[2019.04.13-17.47.43:718][950]PIE: New page: PIE session: FirstLevel (14-Apr-2019 4:47:43 am)
+[2019.04.13-17.47.43:718][950]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-17.47.43:733][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014809s)
+[2019.04.13-17.47.43:733][950]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.47.43:734][950]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2019.04.13-17.47.43:734][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.016181s)
+[2019.04.13-17.47.43:765][950]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.47.43:831][950]LogInit: FAudioDevice initialized.
+[2019.04.13-17.47.43:876][950]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-17.47.43:884][950]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-23.17.43
+[2019.04.13-17.47.43:885][950]LogWorld: Bringing up level for play took: 0.006317
+[2019.04.13-17.47.43:938][950]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.204
+[2019.04.13-17.48.06:410][252]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.48.06:410][252]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.48.06:410][252]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.48.06:410][252]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.48.06:411][252]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.48.06:411][252]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.48.32:550][810]LogBlueprintUserMessages: [King_353] wons
+[2019.04.13-17.48.32:551][810]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.48.32:551][810]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.48.32:551][810]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.48.32:551][810]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.48.32:551][810]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.48.32:552][810]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.49.02:564][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameEnds" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset" SILENT=true
+[2019.04.13-17.49.02:731][486]LogSavePackage: Save=18.39ms
+[2019.04.13-17.49.02:731][486]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/GameEnds370BBE104BB912EAA96006A88ED5C117.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset'
+[2019.04.13-17.49.02:739][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset
+[2019.04.13-17.49.04:924][617]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-17.49.04:948][617]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.13-17.49.04:949][617]LogPlayLevel: [PlayLevel] Compiling GameEnds before play...
+[2019.04.13-17.49.05:131][617]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2019.04.13-17.49.05:131][617]PIE: New page: PIE session: FirstLevel (14-Apr-2019 4:49:05 am)
+[2019.04.13-17.49.05:131][617]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-17.49.05:146][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014937s)
+[2019.04.13-17.49.05:147][617]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-17.49.05:147][617]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.04.13-17.49.05:147][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015985s)
+[2019.04.13-17.49.05:183][617]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-17.49.05:268][617]LogInit: FAudioDevice initialized.
+[2019.04.13-17.49.05:320][617]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-17.49.05:333][617]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.13-23.19.05
+[2019.04.13-17.49.05:334][617]LogWorld: Bringing up level for play took: 0.010771
+[2019.04.13-17.49.05:403][617]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.668
+[2019.04.13-17.49.21:603][520]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.49.21:603][520]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.49.21:604][520]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.49.21:604][520]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.49.21:604][520]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-17.49.21:605][520]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.49.44:524][734]LogBlueprintUserMessages: [King_353] wons
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access King2 via property CallFunc_Array_Get_Item15, but King2 is pending kill
+[2019.04.13-17.49.44:526][734]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-17.51.06:994][233]LogSavePackage: Save=314.31ms
+[2019.04.13-17.51.06:994][233]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto16CEB6CB54CB0281C5AF83D9C24131CB9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap'
+[2019.04.13-17.51.06:999][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap
+[2019.04.13-17.51.07:002][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.559
+[2019.04.13-17.51.07:002][233]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.559
+[2019.04.13-17.51.07:015][233]LogSavePackage: Save=2.76ms
+[2019.04.13-17.51.07:015][233]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/WhiteWins_Auto149AD42D7478878707E1545B42611B1E0.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/WhiteWins_Auto1.uasset'
+[2019.04.13-17.51.07:018][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/WhiteWins_Auto1.uasset
+[2019.04.13-17.51.07:021][233]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/King] ([1] browsable assets)...
+[2019.04.13-17.51.07:172][233]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/King.King]
+[2019.04.13-17.51.07:172][233]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/King]
+[2019.04.13-17.51.07:585][233]LogSavePackage: Save=247.34ms
+[2019.04.13-17.51.07:585][233]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King_Auto1B4CB1E6D4B3A9A383258D9A25AB36C94.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/King_Auto1.uasset'
+[2019.04.13-17.51.07:592][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/Blueprints/King_Auto1.uasset
+[2019.04.13-17.51.07:593][233]LogFileHelpers: Auto-saving content packages took 0.587
+[2019.04.13-19.09.31:633][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/King" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset" SILENT=true
+[2019.04.13-19.09.31:913][165]LogSavePackage: Save=105.37ms
+[2019.04.13-19.09.31:913][165]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/King18D84EB54961515DB573609E38AC9F99.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset'
+[2019.04.13-19.09.31:921][165]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/King.uasset
+[2019.04.13-19.09.33:453][257]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-19.09.33:482][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-19.09.33:482][257]PIE: New page: PIE session: FirstLevel (14-Apr-2019 6:09:33 am)
+[2019.04.13-19.09.33:482][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-19.09.33:494][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011939s)
+[2019.04.13-19.09.33:495][257]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-19.09.33:495][257]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2019.04.13-19.09.33:496][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.013518s)
+[2019.04.13-19.09.33:526][257]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-19.09.33:588][257]LogInit: FAudioDevice initialized.
+[2019.04.13-19.09.33:645][257]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-19.09.33:655][257]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.14-00.39.33
+[2019.04.13-19.09.33:657][257]LogWorld: Bringing up level for play took: 0.009709
+[2019.04.13-19.09.33:716][257]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.991
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.10.00:831][857]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-19.10.38:863][128]LogBlueprintUserMessages: [King_353] wons
+[2019.04.13-19.10.38:864][128]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-19.10.38:864][128]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-19.10.38:864][128]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-19.10.38:864][128]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-19.10.38:865][128]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item15 from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None trying to read property CallFunc_Array_Get_Item15
+[2019.04.13-19.10.38:865][128]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-19.13.34:921][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameEnds" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset" SILENT=true
+[2019.04.13-19.13.35:126][ 22]LogSavePackage: Save=22.34ms
+[2019.04.13-19.13.35:126][ 22]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/GameEnds8473B1E14F467CF24F7ACD9475C02F91.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset'
+[2019.04.13-19.13.35:134][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/GameEnds.uasset
+[2019.04.13-19.13.36:022][ 75]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.13-19.13.36:069][ 75]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.13-19.13.36:069][ 75]LogPlayLevel: [PlayLevel] Compiling GameEnds before play...
+[2019.04.13-19.13.36:355][ 75]LogPlayLevel: PlayLevel: Blueprint regeneration took 286 ms (1 blueprints)
+[2019.04.13-19.13.36:356][ 75]PIE: New page: PIE session: FirstLevel (14-Apr-2019 6:13:36 am)
+[2019.04.13-19.13.36:356][ 75]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-19.13.36:367][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011093s)
+[2019.04.13-19.13.36:367][ 75]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-19.13.36:368][ 75]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2019.04.13-19.13.36:368][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.012082s)
+[2019.04.13-19.13.36:395][ 75]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-19.13.36:467][ 75]LogInit: FAudioDevice initialized.
+[2019.04.13-19.13.36:515][ 75]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-19.13.36:524][ 75]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.14-00.43.36
+[2019.04.13-19.13.36:525][ 75]LogWorld: Bringing up level for play took: 0.008111
+[2019.04.13-19.13.36:576][ 75]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.148
+[2019.04.13-19.13.55:353][167]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.13.55:353][167]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure index_8_4D89B9C3475C6850CB0F55ADD021C5BF
+[2019.04.13-19.13.55:353][167]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.13.55:353][167]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure Name_5_F9593F8840905CC2B3A3B2A898E7B6CF
+[2019.04.13-19.13.55:353][167]PIE:Error: Error Blueprint Runtime Error: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Attempted to access Pawn13 via property CallFunc_Array_Get_Item14, but Pawn13 is pending kill
+[2019.04.13-19.13.55:354][167]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C from function: 'ExecuteUbergraph_ChessGameMode' from node: Branch in graph: EventGraph in object: ChessGameMode with description: Accessed None reading structure color_2_67E031134EC1B07DA9A0B1BCE7FB563C
+[2019.04.13-19.14.00:546][448]Cmd: RestartLevel
+[2019.04.13-19.14.00:548][448]LogNet: Browse: /Game/FirstLevel?restart
+[2019.04.13-19.14.00:549][448]LogLoad: LoadMap: /Game/FirstLevel
+[2019.04.13-19.14.00:596][448]Cmd: MEM
+[2019.04.13-19.14.00:622][448]LogMemory: Platform Memory Stats for Windows
+[2019.04.13-19.14.00:622][448]LogMemory: Process Physical Memory: 1764.46 MB used, 2705.58 MB peak
+[2019.04.13-19.14.00:622][448]LogMemory: Process Virtual Memory: 3813.36 MB used, 3918.57 MB peak
+[2019.04.13-19.14.00:622][448]LogMemory: Physical Memory: 11563.90 MB used,  4718.63 MB free, 16282.52 MB total
+[2019.04.13-19.14.00:622][448]LogMemory: Virtual Memory: 9058.68 MB used,  4718.63 MB free, 134217728.00 MB total
+[2019.04.13-19.14.00:622][448]LogMemory: 
+[2019.04.13-19.14.00:622][448]Allocator Stats for TBB: (not implemented)
+[2019.04.13-19.14.00:622][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.13-19.14.00:639][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016146s)
+[2019.04.13-19.14.00:639][448]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.13-19.14.00:640][448]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2019.04.13-19.14.00:640][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.017909s)
+[2019.04.13-19.14.00:640][448]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.13-19.14.00:653][448]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 60) at 2019.04.14-00.44.00
+[2019.04.13-19.14.00:654][448]LogWorld: Bringing up level for play took: 0.010950
+[2019.04.13-19.14.00:734][448]LogLoad: Took 0.184713 seconds to LoadMap(/Game/UEDPIE_0_FirstLevel)
+[2019.04.13-19.15.24:544][ 48]LogSavePackage: Save=184.52ms
+[2019.04.13-19.15.24:544][ 48]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto220B16830480B7578789EC0AAB534B95A.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap'
+[2019.04.13-19.15.24:547][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto2.umap
