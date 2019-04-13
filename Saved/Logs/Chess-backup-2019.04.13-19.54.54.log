@@ -1,0 +1,1321 @@
+﻿Log file open, 04/10/19 13:27:56
+LogInit:Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: Loading recent project file: ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Chess.uproject
+LogInit:Display: RandInit(-1228206432) SRandInit(-1228206432).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.171967
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.10-07.57.57:154][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-07.57.57:154][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.10-07.57.57:190][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.04.10-07.57.57:190][  0]LogInit: User: RohitPanjwani
+[2019.04.10-07.57.57:190][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.04.10-07.57.57:190][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2019.04.10-07.57.57:190][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.10-07.57.57:190][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.10-07.57.57:190][  0]LogMemory: Process Physical Memory: 263.48 MB used, 263.48 MB peak
+[2019.04.10-07.57.57:190][  0]LogMemory: Process Virtual Memory: 262.58 MB used, 262.58 MB peak
+[2019.04.10-07.57.57:190][  0]LogMemory: Physical Memory: 4535.02 MB used,  11747.51 MB free, 16282.52 MB total
+[2019.04.10-07.57.57:190][  0]LogMemory: Virtual Memory: 4812.63 MB used,  11747.51 MB free, 134217728.00 MB total
+[2019.04.10-07.57.58:474][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.04.10-07.58.02:718][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.10-07.58.02:786][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.10-07.58.02:786][  0]LogD3D11RHI:       4055/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.10-07.58.02:800][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.10-07.58.02:800][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.10-07.58.02:805][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.10-07.58.02:805][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.10-07.58.02:805][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.10-07.58.02:859][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.10-07.58.02:859][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.10-07.58.02:859][  0]LogWindows: EnumDisplayDevices:
+[2019.04.10-07.58.02:860][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.10-07.58.02:860][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.10-07.58.02:861][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.10-07.58.02:861][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.10-07.58.02:861][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.10-07.58.02:861][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.10-07.58.02:861][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.10-07.58.02:861][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.04.10-07.58.02:937][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.10-07.58.02:962][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.10-07.58.02:963][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Intermediate/Shaders/WorkingDirectory/22044/).
+[2019.04.10-07.58.02:964][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Rohit Panjwani/AppData/Local/Temp/UnrealShaderWorkingDir/75D65A934EA7E28EC8D5A1AEE7CF411E/'.
+[2019.04.10-07.58.02:964][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.04.10-07.58.07:315][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.10-07.58.07:456][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2019.04.10-07.58.07:613][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.10-07.58.07:742][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2019.04.10-07.58.07:871][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2019.04.10-07.58.08:051][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.10-07.58.08:194][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.10-07.58.08:351][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.10-07.58.08:465][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.04.10-07.58.08:636][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.04.10-07.58.08:757][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.04.10-07.58.08:912][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.04.10-07.58.09:049][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.04.10-07.58.09:205][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.04.10-07.58.09:365][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.04.10-07.58.09:694][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.04.10-07.58.09:694][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.04.10-07.58.09:817][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.04.10-07.58.10:063][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.04.10-07.58.10:152][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.04.10-07.58.10:294][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.10-07.58.10:444][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.10-07.58.10:584][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.10-07.58.10:756][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.04.10-07.58.10:756][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.04.10-07.58.11:947][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache: Loaded boot cache 0.74s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.10-07.58.12:687][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.10-07.58.12:716][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.10-07.58.12:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.10-07.58.13:108][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.10-07.58.13:115][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.04.10-07.58.13:615][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.10-07.58.13:772][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.10-07.58.13:917][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.10-07.58.13:917][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2019.04.10-07.58.13:917][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.04.10-07.58.14:966][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.04.10-07.58.15:087][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2019.04.10-07.58.15:271][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.068326 seconds
+[2019.04.10-07.58.15:279][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2019.04.10-07.58.15:279][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2019.04.10-07.58.15:279][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.10-07.58.15:502][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.04.10-07.58.17:847][  0]LogSlate: Using Freetype 2.6.0
+[2019.04.10-07.58.17:869][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.10-07.58.17:870][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.10-07.58.35:974][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.10-07.58.36:070][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.10-07.58.37:116][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.04.10-07.58.38:201][  0]SourceControl: Info Source control is disabled
+[2019.04.10-07.58.38:355][  0]SourceControl: Info Source control is disabled
+[2019.04.10-07.58.38:520][  0]SourceControl: Info Source control is disabled
+[2019.04.10-07.58.38:669][  0]SourceControl: Info Source control is disabled
+[2019.04.10-07.58.42:906][  0]LogEngine: Initializing Engine...
+[2019.04.10-07.58.42:908][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.10-07.58.43:425][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.10-07.58.43:441][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-07.58.43:571][  0]LogInit: FAudioDevice initialized.
+[2019.04.10-07.58.43:615][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Rohit Panjwani/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2019.04.10-07.58.43:623][  0]LogInit: Texture streaming: Enabled
+[2019.04.10-07.58.44:181][  0]LogInit: Transaction tracking system initialized
+[2019.04.10-07.58.45:345][  0]BlueprintLog: New page: Editor Load
+[2019.04.10-07.58.48:132][  0]LocalizationService: Info Localization service is disabled
+[2019.04.10-07.58.50:223][  0]LogConsoleResponse:Display: 
+[2019.04.10-07.58.50:746][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.10-07.58.50:746][  0]LogCook:Display: Mobile HDR setting 1
+[2019.04.10-07.58.51:107][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' took 0.01s
+[2019.04.10-07.58.53:407][  0]SourceControl: Info Source control is disabled
+[2019.04.10-07.58.53:408][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.10-07.58.53:408][  0]LightingResults: New page: Lighting Build
+[2019.04.10-07.58.53:512][  0]MapCheck: New page: Map Check
+[2019.04.10-07.58.53:512][  0]LightingResults: New page: Lighting Build
+[2019.04.10-07.58.53:789][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.10-07.58.53:790][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.04.10-07.58.53:841][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.10-07.58.53:845][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.10-07.58.53:974][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.005ms to complete.
+[2019.04.10-07.58.53:974][  0]LogFileHelpers: Loading map 'Template_Default' took 0.567
+[2019.04.10-07.58.54:236][  0]LogCollectionManager: Loaded 0 collections in 0.003393 seconds
+[2019.04.10-07.58.54:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' took 0.01s
+[2019.04.10-07.58.54:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' took 0.01s
+[2019.04.10-07.58.54:394][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' took 0.01s
+[2019.04.10-07.58.54:394][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.04.10-07.58.54:405][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2190 classes and 428 folders.
+[2019.04.10-07.58.54:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.10-07.58.54:534][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.10-07.58.54:535][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 13 classes and 0 folders.
+[2019.04.10-07.58.54:711][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.04.10-07.58.55:288][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.10-07.58.55:379][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.04.10-07.58.55:484][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.04.10-07.58.55:494][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.04.10-07.58.55:628][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.04.10-07.58.55:629][  0]LogLoad: (Engine Initialization) Total time: 61.77 seconds
+[2019.04.10-07.58.55:629][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.28 seconds
+[2019.04.10-07.58.55:629][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.04.10-07.58.55:629][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.04.10-07.58.55:639][  0]LogOcInput: OculusInput pre-init called
+[2019.04.10-07.58.55:659][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.04.10-07.58.55:921][  0]LogRenderer: Reallocating scene render targets to support 952x436 NumSamples 1 (Frame:2).
+[2019.04.10-07.58.56:040][  1]LogHttp:Warning: 000002255A54A980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-07.58.56:040][  1]LogHttp:Warning: 000002255A54A980: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2019.04.10-07.58.56:040][  1]LogHttp:Warning: 000002255A54A980: libcurl info message cache 1 (Closing connection 0)
+[2019.04.10-07.58.56:102][  2]LogHttp:Warning: 00000225405F4100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-07.58.56:103][  2]LogHttp:Warning: 00000225405F4100: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2019.04.10-07.58.56:103][  2]LogHttp:Warning: 00000225405F4100: libcurl info message cache 1 (Closing connection 1)
+[2019.04.10-07.58.56:109][  2]LogAssetRegistry: Asset discovery search completed in 41.0442 seconds
+[2019.04.10-07.58.56:109][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.10-07.58.56:109][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2019.04.10-07.58.56:148][  3]LogHttp:Warning: 00000225405D1A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-07.58.56:148][  3]LogHttp:Warning: 00000225405D1A80: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2019.04.10-07.58.56:148][  3]LogHttp:Warning: 00000225405D1A80: libcurl info message cache 1 (Closing connection 2)
+[2019.04.10-07.59.17:831][925]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
+[2019.04.10-07.59.21:376][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-07.59.21:880][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-07.59.23:500][938]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-07.59.26:533][943]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-07.59.27:425][943]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-07.59.48:619][973]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-07.59.48:664][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-07.59.48:664][973]PIE: New page: PIE session: Untitled_1 (10-Apr-2019 6:59:48 pm)
+[2019.04.10-07.59.48:664][973]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.04.10-07.59.48:668][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003533s)
+[2019.04.10-07.59.48:669][973]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.10-07.59.48:669][973]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2019.04.10-07.59.48:670][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005274s)
+[2019.04.10-07.59.48:789][973]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-07.59.48:875][973]LogInit: FAudioDevice initialized.
+[2019.04.10-07.59.48:938][973]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-07.59.48:942][973]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2019.04.10-13.29.48
+[2019.04.10-07.59.48:942][973]LogWorld: Bringing up level for play took: 0.001463
+[2019.04.10-07.59.49:119][973]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2019.04.10-07.59.49:122][973]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.472
+[2019.04.10-07.59.55:660][322]LogHttp:Warning: 0000022550923B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-07.59.55:660][322]LogHttp:Warning: 0000022550923B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-07.59.55:660][322]LogHttp:Warning: 0000022550923B80: libcurl info message cache 1 (Closing connection 3)
+[2019.04.10-07.59.58:551][562]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-07.59.58:622][562]Cmd: MAP LOAD FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.10-07.59.58:622][562]LightingResults: New page: Lighting Build
+[2019.04.10-07.59.58:623][562]LoadErrors: New page: Loading map: FirstLevel.umap
+[2019.04.10-07.59.58:623][562]MapCheck: New page: Map Check
+[2019.04.10-07.59.58:623][562]LightingResults: New page: Lighting Build
+[2019.04.10-07.59.58:760][562]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.10-07.59.58:794][562]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.10-07.59.58:934][562]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.348ms to complete.
+[2019.04.10-07.59.58:935][562]LogFileHelpers: Loading map 'FirstLevel' took 0.315
+[2019.04.10-08.00.02:633][744]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.00.02:716][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.00.02:717][744]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:00:02 pm)
+[2019.04.10-08.00.02:717][744]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.00.02:732][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015168s)
+[2019.04.10-08.00.02:733][744]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.00.02:733][744]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2019.04.10-08.00.02:733][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.016251s)
+[2019.04.10-08.00.02:758][744]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.00.02:839][744]LogInit: FAudioDevice initialized.
+[2019.04.10-08.00.02:874][744]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.00.02:882][744]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.30.02
+[2019.04.10-08.00.02:883][744]LogWorld: Bringing up level for play took: 0.007027
+[2019.04.10-08.00.02:938][744]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.656
+[2019.04.10-08.00.05:250][962]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.06:807][116]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.07:256][162]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.07:617][197]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.07:936][228]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.08:290][260]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.00.33:095][716]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.00.55:707][684]LogHttp:Warning: 0000022570BC1A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.00.55:707][684]LogHttp:Warning: 0000022570BC1A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.00.55:707][684]LogHttp:Warning: 0000022570BC1A80: libcurl info message cache 1 (Closing connection 4)
+[2019.04.10-08.01.31:944][638]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.01.55:685][999]LogHttp:Warning: 0000022561296800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.01.55:685][999]LogHttp:Warning: 0000022561296800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.01.55:685][999]LogHttp:Warning: 0000022561296800: libcurl info message cache 1 (Closing connection 5)
+[2019.04.10-08.03.16:061][269]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.03.16:085][269]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.10-08.03.16:085][269]LogPlayLevel: [PlayLevel] Compiling movable_Rod before play...
+[2019.04.10-08.03.18:791][269]LogPlayLevel: PlayLevel: Blueprint regeneration took 2705 ms (1 blueprints)
+[2019.04.10-08.03.18:791][269]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:03:18 pm)
+[2019.04.10-08.03.18:791][269]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.03.18:806][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014792s)
+[2019.04.10-08.03.18:806][269]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.03.18:807][269]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2019.04.10-08.03.18:807][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.016857s)
+[2019.04.10-08.03.18:839][269]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.03.18:935][269]LogInit: FAudioDevice initialized.
+[2019.04.10-08.03.18:980][269]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.03.18:989][269]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.33.18
+[2019.04.10-08.03.18:991][269]LogWorld: Bringing up level for play took: 0.007458
+[2019.04.10-08.03.19:062][269]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 3.469
+[2019.04.10-08.03.19:528][273]LogHttp:Warning: 00000225613EE800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.03.19:529][273]LogHttp:Warning: 00000225613EE800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.03.19:529][273]LogHttp:Warning: 00000225613EE800: libcurl info message cache 1 (Closing connection 6)
+[2019.04.10-08.03.39:267][ 83]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.03.39:298][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.03.39:298][ 83]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:03:39 pm)
+[2019.04.10-08.03.39:298][ 83]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.03.39:318][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020331s)
+[2019.04.10-08.03.39:319][ 83]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.03.39:320][ 83]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2019.04.10-08.03.39:320][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.021832s)
+[2019.04.10-08.03.39:354][ 83]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.03.39:443][ 83]LogInit: FAudioDevice initialized.
+[2019.04.10-08.03.39:486][ 83]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.03.39:499][ 83]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.33.39
+[2019.04.10-08.03.39:501][ 83]LogWorld: Bringing up level for play took: 0.011488
+[2019.04.10-08.03.39:562][ 83]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.032
+[2019.04.10-08.03.46:723][445]LogRenderer: Reallocating scene render targets to support 952x460 NumSamples 1 (Frame:3092).
+[2019.04.10-08.03.46:773][446]LogRenderer: Reallocating scene render targets to support 952x484 NumSamples 1 (Frame:3093).
+[2019.04.10-08.03.46:827][447]LogRenderer: Reallocating scene render targets to support 952x500 NumSamples 1 (Frame:3094).
+[2019.04.10-08.03.46:876][448]LogRenderer: Reallocating scene render targets to support 952x512 NumSamples 1 (Frame:3095).
+[2019.04.10-08.03.46:921][449]LogRenderer: Reallocating scene render targets to support 952x524 NumSamples 1 (Frame:3096).
+[2019.04.10-08.03.46:972][450]LogRenderer: Reallocating scene render targets to support 952x532 NumSamples 1 (Frame:3097).
+[2019.04.10-08.03.47:021][451]LogRenderer: Reallocating scene render targets to support 952x536 NumSamples 1 (Frame:3098).
+[2019.04.10-08.03.47:074][452]LogRenderer: Reallocating scene render targets to support 952x552 NumSamples 1 (Frame:3099).
+[2019.04.10-08.03.47:132][453]LogRenderer: Reallocating scene render targets to support 952x572 NumSamples 1 (Frame:3100).
+[2019.04.10-08.03.48:985][591]LogRenderer: Reallocating scene render targets to support 956x572 NumSamples 1 (Frame:3228).
+[2019.04.10-08.03.49:029][592]LogRenderer: Reallocating scene render targets to support 968x572 NumSamples 1 (Frame:3229).
+[2019.04.10-08.03.49:116][593]LogRenderer: Reallocating scene render targets to support 980x572 NumSamples 1 (Frame:3230).
+[2019.04.10-08.03.49:163][594]LogRenderer: Reallocating scene render targets to support 1004x572 NumSamples 1 (Frame:3231).
+[2019.04.10-08.03.51:114][737]LogRenderer: Reallocating scene render targets to support 1020x572 NumSamples 1 (Frame:3369).
+[2019.04.10-08.03.51:156][738]LogRenderer: Reallocating scene render targets to support 1036x572 NumSamples 1 (Frame:3370).
+[2019.04.10-08.03.51:254][740]LogRenderer: Reallocating scene render targets to support 1040x572 NumSamples 1 (Frame:3372).
+[2019.04.10-08.04.20:225][596]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.04.23:449][637]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.04.23:472][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.04.23:472][637]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:04:23 pm)
+[2019.04.10-08.04.23:472][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.04.23:486][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013686s)
+[2019.04.10-08.04.23:487][637]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.04.23:487][637]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2019.04.10-08.04.23:487][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014994s)
+[2019.04.10-08.04.23:523][637]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.04.23:606][637]LogInit: FAudioDevice initialized.
+[2019.04.10-08.04.23:647][637]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.04.23:655][637]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.34.23
+[2019.04.10-08.04.23:656][637]LogWorld: Bringing up level for play took: 0.006593
+[2019.04.10-08.04.23:701][637]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.107
+[2019.04.10-08.04.30:508][ 59]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.04.37:017][692]LogBlueprintUserMessages: [movable_Rod5] Hello
+[2019.04.10-08.04.38:357][826]LogBlueprintUserMessages: [movable_Rod11] Hello
+[2019.04.10-08.04.39:286][919]LogHttp:Warning: 0000022556539F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.04.39:286][919]LogHttp:Warning: 0000022556539F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.04.39:286][919]LogHttp:Warning: 0000022556539F00: libcurl info message cache 1 (Closing connection 7)
+[2019.04.10-08.04.44:382][412]LogBlueprintUserMessages: [movable_Rod12] Hello
+[2019.04.10-08.04.47:236][683]LogBlueprintUserMessages: [movable_Rod_63] Hello
+[2019.04.10-08.04.54:803][406]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.04.54:826][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.04.54:826][406]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:04:54 pm)
+[2019.04.10-08.04.54:826][406]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.04.54:841][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014301s)
+[2019.04.10-08.04.54:841][406]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.04.54:841][406]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2019.04.10-08.04.54:842][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015445s)
+[2019.04.10-08.04.54:869][406]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.04.54:946][406]LogInit: FAudioDevice initialized.
+[2019.04.10-08.04.54:981][406]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.04.54:988][406]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.34.54
+[2019.04.10-08.04.54:989][406]LogWorld: Bringing up level for play took: 0.006125
+[2019.04.10-08.04.55:030][406]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.563
+[2019.04.10-08.04.57:041][590]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.05.04:820][284]LogBlueprintUserMessages: [movable_Rod4] Hello
+[2019.04.10-08.05.10:803][859]LogBlueprintUserMessages: [Queen2] removed b3
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b2
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b1
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b3
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b2
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b3
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b0
+[2019.04.10-08.05.10:804][859]LogBlueprintUserMessages: [Queen2] removed b1
+[2019.04.10-08.05.54:831][ 73]LogHttp:Warning: 00000225128E3700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.05.54:831][ 73]LogHttp:Warning: 00000225128E3700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.05.54:831][ 73]LogHttp:Warning: 00000225128E3700: libcurl info message cache 1 (Closing connection 8)
+[2019.04.10-08.06.55:691][993]LogHttp:Warning: 0000022561B7AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.06.55:691][993]LogHttp:Warning: 0000022561B7AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.06.55:691][993]LogHttp:Warning: 0000022561B7AE00: libcurl info message cache 1 (Closing connection 9)
+[2019.04.10-08.07.01:043][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.07.01:740][257]LogSavePackage: Save=353.18ms
+[2019.04.10-08.07.01:740][257]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod879C8D3F410F5D489E235F98BDCCD90B.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.07.01:747][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.07.02:914][318]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.07.02:951][318]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.10-08.07.02:951][318]LogPlayLevel: [PlayLevel] Compiling movable_Rod before play...
+[2019.04.10-08.07.05:379][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 2428 ms (1 blueprints)
+[2019.04.10-08.07.05:379][318]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:07:05 pm)
+[2019.04.10-08.07.05:380][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.07.05:414][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034534s)
+[2019.04.10-08.07.05:415][318]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.07.05:415][318]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2019.04.10-08.07.05:415][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.035797s)
+[2019.04.10-08.07.05:441][318]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.07.05:518][318]LogInit: FAudioDevice initialized.
+[2019.04.10-08.07.05:564][318]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.07.05:578][318]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.37.05
+[2019.04.10-08.07.05:580][318]LogWorld: Bringing up level for play took: 0.012943
+[2019.04.10-08.07.05:659][318]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 2.065
+[2019.04.10-08.08.02:932][443]LogHttp:Warning: 0000022561C20400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.08.02:932][443]LogHttp:Warning: 0000022561C20400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.08.02:932][443]LogHttp:Warning: 0000022561C20400: libcurl info message cache 1 (Closing connection 10)
+[2019.04.10-08.09.54:459][613]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.09.57:308][616]LogHttp:Warning: 0000022501105600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.09.57:308][616]LogHttp:Warning: 0000022501105600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.09.57:308][616]LogHttp:Warning: 0000022501105600: libcurl info message cache 1 (Closing connection 11)
+[2019.04.10-08.09.58:376][669]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.09.58:411][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.09.58:412][669]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:09:58 pm)
+[2019.04.10-08.09.58:412][669]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.09.58:429][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017635s)
+[2019.04.10-08.09.58:430][669]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.09.58:431][669]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2019.04.10-08.09.58:431][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.019349s)
+[2019.04.10-08.09.58:470][669]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.09.58:557][669]LogInit: FAudioDevice initialized.
+[2019.04.10-08.09.58:598][669]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.09.58:607][669]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.39.58
+[2019.04.10-08.09.58:608][669]LogWorld: Bringing up level for play took: 0.006915
+[2019.04.10-08.09.58:671][669]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.078
+[2019.04.10-08.10.04:522][ 12]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.10.05:673][114]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.10.06:213][160]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.10.36:483][903]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.10.38:977][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.10.39:359][931]LogSavePackage: Save=233.18ms
+[2019.04.10-08.10.39:359][931]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod041F1AB5422B859F93C939AFC8EAF632.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.10.39:364][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.10.39:806][955]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.10.39:832][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.10.39:833][955]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:10:39 pm)
+[2019.04.10-08.10.39:833][955]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.10.39:849][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016310s)
+[2019.04.10-08.10.39:850][955]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.10.39:850][955]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2019.04.10-08.10.39:850][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.017544s)
+[2019.04.10-08.10.39:880][955]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.10.39:949][955]LogInit: FAudioDevice initialized.
+[2019.04.10-08.10.39:987][955]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.10.39:994][955]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.40.39
+[2019.04.10-08.10.39:995][955]LogWorld: Bringing up level for play took: 0.006625
+[2019.04.10-08.10.40:041][955]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.448
+[2019.04.10-08.10.45:234][308]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.10.45:234][308]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.10.45:235][308]LogBlueprintUserMessages: [movable_Rod2] 3
+[2019.04.10-08.10.45:235][308]LogBlueprintUserMessages: [movable_Rod2] 4
+[2019.04.10-08.10.45:576][342]LogBlueprintUserMessages: [movable_Rod2] 5
+[2019.04.10-08.10.45:576][342]LogBlueprintUserMessages: [movable_Rod2] 6
+[2019.04.10-08.10.45:576][342]LogBlueprintUserMessages: [movable_Rod2] 7
+[2019.04.10-08.10.45:576][342]LogBlueprintUserMessages: [movable_Rod2] 8
+[2019.04.10-08.10.45:688][352]LogBlueprintUserMessages: [movable_Rod2] 9
+[2019.04.10-08.10.45:689][352]LogBlueprintUserMessages: [movable_Rod2] 10
+[2019.04.10-08.10.45:689][352]LogBlueprintUserMessages: [movable_Rod2] 11
+[2019.04.10-08.10.45:689][352]LogBlueprintUserMessages: [movable_Rod2] 12
+[2019.04.10-08.10.49:614][755]LogBlueprintUserMessages: [movable_Rod2] 13
+[2019.04.10-08.10.49:614][755]LogBlueprintUserMessages: [movable_Rod2] 14
+[2019.04.10-08.10.49:614][755]LogBlueprintUserMessages: [movable_Rod2] 15
+[2019.04.10-08.10.49:614][755]LogBlueprintUserMessages: [movable_Rod2] 16
+[2019.04.10-08.10.58:381][306]LogHttp:Warning: 0000022501E33A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.10.58:381][306]LogHttp:Warning: 0000022501E33A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.10.58:381][306]LogHttp:Warning: 0000022501E33A00: libcurl info message cache 1 (Closing connection 12)
+[2019.04.10-08.11.19:644][538]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.11.22:256][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.11.22:725][565]LogSavePackage: Save=309.43ms
+[2019.04.10-08.11.22:725][565]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod2536165044828EE6CC61CEBC5941CE4C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.11.22:730][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.11.23:616][613]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.11.23:638][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.11.23:638][613]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:11:23 pm)
+[2019.04.10-08.11.23:638][613]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.11.23:651][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013013s)
+[2019.04.10-08.11.23:652][613]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.11.23:652][613]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.04.10-08.11.23:652][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014014s)
+[2019.04.10-08.11.23:681][613]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.11.23:745][613]LogInit: FAudioDevice initialized.
+[2019.04.10-08.11.23:784][613]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.11.23:790][613]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.41.23
+[2019.04.10-08.11.23:791][613]LogWorld: Bringing up level for play took: 0.005436
+[2019.04.10-08.11.23:829][613]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.235
+[2019.04.10-08.12.15:168][225]LogHttp:Warning: 0000022500298D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.12.15:168][225]LogHttp:Warning: 0000022500298D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.12.15:168][225]LogHttp:Warning: 0000022500298D00: libcurl info message cache 1 (Closing connection 13)
+[2019.04.10-08.12.20:426][638]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.21:472][716]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.21:843][741]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.25:642][ 46]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.26:192][ 90]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.26:513][117]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.26:690][129]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.12.58:753][618]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.13.02:060][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.13.02:576][634]LogSavePackage: Save=307.74ms
+[2019.04.10-08.13.02:576][634]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod1C1160074C56483D779947B3CA42AF96.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.13.02:586][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.13.03:550][680]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.13.03:585][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.13.03:585][680]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:13:03 pm)
+[2019.04.10-08.13.03:586][680]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.13.03:613][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027271s)
+[2019.04.10-08.13.03:614][680]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.13.03:614][680]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2019.04.10-08.13.03:614][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.028618s)
+[2019.04.10-08.13.03:652][680]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.13.03:736][680]LogInit: FAudioDevice initialized.
+[2019.04.10-08.13.03:786][680]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.13.03:797][680]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.43.03
+[2019.04.10-08.13.03:799][680]LogWorld: Bringing up level for play took: 0.009532
+[2019.04.10-08.13.03:863][680]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.27
+[2019.04.10-08.13.36:712][304]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.13.36:712][304]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.13.39:101][542]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.13.39:101][542]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.13.48:119][417]LogHttp:Warning: 00000225BFB8E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.13.48:120][417]LogHttp:Warning: 00000225BFB8E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.13.48:120][417]LogHttp:Warning: 00000225BFB8E980: libcurl info message cache 1 (Closing connection 14)
+[2019.04.10-08.13.55:330][112]LogBlueprintUserMessages: [Queen_404] removed b0
+[2019.04.10-08.14.04:027][861]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.04:027][861]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.14.10:057][453]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.15:706][  1]LogBlueprintUserMessages: [movable_Rod_63] 1
+[2019.04.10-08.14.15:706][  1]LogBlueprintUserMessages: [movable_Rod_63] 2
+[2019.04.10-08.14.15:706][  1]LogBlueprintUserMessages: [movable_Rod_63] 3
+[2019.04.10-08.14.15:706][  1]LogBlueprintUserMessages: [movable_Rod_63] 4
+[2019.04.10-08.14.18:036][223]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.18:036][223]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.14.18:440][262]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.28:822][276]LogBlueprintUserMessages: [movable_Rod_63] 1
+[2019.04.10-08.14.28:822][276]LogBlueprintUserMessages: [movable_Rod_63] 2
+[2019.04.10-08.14.28:822][276]LogBlueprintUserMessages: [movable_Rod_63] 3
+[2019.04.10-08.14.28:822][276]LogBlueprintUserMessages: [movable_Rod_63] 4
+[2019.04.10-08.14.29:015][295]LogBlueprintUserMessages: [movable_Rod_63] 1
+[2019.04.10-08.14.29:015][295]LogBlueprintUserMessages: [movable_Rod_63] 2
+[2019.04.10-08.14.29:015][295]LogBlueprintUserMessages: [movable_Rod_63] 3
+[2019.04.10-08.14.29:015][295]LogBlueprintUserMessages: [movable_Rod_63] 4
+[2019.04.10-08.14.29:196][312]LogBlueprintUserMessages: [movable_Rod_63] 1
+[2019.04.10-08.14.29:196][312]LogBlueprintUserMessages: [movable_Rod_63] 2
+[2019.04.10-08.14.29:196][312]LogBlueprintUserMessages: [movable_Rod_63] 3
+[2019.04.10-08.14.29:196][312]LogBlueprintUserMessages: [movable_Rod_63] 4
+[2019.04.10-08.14.31:667][546]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.31:667][546]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.14.33:739][746]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.34:710][832]LogBlueprintUserMessages: [Rook3] removed b0
+[2019.04.10-08.14.36:494][  3]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.36:494][  3]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.36:886][ 39]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.36:886][ 39]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.37:065][ 56]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.37:065][ 56]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.37:237][ 73]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.37:237][ 73]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.37:389][ 88]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.37:389][ 88]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.37:587][106]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.37:587][106]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.37:779][124]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.37:780][124]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.42:330][566]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.42:330][566]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.42:727][603]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.42:727][603]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.42:918][623]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.42:918][623]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.43:101][642]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.43:101][642]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.43:250][657]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.43:250][657]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.43:480][680]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.43:480][680]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.53:602][665]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.53:602][665]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.54:724][773]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.54:724][773]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.14.55:669][862]LogHttp:Warning: 00000225BFB8EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.14.55:669][862]LogHttp:Warning: 00000225BFB8EE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.14.55:669][862]LogHttp:Warning: 00000225BFB8EE00: libcurl info message cache 1 (Closing connection 15)
+[2019.04.10-08.14.59:238][200]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.14.59:238][200]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.16.38:697][113]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.16.41:159][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.16.41:478][134]LogSavePackage: Save=186.83ms
+[2019.04.10-08.16.41:478][134]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod3A938569495BA8D5CF692AB7C91B2EE9.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.16.41:484][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.16.42:435][194]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.16.42:456][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.16.42:457][194]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:16:42 pm)
+[2019.04.10-08.16.42:457][194]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.16.42:470][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013342s)
+[2019.04.10-08.16.42:470][194]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.16.42:470][194]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.04.10-08.16.42:470][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.014330s)
+[2019.04.10-08.16.42:498][194]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.16.42:573][194]LogInit: FAudioDevice initialized.
+[2019.04.10-08.16.42:613][194]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.16.42:619][194]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.46.42
+[2019.04.10-08.16.42:620][194]LogWorld: Bringing up level for play took: 0.005388
+[2019.04.10-08.16.42:665][194]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.072
+[2019.04.10-08.16.55:683][880]LogHttp:Warning: 000002255694AB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.16.55:683][880]LogHttp:Warning: 000002255694AB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.16.55:683][880]LogHttp:Warning: 000002255694AB00: libcurl info message cache 1 (Closing connection 16)
+[2019.04.10-08.17.00:232][193]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.17.00:232][193]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.17.00:232][193]LogBlueprintUserMessages: [movable_Rod2] 3
+[2019.04.10-08.17.00:232][193]LogBlueprintUserMessages: [movable_Rod2] 4
+[2019.04.10-08.17.00:232][193]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.17.28:894][ 37]LogBlueprintUserMessages: [Queen_404] removed b0
+[2019.04.10-08.17.44:917][634]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.17.49:554][ 93]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.17.49:554][ 93]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.17.53:032][438]LogBlueprintUserMessages: [movable_Rod5] 1
+[2019.04.10-08.17.53:032][438]LogBlueprintUserMessages: [movable_Rod5] Hello
+[2019.04.10-08.18.12:672][567]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.18.12:673][567]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.18.20:196][161]LogBlueprintUserMessages: [movable_Rod5] 1
+[2019.04.10-08.18.20:197][161]LogBlueprintUserMessages: [movable_Rod5] Hello
+[2019.04.10-08.18.39:512][295]BlueprintLog: New page: Compile movable_Rod
+[2019.04.10-08.18.45:133][444]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.18.45:168][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.18.45:168][444]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:18:45 pm)
+[2019.04.10-08.18.45:169][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.18.45:184][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015054s)
+[2019.04.10-08.18.45:185][444]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.18.45:185][444]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2019.04.10-08.18.45:185][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.016789s)
+[2019.04.10-08.18.45:216][444]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.18.45:304][444]LogInit: FAudioDevice initialized.
+[2019.04.10-08.18.45:346][444]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.18.45:355][444]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.48.45
+[2019.04.10-08.18.45:357][444]LogWorld: Bringing up level for play took: 0.007539
+[2019.04.10-08.18.45:409][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.184
+[2019.04.10-08.18.55:672][ 67]LogHttp:Warning: 00000225575F7880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.18.55:672][ 67]LogHttp:Warning: 00000225575F7880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.18.55:672][ 67]LogHttp:Warning: 00000225575F7880: libcurl info message cache 1 (Closing connection 17)
+[2019.04.10-08.18.57:818][247]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.18.57:818][247]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.18.57:818][247]LogBlueprintUserMessages: [movable_Rod2] 3
+[2019.04.10-08.18.57:818][247]LogBlueprintUserMessages: [movable_Rod2] 4
+[2019.04.10-08.18.57:818][247]LogBlueprintUserMessages: [movable_Rod2] not allowed
+[2019.04.10-08.18.58:577][312]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.18.58:577][312]LogBlueprintUserMessages: [movable_Rod2] 2
+[2019.04.10-08.18.58:577][312]LogBlueprintUserMessages: [movable_Rod2] 3
+[2019.04.10-08.18.58:577][312]LogBlueprintUserMessages: [movable_Rod2] 4
+[2019.04.10-08.18.58:577][312]LogBlueprintUserMessages: [movable_Rod2] not allowed
+[2019.04.10-08.19.24:860][487]LogBlueprintUserMessages: [Queen_404] removed b0
+[2019.04.10-08.19.39:005][687]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.19.40:446][840]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.19.45:745][382]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.19.45:745][382]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.19.53:411][153]LogBlueprintUserMessages: [movable_Rod5] 1
+[2019.04.10-08.19.53:412][153]LogBlueprintUserMessages: [movable_Rod5] Hello
+[2019.04.10-08.19.56:059][424]LogBlueprintUserMessages: [movable_Rod2] 1
+[2019.04.10-08.19.56:059][424]LogBlueprintUserMessages: [movable_Rod2] Hello
+[2019.04.10-08.20.03:820][143]LogBlueprintUserMessages: [movable_Rod5] 1
+[2019.04.10-08.20.03:820][143]LogBlueprintUserMessages: [movable_Rod5] Hello
+[2019.04.10-08.20.22:021][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.10-08.20.22:365][968]LogSavePackage: Save=174.78ms
+[2019.04.10-08.20.22:365][968]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel422A5AD74CCD71A9A87D1FAE347D43B7.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.10-08.20.22:370][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.10-08.20.53:658][ 10]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.20.53:684][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.20.53:684][ 10]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:20:53 pm)
+[2019.04.10-08.20.53:684][ 10]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.20.53:699][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014300s)
+[2019.04.10-08.20.53:700][ 10]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.20.53:700][ 10]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2019.04.10-08.20.53:700][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.015833s)
+[2019.04.10-08.20.53:734][ 10]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.20.53:803][ 10]LogInit: FAudioDevice initialized.
+[2019.04.10-08.20.53:841][ 10]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.20.53:847][ 10]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.50.53
+[2019.04.10-08.20.53:848][ 10]LogWorld: Bringing up level for play took: 0.005402
+[2019.04.10-08.20.53:886][ 10]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 0.293
+[2019.04.10-08.20.55:685][ 72]LogHttp:Warning: 0000022500F63400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.20.55:685][ 72]LogHttp:Warning: 0000022500F63400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.20.55:685][ 72]LogHttp:Warning: 0000022500F63400: libcurl info message cache 1 (Closing connection 18)
+[2019.04.10-08.21.13:205][888]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.21.13:249][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.10-08.21.13:249][888]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:21:13 pm)
+[2019.04.10-08.21.13:249][888]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.21.13:267][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018318s)
+[2019.04.10-08.21.13:268][888]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.21.13:268][888]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2019.04.10-08.21.13:269][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.019676s)
+[2019.04.10-08.21.13:310][888]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.21.13:390][888]LogInit: FAudioDevice initialized.
+[2019.04.10-08.21.13:443][888]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.21.13:452][888]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.51.13
+[2019.04.10-08.21.13:454][888]LogWorld: Bringing up level for play took: 0.008441
+[2019.04.10-08.21.13:535][888]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel -0.058
+[2019.04.10-08.21.13:579][888]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:56832).
+[2019.04.10-08.21.16:040][ 26]LogRenderer: Reallocating scene render targets to support 1536x800 NumSamples 1 (Frame:56971).
+[2019.04.10-08.22.05:012][140]Cmd: RestartLevel
+[2019.04.10-08.22.05:014][140]LogNet: Browse: /Game/FirstLevel?restart
+[2019.04.10-08.22.05:014][140]LogLoad: LoadMap: /Game/FirstLevel
+[2019.04.10-08.22.05:063][140]Cmd: MEM
+[2019.04.10-08.22.05:099][140]LogMemory: Platform Memory Stats for Windows
+[2019.04.10-08.22.05:099][140]LogMemory: Process Physical Memory: 1913.24 MB used, 1921.04 MB peak
+[2019.04.10-08.22.05:099][140]LogMemory: Process Virtual Memory: 2863.89 MB used, 3294.28 MB peak
+[2019.04.10-08.22.05:099][140]LogMemory: Physical Memory: 6173.00 MB used,  10109.53 MB free, 16282.52 MB total
+[2019.04.10-08.22.05:099][140]LogMemory: Virtual Memory: 8185.48 MB used,  10109.53 MB free, 134217728.00 MB total
+[2019.04.10-08.22.05:099][140]LogMemory: 
+[2019.04.10-08.22.05:099][140]Allocator Stats for TBB: (not implemented)
+[2019.04.10-08.22.05:099][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.22.05:122][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022724s)
+[2019.04.10-08.22.05:124][140]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.22.05:124][140]LogPlayLevel: PIE: World Init took: (0.002009s)
+[2019.04.10-08.22.05:124][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.025312s)
+[2019.04.10-08.22.05:125][140]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.22.05:136][140]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-13.52.05
+[2019.04.10-08.22.05:138][140]LogWorld: Bringing up level for play took: 0.009445
+[2019.04.10-08.22.05:223][140]LogLoad: Took 0.208896 seconds to LoadMap(/Game/UEDPIE_0_FirstLevel)
+[2019.04.10-08.22.13:225][782]LogHttp:Warning: 0000022559F12E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.22.13:225][782]LogHttp:Warning: 0000022559F12E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.22.13:225][782]LogHttp:Warning: 0000022559F12E00: libcurl info message cache 1 (Closing connection 19)
+[2019.04.10-08.23.55:685][157]LogHttp:Warning: 0000022559F12F80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.23.55:685][157]LogHttp:Warning: 0000022559F12F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.23.55:685][157]LogHttp:Warning: 0000022559F12F80: libcurl info message cache 1 (Closing connection 20)
+[2019.04.10-08.24.55:663][351]LogHttp:Warning: 0000022559F12200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.24.55:663][351]LogHttp:Warning: 0000022559F12200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.24.55:663][351]LogHttp:Warning: 0000022559F12200: libcurl info message cache 1 (Closing connection 21)
+[2019.04.10-08.26.55:670][444]LogHttp:Warning: 0000022559F12E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.26.55:670][444]LogHttp:Warning: 0000022559F12E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.26.55:670][444]LogHttp:Warning: 0000022559F12E00: libcurl info message cache 1 (Closing connection 22)
+[2019.04.10-08.28.55:661][629]LogHttp:Warning: 0000022559F12200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.28.55:661][629]LogHttp:Warning: 0000022559F12200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.28.55:661][629]LogHttp:Warning: 0000022559F12200: libcurl info message cache 1 (Closing connection 23)
+[2019.04.10-08.29.55:669][275]LogHttp:Warning: 0000022559F13B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.29.55:669][275]LogHttp:Warning: 0000022559F13B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.29.55:669][275]LogHttp:Warning: 0000022559F13B80: libcurl info message cache 1 (Closing connection 24)
+[2019.04.10-08.30.43:862][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.30.44:299][377]LogSavePackage: Save=293.16ms
+[2019.04.10-08.30.44:299][377]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_Rod297865FA40BFA281A69D14832D6B1F74.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.30.44:307][377]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.30.55:683][584]LogHttp:Warning: 0000022560BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.30.55:683][584]LogHttp:Warning: 0000022560BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.30.55:683][584]LogHttp:Warning: 0000022560BAD180: libcurl info message cache 1 (Closing connection 25)
+[2019.04.10-08.31.17:938][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.31.18:250][857]LogSavePackage: Save=198.15ms
+[2019.04.10-08.31.18:250][857]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_RodF065AB434C3140BB5D64888026C37F9C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.31.18:256][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.31.20:942][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.10-08.31.21:245][161]LogSavePackage: Save=156.44ms
+[2019.04.10-08.31.21:245][161]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel26EAFA224FFBA116CAE0A5AAAA96329C.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.10-08.31.21:253][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.10-08.31.23:163][370]LogTemp: Repeting last play command: Selected Viewport
+[2019.04.10-08.31.23:256][370]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.04.10-08.31.23:256][370]LogPlayLevel: [PlayLevel] Compiling movable_Rod before play...
+[2019.04.10-08.31.24:933][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 1677 ms (1 blueprints)
+[2019.04.10-08.31.24:933][370]PIE: New page: PIE session: FirstLevel (10-Apr-2019 7:31:24 pm)
+[2019.04.10-08.31.24:933][370]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_FirstLevel
+[2019.04.10-08.31.24:944][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011057s)
+[2019.04.10-08.31.24:945][370]LogAIModule: Creating AISystem for world FirstLevel
+[2019.04.10-08.31.24:945][370]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2019.04.10-08.31.24:945][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstLevel.FirstLevel to /Game/UEDPIE_0_FirstLevel.FirstLevel (0.011985s)
+[2019.04.10-08.31.24:964][370]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.10-08.31.25:023][370]LogInit: FAudioDevice initialized.
+[2019.04.10-08.31.25:068][370]LogLoad: Game class is 'ChessGameMode_C'
+[2019.04.10-08.31.25:075][370]LogWorld: Bringing World /Game/UEDPIE_0_FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.04.10-14.01.25
+[2019.04.10-08.31.25:076][370]LogWorld: Bringing up level for play took: 0.006223
+[2019.04.10-08.31.25:123][370]PIE: Info Play in editor start time for /Game/UEDPIE_0_FirstLevel 1.53
+[2019.04.10-08.32.20:938][292]LogHttp:Warning: 0000022567333400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.32.20:938][292]LogHttp:Warning: 0000022567333400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.32.20:939][292]LogHttp:Warning: 0000022567333400: libcurl info message cache 1 (Closing connection 26)
+[2019.04.10-08.33.55:663][975]LogHttp:Warning: 0000022567332800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.33.55:663][975]LogHttp:Warning: 0000022567332800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.33.55:663][975]LogHttp:Warning: 0000022567332800: libcurl info message cache 1 (Closing connection 27)
+[2019.04.10-08.35.55:660][174]LogHttp:Warning: 0000022567332800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.35.55:660][174]LogHttp:Warning: 0000022567332800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.35.55:660][174]LogHttp:Warning: 0000022567332800: libcurl info message cache 1 (Closing connection 28)
+[2019.04.10-08.36.55:682][775]LogHttp:Warning: 0000022567332B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.36.55:682][775]LogHttp:Warning: 0000022567332B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.36.55:682][775]LogHttp:Warning: 0000022567332B00: libcurl info message cache 1 (Closing connection 29)
+[2019.04.10-08.37.38:965][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/movable_Rod" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset" SILENT=true
+[2019.04.10-08.37.39:306][334]LogSavePackage: Save=233.00ms
+[2019.04.10-08.37.39:306][334]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/movable_RodD6DC42EB4BCD6C77E6CB6792FF82BD16.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset'
+[2019.04.10-08.37.39:314][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Blueprints/movable_Rod.uasset
+[2019.04.10-08.38.55:678][563]LogHttp:Warning: 0000022567184880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.38.55:678][563]LogHttp:Warning: 0000022567184880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.38.55:678][563]LogHttp:Warning: 0000022567184880: libcurl info message cache 1 (Closing connection 30)
+[2019.04.10-08.39.55:672][ 83]LogHttp:Warning: 0000022560B9C580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.39.55:672][ 83]LogHttp:Warning: 0000022560B9C580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.39.55:672][ 83]LogHttp:Warning: 0000022560B9C580: libcurl info message cache 1 (Closing connection 31)
+[2019.04.10-08.40.55:689][683]LogHttp:Warning: 0000022561D78280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.40.55:689][683]LogHttp:Warning: 0000022561D78280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.40.55:689][683]LogHttp:Warning: 0000022561D78280: libcurl info message cache 1 (Closing connection 32)
+[2019.04.10-08.41.26:412][494]LogSavePackage: Save=179.57ms
+[2019.04.10-08.41.26:412][494]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevel_Auto1CA8233634198B1F8FAC860AAED0CB212.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap'
+[2019.04.10-08.41.26:415][494]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Autosaves/Game/FirstLevel_Auto1.umap
+[2019.04.10-08.41.26:418][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstLevel' took 0.380
+[2019.04.10-08.41.26:418][494]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.380
+[2019.04.10-08.42.55:694][849]LogHttp:Warning: 000002256733F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.42.55:694][849]LogHttp:Warning: 000002256733F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.42.55:694][849]LogHttp:Warning: 000002256733F400: libcurl info message cache 1 (Closing connection 33)
+[2019.04.10-08.43.55:682][448]LogHttp:Warning: 000002256733F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.43.55:682][448]LogHttp:Warning: 000002256733F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.43.55:682][448]LogHttp:Warning: 000002256733F280: libcurl info message cache 1 (Closing connection 34)
+[2019.04.10-08.45.55:662][645]LogHttp:Warning: 000002256733E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.45.55:662][645]LogHttp:Warning: 000002256733E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.45.55:662][645]LogHttp:Warning: 000002256733E500: libcurl info message cache 1 (Closing connection 35)
+[2019.04.10-08.47.01:813][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.03:863][496]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.04:366][497]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.05:906][503]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.06:409][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.07:950][510]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.10:051][522]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.10:607][526]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.11:109][527]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.13:160][564]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.13:714][568]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.15:249][574]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.18:825][589]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.19:346][591]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.19:904][595]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.21:439][601]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.22:972][607]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.24:606][619]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.26:139][625]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.27:674][631]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.29:206][638]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.29:709][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.30:736][643]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.34:313][658]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.35:847][664]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.36:876][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.38:966][679]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.40:500][685]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.41:003][686]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.44:076][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.46:124][735]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.47:145][739]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.48:172][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.48:674][744]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.49:703][748]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.50:206][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.47.55:684][ 62]LogHttp:Warning: 000002256733E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.47.55:684][ 62]LogHttp:Warning: 000002256733E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.47.55:684][ 62]LogHttp:Warning: 000002256733E080: libcurl info message cache 1 (Closing connection 36)
+[2019.04.10-08.49.55:695][160]LogHttp:Warning: 000002256733DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.49.55:695][160]LogHttp:Warning: 000002256733DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.49.55:695][160]LogHttp:Warning: 000002256733DC00: libcurl info message cache 1 (Closing connection 37)
+[2019.04.10-08.50.54:173][528]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.50.55:688][550]LogHttp:Warning: 000002256733DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.50.55:688][550]LogHttp:Warning: 000002256733DF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.50.55:688][550]LogHttp:Warning: 000002256733DF00: libcurl info message cache 1 (Closing connection 38)
+[2019.04.10-08.52.55:997][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.52.56:495][423]LogHttp:Warning: 000002256733F280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.52.56:495][423]LogHttp:Warning: 000002256733F280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.52.56:495][423]LogHttp:Warning: 000002256733F280: libcurl info message cache 1 (Closing connection 39)
+[2019.04.10-08.53.04:687][458]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.05:189][459]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.09:424][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.09:926][505]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.10:955][509]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.13:003][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.13:506][518]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.16:580][531]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.18:623][539]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.21:690][552]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.23:735][560]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.24:237][561]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.25:269][565]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.25:825][569]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.28:888][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.30:938][589]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.31:439][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.33:485][627]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.35:532][635]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.36:033][636]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.40:704][684]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.41:206][685]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.42:235][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.42:738][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.45:870][732]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.47:406][738]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.48:940][744]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.50:986][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.53:027][760]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.54:560][766]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.55:080][768]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.53.55:635][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.02:283][801]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.04:331][809]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.07:909][824]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.09:955][832]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.11:489][838]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.14:051][849]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.14:606][853]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.16:141][859]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.17:675][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.23:299][890]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.26:878][905]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.28:923][913]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.30:972][921]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.31:530][925]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.33:581][934]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.34:139][938]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.34:641][939]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.38:219][981]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.41:794][996]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.43:847][  5]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.44:405][  9]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.46:456][ 18]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.50:079][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.50:639][ 39]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.51:140][ 40]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.52:666][ 73]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.54:720][ 82]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.55:277][ 86]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.54.56:298][ 90]LogHttp:Warning: 000002256733DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-08.54.56:298][ 90]LogHttp:Warning: 000002256733DF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-08.54.56:298][ 90]LogHttp:Warning: 000002256733DF00: libcurl info message cache 1 (Closing connection 40)
+[2019.04.10-08.54.58:343][ 98]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.00:393][106]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.00:951][110]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.03:564][125]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.04:067][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.05:095][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.05:596][131]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.09:172][173]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.11:220][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.14:845][198]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.15:402][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.16:940][208]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.17:497][212]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.19:549][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.20:106][225]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.23:175][238]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.23:678][239]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.25:218][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.28:796][260]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.29:298][261]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.31:340][297]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.32:875][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.34:410][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.34:913][311]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.36:451][317]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.37:984][323]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.40:547][334]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.42:081][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.44:122][348]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.45:655][354]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.46:175][356]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.46:730][360]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.48:263][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.49:797][372]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.51:330][379]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-08.55.52:863][385]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.04.10-11.55.53:725][651]LogHttp:Warning: 000002256733F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-11.55.53:725][651]LogHttp:Warning: 000002256733F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-11.55.53:725][651]LogHttp:Warning: 000002256733F400: libcurl info message cache 1 (Closing connection 41)
+[2019.04.10-11.57.39:484][964]LogHttp:Warning: 000002256733F880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-11.57.39:485][964]LogHttp:Warning: 000002256733F880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-11.57.39:485][964]LogHttp:Warning: 000002256733F880: libcurl info message cache 1 (Closing connection 42)
+[2019.04.10-11.58.39:485][144]LogHttp:Warning: 000002256733F880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-11.58.39:485][144]LogHttp:Warning: 000002256733F880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-11.58.39:485][144]LogHttp:Warning: 000002256733F880: libcurl info message cache 1 (Closing connection 43)
+[2019.04.10-11.59.39:486][324]LogHttp:Warning: 000002256733FE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-11.59.39:486][324]LogHttp:Warning: 000002256733FE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-11.59.39:486][324]LogHttp:Warning: 000002256733FE80: libcurl info message cache 1 (Closing connection 44)
+[2019.04.10-12.00.39:485][504]LogHttp:Warning: 000002256733F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-12.00.39:485][504]LogHttp:Warning: 000002256733F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-12.00.39:485][504]LogHttp:Warning: 000002256733F400: libcurl info message cache 1 (Closing connection 45)
+[2019.04.10-12.01.17:298][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstLevel" FILE="../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.10-12.01.17:743][776]LogSavePackage: Save=251.89ms
+[2019.04.10-12.01.17:744][776]LogSavePackage: Moving '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/FirstLevelF95EE7C843C6056EC85C14A28E8D79EA.tmp' to '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap'
+[2019.04.10-12.01.17:749][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/FirstLevel.umap
+[2019.04.10-12.01.18:712][812]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.04.10-12.01.18:984][813]Cmd: QUIT_EDITOR
+[2019.04.10-12.01.19:549][813]LogExit: Preparing to exit.
+[2019.04.10-12.01.19:959][813]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.04.10-12.01.20:073][813]LogExit: Editor shut down
+[2019.04.10-12.01.20:074][813]LogExit: Transaction tracking system shut down
+[2019.04.10-12.01.20:251][813]LogObj: Freed 0b from 0 cluster array pools.
+[2019.04.10-12.01.20:252][813]LogExit: Object subsystem successfully closed.
+[2019.04.10-12.01.20:291][813]LogD3D11RHI: Shutdown
+[2019.04.10-12.01.20:291][813]LogD3D11RHI: CleanupD3DDevice
+[2019.04.10-12.01.20:621][813]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.10-12.01.20:681][813]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.10-12.01.20:681][813]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAA99CAC0-472B-5617-B849-36B7CC6FCEC0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=7d91b64c4b01fe95139d64b3048811ce%7C4d184b3c1962427fad7cc0b2904a4a9d%7Ceb2bbdf1-1b92-448e-9b18-4cd591d8df94&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.10-12.01.20:681][813]LogHttp:Warning: 000002256733D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.04.10-12.01.20:681][813]LogHttp:Warning: 000002256733D000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.04.10-12.01.20:681][813]LogHttp:Warning: 000002256733D000: libcurl info message cache 1 (Closing connection 46)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module SequencerWidgets (245)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (244)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module BlueprintGraph (243)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (242)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2019.04.10-12.01.20:687][813]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2019.04.10-12.01.20:687][813]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2019.04.10-12.01.20:689][813]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Collections/' was aborted.
+[2019.04.10-12.01.20:689][813]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/Developers/RohitPanjwani/Collections/' was aborted.
+[2019.04.10-12.01.20:689][813]LogDirectoryWatcher: A directory notification for 'C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Saved/Collections/' was aborted.
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2019.04.10-12.01.20:689][813]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module Media (215)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2019.04.10-12.01.20:690][813]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2019.04.10-12.01.20:691][813]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2019.04.10-12.01.20:691][813]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2019.04.10-12.01.21:240][813]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2019.04.10-12.01.21:241][813]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2019.04.10-12.01.21:296][813]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2019.04.10-12.01.21:321][813]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2019.04.10-12.01.21:321][813]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2019.04.10-12.01.21:322][813]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2019.04.10-12.01.21:360][813]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2019.04.10-12.01.21:361][813]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2019.04.10-12.01.21:365][813]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2019.04.10-12.01.21:365][813]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2019.04.10-12.01.21:366][813]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2019.04.10-12.01.21:369][813]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2019.04.10-12.01.21:369][813]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2019.04.10-12.01.21:470][813]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2019.04.10-12.01.21:571][813]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2019.04.10-12.01.21:571][813]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2019.04.10-12.01.21:571][813]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2019.04.10-12.01.21:571][813]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2019.04.10-12.01.21:576][813]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module Core (75)
+[2019.04.10-12.01.21:588][813]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2019.04.10-12.01.21:588][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.04.10-12.01.21:589][813]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Rohit Panjwani/Documents/Unreal Projects/Chess/Content/' was aborted.
+[2019.04.10-12.01.21:590][813]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.04.10-12.01.21:592][813]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2019.04.10-12.01.21:859][813]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2019.04.10-12.01.21:859][813]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2019.04.10-12.01.21:859][813]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2019.04.10-12.01.21:859][813]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2019.04.10-12.01.21:859][813]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2019.04.10-12.01.21:860][813]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2019.04.10-12.01.21:860][813]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2019.04.10-12.01.21:860][813]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2019.04.10-12.01.21:889][813]LogDerivedDataCache: Shutdown
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2019.04.10-12.01.21:889][813]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2019.04.10-12.01.21:891][813]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2019.04.10-12.01.21:892][813]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2019.04.10-12.01.21:893][813]LogOnline:Display: Unloading online subsystem: NULL
+[2019.04.10-12.01.21:893][813]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2019.04.10-12.01.21:897][813]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2019.04.10-12.01.21:897][813]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2019.04.10-12.01.21:898][813]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2019.04.10-12.01.21:898][813]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2019.04.10-12.01.21:898][813]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2019.04.10-12.01.21:898][813]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2019.04.10-12.01.21:907][813]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2019.04.10-12.01.21:912][813]LogExit: Exiting.
+[2019.04.10-12.01.21:916][813]Log file closed, 04/10/19 17:31:21
