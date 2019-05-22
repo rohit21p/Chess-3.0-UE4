@@ -1,0 +1,169 @@
+﻿Log file open, 05/20/19 23:41:46
+LogInit:Display: Running engine for game: Chess
+LogInit:Display: Project file not found: ../../../Chess/Chess.uproject
+LogInit:Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(57578169) SRandInit(57578169).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.197260
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin Paper2D, From C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogModuleManager:Warning: ModuleManager: Module 'XMPP' not found - its StaticallyLinkedModuleInitializers function is null.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for i386-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (32-bit): Jan  6 2017 10:58:38
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/Users/Rohit Panjwani/Desktop/desktop2/minorDVD/executable application/chess 3.0/Engine/Binaries/Win32/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.05.20-18.11.46:653][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.05.20-18.11.46:653][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2019.05.20-18.11.46:667][  0]LogInit: Computer: ROHIT-PANJWANI
+[2019.05.20-18.11.46:667][  0]LogInit: User: RohitPanjwani
+[2019.05.20-18.11.46:667][  0]LogInit: CPU Page size=65536, Cores=4
+[2019.05.20-18.11.46:667][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2019.05.20-18.11.46:668][  0]LogMemory: Memory total: Physical=3.9GB (0GB approx) Virtual=4.0GB
+[2019.05.20-18.11.46:668][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2019.05.20-18.11.46:668][  0]LogMemory: Process Physical Memory: 70.60 MB used, 70.60 MB peak
+[2019.05.20-18.11.46:668][  0]LogMemory: Process Virtual Memory: 84.06 MB used, 84.06 MB peak
+[2019.05.20-18.11.46:668][  0]LogMemory: Physical Memory: 1807.00 MB used,  2187.53 MB free, 3994.52 MB total
+[2019.05.20-18.11.46:668][  0]LogMemory: Virtual Memory: 300.58 MB used,  2187.53 MB free, 4095.88 MB total
+[2019.05.20-18.11.48:068][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2019.05.20-18.11.48:279][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.20-18.11.48:297][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.05.20-18.11.48:297][  0]LogD3D11RHI:       128/0/3967 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.05.20-18.11.48:883][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.05.20-18.11.48:883][  0]LogD3D11RHI:       3072/0/1023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.05.20-18.11.48:916][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.20-18.11.48:916][  0]LogD3D11RHI:       0/0/4095 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.20-18.11.48:916][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.05.20-18.11.48:927][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.20-18.11.48:927][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.05.20-18.11.48:927][  0]LogWindows: EnumDisplayDevices:
+[2019.05.20-18.11.48:927][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.05.20-18.11.48:928][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.05.20-18.11.48:928][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.05.20-18.11.48:928][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.05.20-18.11.48:928][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.05.20-18.11.48:928][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.05.20-18.11.48:928][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.05.20-18.11.48:928][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
+[2019.05.20-18.11.49:152][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.20-18.11.49:254][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.20-18.11.49:615][  0]LogAssetRegistry: FAssetRegistry took 0.0160 seconds to start up
+[2019.05.20-18.11.49:619][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.003946 seconds
+[2019.05.20-18.11.49:643][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2019.05.20-18.11.49:643][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2019.05.20-18.11.49:740][  0]LogBlueprintUserMessages:Warning: DEBUG: LocalNotification DefaultPlatformService NOT FOUND
+[2019.05.20-18.11.49:756][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: chess, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1690184528
+[2019.05.20-18.11.49:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.05.20-18.11.49:852][  0]LogSlate: Using Freetype 2.6.0
+[2019.05.20-18.11.49:864][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.20-18.11.49:864][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.20-18.11.50:502][  0]LogMoviePlayer: Initializing movie player
+[2019.05.20-18.11.51:222][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../Chess/Content/Movies/Default_Startup.mp4
+[2019.05.20-18.11.51:272][  0]LogUObjectArray: 29389 objects as part of root set at end of initial load.
+[2019.05.20-18.11.51:272][  0]LogUObjectAllocator: 4160372 out of 0 bytes used by permanent object pool.
+[2019.05.20-18.11.51:272][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.20-18.11.51:286][  0]LogEngine: Initializing Engine...
+[2019.05.20-18.11.51:288][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.20-18.11.51:703][  0]LogInit: XAudio2 using 'Speakers (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.05.20-18.11.51:945][  0]LogInit: FAudioDevice initialized.
+[2019.05.20-18.11.51:960][  0]LogInit: Texture streaming: Enabled
+[2019.05.20-18.11.51:986][  0]LogInit:Display: Game Engine Initialized.
+[2019.05.20-18.11.51:986][  0]LogInit:Display: Starting Game.
+[2019.05.20-18.11.51:986][  0]LogNet: Browse: /Game/FirstLevel?Name=Player
+[2019.05.20-18.11.51:986][  0]LogLoad: LoadMap: /Game/FirstLevel?Name=Player
+[2019.05.20-18.11.52:088][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2019.05.20-18.11.52:088][  0]LogMemory: Process Physical Memory: 177.29 MB used, 189.86 MB peak
+[2019.05.20-18.11.52:088][  0]LogMemory: Process Virtual Memory: 179.12 MB used, 192.06 MB peak
+[2019.05.20-18.11.52:088][  0]LogMemory: Physical Memory: 1988.47 MB used,  2006.05 MB free, 3994.52 MB total
+[2019.05.20-18.11.52:088][  0]LogMemory: Virtual Memory: 664.25 MB used,  2006.05 MB free, 4095.88 MB total
+[2019.05.20-18.11.52:088][  0]LogMemory: 
+[2019.05.20-18.11.52:088][  0]Allocator Stats for binned2: (not implemented)
+[2019.05.20-18.11.52:967][  0]LogAIModule: Creating AISystem for world FirstLevel
+[2019.05.20-18.11.52:967][  0]LogLoad: Game class is 'ChessGameMode_C'
+[2019.05.20-18.11.52:981][  0]LogWorld: Bringing World /Game/FirstLevel.FirstLevel up for play (max tick rate 0) at 2019.05.20-23.41.52
+[2019.05.20-18.11.52:986][  0]LogLinker:Warning: Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.52:986][  0]LogUObjectGlobals:Warning: Failed to load '/Game/NewLevelSequence': Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.52:986][  0]LogLinker:Warning: Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.52:987][  0]LogUObjectGlobals:Warning: Failed to load '/Game/NewLevelSequence': Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.52:987][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/NewLevelSequence.NewLevelSequence'
+[2019.05.20-18.11.52:987][  0]LogWorld: Bringing up level for play took: 0.016228
+[2019.05.20-18.11.55:070][  0]LogLinker:Warning: Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.55:070][  0]LogUObjectGlobals:Warning: Failed to load '/Game/NewLevelSequence': Can't find file '/Game/NewLevelSequence'
+[2019.05.20-18.11.55:070][  0]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/NewLevelSequence.NewLevelSequence'
+[2019.05.20-18.11.55:160][  0]LogLoad: Took 3.173193 seconds to LoadMap(/Game/FirstLevel)
+[2019.05.20-18.11.55:361][  0]LogLoad: (Engine Initialization) Total time: 10.68 seconds
+[2019.05.20-18.11.55:361][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.05.20-18.11.55:361][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.05.20-18.11.55:380][  0]LogOcInput: OculusInput pre-init called
+[2019.05.20-18.11.55:513][  0]LogRenderer: Reallocating scene render targets to support 128x128 NumSamples 1 (Frame:1).
+[2019.05.20-18.11.56:039][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:2).
+[2019.05.20-18.11.56:039][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.077 s
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: === Handled ensure: ===
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: 
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: Ensure condition failed: ResourceSizeMode == InRHS.ResourceSizeMode [File:Runtime/Core/Public/ProfilingDebugging\ResourceSize.h] [Line: 193]
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: The two resource sizes use different counting modes. The result of adding them together may be incorrect.
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: Stack: 
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: 
+[2019.05.20-18.11.56:039][  0]LogOutputDevice:Error: 
+[2019.05.20-18.11.56:046][  0]LogStats:                SubmitErrorReport -  0.000 s

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-6A89C68C4F2A4E1F46E755B5D39544F7_0000</CrashGUID>
+		<ProcessId>15812</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-UE4Game</GameName>
+		<ExecutableName>UE4Game</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.3-3249277+++UE4+Release-4.14</EngineVersion>
+		<CommandLine />
+		<LanguageLCID>16393</LanguageLCID>
+		<AppDefaultLocale>en_IN</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3249277</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<UserName>RohitPanjwani</UserName>
+		<BaseDir>C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/exe/Engine/Binaries/Win32/</BaseDir>
+		<RootDir>C:/Users/Rohit Panjwani/Documents/Unreal Projects/Chess/exe/</RootDir>
+		<MachineId>7D91B64C4B01FE95139D64B3048811CE</MachineId>
+		<EpicAccountId>4d184b3c1962427fad7cc0b2904a4a9d</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Assertion failed: ResolutionValueStrings.Num() &gt; 0 [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\Scalability.cpp] [Line: 354] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>4188561408</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>4294836224</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>0</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>1671745536</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>4010717184</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>68026368</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>68026368</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>51310592</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>51798016</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636941129602530000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win32 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

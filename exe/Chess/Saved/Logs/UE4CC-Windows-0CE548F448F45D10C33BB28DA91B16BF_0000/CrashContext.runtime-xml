@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-0CE548F448F45D10C33BB28DA91B16BF_0000</CrashGUID>
+		<ProcessId>13408</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-Chess</GameName>
+		<ExecutableName>UE4Game</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsNoEditor</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.3-3249277+++UE4+Release-4.14</EngineVersion>
+		<CommandLine>..\..\..\Chess\Chess.uproject</CommandLine>
+		<LanguageLCID>16393</LanguageLCID>
+		<AppDefaultLocale>en_IN</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3249277</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<UserName>RohitPanjwani</UserName>
+		<BaseDir>C:/Users/Rohit Panjwani/Desktop/WindowsNoEditor/Engine/Binaries/Win32/</BaseDir>
+		<RootDir>C:/Users/Rohit Panjwani/Desktop/WindowsNoEditor/</RootDir>
+		<MachineId>7D91B64C4B01FE95139D64B3048811CE</MachineId>
+		<EpicAccountId>4d184b3c1962427fad7cc0b2904a4a9d</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: ResourceSizeMode == InRHS.ResourceSizeMode [File:Runtime/Core/Public/ProfilingDebugging\ResourceSize.h] [Line: 193] &nl;The two resource sizes use different counting modes. The result of adding them together may be incorrect.&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>4188561408</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>4294836224</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>0</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3347517440</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>3361820672</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>516968448</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>516968448</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>530292736</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>530296832</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636936575052290000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win32 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
